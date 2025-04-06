@@ -17,8 +17,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <a href="#" className="flex items-center">
-              <span className="text-2xl font-bold text-bengali-red mr-2">সৈকত</span>
-              <span className="text-xl font-medium text-bengali-dark">Soikot</span>
+              <div className="w-32 h-auto mr-2">
+                <img 
+                  src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
+                  alt="Soikot Logo" 
+                  className="w-full h-auto"
+                />
+              </div>
             </a>
           </div>
           
@@ -60,6 +65,13 @@ const Navbar = () => {
           </button>
         </div>
         <div className="flex flex-col space-y-4 mt-8">
+          <div className="mx-auto w-40 mb-6">
+            <img 
+              src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
+              alt="Soikot Logo" 
+              className="w-full h-auto"
+            />
+          </div>
           <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Home</a>
           <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>About</a>
           <a href="#events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Events</a>

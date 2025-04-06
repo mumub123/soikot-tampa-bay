@@ -10,7 +10,13 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <h1 className="text-4xl md:text-6xl font-bold text-bengali-dark mb-4">
-              <span className="text-bengali-red">সৈকত</span>
+              <div className="w-48 md:w-64 mb-4">
+                <img 
+                  src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
+                  alt="Soikot Logo" 
+                  className="w-full h-auto"
+                />
+              </div>
               <span className="block mt-2">Bengali Association of Tampa Bay</span>
             </h1>
             <p className="text-lg md:text-xl text-bengali-dark/80 mb-8 max-w-lg">
