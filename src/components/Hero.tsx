@@ -30,7 +30,7 @@ const Hero = () => {
           <div className="relative h-[300px] md:h-[450px] rounded-lg overflow-hidden shadow-xl">
             <div className="absolute inset-0 bg-gradient-to-r from-bengali-blue to-bengali-red opacity-20"></div>
             <img 
-              src="https://images.unsplash.com/photo-1580220183587-9a2a26b4f524?q=80&w=1974&auto=format&fit=crop" 
+              src="/lovable-uploads/e43b331f-2948-44f3-a265-35841497ba6a.png" 
               alt="Durga Puja Celebration" 
               className="w-full h-full object-cover"
             />
