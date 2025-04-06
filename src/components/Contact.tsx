@@ -1,0 +1,125 @@
+
+import React from 'react';
+import { Card, CardContent } from '@/components/ui/card';
+import { MapPin, Mail, Phone, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+
+const Contact = () => {
+  return (
+    <section id="contact" className="py-16 md:py-24 bg-bengali-light">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-bengali-dark">Contact <span className="text-bengali-red">Us</span></h2>
+          <div className="w-24 h-1 bg-bengali-red mx-auto mt-4 mb-6"></div>
+          <p className="text-bengali-dark/80 max-w-3xl mx-auto">
+            Get in touch with us to learn more about our organization, events, and programs.
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="lg:col-span-1">
+            <Card className="h-full">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold text-bengali-dark mb-6">Contact Information</h3>
+                
+                <div className="space-y-6">
+                  <div className="flex items-start">
+                    <MapPin className="w-5 h-5 text-bengali-red mr-3 mt-1" />
+                    <div>
+                      <p className="font-medium text-bengali-dark">Address</p>
+                      <p className="text-bengali-dark/70">123 Bengali Cultural Center<br />Tampa, FL 33620</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <Mail className="w-5 h-5 text-bengali-red mr-3 mt-1" />
+                    <div>
+                      <p className="font-medium text-bengali-dark">Email</p>
+                      <p className="text-bengali-dark/70">info@soikot.org</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <Phone className="w-5 h-5 text-bengali-red mr-3 mt-1" />
+                    <div>
+                      <p className="font-medium text-bengali-dark">Phone</p>
+                      <p className="text-bengali-dark/70">(813) 555-0123</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <h3 className="text-xl font-semibold text-bengali-dark mt-8 mb-4">Follow Us</h3>
+                <div className="flex space-x-4">
+                  <a href="#" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
+                    <Facebook className="w-5 h-5" />
+                  </a>
+                  <a href="#" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
+                    <Instagram className="w-5 h-5" />
+                  </a>
+                  <a href="#" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
+                    <Twitter className="w-5 h-5" />
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+          
+          <div className="lg:col-span-2">
+            <Card>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold text-bengali-dark mb-6">Send Us a Message</h3>
+                
+                <form>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div>
+                      <label htmlFor="name" className="block text-sm font-medium text-bengali-dark mb-1">Name</label>
+                      <Input 
+                        id="name" 
+                        placeholder="Your name" 
+                        className="w-full border-gray-300 focus:border-bengali-red focus:ring-bengali-red"
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="email" className="block text-sm font-medium text-bengali-dark mb-1">Email</label>
+                      <Input 
+                        id="email" 
+                        type="email" 
+                        placeholder="Your email" 
+                        className="w-full border-gray-300 focus:border-bengali-red focus:ring-bengali-red"
+                      />
+                    </div>
+                  </div>
+                  
+                  <div className="mb-4">
+                    <label htmlFor="subject" className="block text-sm font-medium text-bengali-dark mb-1">Subject</label>
+                    <Input 
+                      id="subject" 
+                      placeholder="Subject of your message" 
+                      className="w-full border-gray-300 focus:border-bengali-red focus:ring-bengali-red"
+                    />
+                  </div>
+                  
+                  <div className="mb-6">
+                    <label htmlFor="message" className="block text-sm font-medium text-bengali-dark mb-1">Message</label>
+                    <Textarea 
+                      id="message" 
+                      placeholder="Your message" 
+                      rows={5} 
+                      className="w-full border-gray-300 focus:border-bengali-red focus:ring-bengali-red"
+                    />
+                  </div>
+                  
+                  <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">Send Message</Button>
+                </form>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
