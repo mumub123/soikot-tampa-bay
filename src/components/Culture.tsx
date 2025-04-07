@@ -21,7 +21,7 @@ const Culture = () => {
       description: "From Nobel laureate Rabindranath Tagore to modern authors, Bengali literature has a distinguished history of poetry, novels, and short stories."
     },
     {
-      image: "https://images.unsplash.com/photo-1538128844159-f08f41bfb169?q=80&w=1964&auto=format&fit=crop",
+      image: "/lovable-uploads/3904dac5-b307-43cc-bbc0-272a5903016b.png",
       title: "Cuisine",
       description: "Bengali cuisine is known for its subtle flavors, emphasis on fish, extensive use of spices, and famous sweets like rasgulla and sandesh."
     }
