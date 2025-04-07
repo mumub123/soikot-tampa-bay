@@ -3,6 +3,7 @@ import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const Events = () => {
   const events = [
@@ -91,9 +92,11 @@ const Events = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button variant="outline" className="border-bengali-red text-bengali-red hover:bg-bengali-red/10">
-            View All Events
-          </Button>
+          <Link to="/events">
+            <Button variant="outline" className="border-bengali-red text-bengali-red hover:bg-bengali-red/10">
+              View All Events
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
