@@ -18,6 +18,15 @@ import {
 const AllEvents = () => {
   const allEvents = [
     {
+      name: "Rabindra Jayanti",
+      image: "/lovable-uploads/67e986a1-486a-4077-b56b-c1a527b50996.png",
+      date: "May 3, 2025",
+      time: "5:00 PM - 9:00 PM",
+      location: "Land O' Lakes Heritage Park",
+      locationLink: "https://www.google.com/maps/place/Land+O'+Lakes+Heritage+Park/data=!4m2!3m1!1s0x0:0x9c3fe4d21c61b81c?sa=X&ved=1t:2428&ictx=111",
+      description: "Commemorate the birth anniversary of Rabindranath Tagore with a special cultural program featuring his songs, poems, and plays."
+    },
+    {
       name: "Durga Puja",
       image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png",
       date: "October 3-5, 2025",
@@ -45,15 +54,6 @@ const AllEvents = () => {
       description: "Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and celebrations."
     },
     {
-      name: "Saraswati Puja",
-      image: "/lovable-uploads/0f0a6ef1-6161-4b80-af4d-c09d805ba737.png",
-      date: "February 8, 2024",
-      time: "10:00 AM - 10:00 PM",
-      location: "Indian Cultural Center",
-      locationLink: "https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D",
-      description: "Celebrate the goddess of knowledge, music, art, and learning with traditional prayers, cultural performances, and community gatherings."
-    },
-    {
       name: "Saraswati Puja 2026",
       image: "/lovable-uploads/0f0a6ef1-6161-4b80-af4d-c09d805ba737.png",
       date: "January 24, 2026",
@@ -61,15 +61,6 @@ const AllEvents = () => {
       location: "Venue TBD",
       locationLink: "",
       description: "Join us for Saraswati Puja 2026 as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances."
-    },
-    {
-      name: "Rabindra Jayanti",
-      image: "/lovable-uploads/67e986a1-486a-4077-b56b-c1a527b50996.png",
-      date: "May 3, 2025",
-      time: "5:00 PM - 9:00 PM",
-      location: "Land O' Lakes Heritage Park",
-      locationLink: "https://www.google.com/maps/place/Land+O'+Lakes+Heritage+Park/data=!4m2!3m1!1s0x0:0x9c3fe4d21c61b81c?sa=X&ved=1t:2428&ictx=111",
-      description: "Commemorate the birth anniversary of Rabindranath Tagore with a special cultural program featuring his songs, poems, and plays."
     }
   ];
 
