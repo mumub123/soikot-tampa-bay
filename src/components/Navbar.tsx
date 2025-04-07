@@ -32,7 +32,6 @@ const Navbar = () => {
             <a href="#home" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Home</a>
             <a href="#about" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">About</a>
             <a href="#events" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Events</a>
-            <a href="#culture" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Culture</a>
             <a href="#gallery" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Gallery</a>
             <a href="#contact" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Contact</a>
             <Button className="bg-bengali-red hover:bg-bengali-red/90">Donate</Button>
@@ -74,7 +73,6 @@ const Navbar = () => {
           <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Home</a>
           <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>About</a>
           <a href="#events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Events</a>
-          <a href="#culture" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Culture</a>
           <a href="#gallery" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Gallery</a>
           <a href="#contact" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Contact</a>
           <Button className="bg-bengali-red hover:bg-bengali-red/90 mt-4">Donate</Button>
