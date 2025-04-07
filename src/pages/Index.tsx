@@ -4,7 +4,6 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Events from '@/components/Events';
-import Programs from '@/components/Programs';
 import Culture from '@/components/Culture';
 import Gallery from '@/components/Gallery';
 import Contact from '@/components/Contact';
@@ -18,7 +17,6 @@ const Index = () => {
         <Hero />
         <About />
         <Events />
-        <Programs />
         <Culture />
         <Gallery />
         <Contact />
