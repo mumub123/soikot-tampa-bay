@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { MapPin, Mail, Phone, Facebook, Instagram, Twitter } from 'lucide-react';
+import { MapPin, Mail, Phone, Facebook, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -29,7 +29,7 @@ const Contact = () => {
                     <MapPin className="w-5 h-5 text-bengali-red mr-3 mt-1" />
                     <div>
                       <p className="font-medium text-bengali-dark">Address</p>
-                      <p className="text-bengali-dark/70">123 Bengali Cultural Center<br />Tampa, FL 33620</p>
+                      <p className="text-bengali-dark/70">17310 CHENANGO LN<br />TAMPA FL 33647-3503</p>
                     </div>
                   </div>
                   
@@ -37,7 +37,7 @@ const Contact = () => {
                     <Mail className="w-5 h-5 text-bengali-red mr-3 mt-1" />
                     <div>
                       <p className="font-medium text-bengali-dark">Email</p>
-                      <p className="text-bengali-dark/70">info@soikot.org</p>
+                      <p className="text-bengali-dark/70">soikotflorida@gmail.com</p>
                     </div>
                   </div>
                   
@@ -45,21 +45,18 @@ const Contact = () => {
                     <Phone className="w-5 h-5 text-bengali-red mr-3 mt-1" />
                     <div>
                       <p className="font-medium text-bengali-dark">Phone</p>
-                      <p className="text-bengali-dark/70">(813) 555-0123</p>
+                      <p className="text-bengali-dark/70">(727) 643-3691</p>
                     </div>
                   </div>
                 </div>
                 
                 <h3 className="text-xl font-semibold text-bengali-dark mt-8 mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
-                  <a href="#" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
+                  <a href="https://www.facebook.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
                     <Facebook className="w-5 h-5" />
                   </a>
-                  <a href="#" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
+                  <a href="https://www.instagram.com/soikotflorida?igsh=OTkyZmRxOGhyN3A3" target="_blank" rel="noopener noreferrer" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
                     <Instagram className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
-                    <Twitter className="w-5 h-5" />
                   </a>
                 </div>
               </CardContent>
