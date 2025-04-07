@@ -9,7 +9,7 @@ const Events = () => {
   const events = [
     {
       name: "Rabindra Jayanti",
-      image: "/lovable-uploads/67e986a1-486a-4077-b56b-c1a527b50996.png",
+      image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
       date: "May 3, 2025",
       time: "5:00 PM - 9:00 PM",
       location: "Land O' Lakes Heritage Park",
@@ -45,9 +45,7 @@ const Events = () => {
                 <img 
                   src={event.image} 
                   alt={event.name} 
-                  className={`w-full h-full object-cover ${
-                    event.name === "Rabindra Jayanti" ? "object-top" : ""
-                  }`}
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <h3 className="absolute bottom-4 left-4 text-xl font-bold text-white">{event.name}</h3>

@@ -19,7 +19,7 @@ const AllEvents = () => {
   const allEvents = [
     {
       name: "Rabindra Jayanti",
-      image: "/lovable-uploads/67e986a1-486a-4077-b56b-c1a527b50996.png",
+      image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
       date: "May 3, 2025",
       time: "5:00 PM - 9:00 PM",
       location: "Land O' Lakes Heritage Park",
