@@ -1,7 +1,31 @@
 
 import React from 'react';
+import { Card, CardContent } from '@/components/ui/card';
 
 const Culture = () => {
+  const culturalElements = [
+    {
+      image: "https://images.unsplash.com/photo-1595422656857-ced3a4a0da7c?q=80&w=1770&auto=format&fit=crop",
+      title: "Traditional Arts",
+      description: "Bengali culture is known for its rich artistic traditions, including alpana (floor paintings), kantha embroidery, and clay pottery."
+    },
+    {
+      image: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=2070&auto=format&fit=crop",
+      title: "Music & Dance",
+      description: "Bengali music encompasses various forms including Rabindra Sangeet, Nazrul Geeti, and folk traditions like Baul, complemented by classical dance forms."
+    },
+    {
+      image: "https://images.unsplash.com/photo-1546549039-326f1424e000?q=80&w=1854&auto=format&fit=crop",
+      title: "Literature",
+      description: "From Nobel laureate Rabindranath Tagore to modern authors, Bengali literature has a distinguished history of poetry, novels, and short stories."
+    },
+    {
+      image: "https://images.unsplash.com/photo-1538128844159-f08f41bfb169?q=80&w=1964&auto=format&fit=crop",
+      title: "Cuisine",
+      description: "Bengali cuisine is known for its subtle flavors, emphasis on fish, extensive use of spices, and famous sweets like rasgulla and sandesh."
+    }
+  ];
+
   return (
     <section id="culture" className="py-16 md:py-24 bg-gradient-to-b from-bengali-blue/5 to-bengali-red/5">
       <div className="container mx-auto px-4 md:px-6">
@@ -11,6 +35,24 @@ const Culture = () => {
           <p className="text-bengali-dark/80 max-w-3xl mx-auto">
             Explore the rich cultural heritage of Bengal, from traditional arts and music to literature and cuisine.
           </p>
+        </div>
+        
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          {culturalElements.map((element, index) => (
+            <Card key={index} className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src={element.image} 
+                  alt={element.title} 
+                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold text-bengali-dark mb-2">{element.title}</h3>
+                <p className="text-bengali-dark/80">{element.description}</p>
+              </CardContent>
+            </Card>
+          ))}
         </div>
         
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
