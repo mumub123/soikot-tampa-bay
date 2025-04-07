@@ -16,7 +16,7 @@ const Events = () => {
     },
     {
       name: "Saraswati Puja",
-      image: "https://images.unsplash.com/photo-1614368558175-ad4a95a6d8d6?q=80&w=1970&auto=format&fit=crop",
+      image: "/lovable-uploads/0f0a6ef1-6161-4b80-af4d-c09d805ba737.png",
       date: "February 4, 2025",
       time: "9:00 AM - 8:00 PM",
       location: "Soikot Cultural Center",
