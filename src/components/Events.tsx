@@ -8,7 +8,7 @@ const Events = () => {
   const events = [
     {
       name: "Durga Puja",
-      image: "https://images.unsplash.com/photo-1635832636644-5671520b4b1b?q=80&w=1974&auto=format&fit=crop",
+      image: "/lovable-uploads/99ff048f-ec67-48eb-84d0-4cde86547df2.png",
       date: "October 9-13, 2024",
       time: "Various Times",
       location: "Tampa Community Center",
