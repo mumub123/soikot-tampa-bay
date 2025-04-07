@@ -10,7 +10,7 @@ const Culture = () => {
       description: "Bengali culture is known for its rich artistic traditions, including alpana (floor paintings), kantha embroidery, and clay pottery."
     },
     {
-      image: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=2070&auto=format&fit=crop",
+      image: "/lovable-uploads/dff634a3-b92c-463c-8fc5-c77e27734cd6.png",
       title: "Music & Dance",
       description: "Bengali music encompasses various forms including Rabindra Sangeet, Nazrul Geeti, and folk traditions like Baul, complemented by classical dance forms."
     },
