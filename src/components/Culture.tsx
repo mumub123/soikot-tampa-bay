@@ -16,7 +16,7 @@ const Culture = () => {
       description: "Bengali music encompasses various forms including Rabindra Sangeet, Nazrul Geeti, and folk traditions like Baul, complemented by classical dance forms."
     },
     {
-      image: "https://images.unsplash.com/photo-1546549039-326f1424e000?q=80&w=1854&auto=format&fit=crop",
+      image: "/lovable-uploads/d5b139dc-295e-438f-b0b5-2dd2f6ec6881.png",
       title: "Literature",
       description: "From Nobel laureate Rabindranath Tagore to modern authors, Bengali literature has a distinguished history of poetry, novels, and short stories."
     },
@@ -46,7 +46,11 @@ const Culture = () => {
                   <img 
                     src={element.image} 
                     alt={element.title} 
-                    className={`w-full h-full object-cover transition-transform duration-500 hover:scale-110 ${index === 1 ? 'object-top' : 'object-center'}`}
+                    className={`w-full h-full object-cover transition-transform duration-500 hover:scale-110 ${
+                      index === 1 ? 'object-top' : 
+                      index === 2 ? 'object-center scale-105' : 
+                      'object-center'
+                    }`}
                   />
                 </AspectRatio>
               </div>
