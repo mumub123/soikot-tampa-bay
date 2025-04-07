@@ -7,7 +7,7 @@ const Hero = () => {
     <section id="home" className="relative bg-gradient-to-r from-bengali-red/10 to-bengali-orange/10 overflow-hidden">
       <div className="absolute inset-0 bg-bengali-pattern opacity-10"></div>
       <div className="container mx-auto px-4 md:px-6 py-16 md:py-24 relative z-10">
-        <div className="flex flex-col items-center text-center mb-12">
+        <div className="flex flex-col items-center text-center">
           <div className="w-56 md:w-72 mb-6">
             <img 
               src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
@@ -24,16 +24,6 @@ const Hero = () => {
           <div className="flex flex-wrap gap-4 justify-center">
             <Button className="bg-bengali-red hover:bg-bengali-red/90 text-white">Upcoming Events</Button>
             <Button variant="outline" className="border-bengali-red text-bengali-red hover:bg-bengali-red/10">Learn More</Button>
-          </div>
-        </div>
-        <div className="mx-auto max-w-3xl">
-          <div className="relative h-[300px] md:h-[450px] rounded-lg overflow-hidden shadow-xl">
-            <div className="absolute inset-0 bg-gradient-to-r from-bengali-blue to-bengali-red opacity-20"></div>
-            <img 
-              src="/lovable-uploads/5a65fd91-c052-4e98-9da6-2be1d31b1493.png" 
-              alt="Durga Puja Celebration" 
-              className="w-full h-full object-cover"
-            />
           </div>
         </div>
       </div>
