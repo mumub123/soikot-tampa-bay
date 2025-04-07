@@ -54,7 +54,8 @@ const Events = () => {
                   src={event.image} 
                   alt={event.name} 
                   className={`w-full h-full object-cover ${
-                    event.name === "Rabindra Jayanti" ? "object-top scale-125" : ""
+                    event.name === "Rabindra Jayanti" ? "object-top scale-100" : 
+                    event.name === "Saraswati Puja" ? "object-top scale-150" : ""
                   }`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
