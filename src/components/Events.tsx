@@ -24,7 +24,7 @@ const Events = () => {
     },
     {
       name: "Rabindra Jayanti",
-      image: "https://images.unsplash.com/photo-1615266508074-7a4cf659be54?q=80&w=2069&auto=format&fit=crop",
+      image: "/lovable-uploads/67e986a1-486a-4077-b56b-c1a527b50996.png",
       date: "May 8, 2025",
       time: "5:00 PM - 9:00 PM",
       location: "Performing Arts Center",
