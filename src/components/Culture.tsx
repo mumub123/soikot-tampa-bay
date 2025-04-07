@@ -48,7 +48,7 @@ const Culture = () => {
                     alt={element.title} 
                     className={`w-full h-full object-cover transition-transform duration-500 hover:scale-110 ${
                       index === 1 ? 'object-top' : 
-                      index === 2 ? 'object-center scale-105' : 
+                      index === 2 ? 'object-center scale-100' : 
                       'object-center'
                     }`}
                   />
