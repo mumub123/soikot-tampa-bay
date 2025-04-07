@@ -5,7 +5,7 @@ import { Card, CardContent } from '@/components/ui/card';
 const Culture = () => {
   const culturalElements = [
     {
-      image: "https://images.unsplash.com/photo-1595422656857-ced3a4a0da7c?q=80&w=1770&auto=format&fit=crop",
+      image: "/lovable-uploads/8ac16baf-a424-4e32-84a2-d851678b3db7.png",
       title: "Traditional Arts",
       description: "Bengali culture is known for its rich artistic traditions, including alpana (floor paintings), kantha embroidery, and clay pottery."
     },
