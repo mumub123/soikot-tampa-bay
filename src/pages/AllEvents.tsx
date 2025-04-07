@@ -54,6 +54,15 @@ const AllEvents = () => {
       description: "Celebrate the goddess of knowledge, music, art, and learning with traditional prayers, cultural performances, and community gatherings."
     },
     {
+      name: "Saraswati Puja 2026",
+      image: "/lovable-uploads/0f0a6ef1-6161-4b80-af4d-c09d805ba737.png",
+      date: "January 24, 2026",
+      time: "TBD",
+      location: "Venue TBD",
+      locationLink: "",
+      description: "Join us for Saraswati Puja 2026 as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances."
+    },
+    {
       name: "Rabindra Jayanti",
       image: "/lovable-uploads/67e986a1-486a-4077-b56b-c1a527b50996.png",
       date: "May 3, 2025",
