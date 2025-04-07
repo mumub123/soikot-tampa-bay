@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
+import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 const Culture = () => {
   const culturalElements = [
@@ -41,11 +42,13 @@ const Culture = () => {
           {culturalElements.map((element, index) => (
             <Card key={index} className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <div className="h-48 overflow-hidden">
-                <img 
-                  src={element.image} 
-                  alt={element.title} 
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
-                />
+                <AspectRatio ratio={4/3} className="h-full">
+                  <img 
+                    src={element.image} 
+                    alt={element.title} 
+                    className={`w-full h-full object-cover transition-transform duration-500 hover:scale-110 ${index === 1 ? 'object-top' : 'object-center'}`}
+                  />
+                </AspectRatio>
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-bengali-dark mb-2">{element.title}</h3>
