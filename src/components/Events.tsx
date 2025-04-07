@@ -11,7 +11,8 @@ const Events = () => {
       image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png",
       date: "October 9-13, 2024",
       time: "Various Times",
-      location: "Tampa Community Center",
+      location: "Indian Cultural Center",
+      locationLink: "https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D",
       description: "Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts."
     },
     {
@@ -19,7 +20,8 @@ const Events = () => {
       image: "/lovable-uploads/0f0a6ef1-6161-4b80-af4d-c09d805ba737.png",
       date: "February 4, 2025",
       time: "9:00 AM - 8:00 PM",
-      location: "Soikot Cultural Center",
+      location: "Indian Cultural Center",
+      locationLink: "https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D",
       description: "Celebrate the goddess of knowledge, music, art, and learning with traditional prayers, cultural performances, and community gatherings."
     },
     {
