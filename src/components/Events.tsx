@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Calendar, Clock, MapPin } from 'lucide-react';
+import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Events = () => {
@@ -25,9 +25,10 @@ const Events = () => {
     {
       name: "Rabindra Jayanti",
       image: "/lovable-uploads/67e986a1-486a-4077-b56b-c1a527b50996.png",
-      date: "May 8, 2025",
+      date: "May 3, 2025",
       time: "5:00 PM - 9:00 PM",
-      location: "Performing Arts Center",
+      location: "Land O' Lakes Heritage Park",
+      locationLink: "https://www.google.com/maps/place/Land+O'+Lakes+Heritage+Park/data=!4m2!3m1!1s0x0:0x9c3fe4d21c61b81c?sa=X&ved=1t:2428&ictx=111",
       description: "Commemorate the birth anniversary of Rabindranath Tagore with a special cultural program featuring his songs, poems, and plays."
     }
   ];
@@ -50,7 +51,9 @@ const Events = () => {
                 <img 
                   src={event.image} 
                   alt={event.name} 
-                  className="w-full h-full object-cover"
+                  className={`w-full h-full object-cover ${
+                    event.name === "Rabindra Jayanti" ? "object-top scale-125" : ""
+                  }`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <h3 className="absolute bottom-4 left-4 text-xl font-bold text-white">{event.name}</h3>
@@ -67,6 +70,16 @@ const Events = () => {
                 <div className="flex items-center text-bengali-dark/70 mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
                   <span className="text-sm">{event.location}</span>
+                  {event.locationLink && (
+                    <a 
+                      href={event.locationLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
+                    >
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  )}
                 </div>
                 <p className="text-bengali-dark/80 mb-4">{event.description}</p>
                 <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">Learn More</Button>
