@@ -10,7 +10,7 @@ const Events = () => {
     {
       name: "Durga Puja",
       image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png",
-      date: "October 3-5, 2024",
+      date: "October 3-5, 2025",
       time: "Various Times",
       location: "Indian Cultural Center",
       locationLink: "https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D",
