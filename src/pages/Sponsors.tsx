@@ -1,0 +1,178 @@
+import React from 'react';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import { ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Card, CardContent } from '@/components/ui/card';
+
+const Sponsors = () => {
+  const sponsorTiers = [
+    {
+      title: "Grand Sponsors",
+      amount: "$3000 and above",
+      sponsors: [
+        "Madhumita & Jyotirmoy Sarkar",
+        "Nandini & Basudeb De",
+        "Prasad Akikatla (Ruisoft)",
+        "Rikhia & Arindam Chakraborty",
+        "Sarbani & Aniruddha Sarbani Guha Sarkar",
+        "Saswati & Subhadip Chatterjee",
+        "Sulekha & Rajkumar Natarajan"
+      ]
+    },
+    {
+      title: "Platinum Sponsors",
+      amount: "$2000 and above",
+      sponsors: [
+        "Anindita & Raja Sarker",
+        "Baishakhi & Sujit Ghosh",
+        "Madhurima & Tapas Das",
+        "Puja Kathuria & Siddhartha Bose",
+        "Sayantani & Anupam Bandyopadhyay",
+        "Sudipa & Anando Som"
+      ]
+    },
+    {
+      title: "Diamond Sponsors",
+      amount: "$1500 and above",
+      sponsors: [
+        "Annapurna & Indranil Bagchi",
+        "Ashru & Liton Saha",
+        "Avantika & Kaushik Sinha",
+        "Nivedita & Shivaji Sarkar",
+        "Rajkumari & Soumyajyoti Bose",
+        "Soma & Sanjoy Moitra",
+        "Sudebi & Arup Aditya",
+        "Susmita & Somen Adhikari",
+        "Trishna & Aninda Sarkar"
+      ]
+    },
+    {
+      title: "Gold Sponsors",
+      amount: "$1000 and above",
+      sponsors: [
+        "Anandita Karmakar & Arindam Sabui",
+        "Anindita & Kaushik Dutta",
+        "Anurita Bhunia",
+        "Jhuma Nath & Anindya Datta",
+        "Kalit & Surajit Roy",
+        "Keya & Argha Mukherjee",
+        "Koruna Dutt Pathak & Sunit Pathak",
+        "Lajawab - Cater4U Hospitality LLC",
+        "Mahasweta & Indrajit Mukherjee",
+        "Mahuya Pal & Ambar Basu",
+        "Moumita Bhattacharjee & Manjit Chakraborty",
+        "Nandini & Subrata Bandyopadhyay",
+        "Nishani & Nabin Das",
+        "Pallavi Choudhury & Abhijit Talukdar",
+        "Paromita & Avik Ganguly",
+        "Payel Dutta Das & Prabir Das",
+        "Peu Dutta & Niraj Mishra",
+        "Pragyamita & Debapriya Kundu",
+        "Sandyasree & Gautam Bose",
+        "Sarmishta & Sambit Banerjee",
+        "Seema & Santosh Verma",
+        "Sharmistha & Arabinda Banerjee",
+        "Shilpi & Kunal Rudra",
+        "Shoma & Sumit Ghosh",
+        "Sohini Mukherjee & Neil Chakravarty",
+        "Sonia Mukherjee Chakraborty & Suman Chakraborty",
+        "Sujata Pal Chowdhury & Arijit Chakraborty",
+        "Susmita & Parikshit Nandy",
+        "Susmita & Sutap Chatterjee",
+        "Taniya & Anindya Bhowmick"
+      ]
+    },
+    {
+      title: "Silver Sponsors",
+      amount: "$650 and above",
+      sponsors: [
+        "Amrita & Digbijoy Das",
+        "Anandita Ghosh & Arunava Roy",
+        "Ananwita Das & Manas Subudhi",
+        "Anya M. Nath & Saurav Jay Chandra",
+        "Arpita & Subhasis Ghosh",
+        "Arunima Ghose & Tapan Bagui",
+        "Bandita De Bhar & Santanu Bhar",
+        "Briti Sen Chakraborty & Sinchan Chakraborty",
+        "Debarati & Shuvanker Ghosh",
+        "Dipanwita Bhattacharya & Soumyadeep Chakraborty",
+        "Dipanwita Chowdhury & Bratin Jana",
+        "Gopa & Somtirtha Banerjee",
+        "Joita Ghosh & Ramprasad Das",
+        "Koushika Kalyani Guha & Prabhakar Guha",
+        "Mahasweta Das & Anirban Chakraborty",
+        "Manju & Buddhadeb Basu",
+        "Moumita Roy Adhikari & Angan Adhikari",
+        "Ojaswita Chatterjee Sengupta & Ritaban Sengupta",
+        "Piyali & Tuhin Saha",
+        "Poly & Ranjan Chowdhury",
+        "Pooja & Joy Upadhyay",
+        "Pritha & Dwaipayan Chakraborty",
+        "Priyanka & Pintu Mishra",
+        "Priyanka & Shashi Kumar",
+        "Priyanka Dasgupta Chatterjee & Sauvik Chatterjee",
+        "Rabi Ghoshdastidar",
+        "Rita & Shyamal Bar",
+        "Rituparna Sen & Arijit Saha",
+        "Ruma Dey Hazra & Saurav Hazra",
+        "Sathi & Mithu Dastidar",
+        "Shreya Guha Roy & Rajarshi Nag",
+        "Srestha & Sarbajit Maitra",
+        "Subhashree & Subir Mukherjee",
+        "Susmita Paul Saha & Biswarup Saha",
+        "Swati Mazumder & Sandip Mukherjee",
+        "Tanzeena Mukherjee & Adhiraj Ghoshal"
+      ]
+    }
+  ];
+
+  return (
+    <div className="font-bengali">
+      <Navbar />
+      <main>
+        <section className="py-16 md:py-24 bg-bengali-light">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="flex items-center justify-between mb-8">
+              <Link to="/" className="flex items-center text-bengali-red hover:text-bengali-red/80 transition-colors">
+                <ArrowLeft className="w-5 h-5 mr-2" />
+                <span>Back to Home</span>
+              </Link>
+            </div>
+            
+            <div className="text-center mb-12">
+              <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">Our Sponsors</h1>
+              <div className="w-24 h-1 bg-bengali-red mx-auto mt-4 mb-6"></div>
+              <p className="text-bengali-dark/80 max-w-3xl mx-auto">
+                We are grateful to our sponsors for their generous support in helping us promote Bengali culture and community.
+              </p>
+            </div>
+
+            <div className="space-y-12">
+              {sponsorTiers.map((tier, index) => (
+                <div key={index} className="space-y-6">
+                  <div className="text-center">
+                    <h2 className="text-2xl md:text-3xl font-bold text-bengali-dark">{tier.title}</h2>
+                    <p className="text-bengali-red font-medium mt-2">{tier.amount}</p>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {tier.sponsors.map((sponsor, sponsorIndex) => (
+                      <Card key={sponsorIndex} className="border-none shadow-sm hover:shadow-md transition-shadow">
+                        <CardContent className="p-6">
+                          <p className="text-bengali-dark text-center">{sponsor}</p>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default Sponsors; 

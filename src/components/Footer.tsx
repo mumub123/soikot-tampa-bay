@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Heart } from 'lucide-react';
 
@@ -34,18 +33,16 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-medium mb-4">Resources</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-bengali-red transition-colors">Bengali Library</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-bengali-red transition-colors">Cultural Resources</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-bengali-red transition-colors">Language Classes</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-bengali-red transition-colors">Newsletter</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-bengali-red transition-colors">Volunteer</a></li>
+              <li><a href="https://anyflip.com/bookcase/qdje" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-bengali-red transition-colors">Probaho</a></li>
+              <li><a href="/sponsors" className="text-gray-300 hover:text-bengali-red transition-colors">Sponsors</a></li>
+              <li><a href="/sponsorship-rates" className="text-gray-300 hover:text-bengali-red transition-colors">Sponsorship Rates</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-medium mb-4">Newsletter</h4>
+            <h4 className="text-lg font-medium mb-4">Join our mailing list</h4>
             <p className="text-gray-300 mb-4">
-              Subscribe to our newsletter to stay updated with our events and activities.
+              Subscribe to our mailing list to stay updated with our events and activities.
             </p>
             <div className="flex">
               <input 

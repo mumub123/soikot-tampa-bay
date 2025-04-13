@@ -1,12 +1,68 @@
-
-import React from 'react';
+import React, { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { MapPin, Mail, Phone, Facebook, Instagram } from 'lucide-react';
+import { MapPin, Mail, Phone, Facebook, Instagram, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
+import { useToast } from "@/components/ui/use-toast";
 
 const Contact = () => {
+  const { toast } = useToast();
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { id, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [id]: value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch('http://localhost:3001/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send message');
+      }
+
+      toast({
+        title: "Message sent",
+        description: "Thank you for your message. We'll get back to you soon!",
+      });
+
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again or contact us directly.",
+        variant: "destructive"
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <section id="contact" className="py-16 md:py-24 bg-bengali-light">
       <div className="container mx-auto px-4 md:px-6">
@@ -29,7 +85,7 @@ const Contact = () => {
                     <MapPin className="w-5 h-5 text-bengali-red mr-3 mt-1" />
                     <div>
                       <p className="font-medium text-bengali-dark">Address</p>
-                      <p className="text-bengali-dark/70">17310 CHENANGO LN<br />TAMPA FL 33647-3503</p>
+                      <p className="text-bengali-dark/70">Soikot, <br />17310 Chenango Ln<br />Tampa, FL 33647-3503</p>
                     </div>
                   </div>
                   
@@ -37,7 +93,7 @@ const Contact = () => {
                     <Mail className="w-5 h-5 text-bengali-red mr-3 mt-1" />
                     <div>
                       <p className="font-medium text-bengali-dark">Email</p>
-                      <p className="text-bengali-dark/70">soikotflorida@gmail.com</p>
+                      <a href="mailto:soikotflorida@gmail.com" className="text-bengali-dark/70 hover:text-bengali-red">soikotflorida@gmail.com</a>
                     </div>
                   </div>
                   
@@ -58,6 +114,9 @@ const Contact = () => {
                   <a href="https://www.instagram.com/soikotflorida?igsh=OTkyZmRxOGhyN3A3" target="_blank" rel="noopener noreferrer" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
                     <Instagram className="w-5 h-5" />
                   </a>
+                  <a href="https://chat.whatsapp.com/JSeghsNbC8FAsyVDyVIYFK" target="_blank" rel="noopener noreferrer" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
+                    <MessageCircle className="w-5 h-5" />
+                  </a>
                 </div>
               </CardContent>
             </Card>
@@ -68,7 +127,7 @@ const Contact = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-bengali-dark mb-6">Send Us a Message</h3>
                 
-                <form>
+                <form onSubmit={handleSubmit}>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-bengali-dark mb-1">Name</label>
@@ -76,6 +135,9 @@ const Contact = () => {
                         id="name" 
                         placeholder="Your name" 
                         className="w-full border-gray-300 focus:border-bengali-red focus:ring-bengali-red"
+                        value={formData.name}
+                        onChange={handleInputChange}
+                        required
                       />
                     </div>
                     <div>
@@ -85,6 +147,9 @@ const Contact = () => {
                         type="email" 
                         placeholder="Your email" 
                         className="w-full border-gray-300 focus:border-bengali-red focus:ring-bengali-red"
+                        value={formData.email}
+                        onChange={handleInputChange}
+                        required
                       />
                     </div>
                   </div>
@@ -95,6 +160,9 @@ const Contact = () => {
                       id="subject" 
                       placeholder="Subject of your message" 
                       className="w-full border-gray-300 focus:border-bengali-red focus:ring-bengali-red"
+                      value={formData.subject}
+                      onChange={handleInputChange}
+                      required
                     />
                   </div>
                   
@@ -105,10 +173,19 @@ const Contact = () => {
                       placeholder="Your message" 
                       rows={5} 
                       className="w-full border-gray-300 focus:border-bengali-red focus:ring-bengali-red"
+                      value={formData.message}
+                      onChange={handleInputChange}
+                      required
                     />
                   </div>
                   
-                  <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">Send Message</Button>
+                  <Button 
+                    type="submit" 
+                    className="w-full bg-bengali-red hover:bg-bengali-red/90"
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? 'Sending...' : 'Send Message'}
+                  </Button>
                 </form>
               </CardContent>
             </Card>

@@ -1,8 +1,14 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
+  const scrollToEvents = () => {
+    const eventsSection = document.getElementById('events');
+    if (eventsSection) {
+      eventsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="relative bg-gradient-to-r from-bengali-red/10 to-bengali-orange/10 overflow-hidden">
       <div className="absolute inset-0 bg-bengali-pattern opacity-10"></div>
@@ -22,8 +28,12 @@ const Hero = () => {
             Celebrating and preserving Bengali culture, language, and traditions through community events, education, and humanitarian efforts.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button className="bg-bengali-red hover:bg-bengali-red/90 text-white">Upcoming Events</Button>
-            <Button variant="outline" className="border-bengali-red text-bengali-red hover:bg-bengali-red/10">Learn More</Button>
+            <Button 
+              className="bg-bengali-red hover:bg-bengali-red/90 text-white"
+              onClick={scrollToEvents}
+            >
+              Upcoming Events
+            </Button>
           </div>
         </div>
       </div>

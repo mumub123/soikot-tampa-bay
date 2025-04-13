@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
@@ -34,7 +33,7 @@ const Culture = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-bengali-dark">Bengali <span className="text-bengali-red">Culture</span></h2>
           <div className="w-24 h-1 bg-bengali-red mx-auto mt-4 mb-6"></div>
           <p className="text-bengali-dark/80 max-w-3xl mx-auto">
-            Explore the rich cultural heritage of Bengal, from traditional arts and music to literature and cuisine.
+            We explore the rich cultural heritage of Bengal, from traditional arts and music to literature and cuisine.
           </p>
         </div>
         

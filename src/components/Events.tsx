@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
@@ -20,7 +19,7 @@ const Events = () => {
       name: "Durga Puja",
       image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png",
       date: "October 3-5, 2025",
-      time: "Various Times",
+      time: "11:00 AM - 10:00 PM",
       location: "Indian Cultural Center",
       locationLink: "https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D",
       description: "Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts."
@@ -47,10 +46,9 @@ const Events = () => {
                   alt={event.name} 
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                <h3 className="absolute bottom-4 left-4 text-xl font-bold text-white">{event.name}</h3>
               </div>
               <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-bengali-dark mb-4">{event.name}</h3>
                 <div className="flex items-center text-bengali-dark/70 mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
                   <span className="text-sm">{event.date}</span>
@@ -74,7 +72,13 @@ const Events = () => {
                   )}
                 </div>
                 <p className="text-bengali-dark/80 mb-4">{event.description}</p>
-                <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">Learn More</Button>
+                {event.name === "Rabindra Jayanti" ? (
+                  <Link to="/events/rabindra-jayanti">
+                    <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">Learn More</Button>
+                  </Link>
+                ) : (
+                  <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>Coming Soon</Button>
+                )}
               </CardContent>
             </Card>
           ))}
