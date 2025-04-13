@@ -11,6 +11,11 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleHashLink = (hash: string) => {
+    setIsOpen(false);
+    window.location.href = `/#${hash}`;
+  };
+
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm">
       <div className="container mx-auto px-4 md:px-6 py-4">
@@ -29,11 +34,11 @@ const Navbar = () => {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Home</Link>
-            <Link to="/about" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">About</Link>
-            <Link to="/events" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Events</Link>
-            <Link to="/culture" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Culture</Link>
-            <Link to="/contact" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Contact</Link>
+            <a href="#home" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Home</a>
+            <a href="#about" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">About</a>
+            <a href="#events" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Events</a>
+            <a href="#culture" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Culture</a>
+            <a href="#contact" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Contact</a>
             <Link to="/donate">
               <Button className="bg-bengali-red hover:bg-bengali-red/90">Donate</Button>
             </Link>
@@ -53,7 +58,7 @@ const Navbar = () => {
       
       {/* Mobile Menu */}
       <div className={cn(
-        "md:hidden fixed inset-0 z-40 bg-white/95 backdrop-blur-md p-4 transition-transform duration-300 ease-in-out transform",
+        "md:hidden fixed inset-0 z-40 bg-white p-4 transition-transform duration-300 ease-in-out transform",
         isOpen ? "translate-x-0" : "translate-x-full"
       )}>
         <div className="flex justify-end">
@@ -72,11 +77,11 @@ const Navbar = () => {
               className="w-full h-auto"
             />
           </div>
-          <Link to="/" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Home</Link>
-          <Link to="/about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>About</Link>
-          <Link to="/events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Events</Link>
-          <Link to="/culture" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Culture</Link>
-          <Link to="/contact" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Contact</Link>
+          <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('home')}>Home</a>
+          <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('about')}>About</a>
+          <a href="#events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('events')}>Events</a>
+          <a href="#culture" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('culture')}>Culture</a>
+          <a href="#contact" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('contact')}>Contact</a>
           <Link to="/donate" onClick={toggleMenu}>
             <Button className="bg-bengali-red hover:bg-bengali-red/90 mt-4 w-full">Donate</Button>
           </Link>
