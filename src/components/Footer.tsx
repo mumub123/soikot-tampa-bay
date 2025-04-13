@@ -33,9 +33,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-medium mb-4">Resources</h4>
             <ul className="space-y-2">
-              <li><a href="https://anyflip.com/bookcase/qdje" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-bengali-red transition-colors">Probaho</a></li>
+              <li><a href="/by-laws" className="text-gray-300 hover:text-bengali-red transition-colors">By-Laws</a></li>
+              <li><a href="/exec-committee" className="text-gray-300 hover:text-bengali-red transition-colors">Executive Committee</a></li>
               <li><a href="/sponsors" className="text-gray-300 hover:text-bengali-red transition-colors">Sponsors</a></li>
               <li><a href="/sponsorship-rates" className="text-gray-300 hover:text-bengali-red transition-colors">Sponsorship Rates</a></li>
+              <li><a href="https://anyflip.com/bookcase/qdje" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-bengali-red transition-colors">Probaho</a></li>
             </ul>
           </div>
           

@@ -10,6 +10,8 @@ import Sponsors from "./pages/Sponsors";
 import SponsorshipRates from "./pages/SponsorshipRates";
 import Donate from "./pages/Donate";
 import RabindraJayanti from "./pages/RabindraJayanti";
+import ByLaws from "./pages/ByLaws";
+import ExecutiveCommittee from "./pages/ExecutiveCommittee";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +28,8 @@ const App = () => (
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/sponsorship-rates" element={<SponsorshipRates />} />
           <Route path="/donate" element={<Donate />} />
+          <Route path="/by-laws" element={<ByLaws />} />
+          <Route path="/exec-committee" element={<ExecutiveCommittee />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
