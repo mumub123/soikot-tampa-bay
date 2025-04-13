@@ -5,11 +5,16 @@ import { ArrowLeft, CheckCircle2, CreditCard, QrCode } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 
 const Donate = () => {
   return (
     <div className="font-bengali">
-      <Navbar />
+      <div className="pointer-events-none opacity-50">
+        <Navbar />
+      </div>
       <main>
         <section className="py-16 md:py-24 bg-gradient-to-b from-bengali-light to-white">
           <div className="container mx-auto px-4 md:px-6">
@@ -91,7 +96,9 @@ const Donate = () => {
           </div>
         </section>
       </main>
-      <Footer />
+      <div className="pointer-events-none opacity-50">
+        <Footer />
+      </div>
     </div>
   );
 };

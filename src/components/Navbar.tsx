@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <a href="#" className="flex items-center">
+            <Link to="/" className="flex items-center">
               <div className="w-32 h-auto mr-2">
                 <img 
                   src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
@@ -23,17 +24,19 @@ const Navbar = () => {
                   className="w-full h-auto"
                 />
               </div>
-            </a>
+            </Link>
           </div>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-6">
-            <a href="#home" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Home</a>
-            <a href="#about" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">About</a>
-            <a href="#events" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Events</a>
-            <a href="#culture" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Culture</a>
-            <a href="#contact" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Contact</a>
-            <Button className="bg-bengali-red hover:bg-bengali-red/90" onClick={() => window.location.href = '/donate'}>Donate</Button>
+            <Link to="/" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Home</Link>
+            <Link to="/about" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">About</Link>
+            <Link to="/events" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Events</Link>
+            <Link to="/culture" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Culture</Link>
+            <Link to="/contact" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Contact</Link>
+            <Link to="/donate">
+              <Button className="bg-bengali-red hover:bg-bengali-red/90">Donate</Button>
+            </Link>
           </div>
           
           {/* Mobile Menu Button */}
@@ -69,12 +72,14 @@ const Navbar = () => {
               className="w-full h-auto"
             />
           </div>
-          <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Home</a>
-          <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>About</a>
-          <a href="#events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Events</a>
-          <a href="#culture" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Culture</a>
-          <a href="#contact" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Contact</a>
-          <Button className="bg-bengali-red hover:bg-bengali-red/90 mt-4" onClick={() => window.location.href = '/donate'}>Donate</Button>
+          <Link to="/" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Home</Link>
+          <Link to="/about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>About</Link>
+          <Link to="/events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Events</Link>
+          <Link to="/culture" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Culture</Link>
+          <Link to="/contact" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={toggleMenu}>Contact</Link>
+          <Link to="/donate" onClick={toggleMenu}>
+            <Button className="bg-bengali-red hover:bg-bengali-red/90 mt-4 w-full">Donate</Button>
+          </Link>
         </div>
       </div>
     </nav>

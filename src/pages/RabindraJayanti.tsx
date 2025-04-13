@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { ArrowLeft, Calendar, Clock, MapPin } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, MapPin, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 
@@ -12,7 +12,9 @@ const RabindraJayanti = () => {
 
   return (
     <div className="font-bengali">
-      <Navbar />
+      <div className="pointer-events-none opacity-50">
+        <Navbar />
+      </div>
       <main>
         <section className="py-16 md:py-24 bg-bengali-light">
           <div className="container mx-auto px-4 md:px-6">
@@ -87,7 +89,7 @@ const RabindraJayanti = () => {
 
                   <h3 className="text-xl font-bold text-bengali-dark mb-3">What to Expect</h3>
                   <ul className="list-disc pl-6 text-bengali-dark/80 mb-6">
-                    <li>Traditional Bengali refreshments</li>
+                    <li>Traditional Bengali refreshments followed by dinner</li>
                     <li>Interactive cultural activities</li>
                     <li>Photo opportunities</li>
                     <li>Community gathering</li>
@@ -96,6 +98,19 @@ const RabindraJayanti = () => {
               </div>
 
               <div className="text-center">
+                <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+                  <h3 className="text-xl font-bold text-bengali-dark mb-4">Registration & Donation</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center justify-center space-x-2">
+                      <CheckCircle2 className="w-5 h-5 text-bengali-red" />
+                      <span className="text-bengali-dark">$25 per adult</span>
+                    </div>
+                    <div className="flex items-center justify-center space-x-2">
+                      <CheckCircle2 className="w-5 h-5 text-bengali-red" />
+                      <span className="text-bengali-dark">Free for Gold, Diamond, Platinum, and Grand Sponsors</span>
+                    </div>
+                  </div>
+                </div>
                 <Link to="/donate">
                   <Button className="bg-bengali-red hover:bg-bengali-red/90">
                     Register Now
@@ -109,7 +124,9 @@ const RabindraJayanti = () => {
           </div>
         </section>
       </main>
-      <Footer />
+      <div className="pointer-events-none opacity-50">
+        <Footer />
+      </div>
     </div>
   );
 };

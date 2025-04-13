@@ -129,7 +129,9 @@ const Sponsors = () => {
 
   return (
     <div className="font-bengali">
-      <Navbar />
+      <div className="pointer-events-none opacity-50">
+        <Navbar />
+      </div>
       <main>
         <section className="py-16 md:py-24 bg-bengali-light">
           <div className="container mx-auto px-4 md:px-6">
@@ -170,7 +172,9 @@ const Sponsors = () => {
           </div>
         </section>
       </main>
-      <Footer />
+      <div className="pointer-events-none opacity-50">
+        <Footer />
+      </div>
     </div>
   );
 };
