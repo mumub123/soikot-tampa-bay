@@ -58,33 +58,36 @@ const Navbar = () => {
       
       {/* Mobile Menu */}
       <div className={cn(
-        "md:hidden fixed inset-0 z-40 bg-white p-4 transition-transform duration-300 ease-in-out transform",
+        "md:hidden fixed inset-0 z-[100] bg-white transition-transform duration-300 ease-in-out transform",
         isOpen ? "translate-x-0" : "translate-x-full"
       )}>
-        <div className="flex justify-end">
-          <button 
-            onClick={toggleMenu}
-            className="text-bengali-dark hover:text-bengali-red"
-          >
-            <X size={24} />
-          </button>
-        </div>
-        <div className="flex flex-col space-y-4 mt-8">
-          <div className="mx-auto w-40 mb-6">
-            <img 
-              src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
-              alt="Soikot Logo" 
-              className="w-full h-auto"
-            />
+        <div className="absolute inset-0 bg-white"></div>
+        <div className="relative z-10 p-4">
+          <div className="flex justify-end">
+            <button 
+              onClick={toggleMenu}
+              className="text-bengali-dark hover:text-bengali-red"
+            >
+              <X size={24} />
+            </button>
           </div>
-          <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('home')}>Home</a>
-          <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('about')}>About</a>
-          <a href="#events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('events')}>Events</a>
-          <a href="#culture" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('culture')}>Culture</a>
-          <a href="#contact" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('contact')}>Contact</a>
-          <Link to="/donate" onClick={toggleMenu}>
-            <Button className="bg-bengali-red hover:bg-bengali-red/90 mt-4 w-full">Donate</Button>
-          </Link>
+          <div className="flex flex-col space-y-4 mt-8">
+            <div className="mx-auto w-40 mb-6">
+              <img 
+                src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
+                alt="Soikot Logo" 
+                className="w-full h-auto"
+              />
+            </div>
+            <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('home')}>Home</a>
+            <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('about')}>About</a>
+            <a href="#events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('events')}>Events</a>
+            <a href="#culture" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('culture')}>Culture</a>
+            <a href="#contact" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('contact')}>Contact</a>
+            <Link to="/donate" onClick={toggleMenu}>
+              <Button className="bg-bengali-red hover:bg-bengali-red/90 mt-4 w-full">Donate</Button>
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
