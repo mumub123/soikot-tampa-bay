@@ -2,32 +2,30 @@ import express from 'express';
 import cors from 'cors';
 import mailchimp from '@mailchimp/mailchimp_marketing';
 import dotenv from 'dotenv';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import path from 'path';
 
-// Load environment variables
-dotenv.config();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+dotenv.config({ path: path.join(__dirname, '..', '.env') });
 
 const app = express();
 
 // Middleware
-app.use(cors({
-  origin: 'http://localhost:5173', // Vite's default port
-  credentials: true
-}));
+app.use(cors());
 app.use(express.json());
 
 // Configure Mailchimp
 mailchimp.setConfig({
   apiKey: process.env.MAILCHIMP_API_KEY,
-  server: process.env.MAILCHIMP_SERVER_PREFIX
+  server: process.env.MAILCHIMP_SERVER_PREFIX // e.g., 'us1'
 });
 
 // Contact form endpoint
 app.post('/api/contact', async (req, res) => {
   const { name, email, subject, message } = req.body;
-
-  if (!name || !email || !subject || !message) {
-    return res.status(400).json({ error: 'All fields are required' });
-  }
 
   try {
     // Create a campaign
@@ -38,8 +36,8 @@ app.post('/api/contact', async (req, res) => {
       },
       settings: {
         subject_line: `Contact Form: ${subject}`,
-        from_name: 'Soikot Contact Form',
-        reply_to: 'soikotflorida@gmail.com',
+        from_name: name,
+        reply_to: email,
         title: `Contact Form Submission from ${name}`,
       },
     });
@@ -61,10 +59,7 @@ app.post('/api/contact', async (req, res) => {
     res.status(200).json({ message: 'Email sent successfully' });
   } catch (error) {
     console.error('Mailchimp error:', error);
-    res.status(500).json({ 
-      error: 'Failed to send email',
-      details: error.message
-    });
+    res.status(500).json({ error: 'Failed to send email' });
   }
 });
 
