@@ -50,7 +50,7 @@ const Navbar = () => {
       
       {/* Mobile Menu */}
       <div className={cn(
-        "md:hidden fixed inset-0 z-40 bg-white p-4 transition-transform duration-300 ease-in-out transform",
+        "md:hidden fixed inset-0 z-40 bg-white/95 backdrop-blur-md p-4 transition-transform duration-300 ease-in-out transform",
         isOpen ? "translate-x-0" : "translate-x-full"
       )}>
         <div className="flex justify-end">
