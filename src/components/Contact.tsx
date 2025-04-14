@@ -26,17 +26,21 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const mailtoLink = `mailto:soikotflorida@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
+    // Create mailto link with form data
+    const mailtoLink = `mailto:anupam.bandyopadhyay@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
     
+    // Open email client
     window.location.href = mailtoLink;
     
+    // Show success message
     toast({
-      title: "Email client opened",
-      description: "Please send your message through your email client.",
+      title: "Success!",
+      description: "Your email client will open with the message pre-filled.",
     });
-
+    
+    // Reset form
     setFormData({
       name: '',
       email: '',
@@ -96,7 +100,7 @@ const Contact = () => {
                   <a href="https://www.instagram.com/soikotflorida?igsh=OTkyZmRxOGhyN3A3" target="_blank" rel="noopener noreferrer" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
                     <Instagram className="w-5 h-5" />
                   </a>
-                  <a href="https://chat.whatsapp.com/JSeghsNbC8FAsyVDyVIYFK" target="_blank" rel="noopener noreferrer" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
+                  <a href="https://chat.whatsapp.com/FrzJPrGWd36FIRbb177Kcy" target="_blank" rel="noopener noreferrer" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
                     <MessageCircle className="w-5 h-5" />
                   </a>
                 </div>
