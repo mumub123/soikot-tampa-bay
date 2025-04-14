@@ -16,7 +16,6 @@ const Navbar = () => {
     window.location.href = `/#${hash}`;
   };
 
-  // Optional: Prevent background scroll when menu is open
   useEffect(() => {
     document.body.style.overflow = isOpen ? 'hidden' : '';
     return () => {
@@ -25,28 +24,26 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav className="sticky top-0 z-[200] bg-white/95 backdrop-blur-md shadow-sm">
+    <nav className="sticky top-0 z-[200] bg-white shadow-sm">
       <div className="container mx-auto px-4 md:px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center">
-            <Link to="/" className="flex items-center">
-              <div className="w-32 h-auto mr-2">
-                <img 
-                  src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
-                  alt="Soikot Logo" 
-                  className="w-full h-auto"
-                />
-              </div>
-            </Link>
-          </div>
+          <Link to="/" className="flex items-center">
+            <div className="w-32 h-auto mr-2">
+              <img 
+                src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
+                alt="Soikot Logo" 
+                className="w-full h-auto"
+              />
+            </div>
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-6">
-            <a href="#home" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Home</a>
-            <a href="#about" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">About</a>
-            <a href="#events" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Events</a>
-            <a href="#culture" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Culture</a>
-            <a href="#contact" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Contact</a>
+            <a href="#home" className="text-bengali-dark hover:text-bengali-red">Home</a>
+            <a href="#about" className="text-bengali-dark hover:text-bengali-red">About</a>
+            <a href="#events" className="text-bengali-dark hover:text-bengali-red">Events</a>
+            <a href="#culture" className="text-bengali-dark hover:text-bengali-red">Culture</a>
+            <a href="#contact" className="text-bengali-dark hover:text-bengali-red">Contact</a>
             <Link to="/donate">
               <Button className="bg-bengali-red hover:bg-bengali-red/90">Donate</Button>
             </Link>
@@ -64,39 +61,38 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      <div className={cn(
-        "md:hidden fixed inset-0 z-[300] bg-white transition-transform duration-300 ease-in-out",
-        isOpen ? "translate-x-0" : "translate-x-full"
-      )}>
-        <div className="flex flex-col p-4 h-full overflow-y-auto">
-          <div className="flex justify-end">
-            <button 
-              onClick={toggleMenu}
-              className="text-bengali-dark hover:text-bengali-red"
-            >
-              <X size={24} />
-            </button>
-          </div>
-          <div className="flex flex-col space-y-4 mt-8">
-            <div className="mx-auto w-40 mb-6">
-              <img 
-                src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
-                alt="Soikot Logo" 
-                className="w-full h-auto"
-              />
+      {/* Mobile Modal Menu */}
+      {isOpen && (
+        <div className="fixed top-0 left-0 w-full h-full bg-white z-[9999] overflow-y-auto">
+          <div className="flex flex-col p-4 h-full">
+            <div className="flex justify-end">
+              <button 
+                onClick={toggleMenu}
+                className="text-bengali-dark hover:text-bengali-red"
+              >
+                <X size={24} />
+              </button>
             </div>
-            <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('home')}>Home</a>
-            <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('about')}>About</a>
-            <a href="#events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('events')}>Events</a>
-            <a href="#culture" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('culture')}>Culture</a>
-            <a href="#contact" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b border-gray-100" onClick={() => handleHashLink('contact')}>Contact</a>
-            <Link to="/donate" onClick={toggleMenu}>
-              <Button className="bg-bengali-red hover:bg-bengali-red/90 mt-4 w-full">Donate</Button>
-            </Link>
+            <div className="flex flex-col space-y-4 mt-8">
+              <div className="mx-auto w-40 mb-6">
+                <img 
+                  src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
+                  alt="Soikot Logo" 
+                  className="w-full h-auto"
+                />
+              </div>
+              <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('home')}>Home</a>
+              <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('about')}>About</a>
+              <a href="#events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('events')}>Events</a>
+              <a href="#culture" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('culture')}>Culture</a>
+              <a href="#contact" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('contact')}>Contact</a>
+              <Link to="/donate" onClick={toggleMenu}>
+                <Button className="bg-bengali-red hover:bg-bengali-red/90 mt-4 w-full">Donate</Button>
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </nav>
   );
 };
