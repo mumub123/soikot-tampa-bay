@@ -61,7 +61,7 @@ const Navbar = () => {
         "md:hidden fixed inset-0 z-[100] bg-white transition-transform duration-300 ease-in-out transform",
         isOpen ? "translate-x-0" : "translate-x-full"
       )}>
-        <div className="absolute inset-0 bg-white"></div>
+        <div className="absolute inset-0 bg-white/95 backdrop-blur-md"></div>
         <div className="relative z-10 p-4">
           <div className="flex justify-end">
             <button 
