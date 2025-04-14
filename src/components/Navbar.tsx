@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -15,6 +15,14 @@ const Navbar = () => {
     setIsOpen(false);
     window.location.href = `/#${hash}`;
   };
+
+  // Optional: Prevent background scroll when menu is open
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
 
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm">
@@ -56,20 +64,12 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Optional Dark Overlay */}
-      {isOpen && (
-        <div
-          className="fixed inset-0 bg-black/40 z-[99] animate-fade-in"
-          onClick={toggleMenu}
-        ></div>
-      )}
-
       {/* Mobile Menu */}
       <div className={cn(
-        "md:hidden fixed inset-0 z-[100] bg-white transition-all duration-300 ease-in-out transform",
-        isOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+        "md:hidden fixed inset-0 z-[100] bg-white transition-transform duration-300 ease-in-out",
+        isOpen ? "translate-x-0" : "translate-x-full"
       )}>
-        <div className="relative z-10 p-4">
+        <div className="flex flex-col p-4 h-full overflow-y-auto">
           <div className="flex justify-end">
             <button 
               onClick={toggleMenu}
