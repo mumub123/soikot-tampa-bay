@@ -32,9 +32,9 @@ app.post('/api/contact', async (req, res) => {
     }
 
     // Send email using Resend
-    const emailResponse = await resend.emails.send({
-      from: 'Soikot Contact Form <onboarding@resend.dev>',
-      to: ['anusayan@yahoo.com'],
+    const { data, error } = await resend.emails.send({
+      from: 'Soikot Contact Form <contact@soikot.org>',
+      to: ['anupam.bandyopadhyay@gmail.com'],
       replyTo: email,
       subject: `Contact Form: ${subject}`,
       html: `
@@ -47,15 +47,18 @@ app.post('/api/contact', async (req, res) => {
       `,
     });
 
-    console.log('Resend response:', emailResponse);
+    if (error) {
+      console.error('Resend API error:', error);
+      return res.status(500).json({ error: 'Failed to send email' });
+    }
 
     res.json({ success: true, message: 'Email sent successfully' });
-  } catch (err) {
-    console.error('Server error:', err);
+  } catch (error) {
+    console.error('Server error:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
 });
 
 app.listen(port, () => {
-  console.log(`✅ Server running on http://localhost:${port}`);
+  console.log(`Server running on port ${port}`);
 });
