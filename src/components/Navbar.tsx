@@ -25,10 +25,11 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-[200] bg-white shadow-sm">
-      <div className="w-full max-w-screen-lg mx-auto px-4 md:px-6 py-1 md:py-1">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
+          {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="w-32 h-auto mr-2">
+            <div className="w-32 h-auto">
               <img 
                 src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
                 alt="Soikot Logo" 
@@ -38,7 +39,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-6">
+          <div className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-bengali-dark hover:text-bengali-red">Home</a>
             <a href="#about" className="text-bengali-dark hover:text-bengali-red">About</a>
             <a href="#events" className="text-bengali-dark hover:text-bengali-red">Events</a>
