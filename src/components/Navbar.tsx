@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -31,7 +31,7 @@ const Navbar = () => {
               </div>
             </Link>
           </div>
-          
+
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-6">
             <a href="#home" className="text-bengali-dark hover:text-bengali-red transition-colors duration-200">Home</a>
@@ -43,7 +43,7 @@ const Navbar = () => {
               <Button className="bg-bengali-red hover:bg-bengali-red/90">Donate</Button>
             </Link>
           </div>
-          
+
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button 
@@ -55,13 +55,20 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      
+
+      {/* Optional Dark Overlay */}
+      {isOpen && (
+        <div
+          className="fixed inset-0 bg-black/40 z-[99] animate-fade-in"
+          onClick={toggleMenu}
+        ></div>
+      )}
+
       {/* Mobile Menu */}
       <div className={cn(
-        "md:hidden fixed inset-0 z-[100] bg-white transition-transform duration-300 ease-in-out transform",
-        isOpen ? "translate-x-0" : "translate-x-full"
+        "md:hidden fixed inset-0 z-[100] bg-white transition-all duration-300 ease-in-out transform",
+        isOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
       )}>
-        <div className="absolute inset-0 bg-white/95 backdrop-blur-md"></div>
         <div className="relative z-10 p-4">
           <div className="flex justify-end">
             <button 
