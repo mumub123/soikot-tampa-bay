@@ -25,7 +25,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm">
+    <nav className="sticky top-0 z-[200] bg-white/95 backdrop-blur-md shadow-sm">
       <div className="container mx-auto px-4 md:px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
@@ -66,7 +66,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div className={cn(
-        "md:hidden fixed inset-0 z-[100] bg-white transition-transform duration-300 ease-in-out",
+        "md:hidden fixed inset-0 z-[300] bg-white transition-transform duration-300 ease-in-out",
         isOpen ? "translate-x-0" : "translate-x-full"
       )}>
         <div className="flex flex-col p-4 h-full overflow-y-auto">
