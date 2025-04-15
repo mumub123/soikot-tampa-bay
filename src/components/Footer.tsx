@@ -1,7 +1,89 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Heart } from 'lucide-react';
+import { useToast } from "@/components/ui/use-toast";
 
 const Footer = () => {
+  const { toast } = useToast();
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: ''
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      // Validate email format
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(formData.email)) {
+        toast({
+          variant: "destructive",
+          title: "Invalid Email",
+          description: "Please enter a valid email address.",
+        });
+        return;
+      }
+
+      // Validate required fields
+      if (!formData.firstName.trim() || !formData.lastName.trim()) {
+        toast({
+          variant: "destructive",
+          title: "Missing Information",
+          description: "Please fill in your first and last name.",
+        });
+        return;
+      }
+
+      // Send form data to server API
+      const response = await fetch('http://localhost:3001/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to subscribe');
+      }
+
+      // Show success message
+      toast({
+        title: "Success!",
+        description: "You have been subscribed to our mailing list.",
+      });
+      
+      // Reset form
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: ''
+      });
+    } catch (error) {
+      console.error('Error subscribing:', error);
+      toast({
+        variant: "destructive",
+        title: "Error",
+        description: "Failed to subscribe. Please try again later.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <footer className="bg-bengali-dark text-white">
       <div className="container mx-auto px-4 md:px-6 py-12">
@@ -46,16 +128,46 @@ const Footer = () => {
             <p className="text-gray-300 mb-4">
               Subscribe to our mailing list to stay updated with our events and activities.
             </p>
-            <div className="flex">
-              <input 
-                type="email" 
-                placeholder="Your email" 
-                className="flex-grow px-4 py-2 text-bengali-dark rounded-l focus:outline-none"
-              />
-              <button className="bg-bengali-red hover:bg-bengali-red/90 px-4 py-2 rounded-r transition-colors">
-                Subscribe
-              </button>
-            </div>
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div className="grid grid-cols-2 gap-4">
+                <input 
+                  type="text" 
+                  name="firstName"
+                  placeholder="First Name" 
+                  className="px-4 py-2 text-bengali-dark rounded focus:outline-none"
+                  value={formData.firstName}
+                  onChange={handleInputChange}
+                  required
+                />
+                <input 
+                  type="text" 
+                  name="lastName"
+                  placeholder="Last Name" 
+                  className="px-4 py-2 text-bengali-dark rounded focus:outline-none"
+                  value={formData.lastName}
+                  onChange={handleInputChange}
+                  required
+                />
+              </div>
+              <div className="flex">
+                <input 
+                  type="email" 
+                  name="email"
+                  placeholder="Your email" 
+                  className="flex-grow px-4 py-2 text-bengali-dark rounded-l focus:outline-none"
+                  value={formData.email}
+                  onChange={handleInputChange}
+                  required
+                />
+                <button 
+                  type="submit"
+                  className="bg-bengali-red hover:bg-bengali-red/90 px-4 py-2 rounded-r transition-colors disabled:opacity-50"
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? 'Subscribing...' : 'Subscribe'}
+                </button>
+              </div>
+            </form>
           </div>
         </div>
         
@@ -64,11 +176,11 @@ const Footer = () => {
             Soikot is a 501(c)(3) non-profit organization
           </p>
           
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <span className="text-gray-400 text-sm">Made with</span>
             <Heart className="w-4 h-4 text-bengali-red mx-1" />
             <span className="text-gray-400 text-sm">for the Bengali community</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
