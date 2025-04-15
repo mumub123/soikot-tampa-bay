@@ -61,7 +61,7 @@ const Contact = () => {
       }
 
       // Send form data to server API
-      const response = await fetch(process.env.API_URL+'/api/contact', {
+      const response = await fetch('https://soikot-tampa-bay-backend.onrender.com:3001/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
