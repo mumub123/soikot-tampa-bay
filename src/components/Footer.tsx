@@ -46,7 +46,7 @@ const Footer = () => {
       }
 
       // Send form data to server API
-      const response = await fetch(`${import.meta.env.API_URL}/api/subscribe`, {
+      const response = await fetch(process.env.API_URL+'/api/subscribe', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

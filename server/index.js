@@ -40,8 +40,8 @@ app.post('/api/contact', async (req, res) => {
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: 'Soikot Contact Form <contact@soikot.org>',
-      to: ['anupam.bandyopadhyay@gmail.com'],
+      from: 'Soikot Contact Form <onboarding@resend.dev>',
+      to: ['anusayan@yahoo.com.com'],
       replyTo: email,
       subject: `Contact Form: ${subject}`,
       html: `
@@ -94,7 +94,7 @@ app.post('/api/subscribe', async (req, res) => {
 
     // Send welcome email using Resend
     await resend.emails.send({
-      from: 'Soikot Newsletter <newsletter@soikot.org>',
+      from: 'Soikot Newsletter <onboarding@resend.dev>',
       to: [email],
       subject: 'Welcome to Soikot',
       html: `
