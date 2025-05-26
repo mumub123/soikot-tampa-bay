@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { MapPin, Mail, Phone, Facebook, Instagram, MessageCircle } from 'lucide-react';
@@ -61,7 +62,7 @@ const Contact = () => {
       }
 
       // Send form data to server API
-      const response = await fetch('https://soikot-tampa-bay-backend.onrender.com:3001/api/contact', {
+      const response = await fetch('https://soikot-tampa-bay-backend.onrender.com/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -76,10 +77,11 @@ const Contact = () => {
         throw new Error(data.error || 'Failed to send message');
       }
 
-      // Show success message
+      // Show success message with green toast
       toast({
-        title: "Success!",
-        description: "Your message has been sent successfully.",
+        title: "Thank you!",
+        description: "Your message has been sent successfully to soikotflorida@gmail.com",
+        className: "bg-green-500 text-white border-green-500",
       });
       
       // Reset form
