@@ -21,8 +21,8 @@ const Events = () => {
       image: "/lovable-uploads/Lakshmi.jpeg",
       date: "October 11, 2025",
       time: "5:30 PM - 10:00 PM",
-      location: "Venue TBD",
-      locationLink: "",
+      location: "Land O' Lakes Community Center, 5401 Land O Lakes Blvd, Land O Lakes, FL 34639",
+      locationLink: "https://www.google.com/maps/place/5401+Land+O+Lakes+Blvd,+Land+O+Lakes,+FL+34639",
       description: "Celebrate Lakshmi Puja with us as we worship the goddess of wealth and prosperity, following Bengali traditions and rituals."
     }
   ];
