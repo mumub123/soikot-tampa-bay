@@ -17,15 +17,6 @@ import {
 const AllEvents = () => {
   const allEvents = [
     {
-      name: "Rabindra Jayanti",
-      image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
-      date: "May 3, 2025",
-      time: "5:00 PM - 9:00 PM",
-      location: "Land O' Lakes Heritage Park",
-      locationLink: "https://www.google.com/maps/place/Land+O'+Lakes+Heritage+Park/data=!4m2!3m1!1s0x0:0x9c3fe4d21c61b81c?sa=X&ved=1t:2428&ictx=111",
-      description: "Commemorate the birth anniversary of Rabindranath Tagore with a special cultural program featuring his songs, poems, and plays."
-    },
-    {
       name: "Durga Puja",
       image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png",
       date: "October 3-5, 2025",
@@ -121,13 +112,7 @@ const AllEvents = () => {
                       )}
                     </div>
                     <p className="text-bengali-dark/80 mb-4">{event.description}</p>
-                    {event.name === "Rabindra Jayanti" ? (
-                      <Link to="/events/rabindra-jayanti">
-                        <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">Learn More</Button>
-                      </Link>
-                    ) : (
-                      <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>Coming Soon</Button>
-                    )}
+                    <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>Coming Soon</Button>
                   </CardContent>
                 </Card>
               ))}
