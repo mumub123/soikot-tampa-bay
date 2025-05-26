@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
@@ -7,15 +8,6 @@ import { Link } from 'react-router-dom';
 const Events = () => {
   const events = [
     {
-      name: "Rabindra Jayanti",
-      image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
-      date: "May 3, 2025",
-      time: "5:00 PM - 9:00 PM",
-      location: "Land O' Lakes Heritage Park",
-      locationLink: "https://www.google.com/maps/place/Land+O'+Lakes+Heritage+Park/data=!4m2!3m1!1s0x0:0x9c3fe4d21c61b81c?sa=X&ved=1t:2428&ictx=111",
-      description: "Commemorate the birth anniversary of Rabindranath Tagore with a special cultural program featuring his songs, poems, and plays."
-    },
-    {
       name: "Durga Puja",
       image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png",
       date: "October 3-5, 2025",
@@ -23,6 +15,15 @@ const Events = () => {
       location: "Indian Cultural Center",
       locationLink: "https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D",
       description: "Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts."
+    },
+    {
+      name: "Lakshmi Puja",
+      image: "/lovable-uploads/Lakshmi.jpeg",
+      date: "October 11, 2025",
+      time: "5:30 PM - 10:00 PM",
+      location: "Venue TBD",
+      locationLink: "",
+      description: "Celebrate Lakshmi Puja with us as we worship the goddess of wealth and prosperity, following Bengali traditions and rituals."
     }
   ];
 
@@ -72,13 +73,7 @@ const Events = () => {
                   )}
                 </div>
                 <p className="text-bengali-dark/80 mb-4">{event.description}</p>
-                {event.name === "Rabindra Jayanti" ? (
-                  <Link to="/events/rabindra-jayanti">
-                    <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">Learn More</Button>
-                  </Link>
-                ) : (
-                  <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>Coming Soon</Button>
-                )}
+                <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>Coming Soon</Button>
               </CardContent>
             </Card>
           ))}
