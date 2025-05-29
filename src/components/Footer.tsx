@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Heart } from 'lucide-react';
 import { useToast } from "@/components/ui/use-toast";
@@ -113,7 +112,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
-              <span className="text-2xl font-bold text-bengali-red mr-2">সৈকত</span>
+              <span className="text-2xl font-bold text-bengali-yellow mr-2">সৈকত</span>
               <span className="text-xl font-medium">Soikot</span>
             </div>
             <p className="text-gray-300 mb-4">
@@ -184,7 +183,7 @@ const Footer = () => {
                 />
                 <button 
                   type="submit"
-                  className="bg-bengali-red hover:bg-bengali-red/90 px-4 py-2 rounded-r transition-colors disabled:opacity-50"
+                  className="bg-bengali-yellow hover:bg-bengali-yellow/90 px-4 py-2 rounded-r transition-colors disabled:opacity-50 text-bengali-dark font-medium"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? 'Subscribing...' : 'Subscribe'}
