@@ -46,11 +46,46 @@ const Footer = () => {
         return;
       }
 
-      // For now, just show success message since we removed the backend
-      // In the future, this could be connected to a newsletter service
+      // Add to Mailchimp
+      const mailchimpResponse = await fetch('/api/mailchimp/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: formData.email,
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+        }),
+      });
+
+      if (!mailchimpResponse.ok) {
+        const errorData = await mailchimpResponse.json();
+        throw new Error(errorData.error || 'Failed to add to mailing list');
+      }
+
+      // Send notification email via Formspree
+      const notificationResponse = await fetch('https://formspree.io/f/mblyrrgw', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: 'Soikot Admin',
+          email: 'soikotflorida@gmail.com',
+          subject: 'New Mailing List Subscriber',
+          message: `New subscriber added to mailing list:\n\nName: ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\n\nSubscribed on: ${new Date().toLocaleString()}`
+        }),
+      });
+
+      if (!notificationResponse.ok) {
+        console.warn('Failed to send notification email, but subscriber was added to Mailchimp');
+      }
+
+      // Show success message with green toast
       toast({
         title: "Thank you!",
-        description: "Your subscription request has been received. We'll add you to our mailing list.",
+        description: "You have been successfully added to our mailing list.",
         className: "bg-green-500 text-white border-green-500",
       });
       
@@ -65,7 +100,7 @@ const Footer = () => {
       toast({
         variant: "destructive",
         title: "Error",
-        description: "Failed to subscribe. Please try again later.",
+        description: error instanceof Error ? error.message : "Failed to subscribe. Please try again later.",
       });
     } finally {
       setIsSubmitting(false);
