@@ -64,13 +64,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				bengali: {
-					red: "#D53032",
-					orange: "#FF6B35",
-					yellow: "#FFC15E",
-					blue: "#247BA0",
-					green: "#2E933C",
-					dark: "#333333",
-					light: "#F5F5F5"
+					red: "#1E40AF",        // Changed from #D53032 to dark blue
+					orange: "#3B82F6",     // Changed from #FF6B35 to medium blue  
+					yellow: "#60A5FA",     // Changed from #FFC15E to light blue
+					blue: "#1D4ED8",       // Changed from #247BA0 to darker blue
+					green: "#2563EB",      // Changed from #2E933C to blue
+					dark: "#1E3A8A",       // Changed from #333333 to very dark blue
+					light: "#EFF6FF"       // Changed from #F5F5F5 to very light blue
 				}
 			},
 			borderRadius: {
