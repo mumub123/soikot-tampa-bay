@@ -61,8 +61,8 @@ const Contact = () => {
         return;
       }
 
-      // Send form data to server API
-      const response = await fetch('https://soikot-tampa-bay-backend.onrender.com/api/contact', {
+      // Send form data to Formspree
+      const response = await fetch('https://formspree.io/f/mblyrrgw', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -70,11 +70,8 @@ const Contact = () => {
         body: JSON.stringify(formData),
       });
 
-      const data = await response.json();
-  
-
       if (!response.ok) {
-        throw new Error(data.error || 'Failed to send message');
+        throw new Error('Failed to send message');
       }
 
       // Show success message with green toast

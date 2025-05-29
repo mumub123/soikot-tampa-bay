@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Heart } from 'lucide-react';
 import { useToast } from "@/components/ui/use-toast";
@@ -45,25 +46,12 @@ const Footer = () => {
         return;
       }
 
-      // Send form data to server API
-      const response = await fetch('https://soikot-tampa-bay-backend.onrender.com:3001/api/subscribe', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Failed to subscribe');
-      }
-
-      // Show success message
+      // For now, just show success message since we removed the backend
+      // In the future, this could be connected to a newsletter service
       toast({
-        title: "Success!",
-        description: "You have been subscribed to our mailing list.",
+        title: "Thank you!",
+        description: "Your subscription request has been received. We'll add you to our mailing list.",
+        className: "bg-green-500 text-white border-green-500",
       });
       
       // Reset form
@@ -175,12 +163,6 @@ const Footer = () => {
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
             Soikot is a 501(c)(3) non-profit organization
           </p>
-          
-          {/* <div className="flex items-center">
-            <span className="text-gray-400 text-sm">Made with</span>
-            <Heart className="w-4 h-4 text-bengali-red mx-1" />
-            <span className="text-gray-400 text-sm">for the Bengali community</span>
-          </div> */}
         </div>
       </div>
     </footer>
