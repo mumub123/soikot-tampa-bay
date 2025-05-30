@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -26,18 +27,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-[200] bg-white shadow-sm">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex items-center justify-between">
-          {/* Logo */}
-          <Link to="/" className="flex items-center">
-            <div className="w-32 h-auto">
-              <img 
-                src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
-                alt="Soikot Logo" 
-                className="w-full h-auto"
-              />
-            </div>
-          </Link>
-
+        <div className="flex items-center justify-between py-2">
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-bengali-dark hover:text-bengali-red">Home</a>
@@ -51,7 +41,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden ml-auto">
             <button 
               onClick={toggleMenu} 
               className="text-bengali-dark hover:text-bengali-red focus:outline-none"
@@ -75,13 +65,6 @@ const Navbar = () => {
               </button>
             </div>
             <div className="flex flex-col space-y-4 mt-8">
-              <div className="mx-auto w-40 mb-6">
-                <img 
-                  src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
-                  alt="Soikot Logo" 
-                  className="w-full h-auto"
-                />
-              </div>
               <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('home')}>Home</a>
               <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('about')}>About</a>
               <a href="#events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('events')}>Events</a>
