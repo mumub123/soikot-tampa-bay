@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer = () => {
@@ -9,8 +8,8 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start mb-3">
-              <span className="text-3xl font-bold text-bengali-yellow mr-3">সৈকত</span>
-              <span className="text-xl font-medium">Soikot</span>
+              <span className="text-3xl font-bold text-bengali-yellow mr-3 leading-none">সৈকত</span>
+              <span className="text-3xl font-medium leading-none">Soikot</span>
             </div>
             <p className="text-gray-200 text-sm max-w-md leading-relaxed">
               The Bengali Association of Tampa Bay, promoting and preserving Bengali culture, language, and traditions.
