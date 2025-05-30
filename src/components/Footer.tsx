@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start mb-3">
               <span className="text-2xl font-bold text-bengali-yellow mr-3 leading-none">সৈকত</span>
-              <span className="text-2xl font-medium leading-none">Soikot</span>
+              <span className="text-2xl font-medium leading-none">| Soikot</span>
             </div>
             <p className="text-gray-200 text-sm max-w-md leading-relaxed">
               The Bengali Association of Tampa Bay, promoting and preserving Bengali culture, language, and traditions.
