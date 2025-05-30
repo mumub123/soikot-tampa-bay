@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { MapPin, Mail, Phone, Facebook, Instagram, MessageCircle } from 'lucide-react';
+import { MapPin, Mail, Phone, Facebook, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -145,14 +144,11 @@ const Contact = () => {
                 
                 <h3 className="text-xl font-semibold text-bengali-dark mt-8 mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
-                  <a href="https://www.facebook.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
+                  <a href="https://www.facebook.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full text-white transition-colors duration-300 shadow-lg hover:shadow-xl">
                     <Facebook className="w-5 h-5" />
                   </a>
-                  <a href="https://www.instagram.com/soikotflorida?igsh=OTkyZmRxOGhyN3A3" target="_blank" rel="noopener noreferrer" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
+                  <a href="https://www.instagram.com/soikotflorida?igsh=OTkyZmRxOGhyN3A3" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 p-3 rounded-full text-white transition-all duration-300 shadow-lg hover:shadow-xl">
                     <Instagram className="w-5 h-5" />
-                  </a>
-                  <a href="https://chat.whatsapp.com/FrzJPrGWd36FIRbb177Kcy" target="_blank" rel="noopener noreferrer" className="bg-bengali-red p-2 rounded-full text-white hover:bg-bengali-red/90 transition-colors">
-                    <MessageCircle className="w-5 h-5" />
                   </a>
                 </div>
               </CardContent>
