@@ -147,7 +147,7 @@ const Contact = () => {
                   <a href="https://www.facebook.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full text-white transition-colors duration-300 shadow-lg hover:shadow-xl">
                     <Facebook className="w-5 h-5" />
                   </a>
-                  <a href="https://www.instagram.com/soikotflorida?igsh=OTkyZmRxOGhyN3A3" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 p-3 rounded-full text-white transition-all duration-300 shadow-lg hover:shadow-xl">
+                  <a href="https://www.instagram.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 p-3 rounded-full text-white transition-all duration-300 shadow-lg hover:shadow-xl">
                     <Instagram className="w-5 h-5" />
                   </a>
                 </div>
