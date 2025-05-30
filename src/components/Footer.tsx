@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start mb-3">
-              <span className="text-xl font-bold text-bengali-yellow mr-3 leading-none">সৈকত</span>
+              <span className="text-2xl font-bold text-bengali-yellow mr-3 leading-none font-bengali tracking-wider drop-shadow-lg transform hover:scale-105 transition-transform duration-300" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.3)', fontWeight: '900'}}>সৈকত</span>
               <span className="text-xl font-medium leading-none">| Soikot</span>
             </div>
             <p className="text-gray-200 text-sm max-w-md leading-relaxed">
