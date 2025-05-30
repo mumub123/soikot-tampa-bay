@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { MapPin, Mail, Phone, Facebook, Instagram } from 'lucide-react';
@@ -61,7 +62,7 @@ const Contact = () => {
       }
 
       // Send form data to Formspree
-      const response = await fetch('https://formspree.io/f/mblyrrgw', {
+      const response = await fetch('https://formspree.io/f/xqabzbjj', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
