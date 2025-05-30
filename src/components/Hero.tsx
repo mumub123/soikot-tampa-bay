@@ -16,7 +16,8 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-6 py-16 md:py-24 relative z-10">
         <div className="flex flex-col items-center text-center">
           <h1 className="text-5xl md:text-7xl font-bold">
-            <span className="block text-bengali-red font-bengali">Soikot</span>
+            <span className="block text-bengali-red font-bengali w-full">সৈকত</span>
+            <span className="block text-bengali-red font-bengali w-full">Soikot</span>
             
             <span className="block text-2xl md:text-3xl text-bengali-dark mt-2">Bengali Association of Tampa Bay</span>
           </h1>
