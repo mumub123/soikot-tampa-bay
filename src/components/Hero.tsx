@@ -24,8 +24,8 @@ const Hero = () => {
               <h3 className="text-3xl md:text-4xl font-bold text-bengali-dark mb-8">
                 <span className="text-bengali-red">Durga Puja 2025</span>
               </h3>
-                            <p className="text-lg text-bengali-dark/80 mb-6 max-w-xl mx-auto">
-                Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.
+              <p className="text-lg md:text-xl text-bengali-dark/80 mb-6">
+                  Introducing <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
               </p>
               
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
@@ -81,8 +81,8 @@ const Hero = () => {
               </div>
               
               <div className="text-center space-y-4">
-                <p className="text-lg md:text-xl text-bengali-dark/80 mb-6">
-                  Introducing <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
+                <p className="text-lg text-bengali-dark/80 mb-6 max-w-xl mx-auto">
+                  Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.
                 </p>
                 
                 <a 
