@@ -96,13 +96,7 @@ const Hero = () => {
               </div>
               
               <div className="text-center space-y-2">
-                <a 
-                  href="#" 
-                  className="inline-block text-bengali-red hover:text-bengali-red/80 underline pointer-events-none opacity-60 cursor-not-allowed text-sm"
-                  aria-disabled="true"
-                >
-                  Details coming soon
-                </a>
+                <Button className="bg-bengali-red hover:bg-bengali-red/90" disabled>Coming Soon</Button>
               </div>
             </div>
           </div>
