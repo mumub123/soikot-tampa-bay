@@ -42,6 +42,7 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-bengali-dark hover:text-bengali-red">Home</a>
+            <Link to="/events" className="text-bengali-dark hover:text-bengali-red">Events</Link>
             <a href="#about" className="text-bengali-dark hover:text-bengali-red">About</a>
             <a href="#culture" className="text-bengali-dark hover:text-bengali-red">Culture</a>
             <a href="#contact" className="text-bengali-dark hover:text-bengali-red">Contact</a>
@@ -83,6 +84,7 @@ const Navbar = () => {
                 />
               </div>
               <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('home')}>Home</a>
+              <Link to="/events" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={toggleMenu}>Events</Link>
               <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('about')}>About</a>
               <a href="#culture" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('culture')}>Culture</a>
               <a href="#contact" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('contact')}>Contact</a>
