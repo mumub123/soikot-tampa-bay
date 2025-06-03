@@ -105,7 +105,7 @@ const Contact = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-bengali-dark">Contact <span className="text-bengali-red">Us</span></h2>
-          <div className="w-24 h-1 bg-bengali-red mx-auto mt-4 mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
           <p className="text-bengali-dark/80 max-w-3xl mx-auto">
             Get in touch with us to learn more about our organization, events, and programs.
           </p>

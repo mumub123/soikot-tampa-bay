@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
@@ -31,7 +32,7 @@ const Culture = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-bengali-dark">Bengali <span className="text-bengali-red">Culture</span></h2>
-          <div className="w-24 h-1 bg-bengali-red mx-auto mt-4 mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
           <p className="text-bengali-dark/80 max-w-3xl mx-auto">
             We explore the rich cultural heritage of Bengal, from traditional arts and music to literature and cuisine.
           </p>
