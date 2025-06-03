@@ -51,15 +51,15 @@ const Hero = () => {
                   <div className="space-y-2 text-left">
                     <div className="flex items-center text-bengali-dark/70">
                       <Calendar className="w-4 h-4 mr-2 text-bengali-red" />
-                      <span className="text-sm font-medium">October 3-5, 2025</span>
+                      <span className="text-sm md:text-base font-medium">October 3-5, 2025</span>
                     </div>
                     <div className="flex items-center text-bengali-dark/70">
                       <Clock className="w-4 h-4 mr-2 text-bengali-red" />
-                      <span className="text-sm font-medium">11:00 AM - 10:00 PM</span>
+                      <span className="text-sm md:text-base font-medium">11:00 AM - 10:00 PM</span>
                     </div>
                     <div className="flex items-center text-bengali-dark/70">
                       <MapPin className="w-4 h-4 mr-2 text-bengali-red" />
-                      <span className="text-sm font-medium">Indian Cultural Center</span>
+                      <span className="text-sm md:text-base font-medium">Indian Cultural Center</span>
                       <a 
                         href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D" 
                         target="_blank" 
