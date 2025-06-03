@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
@@ -36,7 +37,7 @@ const Hero = () => {
                 <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <img 
-                    src="/lovable-uploads/e18bfc3e-75e0-4611-ba42-cb68164d6c4e.png" 
+                    src="/lovable-uploads/1815910f-4a65-465a-977c-b7adf6a978b0.png" 
                     alt="Maa Durga" 
                     className="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
                   />
