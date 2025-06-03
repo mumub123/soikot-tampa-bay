@@ -30,8 +30,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="text-xl md:text-2xl font-bold text-bengali-red font-bengali">
-              সৈকত | Soikot
+            <div className="w-24 h-auto">
+              <img 
+                src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
+                alt="Soikot Logo" 
+                className="w-full h-auto"
+              />
             </div>
           </Link>
 
@@ -72,10 +76,12 @@ const Navbar = () => {
               </button>
             </div>
             <div className="flex flex-col space-y-4 mt-8">
-              <div className="mx-auto mb-6">
-                <div className="text-xl font-bold text-bengali-red font-bengali">
-                  সৈকত | Soikot
-                </div>
+              <div className="mx-auto w-32 mb-6">
+                <img 
+                  src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
+                  alt="Soikot Logo" 
+                  className="w-full h-auto"
+                />
               </div>
               <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('home')}>Home</a>
               <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('about')}>About</a>
