@@ -21,10 +21,8 @@ const Hero = () => {
           {/* Featured Event Section */}
           <div className="my-12 w-full max-w-5xl">
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-8 md:p-12 mb-8 border border-white/20">
-              <h3 className="text-3xl md:text-4xl font-bold text-bengali-dark mb-8">
-                <span className="text-bengali-red">Durga Puja 2025</span>
-              </h3>
-              <p className="text-lg md:text-xl text-bengali-dark/80 mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-bengali-dark">Durga Puja 2025 <span className="text-bengali-red">Us</span></h2>
+              <p className="text-bengali-dark/80 max-w-3xl mx-auto">
                   Introducing <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
               </p>
               
