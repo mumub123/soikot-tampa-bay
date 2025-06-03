@@ -2,15 +2,9 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
-  const scrollToEvents = () => {
-    const eventsSection = document.getElementById('events');
-    if (eventsSection) {
-      eventsSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <section id="home" className="relative bg-gradient-to-r from-bengali-red/10 to-bengali-orange/10 overflow-hidden">
       <div className="absolute inset-0 bg-bengali-pattern opacity-10"></div>
@@ -105,12 +99,11 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button 
-              className="bg-bengali-red hover:bg-bengali-red/90 text-white px-8 py-3 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
-              onClick={scrollToEvents}
-            >
-              Upcoming Events
-            </Button>
+            <Link to="/events">
+              <Button className="bg-bengali-red hover:bg-bengali-red/90 text-white px-8 py-3 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                View All Events
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
