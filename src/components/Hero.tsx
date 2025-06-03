@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="my-12 w-full max-w-5xl">
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-8 md:p-12 mb-8 border border-white/20">
               <h2 className="text-3xl md:text-4xl font-bold text-bengali-dark mb-8">
-                <span className="text-bengali-red">In this year's Durga Puja...</span>
+                <span className="text-bengali-red">Durga Puja 2025</span>
               </h2>
               
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
@@ -61,7 +61,7 @@ const Hero = () => {
               
               <div className="text-center space-y-4">
                 <p className="text-lg md:text-xl text-bengali-dark/80 mb-6">
-                  ...introducing <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
+                  Introducing <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
                 </p>
                 
                 <a 
@@ -69,7 +69,7 @@ const Hero = () => {
                   className="inline-block text-bengali-red hover:text-bengali-red/80 underline pointer-events-none opacity-60 cursor-not-allowed text-lg"
                   aria-disabled="true"
                 >
-                  Click here for more details
+                  Details coming soon
                 </a>
               </div>
             </div>
