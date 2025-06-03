@@ -60,7 +60,7 @@ const Hero = () => {
                 className="text-bengali-red hover:text-bengali-red/80 underline pointer-events-none opacity-60 cursor-not-allowed"
                 aria-disabled="true"
               >
-                Click here for more details
+                Details coming soon
               </a>
             </div>
           </div>
