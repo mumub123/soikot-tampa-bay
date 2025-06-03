@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="my-12 w-full max-w-4xl">
             <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-6 md:p-8 mb-8">
               <h2 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-6">
-                Celebrating <span className="text-bengali-red">Durga Puja 2025</span>
+                <span className="text-bengali-red">Durga Puja 2025</span>
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
