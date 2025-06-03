@@ -25,49 +25,62 @@ const Hero = () => {
           </p>
 
           {/* Featured Event Section */}
-          <div className="my-12 w-full max-w-4xl">
-            <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-6 md:p-8 mb-8">
-              <h2 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-6">
+          <div className="my-12 w-full max-w-5xl">
+            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-8 md:p-12 mb-8 border border-white/20">
+              <h2 className="text-3xl md:text-4xl font-bold text-bengali-dark mb-8">
                 <span className="text-bengali-red">Durga Puja 2025</span>
               </h2>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
                 {/* Durga Image */}
-                <div className="relative overflow-hidden rounded-lg shadow-md">
+                <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <img 
-                    src="/lovable-uploads/fdef4dcd-a5aa-4946-a601-78714e4fcaee.png" 
+                    src="/lovable-uploads/e18bfc3e-75e0-4611-ba42-cb68164d6c4e.png" 
                     alt="Maa Durga" 
-                    className="w-full h-64 object-cover object-center"
+                    className="w-full h-80 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
                   />
+                  <div className="absolute bottom-4 left-4 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <p className="text-white font-semibold text-lg drop-shadow-lg">Maa Durga</p>
+                  </div>
                 </div>
                 
                 {/* Madhubanti Bagchi Image */}
-                <div className="relative overflow-hidden rounded-lg shadow-md">
+                <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <img 
-                    src="/lovable-uploads/78d61cf1-6de9-48cf-b963-7ac07fc30f5b.png" 
+                    src="/lovable-uploads/d48ff066-dba2-4d95-ae2f-152849ea657c.png" 
                     alt="Madhubanti Bagchi" 
-                    className="w-full h-64 object-cover object-center"
+                    className="w-full h-80 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
                   />
+                  <div className="absolute bottom-4 left-4 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <p className="text-white font-semibold text-lg drop-shadow-lg">Madhubanti Bagchi</p>
+                  </div>
                 </div>
               </div>
               
-              <p className="text-lg text-bengali-dark/80 mb-4">
-                Enjoy a spectacular musical evening with <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
-              </p>
-              
-              <a 
-                href="#" 
-                className="text-bengali-red hover:text-bengali-red/80 underline pointer-events-none opacity-60 cursor-not-allowed"
-                aria-disabled="true"
-              >
-                Details coming soon
-              </a>
+              <div className="text-center space-y-4">
+                <p className="text-xl md:text-2xl text-bengali-dark/90 font-medium">
+                  Come and join us for <span className="font-bold text-bengali-red">Durga Puja 2025</span>
+                </p>
+                <p className="text-lg md:text-xl text-bengali-dark/80 mb-6">
+                  Enjoy a spectacular musical evening with <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
+                </p>
+                
+                <a 
+                  href="#" 
+                  className="inline-block text-bengali-red hover:text-bengali-red/80 underline pointer-events-none opacity-60 cursor-not-allowed text-lg"
+                  aria-disabled="true"
+                >
+                  Click here for more details
+                </a>
+              </div>
             </div>
           </div>
 
           <div className="flex flex-wrap gap-4 justify-center">
             <Button 
-              className="bg-bengali-red hover:bg-bengali-red/90 text-white"
+              className="bg-bengali-red hover:bg-bengali-red/90 text-white px-8 py-3 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               onClick={scrollToEvents}
             >
               Upcoming Events
