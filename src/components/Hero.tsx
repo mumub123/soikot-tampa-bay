@@ -49,7 +49,7 @@ const Hero = () => {
                 <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <img 
-                    src="/lovable-uploads/d48ff066-dba2-4d95-ae2f-152849ea657c.png" 
+                    src="/lovable-uploads/83bffe0a-775e-4523-8ae5-38a746086936.png" 
                     alt="Madhubanti Bagchi" 
                     className="w-full h-80 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
                   />
