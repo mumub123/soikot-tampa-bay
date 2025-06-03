@@ -42,7 +42,7 @@ const Hero = () => {
                       className="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
                     />
                     <div className="absolute bottom-4 left-4 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <p className="text-white font-semibold text-base drop-shadow-lg">Durga Puja</p>
+                      <p className="text-white font-semibold text-base drop-shadow-lg">Maa Durga</p>
                     </div>
                   </div>
                   
@@ -78,7 +78,7 @@ const Hero = () => {
                     <img 
                       src="/lovable-uploads/00670309-0561-4168-b033-7e0f79ffbc59.png" 
                       alt="Madhubanti Bagchi" 
-                      className="w-full h-64 object-cover object-top transform group-hover:scale-95 transition-transform duration-300"
+                      className="w-full h-64 object-cover object-top transform group-hover:scale-105 transition-transform duration-300"
                     />
                     <div className="absolute bottom-4 left-4 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <p className="text-white font-semibold text-base drop-shadow-lg">Madhubanti Bagchi</p>
