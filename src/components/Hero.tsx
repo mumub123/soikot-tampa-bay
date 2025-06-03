@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
 
 const Hero = () => {
   const scrollToEvents = () => {
@@ -58,6 +59,34 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Event Details */}
+              <div className="space-y-4 mb-6">
+                <div className="flex items-center justify-center text-bengali-dark/70">
+                  <Calendar className="w-5 h-5 mr-2 text-bengali-red" />
+                  <span className="text-lg font-medium">October 3-5, 2025</span>
+                </div>
+                <div className="flex items-center justify-center text-bengali-dark/70">
+                  <Clock className="w-5 h-5 mr-2 text-bengali-red" />
+                  <span className="text-lg font-medium">11:00 AM - 10:00 PM</span>
+                </div>
+                <div className="flex items-center justify-center text-bengali-dark/70">
+                  <MapPin className="w-5 h-5 mr-2 text-bengali-red" />
+                  <span className="text-lg font-medium">Indian Cultural Center</span>
+                  <a 
+                    href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                </div>
+              </div>
+
+              <p className="text-lg text-bengali-dark/80 mb-6 max-w-3xl mx-auto">
+                Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.
+              </p>
               
               <div className="text-center space-y-4">
                 <p className="text-lg md:text-xl text-bengali-dark/80 mb-6">
