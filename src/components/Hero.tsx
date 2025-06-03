@@ -54,6 +54,14 @@ const Hero = () => {
               <p className="text-lg text-bengali-dark/80 mb-4">
                 Enjoy a spectacular musical evening with <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
               </p>
+              
+              <a 
+                href="#" 
+                className="text-bengali-red hover:text-bengali-red/80 underline pointer-events-none opacity-60 cursor-not-allowed"
+                aria-disabled="true"
+              >
+                Click here for more details
+              </a>
             </div>
           </div>
 
