@@ -89,7 +89,7 @@ const Hero = () => {
                   {/* Introduction text under Madhubanti's photo */}
                   <div className="text-center">
                     <p className="text-sm md:text-base text-bengali-dark/80">
-                      Introducing <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
+                      Don't miss the musical extravaganza with <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span> on Sunday, October 5
                     </p>
                   </div>
                 </div>
