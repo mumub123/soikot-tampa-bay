@@ -89,7 +89,7 @@ const Hero = () => {
                   {/* Introduction text under Madhubanti's photo */}
                   <div className="text-left">
                     <p className="text-sm md:text-base text-bengali-dark/80">
-                      Don't miss the musical extravaganza with <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>  on Sunday, October 5 — a soulful evening that promises to uplift your spirit and celebrate the joy of Durga Puja!
+                      Don't miss the musical extravaganza with <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span> on Sunday, October 5 — a soulful evening that promises to uplift your spirit and celebrate the joy of Durga Puja!
                     </p>
                   </div>
                 </div>
