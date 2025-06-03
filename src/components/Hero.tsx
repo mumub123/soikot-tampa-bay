@@ -52,7 +52,7 @@ const Hero = () => {
               </div>
               
               <p className="text-lg text-bengali-dark/80 mb-4">
-                Enjoy a spectacular musical evening with Madhubanti Bagchi<span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
+                Enjoy a spectacular musical evening with <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
               </p>
             </div>
           </div>
