@@ -23,6 +23,40 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-bengali-dark/80 my-8 max-w-2xl mx-auto">
             Celebrating and preserving Bengali culture, language, and traditions through community events, education, and humanitarian efforts.
           </p>
+
+          {/* Featured Event Section */}
+          <div className="my-12 w-full max-w-4xl">
+            <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-6 md:p-8 mb-8">
+              <h2 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-6">
+                Join us for <span className="text-bengali-red">Durga Puja 2025</span>
+              </h2>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                {/* Durga Image */}
+                <div className="relative overflow-hidden rounded-lg shadow-md">
+                  <img 
+                    src="/lovable-uploads/fdef4dcd-a5aa-4946-a601-78714e4fcaee.png" 
+                    alt="Maa Durga" 
+                    className="w-full h-64 object-cover object-center"
+                  />
+                </div>
+                
+                {/* Madhubanti Bagchi Image */}
+                <div className="relative overflow-hidden rounded-lg shadow-md">
+                  <img 
+                    src="/lovable-uploads/78d61cf1-6de9-48cf-b963-7ac07fc30f5b.png" 
+                    alt="Madhubanti Bagchi" 
+                    className="w-full h-64 object-cover object-center"
+                  />
+                </div>
+              </div>
+              
+              <p className="text-lg text-bengali-dark/80 mb-4">
+                Come and join us for Durga Puja 2025 and attend the musical extravaganza with <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
+              </p>
+            </div>
+          </div>
+
           <div className="flex flex-wrap gap-4 justify-center">
             <Button 
               className="bg-bengali-red hover:bg-bengali-red/90 text-white"
