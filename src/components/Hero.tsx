@@ -48,16 +48,16 @@ const Hero = () => {
                   </div>
                   
                   {/* Event Details under Durga photo */}
-                  <div className="space-y-2 text-center">
-                    <div className="flex items-center justify-center text-bengali-dark/70">
+                  <div className="space-y-2 text-left">
+                    <div className="flex items-center text-bengali-dark/70">
                       <Calendar className="w-4 h-4 mr-2 text-bengali-red" />
                       <span className="text-sm font-medium">October 3-5, 2025</span>
                     </div>
-                    <div className="flex items-center justify-center text-bengali-dark/70">
+                    <div className="flex items-center text-bengali-dark/70">
                       <Clock className="w-4 h-4 mr-2 text-bengali-red" />
                       <span className="text-sm font-medium">11:00 AM - 10:00 PM</span>
                     </div>
-                    <div className="flex items-center justify-center text-bengali-dark/70">
+                    <div className="flex items-center text-bengali-dark/70">
                       <MapPin className="w-4 h-4 mr-2 text-bengali-red" />
                       <span className="text-sm font-medium">Indian Cultural Center</span>
                       <a 
