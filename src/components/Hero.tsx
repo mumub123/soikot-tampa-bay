@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
@@ -24,7 +23,7 @@ const Hero = () => {
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-4 md:p-6 mb-4 border border-white/20">
               <div className="text-center mb-4">
                 <h3 className="text-3xl md:text-4xl font-bold text-bengali-dark mb-2">
-                  <span className="text-bengali-red">Durga Puja 2025</span>
+                  <span className="bg-gradient-to-r from-blue-900 to-sky-400 bg-clip-text text-transparent">Durga Puja 2025</span>
                 </h3>
                 <div className="w-24 h-1 bg-bengali-red mx-auto mb-4"></div>
               </div>
