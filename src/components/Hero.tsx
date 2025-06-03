@@ -28,7 +28,7 @@ const Hero = () => {
                 </h3>
                 <div className="w-24 h-1 bg-bengali-red mx-auto mb-4"></div>
               </div>
-              <p className="text-sm text-bengali-dark/80 mb-3 max-w-xl mx-auto">
+              <p className="text-sm md:text-base text-bengali-dark/80 mb-3 max-w-xl mx-auto">
                 Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.
               </p>
               
