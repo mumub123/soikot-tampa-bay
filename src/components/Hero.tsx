@@ -33,62 +33,69 @@ const Hero = () => {
               </p>
               
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
-                {/* Durga Image */}
-                <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <img 
-                    src="/lovable-uploads/1815910f-4a65-465a-977c-b7adf6a978b0.png" 
-                    alt="Maa Durga" 
-                    className="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute bottom-4 left-4 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <p className="text-white font-semibold text-base drop-shadow-lg">Maa Durga</p>
+                {/* Durga Image with Event Details */}
+                <div className="space-y-3">
+                  <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <img 
+                      src="/lovable-uploads/1815910f-4a65-465a-977c-b7adf6a978b0.png" 
+                      alt="Maa Durga" 
+                      className="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute bottom-4 left-4 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <p className="text-white font-semibold text-base drop-shadow-lg">Maa Durga</p>
+                    </div>
+                  </div>
+                  
+                  {/* Event Details under Durga photo */}
+                  <div className="space-y-2 text-center">
+                    <div className="flex items-center justify-center text-bengali-dark/70">
+                      <Calendar className="w-4 h-4 mr-2 text-bengali-red" />
+                      <span className="text-sm font-medium">October 3-5, 2025</span>
+                    </div>
+                    <div className="flex items-center justify-center text-bengali-dark/70">
+                      <Clock className="w-4 h-4 mr-2 text-bengali-red" />
+                      <span className="text-sm font-medium">11:00 AM - 10:00 PM</span>
+                    </div>
+                    <div className="flex items-center justify-center text-bengali-dark/70">
+                      <MapPin className="w-4 h-4 mr-2 text-bengali-red" />
+                      <span className="text-sm font-medium">Indian Cultural Center</span>
+                      <a 
+                        href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
+                      >
+                        <ExternalLink className="w-3 h-3" />
+                      </a>
+                    </div>
                   </div>
                 </div>
                 
-                {/* Madhubanti Bagchi Image */}
-                <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <img 
-                    src="/lovable-uploads/00670309-0561-4168-b033-7e0f79ffbc59.png" 
-                    alt="Madhubanti Bagchi" 
-                    className="w-full h-64 object-cover object-top transform group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute bottom-4 left-4 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <p className="text-white font-semibold text-base drop-shadow-lg">Madhubanti Bagchi</p>
+                {/* Madhubanti Bagchi Image with Introduction */}
+                <div className="space-y-3">
+                  <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <img 
+                      src="/lovable-uploads/00670309-0561-4168-b033-7e0f79ffbc59.png" 
+                      alt="Madhubanti Bagchi" 
+                      className="w-full h-64 object-cover object-top transform group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute bottom-4 left-4 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <p className="text-white font-semibold text-base drop-shadow-lg">Madhubanti Bagchi</p>
+                    </div>
                   </div>
-                </div>
-              </div>
-
-              {/* Event Details */}
-              <div className="space-y-2 mb-3">
-                <div className="flex items-center justify-center text-bengali-dark/70">
-                  <Calendar className="w-4 h-4 mr-2 text-bengali-red" />
-                  <span className="text-sm font-medium">October 3-5, 2025</span>
-                </div>
-                <div className="flex items-center justify-center text-bengali-dark/70">
-                  <Clock className="w-4 h-4 mr-2 text-bengali-red" />
-                  <span className="text-sm font-medium">11:00 AM - 10:00 PM</span>
-                </div>
-                <div className="flex items-center justify-center text-bengali-dark/70">
-                  <MapPin className="w-4 h-4 mr-2 text-bengali-red" />
-                  <span className="text-sm font-medium">Indian Cultural Center</span>
-                  <a 
-                    href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
-                  >
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
+                  
+                  {/* Introduction text under Madhubanti's photo */}
+                  <div className="text-center">
+                    <p className="text-sm md:text-base text-bengali-dark/80">
+                      Introducing <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
+                    </p>
+                  </div>
                 </div>
               </div>
               
               <div className="text-center space-y-2">
-                <p className="text-sm md:text-base text-bengali-dark/80 mb-3">
-                  Introducing <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
-                </p>
-                
                 <a 
                   href="#" 
                   className="inline-block text-bengali-red hover:text-bengali-red/80 underline pointer-events-none opacity-60 cursor-not-allowed text-sm"
