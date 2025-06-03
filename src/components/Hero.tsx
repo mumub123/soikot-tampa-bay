@@ -87,16 +87,16 @@ const Hero = () => {
                   </div>
                   
                   {/* Introduction text under Madhubanti's photo */}
-                  <div className="text-center">
+                  <div className="text-left">
                     <p className="text-sm md:text-base text-bengali-dark/80">
-                      Don't miss the musical extravaganza with <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span> on Sunday, October 5
+                      Don't miss the musical extravaganza with <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>  on Sunday, October 5 — a soulful evening that promises to uplift your spirit and celebrate the joy of Durga Puja!
                     </p>
                   </div>
                 </div>
               </div>
               
               <div className="text-center space-y-2">
-                <Button className="bg-bengali-red hover:bg-bengali-red/90" disabled>Coming Soon</Button>
+                <Button className="bg-bengali-red hover:bg-bengali-red/90" disabled>Details Coming Soon</Button>
               </div>
             </div>
           </div>
