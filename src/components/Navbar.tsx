@@ -43,7 +43,6 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-bengali-dark hover:text-bengali-red">Home</a>
             <a href="#about" className="text-bengali-dark hover:text-bengali-red">About</a>
-            <a href="#home" className="text-bengali-dark hover:text-bengali-red">Upcoming Event</a>
             <a href="#culture" className="text-bengali-dark hover:text-bengali-red">Culture</a>
             <a href="#contact" className="text-bengali-dark hover:text-bengali-red">Contact</a>
             <Link to="/donate">
@@ -85,7 +84,6 @@ const Navbar = () => {
               </div>
               <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('home')}>Home</a>
               <a href="#about" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('about')}>About</a>
-              <a href="#home" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('home')}>Upcoming Event</a>
               <a href="#culture" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('culture')}>Culture</a>
               <a href="#contact" className="text-bengali-dark hover:text-bengali-red text-lg py-2 border-b" onClick={() => handleHashLink('contact')}>Contact</a>
               <Link to="/donate" onClick={toggleMenu}>
