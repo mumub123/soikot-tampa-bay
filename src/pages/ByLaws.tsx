@@ -25,7 +25,7 @@ const ByLaws = () => {
                 <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark mb-2"><span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">By-Laws</span></h1>
                 <h5 className="text-3xl md:text-5xl font-bold text-bengali-dark mb-2">of</h5>
                 <h2 className="text-2xl md:text-4xl font-bold text-bengali-red">Soikot – Bengali Association of Greater Tampa, Inc.</h2>
-                <div className="w-32 h-1 bg-bengali-red mx-auto mt-6"></div>
+                <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
               </div>
 
               <div className="bg-white rounded-xl shadow-lg p-8 mb-8 border-l-4 border-bengali-red">
