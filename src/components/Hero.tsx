@@ -49,7 +49,7 @@ const Hero = () => {
                 <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <img 
-                    src="/lovable-uploads/83bffe0a-775e-4523-8ae5-38a746086936.png" 
+                    src="/lovable-uploads/00670309-0561-4168-b033-7e0f79ffbc59.png" 
                     alt="Madhubanti Bagchi" 
                     className="w-full h-80 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
                   />
@@ -61,7 +61,7 @@ const Hero = () => {
               
               <div className="text-center space-y-4">
                 <p className="text-lg md:text-xl text-bengali-dark/80 mb-6">
-                  Introducing <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
+                  Enjoy a spectacular musical evening with <span className="font-semibold text-bengali-red">Madhubanti Bagchi</span>
                 </p>
                 
                 <a 
@@ -69,7 +69,7 @@ const Hero = () => {
                   className="inline-block text-bengali-red hover:text-bengali-red/80 underline pointer-events-none opacity-60 cursor-not-allowed text-lg"
                   aria-disabled="true"
                 >
-                  Details coming soon
+                  Click here for more details
                 </a>
               </div>
             </div>
