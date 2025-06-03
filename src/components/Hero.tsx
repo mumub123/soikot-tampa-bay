@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
@@ -100,7 +99,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap gap-4 justify-center">
             <Link to="/events">
-              <Button className="bg-bengali-red hover:bg-bengali-red/90 text-white px-8 py-3 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+              <Button className="bg-white hover:bg-gray-50 text-bengali-red border border-bengali-red px-8 py-3 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-light">
                 View All Events
               </Button>
             </Link>
