@@ -10,10 +10,10 @@ const Hero = () => {
       <div className="absolute inset-0 bg-bengali-pattern opacity-10"></div>
       <div className="container mx-auto px-4 md:px-6 py-8 md:py-12 relative z-10">
         <div className="flex flex-col items-center text-center">
-          <h1 className="text-4xl md:text-5xl font-bold">
+          <h1 className="text-5xl md:text-6xl font-bold">
             <span className="block text-bengali-red font-bengali">Soikot</span>
             
-            <span className="block text-xl md:text-2xl text-bengali-dark mt-2">Bengali Association of Tampa Bay</span>
+            <span className="block text-2xl md:text-3xl text-bengali-dark mt-2">Bengali Association of Tampa Bay</span>
           </h1>
           <p className="text-sm md:text-base text-bengali-dark/80 my-4 max-w-2xl mx-auto">
             Celebrating and preserving Bengali culture, language, and traditions through community events, education, and humanitarian efforts.
