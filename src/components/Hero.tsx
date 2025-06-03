@@ -22,9 +22,12 @@ const Hero = () => {
           {/* Featured Event Section */}
           <div className="my-6 w-full max-w-5xl">
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-4 md:p-6 mb-4 border border-white/20">
-              <h3 className="text-xl md:text-2xl font-bold text-bengali-dark mb-4">
-                <span className="text-bengali-red">Durga Puja 2025</span>
-              </h3>
+              <div className="text-center mb-4">
+                <h3 className="text-3xl md:text-4xl font-bold text-bengali-dark mb-2">
+                  <span className="text-bengali-red">Durga Puja 2025</span>
+                </h3>
+                <div className="w-24 h-1 bg-bengali-red mx-auto mb-4"></div>
+              </div>
               <p className="text-sm text-bengali-dark/80 mb-3 max-w-xl mx-auto">
                 Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.
               </p>
