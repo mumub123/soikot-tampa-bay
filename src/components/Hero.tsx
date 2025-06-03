@@ -39,7 +39,7 @@ const Hero = () => {
                   <img 
                     src="/lovable-uploads/e18bfc3e-75e0-4611-ba42-cb68164d6c4e.png" 
                     alt="Maa Durga" 
-                    className="w-full h-64 object-contain transform group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute bottom-4 left-4 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <p className="text-white font-semibold text-base drop-shadow-lg">Maa Durga</p>
