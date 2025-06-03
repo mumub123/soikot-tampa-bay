@@ -15,7 +15,7 @@ const Sponsors = () => {
         "Nandini & Basudeb De",
         "Prasad Akikatla (Ruisoft)",
         "Rikhia & Arindam Chakraborty",
-        "Sarbani & Aniruddha Sarbani Guha Sarkar",
+        "Sarbani & Aniruddha Guha Sarkar",
         "Saswati & Subhadip Chatterjee",
         "Sulekha & Rajkumar Natarajan"
       ]
@@ -57,8 +57,7 @@ const Sponsors = () => {
         "Jhuma Nath & Anindya Datta",
         "Kalit & Surajit Roy",
         "Keya & Argha Mukherjee",
-        "Koruna Dutt Pathak & Sunit Pathak",
-        "Lajawab - Cater4U Hospitality LLC",
+        "Koruna Dutta Pathak & Sunit Pathak",
         "Mahasweta & Indrajit Mukherjee",
         "Mahuya Pal & Ambar Basu",
         "Moumita Bhattacharjee & Manjit Chakraborty",
@@ -66,10 +65,10 @@ const Sponsors = () => {
         "Nishani & Nabin Das",
         "Pallavi Choudhury & Abhijit Talukdar",
         "Paromita & Avik Ganguly",
-        "Payel Dutta Das & Prabir Das",
+        "Payel Dutta & Prabir Das",
         "Peu Dutta & Niraj Mishra",
         "Pragyamita & Debapriya Kundu",
-        "Sandyasree & Gautam Bose",
+        "Sandhyasree & Gautam Bose",
         "Sarmishta & Sambit Banerjee",
         "Seema & Santosh Verma",
         "Sharmistha & Arabinda Banerjee",
@@ -78,9 +77,10 @@ const Sponsors = () => {
         "Sohini Mukherjee & Neil Chakravarty",
         "Sonia Mukherjee Chakraborty & Suman Chakraborty",
         "Sujata Pal Chowdhury & Arijit Chakraborty",
-        "Susmita & Parikshit Nandy",
+        "Susmita & Parikkhit Nandy",
         "Susmita & Sutap Chatterjee",
-        "Taniya & Anindya Bhowmick"
+        "Taniya & Anindya Bhowmick",
+        "Lajawab - Cater4U Hospitality LLC",
       ]
     },
     {
