@@ -35,7 +35,7 @@ const About = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
           <p className="text-bengali-dark/80 max-w-3xl mx-auto">
-            Soikot is the Bengali Association of Tampa Bay area, dedicated to preserving and promoting Bengali culture, language, and traditions.
+            Soikot is the Bengali Association of the Tampa Bay area, proudly dedicated to preserving and promoting the rich culture, language, and traditions of Bengal. Through cultural events, and community gatherings, we strive to foster a deeper connection to our heritage and pass it on to future generations.
           </p>
         </div>
         
