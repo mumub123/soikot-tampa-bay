@@ -35,7 +35,7 @@ const Culture = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
           <p className="text-bengali-dark/80 max-w-3xl mx-auto">
-            We explore the rich cultural heritage of Bengal, from traditional arts and music to literature and cuisine.
+            Rooted in community and driven by passion, we take pride in preserving and celebrating the rich heritage of Bengali culture — from its artistic expressions to its musical, literary, and culinary legacy.
           </p>
         </div>
         
