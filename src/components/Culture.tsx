@@ -7,22 +7,22 @@ const Culture = () => {
     {
       image: "/lovable-uploads/8ac16baf-a424-4e32-84a2-d851678b3db7.png",
       title: "Traditional Arts",
-      description: "Bengali culture is known for its rich artistic traditions, including alpana (floor paintings), kantha embroidery, and clay pottery."
+      description: "Bengali culture shines through its intricate alpana (floor art), kantha embroidery, and beautifully crafted clay pottery — each telling a story of tradition and creativity."
     },
     {
       image: "/lovable-uploads/dff634a3-b92c-463c-8fc5-c77e27734cd6.png",
       title: "Music & Dance",
-      description: "Bengali music encompasses various forms including Rabindra Sangeet, Nazrul Geeti, and folk traditions like Baul, complemented by classical dance forms."
+      description: "From Rabindra Sangeet and Nazrul Geeti to Baul folk songs, Bengali music resonates with depth and emotion — often brought to life through graceful folks and classical dances."
     },
     {
       image: "/lovable-uploads/d5b139dc-295e-438f-b0b5-2dd2f6ec6881.png",
       title: "Literature",
-      description: "From Nobel laureate Rabindranath Tagore to modern authors, Bengali literature has a distinguished history of poetry, novels, and short stories."
+      description: "Bengali literature, shaped by legends like Rabindranath Tagore, is rich with poetry, compelling novels, and evocative short stories that have stood the test of time."
     },
     {
       image: "/lovable-uploads/3904dac5-b307-43cc-bbc0-272a5903016b.png",
       title: "Cuisine",
-      description: "Bengali cuisine is known for its subtle flavors, emphasis on fish, extensive use of spices, and famous sweets like rasgulla and sandesh."
+      description: "Bengali cuisine delights with its subtle flavors, love for fish, vibrant spices, and world-renowned sweets like rasgulla and sandesh."
     }
   ];
 
