@@ -9,27 +9,27 @@ import { Button } from '@/components/ui/button';
 const SponsorshipRates = () => {
   const sponsorshipLevels = [
     {
-      title: "Grand Sponsorships",
+      title: "Grand Sponsorship",
       amount: "$3000 and above",
       benefits: "Grand Sponsors are eligible to attend Durga Pujo and all events in 2024 for up to four adults and four children. Attendance for all future Society events up to September 1st, 2025 is free for them."
     },
     {
-      title: "Platinum Sponsorships",
+      title: "Platinum Sponsorship",
       amount: "$2000 and above",
       benefits: "Includes the same benefits as Grand Sponsorship"
     },
     {
-      title: "Diamond Sponsorships",
+      title: "Diamond Sponsorship",
       amount: "$1500 and above",
       benefits: "Include the same benefits as Grand and Platinum Sponsorship."
     },
     {
-      title: "Gold Sponsorships",
+      title: "Gold Sponsorship",
       amount: "$1000 and above",
       benefits: "Includes attendance to Durga Pujo 2024 and all SOIKOT events throughout the year for up to four adults and four children. You will also receive complimentary access to all SOIKOT events until May 31st, 2025."
     },
     {
-      title: "Silver Sponsorships",
+      title: "Silver Sponsorship",
       amount: "$650",
       benefits: "Silver Sponsors are eligible to attend the Durga Pujo and all event till 31st December 2024 for up to two adults and two children."
     }
