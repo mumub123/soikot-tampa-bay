@@ -74,15 +74,10 @@ const SponsorshipRates = () => {
               ))}
             </div>
 
-            <div className="mt-12 text-center">
-              <Link to="/sponsors">
-                <Button className="bg-bengali-red hover:bg-bengali-red/90">
-                  Make a Donation
-                </Button>
-              </Link>
+            <div className="mt-12 text-center" >
               <Link to="/donate">
                 <Button className="bg-bengali-red hover:bg-bengali-red/90">
-                  View Current Sponsors
+                  Make a Donation
                 </Button>
               </Link>
             </div>
