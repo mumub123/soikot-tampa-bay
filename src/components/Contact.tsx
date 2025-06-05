@@ -108,7 +108,7 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
           <p className="text-bengali-dark/80 max-w-3xl mx-auto">
-            Get in touch with us to learn more about our organization, events, and programs.
+            We’d love to hear from you! Reach out to learn more about our organization, events, and community programs.
           </p>
         </div>
         
