@@ -26,7 +26,7 @@ const SponsorshipRates = () => {
     {
       title: "Gold Sponsorship",
       amount: "$1000 and above",
-      benefits: "Includes attendance to Durga Pujo 2024 and all SOIKOT events throughout the year for up to four adults and four children. You will also receive complimentary access to all SOIKOT events until May 31st, 2025."
+      benefits: "Includes attendance to Durga Pujo 2024 and all Soikot events throughout the year for up to four adults and four children. You will also receive complimentary access to all Soikot events until May 31st, 2025."
     },
     {
       title: "Silver Sponsorship",
