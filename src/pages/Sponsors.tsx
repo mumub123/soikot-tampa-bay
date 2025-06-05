@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
 const Sponsors = () => {
   const sponsorTiers = [
@@ -171,6 +172,14 @@ const Sponsors = () => {
                 </div>
               ))}
             </div>
+
+            <div className="mt-12 text-center">
+              <Link to="/sponsorship-rates">
+                <Button className="bg-bengali-red hover:bg-bengali-red/90">
+                  Become a Sponsor
+                </Button>
+              </Link>
+            </div>
           </div>
         </section>
       </main>
@@ -181,4 +190,4 @@ const Sponsors = () => {
   );
 };
 
-export default Sponsors; 
+export default Sponsors;
