@@ -155,7 +155,7 @@ const Contact = () => {
                   </a>
                   <a href="https://www.youtube.com/@soikotflorida6527" target="_blank" rel="noopener noreferrer" className="transition-all duration-300 shadow-lg hover:shadow-xl">
                     <img 
-                      src="/lovable-uploads/d90918d8-af44-4c14-9fe8-b2aa03f010b0.png" 
+                      src="/lovable-uploads/9f4f36a8-f7e0-48d2-8951-51cd16731586.png" 
                       alt="YouTube" 
                       className="w-11 h-11 rounded-full"
                     />
