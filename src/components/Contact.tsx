@@ -153,9 +153,9 @@ const Contact = () => {
                   <a href="https://www.instagram.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 p-3 rounded-full text-white transition-all duration-300 shadow-lg hover:shadow-xl">
                     <Instagram className="w-5 h-5" />
                   </a>
-                  <a href="https://www.youtube.com/@soikotflorida6527" target="_blank" rel="noopener noreferrer" className="bg-red-600 hover:bg-red-700 p-3 rounded-full text-white transition-colors duration-300 shadow-lg hover:shadow-xl">
+                  <a href="https://www.youtube.com/@soikotflorida6527" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl">
                     <img 
-                      src="/lovable-uploads/20354388-8850-4816-9002-5231a4e22537.png" 
+                      src="/lovable-uploads/9989e187-fd55-4988-bf85-420b13fc98c4.png" 
                       alt="YouTube" 
                       className="w-5 h-5"
                     />
