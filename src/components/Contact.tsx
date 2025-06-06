@@ -157,7 +157,7 @@ const Contact = () => {
                     <img 
                       src="/lovable-uploads/20354388-8850-4816-9002-5231a4e22537.png" 
                       alt="YouTube" 
-                      className="w-8 h-8"
+                      className="w-5 h-5"
                     />
                   </a>
                 </div>
