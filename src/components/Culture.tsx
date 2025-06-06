@@ -1,6 +1,8 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
+import { Youtube } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const Culture = () => {
   const culturalElements = [
@@ -63,7 +65,7 @@ const Culture = () => {
           ))}
         </div>
         
-        <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+        <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-16">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 bg-bengali-pattern bg-opacity-10 p-8 md:p-12">
               <h3 className="text-2xl font-semibold text-bengali-dark mb-4">Cultural Preservation</h3>
@@ -83,6 +85,26 @@ const Culture = () => {
                 By fostering greater understanding and appreciation of Bengali traditions in the Tampa Bay area, we contribute to the vibrant multicultural mosaic that makes our community special. We believe that cultural sharing builds bridges and creates a more inclusive society for all.
               </p>
             </div>
+          </div>
+        </div>
+
+        {/* YouTube Subscription Section */}
+        <div className="text-center">
+          <div className="bg-white rounded-lg shadow-lg p-8 max-w-lg mx-auto">
+            <Youtube className="w-12 h-12 text-red-600 mx-auto mb-4" />
+            <h3 className="text-xl font-semibold text-bengali-dark mb-4">
+              Subscribe to our YouTube channel to learn more
+            </h3>
+            <a 
+              href="https://www.youtube.com/@soikottampabay6527" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-red-600 hover:bg-red-700 text-white">
+                <Youtube className="w-4 h-4 mr-2" />
+                Subscribe Now
+              </Button>
+            </a>
           </div>
         </div>
       </div>
