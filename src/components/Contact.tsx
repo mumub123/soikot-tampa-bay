@@ -153,11 +153,11 @@ const Contact = () => {
                   <a href="https://www.instagram.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 p-3 rounded-full text-white transition-all duration-300 shadow-lg hover:shadow-xl">
                     <Instagram className="w-5 h-5" />
                   </a>
-                  <a href="https://www.youtube.com/@soikotflorida6527" target="_blank" rel="noopener noreferrer" className="transition-all duration-300 shadow-lg hover:shadow-xl">
+                  <a href="https://www.youtube.com/@soikotflorida6527" target="_blank" rel="noopener noreferrer" className="bg-red-600 hover:bg-red-700 rounded-full text-white transition-colors duration-300">
                     <img 
-                      src="/lovable-uploads/d90918d8-af44-4c14-9fe8-b2aa03f010b0.png" 
+                      src="/lovable-uploads/20354388-8850-4816-9002-5231a4e22537.png" 
                       alt="YouTube" 
-                      className="w-11 h-11 rounded-full"
+                      className="w-5 h-5"
                     />
                   </a>
                 </div>
