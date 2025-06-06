@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { MapPin, Mail, Phone, Facebook, Instagram } from 'lucide-react';
@@ -108,7 +109,7 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
           <p className="text-bengali-dark/80 max-w-3xl mx-auto">
-            We’d love to hear from you! Reach out to learn more about our organization, events, and community programs.
+            We'd love to hear from you! Reach out to learn more about our organization, events, and community programs.
           </p>
         </div>
         
@@ -151,6 +152,13 @@ const Contact = () => {
                   </a>
                   <a href="https://www.instagram.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 p-3 rounded-full text-white transition-all duration-300 shadow-lg hover:shadow-xl">
                     <Instagram className="w-5 h-5" />
+                  </a>
+                  <a href="https://www.youtube.com/@soikottampabay6527" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                    <img 
+                      src="/lovable-uploads/b80d97a3-54db-42a1-a57a-fcd91c1c1980.png" 
+                      alt="YouTube" 
+                      className="w-11 h-11"
+                    />
                   </a>
                 </div>
               </CardContent>
