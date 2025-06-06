@@ -1,8 +1,7 @@
+
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
-import { Youtube } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 
 const Culture = () => {
   const culturalElements = [
@@ -90,20 +89,19 @@ const Culture = () => {
 
         {/* YouTube Subscription Section */}
         <div className="text-center">
-          <div className="bg-white rounded-lg shadow-lg p-8 max-w-lg mx-auto">
-            <Youtube className="w-12 h-12 text-red-600 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-bengali-dark mb-4">
-              Subscribe to our YouTube channel to learn more
-            </h3>
+          <div className="flex items-center justify-center gap-3">
+            <span className="text-lg text-bengali-dark">Subscribe to our Youtube channel</span>
             <a 
               href="https://www.youtube.com/@soikottampabay6527" 
               target="_blank" 
               rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
             >
-              <Button className="bg-red-600 hover:bg-red-700 text-white">
-                <Youtube className="w-4 h-4 mr-2" />
-                Subscribe Now
-              </Button>
+              <img 
+                src="/lovable-uploads/20354388-8850-4816-9002-5231a4e22537.png" 
+                alt="YouTube" 
+                className="w-8 h-8"
+              />
             </a>
           </div>
         </div>
