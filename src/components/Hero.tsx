@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, MapPin, ExternalLink, Facebook, Instagram } from 'lucide-react';
@@ -19,6 +18,23 @@ const Hero = () => {
             Celebrating and preserving Bengali culture, language, and traditions through community events, education, and humanitarian efforts.
           </p>
 
+          {/* Social Media Icons */}
+          <div className="flex justify-center space-x-4 mb-6">
+            <a href="https://www.facebook.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full text-white transition-colors duration-300 shadow-lg hover:shadow-xl">
+              <Facebook className="w-5 h-5" />
+            </a>
+            <a href="https://www.instagram.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 p-3 rounded-full text-white transition-all duration-300 shadow-lg hover:shadow-xl">
+              <Instagram className="w-5 h-5" />
+            </a>
+            <a href="https://www.youtube.com/@soikottampabay6527" target="_blank" rel="noopener noreferrer" className="transition-all duration-300">
+              <img 
+                src="/lovable-uploads/9f4f36a8-f7e0-48d2-8951-51cd16731586.png" 
+                alt="YouTube" 
+                className="w-11 h-11 rounded-full"
+              />
+            </a>
+          </div>
+
           {/* Featured Event Section */}
           <div className="my-6 w-full max-w-5xl">
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-4 md:p-6 mb-4 border border-white/20">
@@ -32,23 +48,6 @@ const Hero = () => {
                 Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.
               </p>
 
-              {/* Social Media Icons */}
-              <div className="flex justify-center space-x-4 mb-4">
-                <a href="https://www.facebook.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full text-white transition-colors duration-300 shadow-lg hover:shadow-xl">
-                  <Facebook className="w-5 h-5" />
-                </a>
-                <a href="https://www.instagram.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 p-3 rounded-full text-white transition-all duration-300 shadow-lg hover:shadow-xl">
-                  <Instagram className="w-5 h-5" />
-                </a>
-                <a href="https://www.youtube.com/@soikottampabay6527" target="_blank" rel="noopener noreferrer" className="transition-all duration-300">
-                  <img 
-                    src="/lovable-uploads/9f4f36a8-f7e0-48d2-8951-51cd16731586.png" 
-                    alt="YouTube" 
-                    className="w-11 h-11 rounded-full"
-                  />
-                </a>
-              </div>
-              
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
                 {/* Durga Image with Event Details */}
                 <div className="space-y-3">
