@@ -30,6 +30,22 @@ const Hero = () => {
               <p className="text-sm md:text-base text-bengali-dark/80 mb-3 max-w-xl mx-auto">
                 Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.
               </p>
+
+              <div className="flex space-x-4">
+                  <a href="https://www.facebook.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full text-white transition-colors duration-300 shadow-lg hover:shadow-xl">
+                    <Facebook className="w-5 h-5" />
+                  </a>
+                  <a href="https://www.instagram.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 p-3 rounded-full text-white transition-all duration-300 shadow-lg hover:shadow-xl">
+                    <Instagram className="w-5 h-5" />
+                  </a>
+                  <a href="https://www.youtube.com/@soikottampabay6527" target="_blank" rel="noopener noreferrer" className="transition-all duration-300">
+                    <img 
+                      src="/lovable-uploads/9f4f36a8-f7e0-48d2-8951-51cd16731586.png" 
+                      alt="YouTube" 
+                      className="w-11 h-11 rounded-full"
+                    />
+                  </a>
+                </div>
               
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
                 {/* Durga Image with Event Details */}
