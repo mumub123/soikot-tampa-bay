@@ -52,6 +52,37 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
+
+            {/* Follow Us Section */}
+            <div className="mt-8">
+              <h5 className="text-lg font-medium mb-3 text-bengali-yellow">Follow Us</h5>
+              <div className="flex items-center justify-center md:justify-start gap-4">
+                <a 
+                  href="https://www.instagram.com/soikottampabay/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
+                  <img 
+                    src="/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png" 
+                    alt="Instagram" 
+                    className="w-8 h-8"
+                  />
+                </a>
+                <a 
+                  href="https://www.youtube.com/@soikottampabay6527" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
+                  <img 
+                    src="/lovable-uploads/112e519c-ec0b-4ecd-8784-a18319be92cc.png" 
+                    alt="YouTube" 
+                    className="w-8 h-8"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Copyright Section */}
