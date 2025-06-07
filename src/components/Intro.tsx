@@ -6,13 +6,13 @@ const Intro = () => {
   return (
     <section id="home" className="relative bg-gradient-to-r from-bengali-red/5 to-bengali-orange/5 overflow-hidden">
       <div className="absolute inset-0 bg-bengali-pattern opacity-10"></div>
-      <div className="container mx-auto px-4 md:px-6 py-12 md:py-16 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 py-6 md:py-8 relative z-10">
         <div className="flex flex-col items-center text-center">
           <h1 className="text-5xl md:text-6xl font-bold">
             <span className="block text-bengali-red font-bengali">Soikot</span>
             <span className="block text-2xl md:text-3xl text-bengali-dark mt-2">Bengali Association of Tampa Bay</span>
           </h1>
-          <p className="text-sm md:text-base text-bengali-dark/80 my-6 max-w-2xl mx-auto">
+          <p className="text-sm md:text-base text-bengali-dark/80 my-4 max-w-2xl mx-auto">
             Celebrating and preserving Bengali culture, language, and traditions through community events, education, and humanitarian efforts.
           </p>
 
@@ -35,7 +35,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 w-full h-8 bg-gradient-to-t from-white to-transparent"></div>
+      <div className="absolute bottom-0 w-full h-4 bg-gradient-to-t from-white to-transparent"></div>
     </section>
   );
 };
