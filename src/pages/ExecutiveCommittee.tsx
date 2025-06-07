@@ -23,7 +23,7 @@ const ExecutiveCommittee = () => {
     <div className="font-bengali">
       <AllEventsNavbar />
       <main>
-        <section className="py-16 md:py-24 bg-bengali-light">
+        <section className="py-8 md:py-12 bg-bengali-light">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
               <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark"><span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Executive Committee</span></h1>
