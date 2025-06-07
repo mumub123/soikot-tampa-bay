@@ -1,6 +1,5 @@
-
 import React from 'react';
-import Navbar from '@/components/Navbar';
+import AllEventsNavbar from '@/components/AllEventsNavbar';
 import Footer from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, MapPin, ExternalLink, ArrowLeft } from 'lucide-react';
@@ -57,9 +56,7 @@ const AllEvents = () => {
 
   return (
     <div className="font-bengali">
-      <div className="pointer-events-none opacity-30">
-        <Navbar />
-      </div>
+      <AllEventsNavbar />
       <main>
         <section className="py-16 md:py-24 bg-bengali-light">
           <div className="container mx-auto px-4 md:px-6">
