@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { MapPin, Mail, Phone, Facebook, Instagram } from 'lucide-react';
@@ -101,7 +100,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-16 md:py-24 bg-bengali-light">
+    <section id="contact" className="py-8 md:py-12 bg-bengali-light">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">
