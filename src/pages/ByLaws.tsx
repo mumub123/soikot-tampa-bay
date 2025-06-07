@@ -337,9 +337,6 @@ const ByLaws = () => {
           </div>
         </section>
       </main>
-      <div className="pointer-events-none opacity-30">
-        <Footer />
-      </div>
     </div>
   );
 };
