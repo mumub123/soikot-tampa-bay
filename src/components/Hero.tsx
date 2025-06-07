@@ -26,7 +26,7 @@ const Hero = () => {
             <a href="https://www.instagram.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 p-3 rounded-full text-white transition-all duration-300 shadow-lg hover:shadow-xl">
               <Instagram className="w-5 h-5" />
             </a>
-            <a href="https://www.youtube.com/@soikottampabay6527" target="_blank" rel="noopener noreferrer" className="transition-all duration-300">
+            <a href="https://www.youtube.com/@soikottampabay6527" target="_blank" rel="noopener noreferrer" className="hover:bg-blue-700 transition-all duration-300">
               <img 
                 src="/lovable-uploads/9f4f36a8-f7e0-48d2-8951-51cd16731586.png" 
                 alt="YouTube" 
