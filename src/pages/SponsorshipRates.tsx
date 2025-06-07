@@ -37,7 +37,7 @@ const SponsorshipRates = () => {
 
   return (
     <div className="font-bengali">
-      <div className="pointer-events-none opacity-50">
+      <div className="pointer-events-none opacity-30">
         <Navbar />
       </div>
       <main>
@@ -84,7 +84,7 @@ const SponsorshipRates = () => {
           </div>
         </section>
       </main>
-      <div className="pointer-events-none opacity-50">
+      <div className="pointer-events-none opacity-30">
         <Footer />
       </div>
     </div>

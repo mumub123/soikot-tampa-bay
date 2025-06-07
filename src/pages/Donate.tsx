@@ -12,7 +12,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 const Donate = () => {
   return (
     <div className="font-bengali">
-      <div className="pointer-events-none opacity-50">
+      <div className="pointer-events-none opacity-30">
         <Navbar />
       </div>
       <main>
@@ -96,7 +96,7 @@ const Donate = () => {
           </div>
         </section>
       </main>
-      <div className="pointer-events-none opacity-50">
+      <div className="pointer-events-none opacity-30">
         <Footer />
       </div>
     </div>
