@@ -1,6 +1,5 @@
 import React from 'react';
 import AllEventsNavbar from '@/components/AllEventsNavbar';
-import Footer from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, MapPin, ExternalLink, ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -132,9 +131,6 @@ const AllEvents = () => {
           </div>
         </section>
       </main>
-      <div className="pointer-events-none opacity-30">
-        <Footer />
-      </div>
     </div>
   );
 };
