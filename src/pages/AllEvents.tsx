@@ -1,6 +1,5 @@
-
 import React from 'react';
-import Navbar from '@/components/Navbar';
+import AllEventsNavbar from '@/components/AllEventsNavbar';
 import Footer from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, MapPin, ExternalLink, ArrowLeft } from 'lucide-react';
@@ -57,12 +56,17 @@ const AllEvents = () => {
 
   return (
     <div className="font-bengali">
-      <div className="pointer-events-none opacity-30">
-        <Navbar />
-      </div>
+      <AllEventsNavbar />
       <main>
         <section className="py-16 md:py-24 bg-bengali-light">
           <div className="container mx-auto px-4 md:px-6">
+            <div className="flex items-center justify-between mb-8">
+              <Link to="/" className="flex items-center text-bengali-red hover:text-bengali-red/80 transition-colors">
+                <ArrowLeft className="w-5 h-5 mr-2" />
+                <span>Back to Home</span>
+              </Link>
+            </div>
+            
             <div className="text-center mb-12">
               <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark"><span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">All Events</span></h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
