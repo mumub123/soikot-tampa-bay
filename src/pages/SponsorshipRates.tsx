@@ -1,7 +1,5 @@
-
 import React from 'react';
 import AllEventsNavbar from '@/components/AllEventsNavbar';
-import Footer from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
@@ -75,9 +73,6 @@ const SponsorshipRates = () => {
           </div>
         </section>
       </main>
-      <div className="pointer-events-none opacity-30">
-        <Footer />
-      </div>
     </div>
   );
 };

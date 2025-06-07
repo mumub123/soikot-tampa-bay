@@ -1,7 +1,5 @@
-
 import React from 'react';
 import AllEventsNavbar from '@/components/AllEventsNavbar';
-import Footer from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 
 const ExecutiveCommittee = () => {
@@ -47,9 +45,6 @@ const ExecutiveCommittee = () => {
           </div>
         </section>
       </main>
-      <div className="pointer-events-none opacity-30">
-        <Footer />
-      </div>
     </div>
   );
 };
