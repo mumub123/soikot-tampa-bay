@@ -57,7 +57,7 @@ const AllEvents = () => {
 
   return (
     <div className="font-bengali">
-      <div className="pointer-events-none opacity-50">
+      <div className="pointer-events-none opacity-30">
         <Navbar />
       </div>
       <main>
@@ -135,7 +135,7 @@ const AllEvents = () => {
           </div>
         </section>
       </main>
-      <div className="pointer-events-none opacity-50">
+      <div className="pointer-events-none opacity-30">
         <Footer />
       </div>
     </div>
