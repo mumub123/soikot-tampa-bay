@@ -4,7 +4,7 @@ import { Facebook, Instagram } from 'lucide-react';
 
 const Intro = () => {
   return (
-    <section id="home" className="relative bg-gradient-to-r from-bengali-red/5 to-bengali-orange/5 overflow-hidden">
+    <section id="home" className="relative bg-gradient-to-r from-bengali-red/10 to-bengali-orange/10 overflow-hidden">
       <div className="absolute inset-0 bg-bengali-pattern opacity-10"></div>
       <div className="container mx-auto px-4 md:px-6 py-6 md:py-8 relative z-10">
         <div className="flex flex-col items-center text-center">
