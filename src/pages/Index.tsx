@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Navbar from '@/components/Navbar';
+import Intro from '@/components/Intro';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Culture from '@/components/Culture';
@@ -12,6 +13,7 @@ const Index = () => {
     <div className="font-bengali">
       <Navbar />
       <main>
+        <Intro />
         <Hero />
         <About />
         <Culture />
