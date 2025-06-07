@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const ByLaws = () => {
   return (
     <div className="font-bengali">
-      <div className="pointer-events-none opacity-50">
+      <div className="pointer-events-none opacity-30">
         <Navbar />
       </div>
       <main>
@@ -338,7 +338,7 @@ const ByLaws = () => {
           </div>
         </section>
       </main>
-      <div className="pointer-events-none opacity-50">
+      <div className="pointer-events-none opacity-30">
         <Footer />
       </div>
     </div>
