@@ -81,7 +81,7 @@ const Events = () => {
         
         <div className="text-center mt-12">
           <Link to="/events">
-            <Button variant="outline" className="border-bengali-red text-bengali-red hover:bg-bengali-red/10">
+            <Button variant="outline" className="border-bengali-red text-bengali-red hover:bg-bengali-red/10 hover:border-bengali-red/80 transition-all duration-300 hover:shadow-md">
               View All Events
             </Button>
           </Link>

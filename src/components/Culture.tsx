@@ -95,13 +95,14 @@ const Culture = () => {
               href="https://www.youtube.com/@soikottampabay6527" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
+              className="relative group transition-all duration-300"
             >
               <img 
                 src="/lovable-uploads/20354388-8850-4816-9002-5231a4e22537.png" 
                 alt="YouTube" 
                 className="w-8 h-8"
               />
+              <div className="absolute inset-0 bg-red-600/20 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </a>
           </div>
         </div>
