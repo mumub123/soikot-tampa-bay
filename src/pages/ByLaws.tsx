@@ -1,4 +1,3 @@
-
 import React from 'react';
 import AllEventsNavbar from '@/components/AllEventsNavbar';
 import { Card, CardContent } from '@/components/ui/card';
@@ -10,7 +9,7 @@ const ByLaws = () => {
     <div className="font-bengali">
       <AllEventsNavbar />
       <main>
-        <section className="py-16 md:py-24 bg-gradient-to-b from-bengali-light to-white">
+        <section className="py-8 md:py-12 bg-gradient-to-b from-bengali-light to-white">
           <div className="container mx-auto px-4 md:px-6">
             <div className="prose prose-lg max-w-4xl mx-auto">
               <div className="text-center mb-16">
