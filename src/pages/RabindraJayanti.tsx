@@ -1,7 +1,7 @@
+
 import React, { useEffect } from 'react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import { ArrowLeft, Calendar, Clock, MapPin, CheckCircle2 } from 'lucide-react';
+import AllEventsNavbar from '@/components/AllEventsNavbar';
+import { Calendar, Clock, MapPin, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 
@@ -12,11 +12,10 @@ const RabindraJayanti = () => {
 
   return (
     <div className="font-bengali">
-      <div className="pointer-events-none opacity-30">
-        <AllEventsNavbar />
-      </div>
+      <AllEventsNavbar />
       <main>
         <section className="py-16 md:py-24 bg-bengali-light">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-4xl mx-auto">
               <div className="relative rounded-2xl overflow-hidden mb-8">
                 <img 
@@ -116,11 +115,8 @@ const RabindraJayanti = () => {
           </div>
         </section>
       </main>
-      <div className="pointer-events-none opacity-30">
-        <Footer />
-      </div>
     </div>
   );
 };
 
-export default RabindraJayanti; 
+export default RabindraJayanti;
