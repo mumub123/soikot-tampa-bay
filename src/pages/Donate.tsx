@@ -1,4 +1,3 @@
-
 import React from 'react';
 import AllEventsNavbar from '@/components/AllEventsNavbar';
 import { CheckCircle2, CreditCard, QrCode } from 'lucide-react';
@@ -14,7 +13,9 @@ const Donate = () => {
         <section className="py-16 md:py-24 bg-gradient-to-b from-bengali-light to-white">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
-              <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">Support Our Community</h1>
+              <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">
+                <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Support Our Community</span>
+              </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
               <p className="text-bengali-dark/80 max-w-3xl mx-auto">
                 Your contribution helps us promote and preserve Bengali culture, language, and traditions.
