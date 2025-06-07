@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="w-24 h-auto">
+            <div className="w-16 h-auto">
               <img 
                 src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
                 alt="Soikot Logo" 
