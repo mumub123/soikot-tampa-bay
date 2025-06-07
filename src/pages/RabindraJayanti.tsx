@@ -13,18 +13,10 @@ const RabindraJayanti = () => {
   return (
     <div className="font-bengali">
       <div className="pointer-events-none opacity-30">
-        <Navbar />
+        <AllEventsNavbar />
       </div>
       <main>
         <section className="py-16 md:py-24 bg-bengali-light">
-          <div className="container mx-auto px-4 md:px-6">
-            <div className="flex items-center justify-between mb-8">
-              <Link to="/events" className="flex items-center text-bengali-red hover:text-bengali-red/80 transition-colors">
-                <ArrowLeft className="w-5 h-5 mr-2" />
-                <span>Back to Events</span>
-              </Link>
-            </div>
-
             <div className="max-w-4xl mx-auto">
               <div className="relative rounded-2xl overflow-hidden mb-8">
                 <img 

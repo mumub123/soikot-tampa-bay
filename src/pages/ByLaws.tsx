@@ -11,7 +11,8 @@ const ByLaws = () => {
       <AllEventsNavbar />
       <main>
         <section className="py-16 md:py-24 bg-gradient-to-b from-bengali-light to-white">
-          <div className="container mx-auto px-4 md:px-6">
+
+            
             <div className="prose prose-lg max-w-4xl mx-auto">
               <div className="text-center mb-16">
                 <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark mb-2"><span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Soikot By-Laws</span></h1>
