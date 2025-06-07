@@ -1,15 +1,41 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
+import { Calendar, Clock, MapPin, ExternalLink, Facebook, Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative bg-gradient-to-r from-bengali-red/10 to-bengali-orange/10 overflow-hidden">
+    <section id="home" className="relative bg-gradient-to-r from-bengali-red/10 to-bengali-orange/10 overflow-hidden">
       <div className="absolute inset-0 bg-bengali-pattern opacity-10"></div>
       <div className="container mx-auto px-4 md:px-6 py-8 md:py-12 relative z-10">
         <div className="flex flex-col items-center text-center">
+          <h1 className="text-5xl md:text-6xl font-bold">
+            <span className="block text-bengali-red font-bengali">Soikot</span>
+            
+            <span className="block text-2xl md:text-3xl text-bengali-dark mt-2">Bengali Association of Tampa Bay</span>
+          </h1>
+          <p className="text-sm md:text-base text-bengali-dark/80 my-4 max-w-2xl mx-auto">
+            Celebrating and preserving Bengali culture, language, and traditions through community events, education, and humanitarian efforts.
+          </p>
+
+          {/* Social Media Icons */}
+          <div className="flex justify-center space-x-4 mb-6">
+            <a href="https://www.facebook.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full text-white transition-colors duration-300 shadow-lg hover:shadow-xl">
+              <Facebook className="w-5 h-5" />
+            </a>
+            <a href="https://www.instagram.com/soikotflorida" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 p-3 rounded-full text-white transition-all duration-300 shadow-lg hover:shadow-xl">
+              <Instagram className="w-5 h-5" />
+            </a>
+            <a href="https://www.youtube.com/@soikottampabay6527" target="_blank" rel="noopener noreferrer" className="relative group transition-all duration-300">
+              <img 
+                src="/lovable-uploads/9f4f36a8-f7e0-48d2-8951-51cd16731586.png" 
+                alt="YouTube" 
+                className="w-11 h-11 rounded-full"
+              />
+              <div className="absolute inset-0 bg-red-600/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
+          </div>
+
           {/* Featured Event Section */}
           <div className="my-6 w-full max-w-5xl">
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-4 md:p-6 mb-4 border border-white/20">
