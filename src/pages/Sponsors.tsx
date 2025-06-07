@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from '@/components/Navbar';
+import AllEventsNavbar from '@/components/AllEventsNavbar';
 import Footer from '@/components/Footer';
-import { ArrowLeft } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
+import { ArrowLeft } from 'lucide-react';
 
 const Sponsors = () => {
   const sponsorTiers = [
@@ -130,9 +130,7 @@ const Sponsors = () => {
 
   return (
     <div className="font-bengali">
-      <div className="pointer-events-none opacity-30">
-        <Navbar />
-      </div>
+      <AllEventsNavbar />
       <main>
         <section className="py-16 md:py-24 bg-bengali-light">
           <div className="container mx-auto px-4 md:px-6">
