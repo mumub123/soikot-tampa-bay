@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, MapPin, ExternalLink, Facebook, Instagram } from 'lucide-react';
@@ -122,7 +120,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap gap-4 justify-center">
             <Link to="/events">
-              <Button className="bg-white hover:bg-gray-50 text-bengali-red border border-bengali-red px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-light">
+              <Button className="bg-white hover:bg-bengali-red/10 text-bengali-red border border-bengali-red px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-light hover:border-bengali-red/80">
                 View All Events
               </Button>
             </Link>
@@ -135,4 +133,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
