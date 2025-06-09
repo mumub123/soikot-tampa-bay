@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
@@ -28,7 +27,7 @@ const Culture = () => {
   ];
 
   return (
-    <section id="culture" className="py-8 md:py-12 bg-gradient-to-b from-bengali-light/70 via-bengali-blue/25 to-bengali-red/25">
+    <section id="culture" className="py-8 md:py-12 bg-gradient-to-b from-bengali-light/70 via-bengali-blue/25 to-bengali-red/10">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">
