@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative bg-gradient-to-b from-bengali-red/10 via-bengali-orange/20 to-bengali-light/30 overflow-hidden">
+    <section id="home" className="relative bg-gradient-to-b from-white via-bengali-orange/15 to-bengali-light/40 overflow-hidden">
       <div className="absolute inset-0 bg-bengali-pattern opacity-10"></div>
       <div className="container mx-auto px-4 md:px-6 py-4 md:py-6 relative z-10">
         <div className="flex flex-col items-center text-center">

@@ -27,7 +27,7 @@ const Culture = () => {
   ];
 
   return (
-    <section id="culture" className="py-8 md:py-12 bg-gradient-to-b from-bengali-light/30 via-bengali-blue/25 to-bengali-red/20">
+    <section id="culture" className="py-8 md:py-12 bg-gradient-to-b from-bengali-light/40 via-bengali-blue/20 to-bengali-red/30">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">
