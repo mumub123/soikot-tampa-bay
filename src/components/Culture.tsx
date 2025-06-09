@@ -87,7 +87,7 @@ const Culture = () => {
         </div>
 
         {/* YouTube Subscription Section */}
-        <div className="text-center pb-4">
+        <div className="text-center pb-2">
           <div className="flex items-center justify-center gap-3">
             <span className="text-lg text-bengali-dark">Subscribe to our Youtube channel</span>
             <a 
