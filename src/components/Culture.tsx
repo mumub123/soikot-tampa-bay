@@ -101,7 +101,7 @@ const Culture = () => {
                 alt="YouTube" 
                 className="w-8 h-8"
               />
-              <div className="absolute inset-0 bg-red-600/20 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              
             </a>
           </div>
         </div>
