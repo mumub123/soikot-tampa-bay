@@ -89,7 +89,7 @@ const Culture = () => {
         {/* YouTube Subscription Section */}
         <div className="text-center pb-2">
           <div className="flex items-center justify-center gap-3">
-            <span className="text-lg text-bengali-dark">Subscribe to our Youtube channel</span>
+            <span className="text-lg text-bengali-dark">Subscribe to our YouTube channel</span>
             <a 
               href="https://www.youtube.com/@soikottampabay6527" 
               target="_blank" 
