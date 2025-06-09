@@ -127,7 +127,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 w-full h-8 bg-gradient-to-t from-white to-transparent"></div>
     </section>
   );
 };
