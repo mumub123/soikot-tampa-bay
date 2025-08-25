@@ -113,7 +113,9 @@ const Hero = () => {
               </div>
               
               <div className="text-center space-y-2">
-                <Button className="bg-bengali-red hover:bg-bengali-red/90" disabled>Details Coming Soon</Button>
+                <Link to="/durga-puja-details">
+                  <Button className="bg-bengali-red hover:bg-bengali-red/90">View Details</Button>
+                </Link>
               </div>
             </div>
           </div>
