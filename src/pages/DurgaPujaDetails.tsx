@@ -23,6 +23,11 @@ const DurgaPujaDetails = () => {
       src: "/lovable-uploads/139c7fe4-11fb-442a-a7d8-80276722a447.png",
       title: "Fashion Show - How to participate",
       description: "Oct 3, 2025 at 9:00 pm"
+    },
+    {
+      src: "/lovable-uploads/3cbf2f89-c537-4a89-9d49-2cdf4f050aa5.png",
+      title: "Prabaho - Our Online Magazine",
+      description: "Article submission deadline: September 20"
     }
   ];
 
