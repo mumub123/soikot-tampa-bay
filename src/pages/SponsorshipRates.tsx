@@ -9,7 +9,7 @@ const SponsorshipRates = () => {
     {
       title: "Grand Sponsorship",
       amount: "$3000 and above",
-      benefits: "Grand Sponsors are eligible to attend Durga Pujo and all events in 2024 for up to four adults and four children. Attendance for all future Society events up to September 1st, 2025 is free for them."
+      benefits: "Grand Sponsors are eligible to attend Durga Pujo and all events in 2025 for up to four adults and four children. Attendance for all future Society events up to September 1st, 2026 is free for them."
     },
     {
       title: "Platinum Sponsorship",
@@ -24,12 +24,12 @@ const SponsorshipRates = () => {
     {
       title: "Gold Sponsorship",
       amount: "$1000 and above",
-      benefits: "Includes attendance to Durga Pujo 2024 and all Soikot events throughout the year for up to four adults and four children. You will also receive complimentary access to all Soikot events until May 31st, 2025."
+      benefits: "Includes attendance to Durga Pujo 2025 and all Soikot events throughout the year for up to four adults and four children. You will also receive complimentary access to all Soikot events until May 31st, 2026."
     },
     {
       title: "Silver Sponsorship",
       amount: "$650",
-      benefits: "Silver Sponsors are eligible to attend the Durga Pujo and all event till 31st December 2024 for up to two adults and two children."
+      benefits: "Silver Sponsors are eligible to attend the Durga Pujo and all event till 31st December 2025 for up to two adults and two children."
     }
   ];
 
