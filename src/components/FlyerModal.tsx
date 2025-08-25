@@ -36,7 +36,7 @@ const FlyerModal = () => {
 
     const autoScroll = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % flyers.length);
-    }, 5000); // 5 second delay
+    }, 3500); // 5 second delay
 
     return () => clearInterval(autoScroll);
   }, [isOpen, flyers.length]);
