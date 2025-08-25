@@ -161,6 +161,15 @@ const DurgaPujaDetails = () => {
                 ))}
               </div>
             </div>
+            
+            {/* View All Events Button */}
+            <div className="text-center">
+              <Link to="/events">
+                <Button className="bg-bengali-red hover:bg-bengali-red/90 text-white px-8 py-3">
+                  View All Events
+                </Button>
+              </Link>
+            </div>
           </div>
         </section>
       </main>
