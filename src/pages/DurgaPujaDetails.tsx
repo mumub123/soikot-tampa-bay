@@ -16,12 +16,12 @@ const DurgaPujaDetails = () => {
     },
     {
       src: "/lovable-uploads/c3a41759-7497-475d-857f-d085285f7727.png",
-      title: "Cultural Programs",
+      title: "Cultural Programs - Request for slots",
       description: "Oct 4, 2025 between 4:30 and 8:00 pm"
     },
     {
       src: "/lovable-uploads/139c7fe4-11fb-442a-a7d8-80276722a447.png",
-      title: "How to participate in our Fashion Show",
+      title: "Fashion Show - How to participate?",
       description: "Oct 3, 2025 at 9:00 pm"
     }
   ];
@@ -117,9 +117,12 @@ const DurgaPujaDetails = () => {
                       <p className="text-bengali-dark font-medium mb-2">
                         Registration details coming soon!
                       </p>
+                      <p className="text-bengali-dark/80 text-sm mb-3">
+                        Meanwhile, check out our ...
+                      </p>
                       <Link to="/sponsorship-rates">
                         <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
-                          View Sponsorship Tiers
+                          Sponsorship Tiers
                         </Button>
                       </Link>
                     </div>
