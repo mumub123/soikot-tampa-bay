@@ -8,6 +8,10 @@ const FlyerModal = () => {
 
   const flyers = [
     {
+      src: "/lovable-uploads/da0c6adb-fac4-4b3b-9b6f-63a738c42fb0.png",
+      alt: "Avid Entertainment Presents Durga Puja Celebration 2025 featuring Madhubanti Bagchi"
+    },
+    {
       src: "/lovable-uploads/c3a41759-7497-475d-857f-d085285f7727.png",
       alt: "Soikot Culturals Durga Puja 2025 - October 3-5 at ICC"
     },
@@ -15,10 +19,6 @@ const FlyerModal = () => {
       src: "/lovable-uploads/139c7fe4-11fb-442a-a7d8-80276722a447.png", 
       alt: "Soikot's Durga Puja with folklore of Fashion & beats of Dhak"
     },
-    {
-      src: "/lovable-uploads/da0c6adb-fac4-4b3b-9b6f-63a738c42fb0.png",
-      alt: "Avid Entertainment Presents Durga Puja Celebration 2025 featuring Madhubanti Bagchi"
-    }
   ];
 
   useEffect(() => {
