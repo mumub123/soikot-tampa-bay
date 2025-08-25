@@ -55,7 +55,7 @@ const DurgaPujaDetails = () => {
               {/* Event Details Card */}
               <Card className="border-none shadow-lg">
                 <CardContent className="p-8">
-                  <h2 className="text-2xl font-bold text-bengali-dark mb-6">Event Details</h2>
+                  <h3 className="text-xl font-bold text-bengali-dark mb-4">Event Details</h3>
                   
                   <div className="space-y-4">
                     <div className="flex items-center text-bengali-dark">
@@ -94,8 +94,7 @@ const DurgaPujaDetails = () => {
               {/* Contact Information Card */}
               <Card className="border-none shadow-lg">
                 <CardContent className="p-8">
-                  <h2 className="text-2xl font-bold text-bengali-dark mb-6">General Inquiries</h2>
-                  
+                  <h3 className="text-xl font-bold text-bengali-dark mb-4">General Inquiries</h3>
                   <div className="space-y-4">
                     <div className="flex items-center text-bengali-dark">
                       <Phone className="w-5 h-5 mr-3 text-bengali-red" />
@@ -128,8 +127,7 @@ const DurgaPujaDetails = () => {
 
             {/* Event Flyers */}
             <div className="mb-8">
-              <h2 className="text-2xl font-bold text-bengali-dark mb-6 text-center">Event Information</h2>
-              
+              <h3 className="text-xl font-bold text-bengali-dark mb-4">Event Information</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {flyers.map((flyer, index) => (
                   <Card 
