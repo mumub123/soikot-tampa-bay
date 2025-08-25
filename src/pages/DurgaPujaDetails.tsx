@@ -55,7 +55,7 @@ const DurgaPujaDetails = () => {
               {/* Event Details Card */}
               <Card className="border-none shadow-lg">
                 <CardContent className="p-8">
-                  <h3 className="text-xl font-bold text-bengali-dark mb-4">Event Details</h3>
+                  <h2 className="text-2xl font-bold text-bengali-dark mb-6">Event Details</h2>
                   
                   <div className="space-y-4">
                     <div className="flex items-center text-bengali-dark">
@@ -94,19 +94,20 @@ const DurgaPujaDetails = () => {
               {/* Contact Information Card */}
               <Card className="border-none shadow-lg">
                 <CardContent className="p-8">
-                  <h3 className="text-xl font-bold text-bengali-dark mb-4">General Inquiries</h3>
+                  <h2 className="text-2xl font-bold text-bengali-dark mb-6">General Inquiries</h2>
+                  
                   <div className="space-y-4">
                     <div className="flex items-center text-bengali-dark">
                       <Phone className="w-5 h-5 mr-3 text-bengali-red" />
                       <div>
-                        +1 (727) 643-3691
+                        (727) 643-3691
                       </div>
                     </div>
                     
                     <div className="flex items-center text-bengali-dark">
                       <Mail className="w-5 h-5 mr-3 text-bengali-red" />
                       <div>
-                        soikotflorida@gmail.com
+                        <a href="mailto:soikotflorida@gmail.com" className="text-bengali-dark/70 hover:text-bengali-red">soikotflorida@gmail.com</a>
                       </div>
                     </div>
                     
@@ -127,7 +128,8 @@ const DurgaPujaDetails = () => {
 
             {/* Event Flyers */}
             <div className="mb-8">
-              <h3 className="text-xl font-bold text-bengali-dark mb-4">Event Information</h3>
+              <h2 className="text-2xl font-bold text-bengali-dark mb-6 text-center">Event Information</h2>
+              
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {flyers.map((flyer, index) => (
                   <Card 
