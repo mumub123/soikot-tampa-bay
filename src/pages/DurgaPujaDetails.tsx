@@ -128,7 +128,9 @@ const DurgaPujaDetails = () => {
 
             {/* Event Flyers */}
             <div className="mb-8">
-              <h3 className="text-2xl font-bold text-bengali-dark mb-6 text-center">More Information</h3>
+              <h2 className="text-3xl md:text-5xl font-bold text-bengali-dark">
+                <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">More Information</span>
+              </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {flyers.map((flyer, index) => (
