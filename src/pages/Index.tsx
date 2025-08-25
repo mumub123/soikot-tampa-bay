@@ -6,18 +6,24 @@ import About from '@/components/About';
 import Culture from '@/components/Culture';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import PermanentToaster from '@/components/PermanentToaster';
+import FlyerModal from '@/components/FlyerModal';
 
 const Index = () => {
   return (
     <div className="font-bengali">
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Culture />
-        <Contact />
-      </main>
-      <Footer />
+      <PermanentToaster />
+      <div className="pt-12"> {/* Add padding to account for fixed toaster */}
+        <Navbar />
+        <main>
+          <Hero />
+          <About />
+          <Culture />
+          <Contact />
+        </main>
+        <Footer />
+        <FlyerModal />
+      </div>
     </div>
   );
 };
