@@ -117,12 +117,9 @@ const DurgaPujaDetails = () => {
                       <p className="text-bengali-dark font-medium mb-2">
                         Registration details coming soon!
                       </p>
-                      <p className="text-bengali-dark/80 text-sm mb-3">
-                        Meanwhile, check out our ...
-                      </p>
                       <Link to="/sponsorship-rates">
                         <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
-                          Sponsorship Tiers
+                          View Sponsorship Tiers
                         </Button>
                       </Link>
                     </div>
