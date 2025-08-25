@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -51,12 +52,12 @@ const FlyerModal = () => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 md:top-16 z-30 flex items-center justify-center bg-black/70 backdrop-blur-sm md:bg-black/50">
+    <div className="fixed inset-0 md:top-16 z-[300] flex items-center justify-center bg-black/70 backdrop-blur-sm md:bg-black/50">
       <div className="relative max-w-2xl md:max-w-lg lg:max-w-xl w-full mx-4 animate-scale-in">
         {/* Close button */}
         <button
           onClick={() => setIsOpen(false)}
-          className="absolute -top-4 -right-4 z-40 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors duration-200"
+          className="absolute -top-4 -right-4 z-[310] bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors duration-200"
           aria-label="Close flyer and return to main page"
         >
           <X className="w-6 h-6 text-gray-600" />
@@ -70,14 +71,14 @@ const FlyerModal = () => {
               <>
                 <button
                   onClick={prevFlyer}
-                  className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-35 bg-white/90 hover:bg-white rounded-full p-1 md:p-2 shadow-lg transition-all duration-200"
+                  className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-[305] bg-white/90 hover:bg-white rounded-full p-1 md:p-2 shadow-lg transition-all duration-200"
                   aria-label="Previous flyer"
                 >
                   <ChevronLeft className="w-5 h-5 text-gray-700" />
                 </button>
                 <button
                   onClick={nextFlyer}
-                  className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-35 bg-white/90 hover:bg-white rounded-full p-1 md:p-2 shadow-lg transition-all duration-200"
+                  className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-[305] bg-white/90 hover:bg-white rounded-full p-1 md:p-2 shadow-lg transition-all duration-200"
                   aria-label="Next flyer"
                 >
                   <ChevronRight className="w-5 h-5 text-gray-700" />
