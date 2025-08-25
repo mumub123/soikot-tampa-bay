@@ -19,6 +19,10 @@ const FlyerModal = () => {
       src: "/lovable-uploads/139c7fe4-11fb-442a-a7d8-80276722a447.png", 
       alt: "Soikot's Durga Puja with folklore of Fashion & beats of Dhak"
     },
+    {
+      src: "/lovable-uploads/3cbf2f89-c537-4a89-9d49-2cdf4f050aa5.png",
+      alt: "Probaho - Article submission deadline: September 20"
+    }
   ];
 
   useEffect(() => {
