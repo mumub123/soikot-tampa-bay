@@ -21,7 +21,7 @@ const DurgaPujaDetails = () => {
     },
     {
       src: "/lovable-uploads/139c7fe4-11fb-442a-a7d8-80276722a447.png",
-      title: "Fashion Show - How to participate?",
+      title: "Fashion Show - How to participate",
       description: "Oct 3, 2025 at 9:00 pm"
     }
   ];
