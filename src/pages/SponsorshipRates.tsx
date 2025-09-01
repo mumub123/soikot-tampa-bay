@@ -41,11 +41,11 @@ const SponsorshipRates = () => {
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
               <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">
-                <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Sponsorship Rates</span>
+                <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Annual Sponsorship Rates</span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
               <p className="text-bengali-dark/80 max-w-3xl mx-auto">
-                Support our community by becoming a sponsor. Choose from our various sponsorship tiers below.
+                Support our community by becoming an annual sponsor. Choose from our various sponsorship tiers below.
               </p>
             </div>
 
