@@ -207,10 +207,22 @@ const DurgaPujaDetails = () => {
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-bengali-dark mb-6">Donation Rates</h3>
                   
+                  {/* Payment Information */}
+                  <div className="mb-6 p-4 bg-bengali-red/5 rounded-lg border border-bengali-red/20">
+                    <p className="text-bengali-dark font-medium mb-3">
+                      Zelle payments to: <span className="text-bengali-red">soikotflorida@gmail.com</span>
+                    </p>
+                    <Link to="/donate">
+                      <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
+                        More Payment Options
+                      </Button>
+                    </Link>
+                  </div>
+                  
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     {/* Annual Sponsorship Section */}
                     <div>
-                      <h4 className="text-xl font-semibold text-bengali-dark mb-4">Annual Sponsorship</h4>
+                      <h4 className="text-lg font-semibold text-bengali-dark mb-4">Annual Sponsorship</h4>
                       <p className="text-bengali-dark/80 mb-6">
                         Join our family of sponsors — your support makes all the difference.
                       </p>
@@ -261,7 +273,7 @@ const DurgaPujaDetails = () => {
 
                     {/* General Event Subscription Section */}
                     <div>
-                      <h4 className="text-xl font-semibold text-bengali-dark mb-4">General Event Subscription</h4>
+                      <h4 className="text-lg font-semibold text-bengali-dark mb-4">General Event Subscription</h4>
                       <p className="text-bengali-dark/80 mb-6">
                         Subscription includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.
                       </p>
@@ -297,16 +309,6 @@ const DurgaPujaDetails = () => {
                             </table>
                           </div>
                         </div>
-                        <p className="text-bengali-dark font-medium mb-4">
-                          Zelle payments to: <span className="text-bengali-red">soikotflorida@gmail.com</span>
-                        </p>
-                        <p>
-                          <Link to="/donate">
-                            <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
-                              More Payment Options
-                            </Button>
-                          </Link>
-                        </p>
                       </div>
                     </div>
                   </div>
