@@ -155,19 +155,54 @@ const DurgaPujaDetails = () => {
               <Card className="border-none shadow-lg">
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-bengali-dark mb-6">Annual Sponsorship</h3>
-                  <div className="mt-6 p-4 bg-bengali-red/5 rounded-lg border border-bengali-red/20">
-                    <p className="text-bengali-dark font-medium mb-2">
-                      Support our community by becoming an annual sponsor.
-                    </p>
+                  <p className="text-bengali-dark/80 mb-6">
+                    Join our family of sponsors — your support makes all the difference.
+                  </p>
+                  <div className="space-y-6">
+                    {/* Subscription Rates Table */}
+                    <div>
+                      <div className="overflow-hidden rounded-lg border border-bengali-red/20">
+                        <table className="w-full">
+                          <thead>
+                            <tr className="bg-bengali-red/10">
+                              <th className="text-left py-3 px-4 font-medium text-bengali-dark">Sponsorship Category</th>
+                              <th className="text-center py-3 px-4 font-medium text-bengali-dark">Rates</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr className="border-b border-bengali-red/10">
+                              <td className="py-3 px-4 font-medium text-bengali-dark">Grand</td>                              <td className="text-center py-3 px-4 text-white font-semibold bg-bengali-red/90">$450</td>
+                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$3,000</td>
+                            </tr>
+                            <tr className="border-b border-bengali-red/10">
+                              <td className="py-3 px-4 font-medium text-bengali-dark">Platinum</td>
+                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$2,000</td>
+                            </tr>
+                            <tr className="border-b border-bengali-red/10">
+                              <td className="py-3 px-4 font-medium text-bengali-dark">Diamond</td>
+                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$1,500</td>
+                            </tr>
+                            <tr className="border-b border-bengali-red/10">
+                              <td className="py-3 px-4 font-medium text-bengali-dark">Gold</td>
+                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$1,000</td>
+                            </tr>
+                            <tr className="border-b border-bengali-red/10">
+                              <td className="py-3 px-4 font-medium text-bengali-dark">Silver</td>
+                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$650</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <p>
                     <Link to="/sponsorship-rates">
                       <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
                         View Additional Details
                       </Button>
                     </Link>
-                  </div>
+                    </p>
                 </CardContent>
               </Card>
-
               {/* Contact Information Card */}
               <Card className="border-none shadow-lg">
                 <CardContent className="p-8">
