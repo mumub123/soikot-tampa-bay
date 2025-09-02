@@ -112,7 +112,7 @@ const DurgaPujaDetails = () => {
                           <thead>
                             <tr className="bg-bengali-red/10">
                               <th className="text-left py-3 px-4 font-semibold text-bengali-dark">Category</th>
-                              <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Pre-registration (ends 9/21)</th>
+                              <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Pre-registration<tr>(ends 9/21)</tr></th>
                               <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Regular</th>
                             </tr>
                           </thead>
@@ -139,13 +139,11 @@ const DurgaPujaDetails = () => {
                       <p className="text-bengali-dark font-medium mb-4">
                         Zelle payments to: <span className="text-bengali-red">soikotflorida@gmail.com</span>
                       </p>
-                      <p>
                       <Link to="/donate">
                         <Button variant="outline" className="w-full text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
                           More Payment Options
                         </Button>
                       </Link>
-                      </p>
                   </div>
                 </CardContent>
               </Card>
