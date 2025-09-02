@@ -224,7 +224,7 @@ const DurgaPujaDetails = () => {
                   {/* Annual Sponsorship Section */}
                   <div>
                     <h4 className="text-lg font-semibold text-bengali-red mb-3">Annual Sponsorship</h4>
-                    <p className="space-y-2 text-sm">
+                    <p className="text-bengali-dark/80 mb-6">
                       Join our family of sponsors — your support makes all the difference.
                     </p>
                     <div className="space-y-6">
@@ -275,7 +275,7 @@ const DurgaPujaDetails = () => {
                   {/* General Event Subscription Section */}
                   <div>
                     <h4 className="text-lg font-semibold text-bengali-red mb-3">General Event Subscription</h4>
-                    <p className="space-y-2 text-sm">
+                    <p className="text-bengali-dark/80 mb-6">
                       Subscription includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.
                     </p>
                     <div className="space-y-6">
