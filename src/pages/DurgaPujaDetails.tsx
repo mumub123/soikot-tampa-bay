@@ -206,10 +206,10 @@ const DurgaPujaDetails = () => {
             {/* Donation Rates */}
             <Card className="border-none shadow-lg mb-12">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold text-bengali-dark mb-6">Donation Rates</h3>
+                <h3 className="text-2xl font-bold text-bengali-dark mb-6 text-center">Donation Rates</h3>
                 
                 {/* Payment Information */}
-                <div className="mb-6 p-4 bg-bengali-red/5 rounded-lg border border-bengali-red/20">
+                <div className="mb-6 p-4 bg-bengali-red/5 rounded-lg border border-bengali-red/20 text-center">
                   <p className="text-bengali-dark font-medium mb-3">
                     Zelle payments to: <span className="text-bengali-red">soikotflorida@gmail.com</span>
                   </p>
