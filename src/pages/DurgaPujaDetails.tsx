@@ -143,7 +143,7 @@ const DurgaPujaDetails = () => {
                       </p>
                       <p>
                       <Link to="/donate">
-                        <Button variant="outline" size="sm" className="w-full text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
+                        <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
                           More Payment Options
                         </Button>
                       </Link>
