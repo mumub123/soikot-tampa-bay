@@ -204,7 +204,7 @@ const DurgaPujaDetails = () => {
               
               {/* Donation Rates */}
               <Card className="border-none shadow-lg h-full lg:col-span-2">
-                <CardContent className="p-8">
+                <CardContent className="p-8 h-full flex flex-col">
                   <h3 className="text-2xl font-bold text-bengali-dark mb-6">Donation Rates</h3>
                   
                   {/* Payment Information */}
@@ -219,10 +219,10 @@ const DurgaPujaDetails = () => {
                     </Link>
                   </div>
                   
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 flex-grow">
                     {/* Annual Sponsorship Section */}
                     <div>
-                      <h4 className="text-lg font-semibold text-bengali-dark mb-4">Annual Sponsorship</h4>
+                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Annual Sponsorship</h4>
                       <p className="text-bengali-dark/80 mb-6">
                         Join our family of sponsors — your support makes all the difference.
                       </p>
@@ -273,7 +273,7 @@ const DurgaPujaDetails = () => {
 
                     {/* General Event Subscription Section */}
                     <div>
-                      <h4 className="text-lg font-semibold text-bengali-dark mb-4">General Event Subscription</h4>
+                      <h4 className="text-lg font-semibold text-bengali-red mb-3">General Event Subscription</h4>
                       <p className="text-bengali-dark/80 mb-6">
                         Subscription includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.
                       </p>
