@@ -56,13 +56,13 @@ const DurgaPujaDetails = () => {
               </p>
             </div>
             
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12 items-start">
               {/* Event Details Card */}
-              <Card className="border-none shadow-lg">
-                <CardContent className="p-8">
+              <Card className="border-none shadow-lg h-full">
+                <CardContent className="p-8 h-full flex flex-col">
                   <h3 className="text-2xl font-bold text-bengali-dark mb-6">Event Details</h3>
                   
-                  <div className="space-y-4">
+                  <div className="space-y-4 flex-grow">
                     <div className="flex items-center text-bengali-dark">
                       <Calendar className="w-5 h-5 mr-3 text-bengali-red" />
                       <div>
@@ -97,7 +97,7 @@ const DurgaPujaDetails = () => {
               </Card>
               
               {/* Subscription */}
-              <Card className="border-none shadow-lg">
+              <Card className="border-none shadow-lg h-full">
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-bengali-dark mb-4">Subscription Rates</h3>
                   <p className="text-bengali-dark/80 mb-6">
@@ -152,7 +152,7 @@ const DurgaPujaDetails = () => {
                 </CardContent>
               </Card>
               {/* Sponsorship Rates Card */}
-              <Card className="border-none shadow-lg">
+              <Card className="border-none shadow-lg h-full">
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-bengali-dark mb-6">Annual Sponsorship</h3>
                   <p className="text-bengali-dark/80 mb-6">
@@ -205,11 +205,11 @@ const DurgaPujaDetails = () => {
                  </CardContent>
               </Card>
               {/* Contact Information Card */}
-              <Card className="border-none shadow-lg">
-                <CardContent className="p-8">
+              <Card className="border-none shadow-lg h-full">
+                <CardContent className="p-8 h-full flex flex-col">
                   <h3 className="text-2xl font-bold text-bengali-dark mb-6">General Inquiries</h3>
                   
-                  <div className="space-y-4">
+                  <div className="space-y-4 flex-grow">
                     <div className="flex items-center text-bengali-dark">
                       <Phone className="w-5 h-5 mr-3 text-bengali-red" />
                       <div>
