@@ -99,28 +99,61 @@ const DurgaPujaDetails = () => {
               {/* Subscription */}
               <Card className="border-none shadow-lg">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-bold text-bengali-dark mb-6">Subscription Rates</h3>
+                  <h3 className="text-2xl font-bold text-bengali-dark mb-4">Subscription Rates</h3>
+                  <p className="text-bengali-dark/80 mb-6">
+                    Subscription includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.
+                  </p>
                   
                   <div className="space-y-6">
-                    <div className="space-y-4">
-                      <div className="flex justify-between items-center py-3 border-b border-bengali-dark/10">
-                        <span className="text-bengali-dark font-medium">Family </span>
-                        <span className="text-bengali-red font-bold text-lg">$450.00</span>
-                      </div>
-                      
-                      <div className="flex justify-between items-center py-3 border-b border-bengali-dark/10">
-                        <span className="text-bengali-dark font-medium">Individual </span>
-                        <span className="text-bengali-red font-bold text-lg">$275.00</span>
-                      </div>
-                      
-                      <div className="flex justify-between items-center py-3">
-                        <span className="text-bengali-dark font-medium">Student</span>
-                        <span className="text-bengali-dark/70 text-sm">Contact for discounted rates</span>
+                    {/* Pre-registration Rates */}
+                    <div>
+                      <h4 className="text-lg font-semibold text-bengali-dark mb-3">Pre-registration Rates</h4>
+                      <div className="bg-bengali-red/5 rounded-lg p-4 border border-bengali-red/20">
+                        <div className="space-y-2">
+                          <div className="flex justify-between items-center">
+                            <span className="text-bengali-dark font-medium">Family</span>
+                            <span className="text-bengali-red font-bold text-lg">$450</span>
+                          </div>
+                          <div className="flex justify-between items-center">
+                            <span className="text-bengali-dark font-medium">Individual</span>
+                            <span className="text-bengali-red font-bold text-lg">$225</span>
+                          </div>
+                        </div>
+                        <p className="text-sm text-bengali-red font-medium mt-3">
+                          Pre-registration ends September 21, 2025
+                        </p>
                       </div>
                     </div>
-                    
-                    <div className="pt-4 text-sm text-bengali-dark/60">
-                      <p>Subscription includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.</p>
+
+                    {/* Regular Registration Rates */}
+                    <div>
+                      <h4 className="text-lg font-semibold text-bengali-dark mb-3">Regular Registration Rates</h4>
+                      <div className="space-y-2">
+                        <div className="flex justify-between items-center py-2 border-b border-bengali-dark/10">
+                          <span className="text-bengali-dark font-medium">Family</span>
+                          <span className="text-bengali-dark font-bold text-lg">$550</span>
+                        </div>
+                        <div className="flex justify-between items-center py-2 border-b border-bengali-dark/10">
+                          <span className="text-bengali-dark font-medium">Individual</span>
+                          <span className="text-bengali-dark font-bold text-lg">$275</span>
+                        </div>
+                        <div className="flex justify-between items-center py-2">
+                          <span className="text-bengali-dark font-medium">Student</span>
+                          <span className="text-bengali-dark/70 text-sm">Contact for discounted rates</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Payment Information */}
+                    <div className="pt-4 border-t border-bengali-dark/10">
+                      <p className="text-bengali-dark font-medium mb-4">
+                        Zelle payment to: <span className="text-bengali-red">soikotflorida@gmail.com</span>
+                      </p>
+                      <Link to="/donate">
+                        <Button variant="outline" className="w-full text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
+                          For More Payment Options
+                        </Button>
+                      </Link>
                     </div>
                   </div>
                 </CardContent>
