@@ -143,7 +143,7 @@ const DurgaPujaDetails = () => {
                       </p>
                       <p>
                       <Link to="/donate">
-                        <Button variant="outline" className="w-full text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
+                        <Button variant="outline" size="sm" className="w-full text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
                           More Payment Options
                         </Button>
                       </Link>
@@ -165,7 +165,7 @@ const DurgaPujaDetails = () => {
                         <table className="w-full">
                           <thead>
                             <tr className="bg-bengali-red/10">
-                              <th className="text-left py-3 px-4 font-medium text-bengali-dark">Sponsorship Category</th>
+                              <th className="text-left py-3 px-4 font-medium text-bengali-dark">Category</th>
                               <th className="text-center py-3 px-4 font-medium text-bengali-dark">Rates</th>
                             </tr>
                           </thead>
