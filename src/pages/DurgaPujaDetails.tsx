@@ -194,14 +194,15 @@ const DurgaPujaDetails = () => {
                         </table>
                       </div>
                     </div>
-                    <p>
-                    <Link to="/sponsorship-rates">
-                      <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
-                        View Additional Details
-                      </Button>
-                    </Link>
-                    </p>
-                </CardContent>
+                     <p>
+                     <Link to="/sponsorship-rates">
+                       <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
+                         View Additional Details
+                       </Button>
+                     </Link>
+                     </p>
+                   </div>
+                 </CardContent>
               </Card>
               {/* Contact Information Card */}
               <Card className="border-none shadow-lg">
