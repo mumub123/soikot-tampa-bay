@@ -113,7 +113,7 @@ const DurgaPujaDetails = () => {
                           <thead>
                             <tr className="bg-bengali-red/10">
                               <th className="text-left py-3 px-4 font-semibold text-bengali-dark">Category</th>
-                              <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Pre-registration</th>
+                              <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Pre-registration (ends 9/21)</th>
                               <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Regular</th>
                             </tr>
                           </thead>
@@ -135,9 +135,6 @@ const DurgaPujaDetails = () => {
                           </tbody>
                         </table>
                       </div>
-                      <p className="text-sm text-bengali-red font-medium mt-3">
-                        Pre-registration ends September 21, 2025
-                      </p>
                     </div>
                     {/* Payment Information */}
                     <div className="pt-4 border-t border-bengali-dark/10">
@@ -146,7 +143,7 @@ const DurgaPujaDetails = () => {
                       </p>
                       <Link to="/donate">
                         <Button variant="outline" className="w-full text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
-                          For More Payment Options
+                          More Payment Options
                         </Button>
                       </Link>
                     </div>
