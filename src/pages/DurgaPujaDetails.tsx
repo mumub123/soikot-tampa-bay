@@ -48,27 +48,6 @@ const DurgaPujaDetails = () => {
         <section className="py-12 md:py-16 lg:py-20 bg-gradient-to-br from-bengali-light via-white to-bengali-light/50">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
-              {/* Bengali Theme */}
-              <div className="mb-8">
-                <h2 className="text-5xl md:text-7xl lg:text-8xl font-extrabold font-bengali mb-4 tracking-wider relative">
-                  <span className="bg-gradient-to-br from-red-500 via-orange-500 to-pink-600 bg-clip-text text-transparent drop-shadow-lg">
-                    মা আসছেন
-                  </span>
-                  {/* Artistic shadow layers */}
-                  <span className="absolute inset-0 bg-gradient-to-br from-red-600/30 via-orange-600/30 to-pink-700/30 bg-clip-text text-transparent blur-sm -z-10">
-                    মা আসছেন
-                  </span>
-                  <span className="absolute inset-0 bg-gradient-to-tl from-yellow-400/20 via-red-400/20 to-purple-500/20 bg-clip-text text-transparent blur-md -z-20 transform translate-x-1 translate-y-1">
-                    মা আসছেন
-                  </span>
-                </h2>
-                <div className="flex justify-center items-center gap-4 mb-6">
-                  <div className="w-20 h-0.5 bg-gradient-to-r from-transparent via-red-500 to-orange-500"></div>
-                  <div className="w-4 h-4 bg-gradient-to-br from-red-500 to-pink-600 rotate-45 shadow-lg"></div>
-                  <div className="w-20 h-0.5 bg-gradient-to-l from-transparent via-orange-500 to-pink-600"></div>
-                </div>
-              </div>
-              
               <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">
                 <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Durga Puja 2025</span>
               </h1>
