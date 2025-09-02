@@ -151,6 +151,23 @@ const DurgaPujaDetails = () => {
                   </div>
                 </CardContent>
               </Card>
+              {/* Sponsorship Rates Card */}
+              <Card className="border-none shadow-lg">
+                <CardContent className="p-8">
+                  <h3 className="text-2xl font-bold text-bengali-dark mb-6">Annual Sponsorship</h3>
+                  <div className="mt-6 p-4 bg-bengali-red/5 rounded-lg border border-bengali-red/20">
+                    <p className="text-bengali-dark font-medium mb-2">
+                      Support our community by becoming an annual sponsor.
+                    </p>
+                    <Link to="/sponsorship-rates">
+                      <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
+                        View Additional Details
+                      </Button>
+                    </Link>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
 
               {/* Contact Information Card */}
               <Card className="border-none shadow-lg">
@@ -173,24 +190,7 @@ const DurgaPujaDetails = () => {
                   </div>
                 </CardContent>
               </Card>
-              {/* Sponsorship Rates Card */}
-              <Card className="border-none shadow-lg">
-                <CardContent className="p-8">
-                  <h3 className="text-2xl font-bold text-bengali-dark mb-6">Annual Sponsorship</h3>
-                  <div className="mt-6 p-4 bg-bengali-red/5 rounded-lg border border-bengali-red/20">
-                    <p className="text-bengali-dark font-medium mb-2">
-                      Support our community by becoming an annual sponsor.
-                    </p>
-                    <Link to="/sponsorship-rates">
-                      <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
-                        View Additional Details
-                      </Button>
-                    </Link>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-
+              
             {/* Event Flyers */}
             <div className="text-center mb-12">
               <h3 className="text-2xl font-bold text-bengali-dark mb-6 text-center">More Information</h3>
