@@ -201,7 +201,6 @@ const DurgaPujaDetails = () => {
                       </Button>
                     </Link>
                     </p>
-                  </div>
                 </CardContent>
               </Card>
               {/* Contact Information Card */}
