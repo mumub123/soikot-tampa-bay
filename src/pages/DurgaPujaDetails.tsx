@@ -51,45 +51,151 @@ const DurgaPujaDetails = () => {
                 <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Durga Puja 2025</span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-              <p className="text-bengali-dark/80 max-w-3xl mx-auto">
+              <p className="text-bengali-dark/80 max-w-3xl mx-auto mb-8">
                 Join us for the biggest Bengali festival of the year celebrating the divine feminine power of Ma Durga.
               </p>
+              
+              {/* Basic Event Info */}
+              <div className="bg-white/50 backdrop-blur-sm rounded-lg p-6 max-w-2xl mx-auto border border-bengali-red/20">
+                <div className="space-y-3">
+                  <div className="flex items-center justify-center text-bengali-dark">
+                    <Calendar className="w-5 h-5 mr-3 text-bengali-red" />
+                    <div>
+                      <strong>Date:</strong> October 3-5, 2025
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center justify-center text-bengali-dark">
+                    <Clock className="w-5 h-5 mr-3 text-bengali-red" />
+                    <div>
+                      <strong>Time:</strong> 11:00 AM - 10:00 PM
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center justify-center text-bengali-dark">
+                    <MapPin className="w-5 h-5 mr-3 text-bengali-red" />
+                    <div className="text-center">
+                      <strong>Location:</strong> Indian Cultural Center
+                      <br />
+                      <a 
+                        href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-bengali-red hover:text-bengali-red/80 inline-flex items-center"
+                      >
+                        View on Google Maps <ExternalLink className="w-3 h-3 ml-1" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12 items-start">
               {/* Event Details Card */}
               <Card className="border-none shadow-lg h-full">
                 <CardContent className="p-8 h-full flex flex-col">
-                  <h3 className="text-2xl font-bold text-bengali-dark mb-6">Event Details</h3>
+                  <h3 className="text-2xl font-bold text-bengali-dark mb-6">Event Schedule</h3>
                   
-                  <div className="space-y-4 flex-grow">
-                    <div className="flex items-center text-bengali-dark">
-                      <Calendar className="w-5 h-5 mr-3 text-bengali-red" />
-                      <div>
-                        <strong>Date:</strong> October 3-5, 2025
+                  <div className="space-y-6 flex-grow">
+                    {/* Oct 3 */}
+                    <div>
+                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 3</h4>
+                      <div className="space-y-2 text-sm">
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">11:00 am</span>
+                          <span className="text-bengali-dark">Pandal Setup</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">6:00 pm</span>
+                          <span className="text-bengali-dark">Debir Bodhon</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">7:30 pm</span>
+                          <span className="text-bengali-dark">Pushpanjali</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">8:00 pm</span>
+                          <span className="text-bengali-dark">Fashion Show</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">9:00 pm</span>
+                          <span className="text-bengali-dark">Dinner</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">10:00 pm</span>
+                          <span className="text-bengali-dark">Natok</span>
+                        </div>
                       </div>
                     </div>
-                    
-                    <div className="flex items-center text-bengali-dark">
-                      <Clock className="w-5 h-5 mr-3 text-bengali-red" />
-                      <div>
-                        <strong>Time:</strong> 11:00 AM - 10:00 PM
+
+                    {/* Oct 4 */}
+                    <div>
+                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 4</h4>
+                      <div className="space-y-2 text-sm">
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">10:30 am</span>
+                          <span className="text-bengali-dark">Pujo</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">1:30 pm</span>
+                          <span className="text-bengali-dark">Pushpanjali</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">2:00 pm</span>
+                          <span className="text-bengali-dark">Prasad</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">2:30 pm</span>
+                          <span className="text-bengali-dark">Bhog</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">4:00 pm</span>
+                          <span className="text-bengali-dark">Cultural Program</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">8:00 pm</span>
+                          <span className="text-bengali-dark">Sandhya Arati</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">8:30 pm</span>
+                          <span className="text-bengali-dark">Dhunuchi Nach</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">9:00 pm</span>
+                          <span className="text-bengali-dark">Dinner</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">10:00 pm</span>
+                          <span className="text-bengali-dark">Cultural Program</span>
+                        </div>
                       </div>
                     </div>
-                    
-                    <div className="flex items-start text-bengali-dark">
-                      <MapPin className="w-5 h-5 mr-3 text-bengali-red mt-1" />
-                      <div>
-                        <strong>Location:</strong> Indian Cultural Center
-                        <br />
-                        <a 
-                          href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-bengali-red hover:text-bengali-red/80 inline-flex items-center"
-                        >
-                          View on Google Maps <ExternalLink className="w-3 h-3 ml-1" />
-                        </a>
+
+                    {/* Oct 5 */}
+                    <div>
+                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 5</h4>
+                      <div className="space-y-2 text-sm">
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">10:30 am</span>
+                          <span className="text-bengali-dark">Pujo</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">12:30 pm</span>
+                          <span className="text-bengali-dark">Pushpanjali</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">1:30 pm</span>
+                          <span className="text-bengali-dark">Debi Baron & Sindur Khela</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">3:00 pm</span>
+                          <span className="text-bengali-dark">Lunch</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark/70">6:00 pm</span>
+                          <span className="text-bengali-dark">Madhubanti Bagchi Live</span>
+                        </div>
                       </div>
                     </div>
                   </div>
