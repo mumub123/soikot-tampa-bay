@@ -112,8 +112,8 @@ const DurgaPujaDetails = () => {
                           <thead>
                             <tr className="bg-bengali-red/10">
                               <th className="text-left py-3 px-4 font-semibold text-bengali-dark">Category</th>
-                              <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Pre-registration
-                                <div className="text-center font-semibold text-bengali-dark">(ends 9/21)</div>
+                              <th className="text-center py-3 px-4 font-semibold text-white bg-bengali-red">Pre-registration
+                                <div className="text-center font-semibold text-white">(ends 9/21)</div>
                               </th>
                               <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Regular</th>
                             </tr>
@@ -121,12 +121,12 @@ const DurgaPujaDetails = () => {
                           <tbody>
                             <tr className="border-b border-bengali-red/10">
                               <td className="py-3 px-4 font-medium text-bengali-dark">Family</td>
-                              <td className="text-center py-3 px-4 text-bengali-red font-bold">$450</td>
+                              <td className="text-center py-3 px-4 text-white font-bold bg-bengali-red/90">$450</td>
                               <td className="text-center py-3 px-4 text-bengali-dark font-bold">$550</td>
                             </tr>
                             <tr className="border-b border-bengali-red/10">
                               <td className="py-3 px-4 font-medium text-bengali-dark">Individual</td>
-                              <td className="text-center py-3 px-4 text-bengali-red font-bold">$225</td>
+                              <td className="text-center py-3 px-4 text-white font-bold bg-bengali-red/90">$225</td>
                               <td className="text-center py-3 px-4 text-bengali-dark font-bold">$275</td>
                             </tr>
                             <tr>
