@@ -105,46 +105,39 @@ const DurgaPujaDetails = () => {
                   </p>
                   
                   <div className="space-y-6">
-                    {/* Pre-registration Rates */}
+                    {/* Subscription Rates Table */}
                     <div>
-                      <h4 className="text-lg font-semibold text-bengali-dark mb-3">Pre-registration Rates</h4>
-                      <div className="bg-bengali-red/5 rounded-lg p-4 border border-bengali-red/20">
-                        <div className="space-y-2">
-                          <div className="flex justify-between items-center">
-                            <span className="text-bengali-dark font-medium">Family</span>
-                            <span className="text-bengali-red font-bold text-lg">$450</span>
-                          </div>
-                          <div className="flex justify-between items-center">
-                            <span className="text-bengali-dark font-medium">Individual</span>
-                            <span className="text-bengali-red font-bold text-lg">$225</span>
-                          </div>
-                        </div>
-                        <p className="text-sm text-bengali-red font-medium mt-3">
-                          Pre-registration ends September 21, 2025
-                        </p>
+                      <h4 className="text-lg font-semibold text-bengali-dark mb-4">Subscription Rates</h4>
+                      <div className="overflow-hidden rounded-lg border border-bengali-red/20">
+                        <table className="w-full">
+                          <thead>
+                            <tr className="bg-bengali-red/10">
+                              <th className="text-left py-3 px-4 font-semibold text-bengali-dark">Category</th>
+                              <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Pre-registration</th>
+                              <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Regular</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr className="border-b border-bengali-red/10">
+                              <td className="py-3 px-4 font-medium text-bengali-dark">Family</td>
+                              <td className="text-center py-3 px-4 text-bengali-red font-bold">$450</td>
+                              <td className="text-center py-3 px-4 text-bengali-dark font-bold">$550</td>
+                            </tr>
+                            <tr className="border-b border-bengali-red/10">
+                              <td className="py-3 px-4 font-medium text-bengali-dark">Individual</td>
+                              <td className="text-center py-3 px-4 text-bengali-red font-bold">$225</td>
+                              <td className="text-center py-3 px-4 text-bengali-dark font-bold">$275</td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 px-4 font-medium text-bengali-dark">Student</td>
+                              <td colSpan={2} className="text-center py-3 px-4 text-bengali-dark/70 italic">Contact for discounted rates</td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
-                    </div>
-
-                    {/* Regular Registration Rates */}
-                    <div>
-                      <h4 className="text-lg font-semibold text-bengali-dark mb-3">Regular Registration Rates</h4>
-                      <div className="bg-bengali-red/5 rounded-lg p-4 border border-bengali-red/20">
-                        <div className="space-y-2">
-                          <div className="flex justify-between items-center">
-                            <span className="text-bengali-dark font-medium">Family</span>
-                            <span className="text-bengali-dark font-bold text-lg">$550</span>
-                          </div>
-                          <div className="flex justify-between items-center">
-                            <span className="text-bengali-dark font-medium">Individual</span>
-                            <span className="text-bengali-dark font-bold text-lg">$275</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div className="flex justify-between items-center py-2">
-                      <span className="text-bengali-dark font-medium">Student</span>
-                      <span className="text-bengali-dark/70 text-sm">Contact for discounted rates</span>
+                      <p className="text-sm text-bengali-red font-medium mt-3">
+                        Pre-registration ends September 21, 2025
+                      </p>
                     </div>
                     {/* Payment Information */}
                     <div className="pt-4 border-t border-bengali-dark/10">
