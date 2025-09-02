@@ -131,6 +131,17 @@ const DurgaPujaDetails = () => {
                         <a href="mailto:soikotflorida@gmail.com" className="text-bengali-dark/70 hover:text-bengali-red">soikotflorida@gmail.com</a>
                       </div>
                     </div>
+                    
+                    <div className="mt-6 p-4 bg-bengali-red/5 rounded-lg border border-bengali-red/20">
+                      <p className="text-bengali-dark font-medium mb-2">
+                        Support our community by becoming an annual sponsor.
+                      </p>
+                      <Link to="/sponsorship-rates">
+                        <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
+                          View Sponsorship Tiers
+                        </Button>
+                      </Link>
+                    </div>
                   </div>
                 </CardContent>
               </Card>
