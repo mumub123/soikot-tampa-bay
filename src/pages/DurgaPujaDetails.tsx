@@ -202,113 +202,115 @@ const DurgaPujaDetails = () => {
                 </CardContent>
               </Card>
               
-              {/* Subscription */}
-              <Card className="border-none shadow-lg h-full">
+              {/* Donation Rates */}
+              <Card className="border-none shadow-lg h-full lg:col-span-2">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-bold text-bengali-dark mb-4">Subscription Rates</h3>
-                  <p className="text-bengali-dark/80 mb-6">
-                    Subscription includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.
-                  </p>
+                  <h3 className="text-2xl font-bold text-bengali-dark mb-6">Donation Rates</h3>
                   
-                  <div className="space-y-6">
-                    {/* Subscription Rates Table */}
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    {/* Annual Sponsorship Section */}
                     <div>
-                      <div className="overflow-hidden rounded-lg border border-bengali-red/20">
-                        <table className="w-full">
-                          <thead>
-                            <tr className="bg-bengali-red/10">
-                              <th className="text-left py-3 px-4 font-medium text-bengali-dark">Category</th>
-                              <th className="text-center py-3 px-4 font-medium text-white bg-bengali-red">Pre-registration
-                                <div className="text-center font-medium text-white">(ends 9/21)</div>
-                              </th>
-                              <th className="text-center py-3 px-4 font-medium text-bengali-dark">Regular</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr className="border-b border-bengali-red/10">
-                              <td className="py-3 px-4 font-medium text-bengali-dark">Family</td>
-                              <td className="text-center py-3 px-4 text-white font-semibold bg-bengali-red/90">$450</td>
-                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$550</td>
-                            </tr>
-                            <tr className="border-b border-bengali-red/10">
-                              <td className="py-3 px-4 font-medium text-bengali-dark">Individual</td>
-                              <td className="text-center py-3 px-4 text-white font-semibold bg-bengali-red/90">$225</td>
-                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$275</td>
-                            </tr>
-                            <tr>
-                              <td className="py-3 px-4 font-medium text-bengali-dark">Student</td>
-                              <td colSpan={2} className="text-center py-3 px-4 text-bengali-dark/70 italic">Contact for discounted rates</td>
-                            </tr>
-                          </tbody>
-                        </table>
+                      <h4 className="text-xl font-semibold text-bengali-dark mb-4">Annual Sponsorship</h4>
+                      <p className="text-bengali-dark/80 mb-6">
+                        Join our family of sponsors — your support makes all the difference.
+                      </p>
+                      <div className="space-y-6">
+                        <div>
+                          <div className="overflow-hidden rounded-lg border border-bengali-red/20">
+                            <table className="w-full">
+                              <thead>
+                                <tr className="bg-bengali-red/10">
+                                  <th className="text-left py-3 px-4 font-medium text-bengali-dark">Category</th>
+                                  <th className="text-center py-3 px-4 font-medium text-bengali-dark">Rates</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr className="border-b border-bengali-red/10">
+                                  <td className="py-3 px-4 font-medium text-bengali-dark">Grand</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium">$3,000</td>
+                                </tr>
+                                <tr className="border-b border-bengali-red/10">
+                                  <td className="py-3 px-4 font-medium text-bengali-dark">Platinum</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium">$2,000</td>
+                                </tr>
+                                <tr className="border-b border-bengali-red/10">
+                                  <td className="py-3 px-4 font-medium text-bengali-dark">Diamond</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium">$1,500</td>
+                                </tr>
+                                <tr className="border-b border-bengali-red/10">
+                                  <td className="py-3 px-4 font-medium text-bengali-dark">Gold</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium">$1,000</td>
+                                </tr>
+                                <tr className="border-b border-bengali-red/10">
+                                  <td className="py-3 px-4 font-medium text-bengali-dark">Silver</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium">$650</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <p>
+                          <Link to="/sponsorship-rates">
+                            <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
+                              View Additional Details
+                            </Button>
+                          </Link>
+                        </p>
                       </div>
                     </div>
-                    {/* Payment Information */}
-                      <p className="text-bengali-dark font-medium mb-4">
-                        Zelle payments to: <span className="text-bengali-red">soikotflorida@gmail.com</span>
+
+                    {/* General Event Subscription Section */}
+                    <div>
+                      <h4 className="text-xl font-semibold text-bengali-dark mb-4">General Event Subscription</h4>
+                      <p className="text-bengali-dark/80 mb-6">
+                        Subscription includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.
                       </p>
-                      <p>
-                      <Link to="/donate">
-                        <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
-                          More Payment Options
-                        </Button>
-                      </Link>
-                      </p>
+                      <div className="space-y-6">
+                        <div>
+                          <div className="overflow-hidden rounded-lg border border-bengali-red/20">
+                            <table className="w-full">
+                              <thead>
+                                <tr className="bg-bengali-red/10">
+                                  <th className="text-left py-3 px-4 font-medium text-bengali-dark">Category</th>
+                                  <th className="text-center py-3 px-4 font-medium text-white bg-bengali-red">Pre-registration
+                                    <div className="text-center font-medium text-white">(ends 9/21)</div>
+                                  </th>
+                                  <th className="text-center py-3 px-4 font-medium text-bengali-dark">Regular</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr className="border-b border-bengali-red/10">
+                                  <td className="py-3 px-4 font-medium text-bengali-dark">Family</td>
+                                  <td className="text-center py-3 px-4 text-white font-semibold bg-bengali-red/90">$450</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium">$550</td>
+                                </tr>
+                                <tr className="border-b border-bengali-red/10">
+                                  <td className="py-3 px-4 font-medium text-bengali-dark">Individual</td>
+                                  <td className="text-center py-3 px-4 text-white font-semibold bg-bengali-red/90">$225</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium">$275</td>
+                                </tr>
+                                <tr>
+                                  <td className="py-3 px-4 font-medium text-bengali-dark">Student</td>
+                                  <td colSpan={2} className="text-center py-3 px-4 text-bengali-dark/70 italic">Contact for discounted rates</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <p className="text-bengali-dark font-medium mb-4">
+                          Zelle payments to: <span className="text-bengali-red">soikotflorida@gmail.com</span>
+                        </p>
+                        <p>
+                          <Link to="/donate">
+                            <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
+                              More Payment Options
+                            </Button>
+                          </Link>
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </CardContent>
-              </Card>
-              {/* Sponsorship Rates Card */}
-              <Card className="border-none shadow-lg h-full">
-                <CardContent className="p-8">
-                  <h3 className="text-2xl font-bold text-bengali-dark mb-6">Annual Sponsorship</h3>
-                  <p className="text-bengali-dark/80 mb-6">
-                    Join our family of sponsors — your support makes all the difference.
-                  </p>
-                  <div className="space-y-6">
-                    {/* Subscription Rates Table */}
-                    <div>
-                      <div className="overflow-hidden rounded-lg border border-bengali-red/20">
-                        <table className="w-full">
-                          <thead>
-                            <tr className="bg-bengali-red/10">
-                              <th className="text-left py-3 px-4 font-medium text-bengali-dark">Category</th>
-                              <th className="text-center py-3 px-4 font-medium text-bengali-dark">Rates</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr className="border-b border-bengali-red/10">
-                              <td className="py-3 px-4 font-medium text-bengali-dark">Grand</td>
-                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$3,000</td>
-                            </tr>
-                            <tr className="border-b border-bengali-red/10">
-                              <td className="py-3 px-4 font-medium text-bengali-dark">Platinum</td>
-                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$2,000</td>
-                            </tr>
-                            <tr className="border-b border-bengali-red/10">
-                              <td className="py-3 px-4 font-medium text-bengali-dark">Diamond</td>
-                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$1,500</td>
-                            </tr>
-                            <tr className="border-b border-bengali-red/10">
-                              <td className="py-3 px-4 font-medium text-bengali-dark">Gold</td>
-                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$1,000</td>
-                            </tr>
-                            <tr className="border-b border-bengali-red/10">
-                              <td className="py-3 px-4 font-medium text-bengali-dark">Silver</td>
-                              <td className="text-center py-3 px-4 text-bengali-dark font-medium">$650</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                     <p>
-                     <Link to="/sponsorship-rates">
-                       <Button variant="outline" size="sm" className="text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
-                         View Additional Details
-                       </Button>
-                     </Link>
-                     </p>
-                   </div>
-                 </CardContent>
               </Card>
               {/* Contact Information Card */}
               <Card className="border-none shadow-lg h-full">
