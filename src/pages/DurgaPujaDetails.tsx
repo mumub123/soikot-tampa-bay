@@ -95,7 +95,7 @@ const DurgaPujaDetails = () => {
               {/* Event Details Card */}
               <Card className="border-none shadow-lg w-full max-w-2xl">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-bold text-bengali-dark mb-6">Event Schedule</h3>
+                  <h3 className="text-2xl font-bold text-bengali-dark mb-6 text-center">Event Schedule</h3>
                   
                   <div className="space-y-6 flex-grow">
                     {/* Oct 3 */}
