@@ -129,21 +129,22 @@ const DurgaPujaDetails = () => {
                     <div>
                       <h4 className="text-lg font-semibold text-bengali-dark mb-3">Regular Registration Rates</h4>
                       <div className="bg-bengali-red/5 rounded-lg p-4 border border-bengali-red/20">
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-center>
-                          <span className="text-bengali-dark font-medium">Family</span>
-                          <span className="text-bengali-dark font-bold text-lg">$550</span>
+                        <div className="space-y-2">
+                          <div className="flex justify-between items-center">
+                            <span className="text-bengali-dark font-medium">Family</span>
+                            <span className="text-bengali-dark font-bold text-lg">$550</span>
+                          </div>
+                          <div className="flex justify-between items-center">
+                            <span className="text-bengali-dark font-medium">Individual</span>
+                            <span className="text-bengali-dark font-bold text-lg">$275</span>
+                          </div>
                         </div>
-                        <div className="flex justify-between items-center>
-                          <span className="text-bengali-dark font-medium">Individual</span>
-                          <span className="text-bengali-dark font-bold text-lg">$275</span>
-                        </div>
-                      </div>
                       </div>
                     </div>
+                    
                     <div className="flex justify-between items-center py-2">
-                          <span className="text-bengali-dark font-medium">Student</span>
-                          <span className="text-bengali-dark/70 text-sm">Contact for discounted rates</span>
+                      <span className="text-bengali-dark font-medium">Student</span>
+                      <span className="text-bengali-dark/70 text-sm">Contact for discounted rates</span>
                     </div>
                     {/* Payment Information */}
                     <div className="pt-4 border-t border-bengali-dark/10">
