@@ -50,17 +50,17 @@ const DurgaPujaDetails = () => {
             <div className="text-center mb-12">
               {/* Bengali Theme */}
               <div className="mb-8">
-                <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-bengali-red font-bengali mb-4 drop-shadow-lg">
-                  মা আসছেন
+                <h2 className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-transparent bg-gradient-to-r from-bengali-red via-orange-500 to-bengali-red bg-clip-text font-bengali mb-4 tracking-wider">
+                  <span className="relative inline-block">
+                    মা আসছেন
+                    <div className="absolute inset-0 text-bengali-red/20 blur-sm -z-10">মা আসছেন</div>
+                  </span>
                 </h2>
                 <div className="flex justify-center items-center gap-4 mb-6">
-                  <div className="w-16 h-0.5 bg-gradient-to-r from-transparent to-bengali-red"></div>
-                  <div className="w-3 h-3 bg-bengali-red rotate-45"></div>
-                  <div className="w-16 h-0.5 bg-gradient-to-l from-transparent to-bengali-red"></div>
+                  <div className="w-20 h-0.5 bg-gradient-to-r from-transparent via-bengali-red to-orange-500"></div>
+                  <div className="w-4 h-4 bg-gradient-to-br from-bengali-red to-orange-500 rotate-45 shadow-lg"></div>
+                  <div className="w-20 h-0.5 bg-gradient-to-l from-transparent via-orange-500 to-bengali-red"></div>
                 </div>
-                <p className="text-bengali-dark/70 text-lg md:text-xl italic">
-                  The Mother is Coming
-                </p>
               </div>
               
               <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">
