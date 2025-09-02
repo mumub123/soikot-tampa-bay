@@ -48,6 +48,21 @@ const DurgaPujaDetails = () => {
         <section className="py-12 md:py-16 lg:py-20 bg-gradient-to-br from-bengali-light via-white to-bengali-light/50">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
+              {/* Bengali Theme */}
+              <div className="mb-8">
+                <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-bengali-red font-bengali mb-4 drop-shadow-lg">
+                  মা আসছেন
+                </h2>
+                <div className="flex justify-center items-center gap-4 mb-6">
+                  <div className="w-16 h-0.5 bg-gradient-to-r from-transparent to-bengali-red"></div>
+                  <div className="w-3 h-3 bg-bengali-red rotate-45"></div>
+                  <div className="w-16 h-0.5 bg-gradient-to-l from-transparent to-bengali-red"></div>
+                </div>
+                <p className="text-bengali-dark/70 text-lg md:text-xl italic">
+                  The Mother is Coming
+                </p>
+              </div>
+              
               <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">
                 <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Durga Puja 2025</span>
               </h1>
