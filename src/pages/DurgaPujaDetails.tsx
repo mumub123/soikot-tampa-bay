@@ -136,16 +136,14 @@ const DurgaPujaDetails = () => {
                       </div>
                     </div>
                     {/* Payment Information */}
-                    <div className="pt-4 border-t border-bengali-dark/10">
                       <p className="text-bengali-dark font-medium mb-4">
-                        Zelle payment to: <span className="text-bengali-red">soikotflorida@gmail.com</span>
+                        Zelle payments to: <span className="text-bengali-red">soikotflorida@gmail.com</span>
                       </p>
                       <Link to="/donate">
                         <Button variant="outline" className="w-full text-bengali-red border-bengali-red hover:bg-bengali-red hover:text-white">
                           More Payment Options
                         </Button>
                       </Link>
-                    </div>
                   </div>
                 </CardContent>
               </Card>
