@@ -167,7 +167,6 @@ const DurgaPujaDetails = () => {
                   </div>
                 </CardContent>
               </Card>
-            </div>
 
               {/* Contact Information Card */}
               <Card className="border-none shadow-lg">
@@ -190,7 +189,7 @@ const DurgaPujaDetails = () => {
                   </div>
                 </CardContent>
               </Card>
-              
+          </div>
             {/* Event Flyers */}
             <div className="text-center mb-12">
               <h3 className="text-2xl font-bold text-bengali-dark mb-6 text-center">More Information</h3>
