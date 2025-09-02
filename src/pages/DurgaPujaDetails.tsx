@@ -113,7 +113,7 @@ const DurgaPujaDetails = () => {
                             <tr className="bg-bengali-red/10">
                               <th className="text-left py-3 px-4 font-semibold text-bengali-dark">Category</th>
                               <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Pre-registration
-                                <tr className="text-center py-3 px-4 font-semibold text-bengali-dark">(ends 9/21)</tr>
+                                <div className="text-center font-semibold text-bengali-dark">(ends 9/21)</div>
                               </th>
                               <th className="text-center py-3 px-4 font-semibold text-bengali-dark">Regular</th>
                             </tr>
