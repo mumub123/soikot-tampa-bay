@@ -107,7 +107,6 @@ const DurgaPujaDetails = () => {
                   <div className="space-y-6">
                     {/* Subscription Rates Table */}
                     <div>
-                      <h4 className="text-lg font-semibold text-bengali-dark mb-4">Subscription Rates</h4>
                       <div className="overflow-hidden rounded-lg border border-bengali-red/20">
                         <table className="w-full">
                           <thead>
