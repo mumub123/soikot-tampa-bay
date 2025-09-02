@@ -99,28 +99,28 @@ const DurgaPujaDetails = () => {
               {/* Subscription */}
               <Card className="border-none shadow-lg">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-bold text-bengali-dark mb-6">Event Membership</h3>
+                  <h3 className="text-2xl font-bold text-bengali-dark mb-6">Subscription Rates</h3>
                   
                   <div className="space-y-6">
                     <div className="space-y-4">
                       <div className="flex justify-between items-center py-3 border-b border-bengali-dark/10">
-                        <span className="text-bengali-dark font-medium">Family Membership</span>
+                        <span className="text-bengali-dark font-medium">Family </span>
                         <span className="text-bengali-red font-bold text-lg">$450.00</span>
                       </div>
                       
                       <div className="flex justify-between items-center py-3 border-b border-bengali-dark/10">
-                        <span className="text-bengali-dark font-medium">Individual Membership</span>
+                        <span className="text-bengali-dark font-medium">Individual </span>
                         <span className="text-bengali-red font-bold text-lg">$275.00</span>
                       </div>
                       
                       <div className="flex justify-between items-center py-3">
-                        <span className="text-bengali-dark font-medium">Student Rate</span>
+                        <span className="text-bengali-dark font-medium">Student</span>
                         <span className="text-bengali-dark/70 text-sm">Contact for discounted rates</span>
                       </div>
                     </div>
                     
                     <div className="pt-4 text-sm text-bengali-dark/60">
-                      <p>Membership includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.</p>
+                      <p>Subscription includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.</p>
                     </div>
                   </div>
                 </CardContent>
