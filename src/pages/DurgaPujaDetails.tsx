@@ -171,7 +171,7 @@ const DurgaPujaDetails = () => {
                           </thead>
                           <tbody>
                             <tr className="border-b border-bengali-red/10">
-                              <td className="py-3 px-4 font-medium text-bengali-dark">Grand</td>                              <td className="text-center py-3 px-4 text-white font-semibold bg-bengali-red/90">$450</td>
+                              <td className="py-3 px-4 font-medium text-bengali-dark">Grand</td>
                               <td className="text-center py-3 px-4 text-bengali-dark font-medium">$3,000</td>
                             </tr>
                             <tr className="border-b border-bengali-red/10">
@@ -201,6 +201,7 @@ const DurgaPujaDetails = () => {
                       </Button>
                     </Link>
                     </p>
+                  </div>
                 </CardContent>
               </Card>
               {/* Contact Information Card */}
