@@ -28,6 +28,11 @@ const DurgaPujaDetails = () => {
       src: "/lovable-uploads/3cbf2f89-c537-4a89-9d49-2cdf4f050aa5.png",
       title: "Prabaho - Our Online Magazine",
       description: "Article submission deadline: September 20"
+    },
+    {
+      src: "/lovable-uploads/DP_Food_Flyer_English.jpeg",
+      title: "Durga Puja Food Menu",
+      description: "Traditional Bengali cuisine for all three days"
     }
   ];
 
