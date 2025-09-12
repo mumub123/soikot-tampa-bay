@@ -10,7 +10,7 @@ const DurgaPujaDetails = () => {
 
   const flyers = [
     {
-      src: "/lovable-uploads/da0c6adb-fac4-4b3b-9b6f-63a738c42fb0.png", 
+      src: "/lovable-uploads/MB_Poster.jpg", 
       title: "Featuring Madhubanti Bagchi",
       description: "Oct 5, 2025 at 5:00 pm"
     },
