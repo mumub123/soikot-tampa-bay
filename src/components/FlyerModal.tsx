@@ -8,8 +8,8 @@ const FlyerModal = () => {
 
   const flyers = [
     {
-      src: "/lovable-uploads/da0c6adb-fac4-4b3b-9b6f-63a738c42fb0.png",
-      alt: "Avid Entertainment Presents Durga Puja Celebration 2025 featuring Madhubanti Bagchi"
+      src: "/lovable-uploads/MB_Poster.jpg",
+      alt: "Madhubanti Bagchi Live in Tampa - Durga Puja Oct 5, 5PM at ICC Tampa"
     },
     {
       src: "/lovable-uploads/c3a41759-7497-475d-857f-d085285f7727.png",
