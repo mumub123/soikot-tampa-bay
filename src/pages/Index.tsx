@@ -7,7 +7,6 @@ import Culture from '@/components/Culture';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import PermanentToaster from '@/components/PermanentToaster';
-import FlyerModal from '@/components/FlyerModal';
 
 const Index = () => {
   return (
@@ -22,7 +21,6 @@ const Index = () => {
           <Contact />
         </main>
         <Footer />
-        <FlyerModal />
       </div>
     </div>
   );
