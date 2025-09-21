@@ -295,6 +295,15 @@ const DurgaPujaDetails = () => {
                       <p className="text-bengali-dark/80 mb-6 text-sm">
                         Subscription includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.
                       </p>
+                      {/* Preregistration Extended Splash */}
+                      <div className="mb-4 mx-auto max-w-md">
+                        <div className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-3 rounded-xl shadow-lg border-2 border-green-400 animate-pulse">
+                          <div className="text-center">
+                            <p className="font-bold text-sm md:text-base">EXTENDED!</p>
+                            <p className="text-xs md:text-sm font-medium">Preregistration until Sept 28, 2025</p>
+                          </div>
+                        </div>
+                      </div>
                       <div className="space-y-4">
                         <div>
                           <div className="overflow-hidden rounded-lg border border-bengali-red/20">
@@ -303,7 +312,7 @@ const DurgaPujaDetails = () => {
                                 <tr className="bg-bengali-red/10">
                                   <th className="text-left py-3 px-4 font-medium text-bengali-dark text-sm">Category</th>
                                   <th className="text-center py-3 px-4 font-medium text-white bg-bengali-red text-sm">Pre-registration
-                                    <div className="text-center font-medium text-white text-xs">(ends 9/21)</div>
+                                    <div className="text-center font-medium text-white text-xs">(ends 9/28)</div>
                                   </th>
                                   <th className="text-center py-3 px-4 font-medium text-bengali-dark text-sm">Regular</th>
                                 </tr>
