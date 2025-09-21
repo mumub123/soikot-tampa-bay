@@ -57,9 +57,19 @@ const DurgaPujaDetails = () => {
                 <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Durga Puja 2025</span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-              <p className="text-bengali-dark/80 max-w-3xl mx-auto mb-8">
+              <p className="text-bengali-dark/80 max-w-3xl mx-auto mb-6">
                 Join us for the biggest Bengali festival of the year celebrating the divine feminine power of Ma Durga.
               </p>
+              
+              {/* Preregistration Extended Splash */}
+              <div className="mb-8 mx-auto max-w-md">
+                <div className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-3 rounded-xl shadow-lg border-2 border-green-400 animate-pulse">
+                  <div className="text-center">
+                    <p className="font-bold text-sm md:text-base">🎉 EXTENDED!</p>
+                    <p className="text-xs md:text-sm font-medium">Preregistration until Sept 28, 2025</p>
+                  </div>
+                </div>
+              </div>
               
               {/* Basic Event Info */}
               <div className="bg-white/50 backdrop-blur-sm rounded-lg p-6 max-w-2xl mx-auto border border-bengali-red/20">
