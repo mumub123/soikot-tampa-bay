@@ -49,8 +49,8 @@ const Hero = () => {
                 <div className="mb-4 mx-auto max-w-md">
                   <div className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-3 rounded-xl shadow-lg border-2 border-green-400 animate-pulse">
                     <div className="text-center">
-                      <p className="font-bold text-sm md:text-base">EXTENDED!</p>
-                      <p className="text-xs md:text-sm font-medium">Preregistration until Sept 28, 2025</p>
+                      <p className="font-bold text-sm md:text-base">PRE-REGISTRATION EXTENDED!</p>
+                      <p className="text-xs md:text-sm font-medium">Open until Sept 28, 2025</p>
                     </div>
                   </div>
                 </div>
