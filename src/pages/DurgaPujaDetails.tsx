@@ -65,8 +65,8 @@ const DurgaPujaDetails = () => {
               <div className="mb-8 mx-auto max-w-md">
                 <div className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-3 rounded-xl shadow-lg border-2 border-green-400 animate-pulse">
                   <div className="text-center">
-                    <p className="font-bold text-sm md:text-base">EXTENDED!</p>
-                    <p className="text-xs md:text-sm font-medium">Preregistration until Sept 28, 2025</p>
+                    <p className="font-bold text-sm md:text-base">PRE-REGISTRATION EXTENDED!</p>
+                    <p className="text-xs md:text-sm font-medium">Open until Sept 28, 2025</p>
                   </div>
                 </div>
               </div>
@@ -299,8 +299,7 @@ const DurgaPujaDetails = () => {
                       <div className="mb-4 mx-auto max-w-md">
                         <div className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-3 rounded-xl shadow-lg border-2 border-green-400 animate-pulse">
                           <div className="text-center">
-                            <p className="font-bold text-sm md:text-base">EXTENDED!</p>
-                            <p className="text-xs md:text-sm font-medium">Preregistration until Sept 28, 2025</p>
+                            <p className="font-bold text-sm md:text-base">PRE-REGISTRATION EXTENDED!</p>
                           </div>
                         </div>
                       </div>
@@ -312,7 +311,7 @@ const DurgaPujaDetails = () => {
                                 <tr className="bg-bengali-red/10">
                                   <th className="text-left py-3 px-4 font-medium text-bengali-dark text-sm">Category</th>
                                   <th className="text-center py-3 px-4 font-medium text-white bg-bengali-red text-sm">Pre-registration
-                                    <div className="text-center font-medium text-white text-xs">(ends 9/28)</div>
+                                    <div className="text-center font-medium text-white text-xs">(open until 9/28)</div>
                                   </th>
                                   <th className="text-center py-3 px-4 font-medium text-bengali-dark text-sm">Regular</th>
                                 </tr>
