@@ -30,7 +30,7 @@ const DurgaPujaDetails = () => {
       description: "Article submission deadline: September 20"
     },
     {
-      src: "/lovable-uploads/DP_Food_Flyer_English.jpg",
+      src: "/lovable-uploads/DP_Food_Flyer_English-2.jpg",
       title: "Durga Puja Food Menu",
       description: "Traditional Bengali cuisine for all three days"
     }
