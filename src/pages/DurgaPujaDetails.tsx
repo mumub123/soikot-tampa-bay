@@ -292,26 +292,21 @@ const DurgaPujaDetails = () => {
                               <thead>
                                 <tr className="bg-bengali-red/10">
                                   <th className="text-left py-3 px-4 font-medium text-bengali-dark text-sm">Category</th>
-                                  <th className="text-center py-3 px-4 font-medium text-white bg-bengali-red text-sm">Pre-registration
-                                    <div className="text-center font-medium text-white text-xs">(open until 9/28)</div>
-                                  </th>
-                                  <th className="text-center py-3 px-4 font-medium text-bengali-dark text-sm">Regular</th>
+                                  <th className="text-center py-3 px-4 font-medium text-bengali-dark text-sm">Amount</th>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr className="border-b border-bengali-red/10">
                                   <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Family</td>
-                                  <td className="text-center py-3 px-4 text-white font-semibold bg-bengali-red/90 text-sm">$450</td>
                                   <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm">$550</td>
                                 </tr>
                                 <tr className="border-b border-bengali-red/10">
                                   <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Individual</td>
-                                  <td className="text-center py-3 px-4 text-white font-semibold bg-bengali-red/90 text-sm">$225</td>
                                   <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm">$275</td>
                                 </tr>
                                 <tr>
                                   <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Student</td>
-                                  <td colSpan={2} className="text-center py-3 px-4 text-bengali-dark/70 italic text-xs">Contact for discounted rates</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark/70 italic text-xs">Contact for discounted rates</td>
                                 </tr>
                               </tbody>
                             </table>
