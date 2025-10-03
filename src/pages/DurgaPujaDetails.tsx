@@ -61,16 +61,6 @@ const DurgaPujaDetails = () => {
                 Join us for the biggest Bengali festival of the year celebrating the divine feminine power of Ma Durga.
               </p>
               
-              {/* Preregistration Extended Splash */}
-              <div className="mb-8 mx-auto max-w-md">
-                <div className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-3 rounded-xl shadow-lg border-2 border-green-400 animate-pulse">
-                  <div className="text-center">
-                    <p className="font-bold text-sm md:text-base">PRE-REGISTRATION EXTENDED!</p>
-                    <p className="text-xs md:text-sm font-medium">Open until Sept 28, 2025</p>
-                  </div>
-                </div>
-              </div>
-              
               {/* Basic Event Info */}
               <div className="bg-white/50 backdrop-blur-sm rounded-lg p-6 max-w-2xl mx-auto border border-bengali-red/20">
                 <div className="space-y-3">
@@ -295,14 +285,6 @@ const DurgaPujaDetails = () => {
                       <p className="text-bengali-dark/80 mb-6 text-sm">
                         Subscription includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.
                       </p>
-                      {/* Preregistration Extended Splash */}
-                      <div className="mb-4 mx-auto max-w-md">
-                        <div className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-3 rounded-xl shadow-lg border-2 border-green-400 animate-pulse">
-                          <div className="text-center">
-                            <p className="font-bold text-sm md:text-base">PRE-REGISTRATION EXTENDED!</p>
-                          </div>
-                        </div>
-                      </div>
                       <div className="space-y-4">
                         <div>
                           <div className="overflow-hidden rounded-lg border border-bengali-red/20">
