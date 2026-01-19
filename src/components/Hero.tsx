@@ -36,11 +36,12 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* Featured Event Section */}
-          <div className="my-6 w-full max-w-md">
+          {/* Featured Events Section */}
+          <div className="my-6 w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Saraswati Puja Tile */}
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
               <div className="text-center pt-4 pb-2 px-4">
-                <h3 className="text-3xl md:text-4xl font-bold text-bengali-dark mb-2">
+                <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Saraswati Puja 2026</span>
                 </h3>
                 <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto"></div>
@@ -71,6 +72,45 @@ const Hero = () => {
                   Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.
                 </p>
                 <Link to="/saraswati-puja-details">
+                  <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">View Details</Button>
+                </Link>
+              </div>
+            </div>
+
+            {/* Rabindra Jayanti Tile */}
+            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
+              <div className="text-center pt-4 pb-2 px-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
+                  <span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">Rabindra Jayanti 2026</span>
+                </h3>
+                <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-orange-500 mx-auto"></div>
+              </div>
+              
+              <div className="relative h-48">
+                <img 
+                  src="/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png" 
+                  alt="Rabindra Jayanti" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              
+              <div className="p-6">
+                <div className="flex items-center text-bengali-dark/70 mb-2">
+                  <Calendar className="w-4 h-4 mr-2" />
+                  <span className="text-sm">May 9, 2026</span>
+                </div>
+                <div className="flex items-center text-bengali-dark/70 mb-2">
+                  <Clock className="w-4 h-4 mr-2" />
+                  <span className="text-sm">4:00 PM - 9:00 PM</span>
+                </div>
+                <div className="flex items-center text-bengali-dark/70 mb-4">
+                  <MapPin className="w-4 h-4 mr-2" />
+                  <span className="text-sm">Land O' Lakes Community Center</span>
+                </div>
+                <p className="text-bengali-dark/80 mb-4">
+                  Celebrate the birth anniversary of Rabindranath Tagore with music, poetry, and cultural performances honoring the Nobel laureate.
+                </p>
+                <Link to="/rabindra-jayanti">
                   <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">View Details</Button>
                 </Link>
               </div>
