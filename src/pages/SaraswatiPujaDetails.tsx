@@ -126,7 +126,7 @@ const SaraswatiPujaDetails = () => {
                           <span className="font-medium text-bengali-dark">Cultural Program</span>
                           <span className="text-bengali-red ml-2">6:30 PM onwards</span>
                         </div>
-                        <div className="bg-bengali-light/50 rounded-lg p-3 sm:col-span-2">
+                        <div className="bg-bengali-light/50 rounded-lg p-3">
                           <span className="font-medium text-bengali-dark">Dinner</span>
                           <span className="text-bengali-red ml-2">9:00 PM</span>
                         </div>
