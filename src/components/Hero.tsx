@@ -67,7 +67,7 @@ const Hero = () => {
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
-                  <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
                     Saraswati Puja
                   </span>
                 </h3>
