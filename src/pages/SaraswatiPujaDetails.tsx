@@ -94,7 +94,40 @@ const SaraswatiPujaDetails = () => {
                       The celebration includes traditional puja rituals, cultural performances, and a community feast
                       featuring authentic Bengali cuisine.
                     </p>
-                    <p className="text-center text-bengali-red font-medium">More details coming soon!</p>
+
+                    <div className="mt-6 pt-6 border-t border-bengali-red/20">
+                      <h4 className="text-lg font-semibold text-bengali-dark mb-4 text-center">Event Schedule</h4>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-center">
+                        <div className="bg-bengali-light/50 rounded-lg p-3">
+                          <span className="font-medium text-bengali-dark">Pujo</span>
+                          <span className="text-bengali-red ml-2">11:00 AM</span>
+                        </div>
+                        <div className="bg-bengali-light/50 rounded-lg p-3">
+                          <span className="font-medium text-bengali-dark">Haate Khori</span>
+                          <span className="text-bengali-red ml-2">1:00 PM</span>
+                        </div>
+                        <div className="bg-bengali-light/50 rounded-lg p-3">
+                          <span className="font-medium text-bengali-dark">Bhog Prosad</span>
+                          <span className="text-bengali-red ml-2">2:00 PM</span>
+                        </div>
+                        <div className="bg-bengali-light/50 rounded-lg p-3">
+                          <span className="font-medium text-bengali-dark">Sit and Draw</span>
+                          <span className="text-bengali-red ml-2">3:30 PM</span>
+                        </div>
+                        <div className="bg-bengali-light/50 rounded-lg p-3">
+                          <span className="font-medium text-bengali-dark">Quiz</span>
+                          <span className="text-bengali-red ml-2">5:00 PM</span>
+                        </div>
+                        <div className="bg-bengali-light/50 rounded-lg p-3">
+                          <span className="font-medium text-bengali-dark">Cultural Program</span>
+                          <span className="text-bengali-red ml-2">6:30 PM onwards</span>
+                        </div>
+                        <div className="bg-bengali-light/50 rounded-lg p-3 sm:col-span-2">
+                          <span className="font-medium text-bengali-dark">Dinner</span>
+                          <span className="text-bengali-red ml-2">9:00 PM</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </CardContent>
               </Card>
