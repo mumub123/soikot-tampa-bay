@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import AllEventsNavbar from "@/components/AllEventsNavbar";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Calendar, Clock, MapPin, ExternalLink } from "lucide-react";
+import { Calendar, Clock, MapPin, ExternalLink, UtensilsCrossed, X } from "lucide-react";
 import { Link } from "react-router-dom";
-
+import { Dialog, DialogContent } from "@/components/ui/dialog";
 const SaraswatiPujaDetails = () => {
+  const [showFoodFlyer, setShowFoodFlyer] = useState(false);
+
   return (
     <div className="font-bengali">
       <AllEventsNavbar />
@@ -132,6 +134,23 @@ const SaraswatiPujaDetails = () => {
                         </div>
                       </div>
                     </div>
+
+                    {/* Food Menu Flyer */}
+                    <div className="mt-6 pt-6 border-t border-bengali-red/20">
+                      <h4 className="text-lg font-semibold text-bengali-dark mb-4 text-center flex items-center justify-center">
+                        <UtensilsCrossed className="w-5 h-5 mr-2 text-bengali-red" />
+                        Food Menu
+                      </h4>
+                      <div className="flex justify-center">
+                        <img
+                          src="/lovable-uploads/saraswati-puja-food-menu.jpg"
+                          alt="Saraswati Puja 2026 Food Menu"
+                          className="w-full max-w-md rounded-lg shadow-md cursor-pointer hover:shadow-xl transition-shadow duration-300 border border-bengali-red/20"
+                          onClick={() => setShowFoodFlyer(true)}
+                        />
+                      </div>
+                      <p className="text-center text-sm text-bengali-dark/60 mt-2">Click to enlarge</p>
+                    </div>
                   </div>
                 </CardContent>
               </Card>
@@ -150,6 +169,23 @@ const SaraswatiPujaDetails = () => {
             </div>
           </div>
         </section>
+
+        {/* Food Flyer Modal */}
+        <Dialog open={showFoodFlyer} onOpenChange={setShowFoodFlyer}>
+          <DialogContent className="max-w-4xl w-full p-0 bg-transparent border-none">
+            <button
+              onClick={() => setShowFoodFlyer(false)}
+              className="absolute top-2 right-2 z-10 bg-white/90 rounded-full p-2 hover:bg-white transition-colors"
+            >
+              <X className="w-6 h-6 text-bengali-dark" />
+            </button>
+            <img
+              src="/lovable-uploads/saraswati-puja-food-menu.jpg"
+              alt="Saraswati Puja 2026 Food Menu"
+              className="w-full h-auto rounded-lg"
+            />
+          </DialogContent>
+        </Dialog>
       </main>
     </div>
   );
