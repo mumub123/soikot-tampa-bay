@@ -21,7 +21,7 @@ const AllEvents = () => {
       date: "January 24, 2026",
       time: "11:00 AM - 10:00 PM",
       location: "Indian Cultural Center",
-      locationLink: "https://maps.app.goo.gl/GLhW5XfCGakJfbM97",
+      locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
       description:
         "Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.",
     },
@@ -31,7 +31,7 @@ const AllEvents = () => {
       date: "May 9, 2026",
       time: "4:00 PM - 9:00 PM",
       location: "Land O' Lakes Community Center",
-      locationLink: "",
+      locationLink: "https://maps.app.goo.gl/BFwzt8imK2yDNcA88",
       description:
         "Celebrate the birth anniversary of Rabindranath Tagore with music, poetry, and cultural performances honoring the Nobel laureate.",
     },
@@ -41,7 +41,7 @@ const AllEvents = () => {
       date: "October 16-18, 2026",
       time: "11:00 AM - 10:00 PM",
       location: "Indian Cultural Center",
-      locationLink: "https://maps.app.goo.gl/GLhW5XfCGakJfbM97",
+      locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
       description:
         "Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.",
     },
@@ -51,7 +51,7 @@ const AllEvents = () => {
       date: "October 24, 2026",
       time: "5:30 PM - 10:00 PM",
       location: "Land O' Lakes Community Center",
-      locationLink: "https://www.google.com/maps/place/5401+Land+O+Lakes+Blvd,+Land+O+Lakes,+FL+34639",
+      locationLink: "https://maps.app.goo.gl/BFwzt8imK2yDNcA88",
       description:
         "Celebrate Lakshmi Puja with us as we worship the goddess of wealth and prosperity, following Bengali traditions and rituals.",
     },
@@ -61,7 +61,7 @@ const AllEvents = () => {
       date: "November 7, 2026",
       time: "5:30 PM - 10:00 PM",
       location: "Indian Cultural Center",
-      locationLink: "https://maps.app.goo.gl/GLhW5XfCGakJfbM97",
+      locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
       description:
         "Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and celebrations.",
     },
