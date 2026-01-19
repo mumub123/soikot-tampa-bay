@@ -122,8 +122,8 @@ const Hero = () => {
 
               <div className="relative h-48">
                 <img
-                  src="/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png"
-                  alt="Rabindra Jayanti"
+                  src="/lovable-uploads/spring-picnic.png"
+                  alt="Spring Picnic"
                   className="w-full h-full object-cover"
                 />
               </div>
