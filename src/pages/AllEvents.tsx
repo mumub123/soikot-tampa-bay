@@ -21,7 +21,7 @@ const AllEvents = () => {
       date: "January 24, 2026",
       time: "11:00 AM - 10:00 PM",
       location: "Indian Cultural Center",
-      locationLink: "",
+      locationLink: "https://maps.app.goo.gl/GLhW5XfCGakJfbM97",
       description:
         "Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.",
     },
@@ -41,8 +41,7 @@ const AllEvents = () => {
       date: "October 16-18, 2026",
       time: "11:00 AM - 10:00 PM",
       location: "Indian Cultural Center",
-      locationLink:
-        "https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D",
+      locationLink: "https://maps.app.goo.gl/GLhW5XfCGakJfbM97",
       description:
         "Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.",
     },
@@ -62,8 +61,7 @@ const AllEvents = () => {
       date: "November 7, 2026",
       time: "5:30 PM - 10:00 PM",
       location: "Indian Cultural Center",
-      locationLink:
-        "https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z/data=!3m1!4b1!4m6!3m5!1s0x88c2c1b69f9c720d:0x4babf99abffac69!8m2!3d28.0453!4d-82.536!16s%2Fg%2F1thd7ggd?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D",
+      locationLink: "https://maps.app.goo.gl/GLhW5XfCGakJfbM97",
       description:
         "Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and celebrations.",
     },
@@ -123,9 +121,7 @@ const AllEvents = () => {
                     <p className="text-bengali-dark/80 mb-4">{event.description}</p>
                     {event.name === "Saraswati Puja" ? (
                       <Link to="/saraswati-puja-details">
-                        <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">
-                          View Details
-                        </Button>
+                        <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">View Details</Button>
                       </Link>
                     ) : (
                       <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>
