@@ -122,7 +122,7 @@ const Hero = () => {
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
-                  <span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
                     Spring Picnic
                   </span>
                 </h3>
@@ -168,7 +168,7 @@ const Hero = () => {
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20 max-w-md mx-auto">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
-                  <span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
                     Rabindra Jayanti
                   </span>
                 </h3>
