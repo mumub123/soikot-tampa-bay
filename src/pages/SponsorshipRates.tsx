@@ -1,36 +1,39 @@
-import React from 'react';
-import AllEventsNavbar from '@/components/AllEventsNavbar';
-import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
+import React from "react";
+import AllEventsNavbar from "@/components/AllEventsNavbar";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const SponsorshipRates = () => {
   const sponsorshipLevels = [
     {
       title: "Grand Sponsorship",
       amount: "$3000 and above",
-      benefits: "Grand Sponsors are eligible to attend Durga Pujo and all events in 2025 for up to four adults and four children. Attendance for all future Society events up to September 1st, 2026 is free for them."
+      benefits:
+        "Grand Sponsors are eligible to attend Durga Pujo and all events in 2025 for up to four adults and four children. Attendance for all future Society events up to September 1st, 2026 is free for them.",
     },
     {
       title: "Platinum Sponsorship",
       amount: "$2000 and above",
-      benefits: "Includes the same benefits as Grand Sponsorship"
+      benefits: "Includes the same benefits as Grand Sponsorship",
     },
     {
       title: "Diamond Sponsorship",
       amount: "$1500 and above",
-      benefits: "Include the same benefits as Grand and Platinum Sponsorship."
+      benefits: "Includes the same benefits as Grand and Platinum Sponsorship.",
     },
     {
       title: "Gold Sponsorship",
       amount: "$1000 and above",
-      benefits: "Includes attendance to Durga Pujo 2025 and all Soikot events throughout the year for up to four adults and four children. You will also receive complimentary access to all Soikot events until May 31st, 2026."
+      benefits:
+        "Includes attendance to Durga Pujo 2025 and all Soikot events throughout the year for up to four adults and four children. You will also receive complimentary access to all Soikot events until May 31st, 2026.",
     },
     {
       title: "Silver Sponsorship",
-      amount: "$650",
-      benefits: "Silver Sponsors are eligible to attend the Durga Pujo and all event till 31st December 2025 for up to two adults and two children."
-    }
+      amount: "$650 and above",
+      benefits:
+        "Silver Sponsors are eligible to attend the Durga Pujo and all event till 31st December 2025 for up to two adults and two children.",
+    },
   ];
 
   return (
@@ -41,7 +44,9 @@ const SponsorshipRates = () => {
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
               <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">
-                <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Annual Sponsorship Rates</span>
+                <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">
+                  Annual Sponsorship Rates
+                </span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
               <p className="text-bengali-dark/80 max-w-3xl mx-auto">
@@ -63,11 +68,9 @@ const SponsorshipRates = () => {
               ))}
             </div>
 
-            <div className="mt-12 text-center" >
+            <div className="mt-12 text-center">
               <Link to="/donate">
-                <Button className="bg-bengali-red hover:bg-bengali-red/90">
-                  Make a Donation
-                </Button>
+                <Button className="bg-bengali-red hover:bg-bengali-red/90">Make a Donation</Button>
               </Link>
             </div>
           </div>
