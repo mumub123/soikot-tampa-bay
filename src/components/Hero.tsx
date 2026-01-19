@@ -68,9 +68,13 @@ const Hero = () => {
                   <MapPin className="w-4 h-4 mr-2" />
                   <span className="text-sm">Indian Cultural Center</span>
                 </div>
-                <p className="text-bengali-dark/80 mb-4">
+                <p className="text-bengali-dark/80 mb-3">
                   Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.
                 </p>
+                <div className="bg-bengali-light/50 rounded-lg p-3 mb-4 text-center">
+                  <p className="text-sm font-semibold text-bengali-red mb-1">FREE for Gold Sponsors & above</p>
+                  <p className="text-sm text-bengali-dark/80">Family $200 | Adult $100 | Student $40</p>
+                </div>
                 <Link to="/saraswati-puja-details">
                   <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">View Details</Button>
                 </Link>
