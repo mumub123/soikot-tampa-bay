@@ -56,6 +56,7 @@ const Hero = () => {
           </div>
 
           {/* Featured Events Section */}
+          <h2 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-4">Upcoming Events</h2>
           <div className="my-6 w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Saraswati Puja Tile */}
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
