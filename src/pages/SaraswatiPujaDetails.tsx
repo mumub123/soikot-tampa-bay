@@ -52,10 +52,27 @@ const SaraswatiPujaDetails = () => {
                     <MapPin className="w-5 h-5 mr-3 text-bengali-red" />
                     <div className="text-center">
                       <strong>Location:</strong> Indian Cultural Center
+                      <a
+                        href="https://maps.app.goo.gl/x6evEUHo7M4oF9A48"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+            
+            {/* Subscription Rates */}
+            <div className="bg-bengali-light/50 rounded-lg p-6 max-w-2xl mx-auto mb-12 border border-bengali-red/20">
+              <h3 className="text-xl font-bold text-bengali-dark mb-4 text-center">Subscription Rates</h3>
+              <p className="text-center text-bengali-red font-semibold mb-2">FREE for Gold Sponsors & above</p>
+              <p className="text-center text-bengali-dark/80">
+                Regular Subscription: Family $200 | Adult $100 | Student $40
+              </p>
             </div>
             
             <div className="flex justify-center mb-12">
