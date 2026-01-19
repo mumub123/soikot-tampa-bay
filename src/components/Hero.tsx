@@ -55,7 +55,7 @@ const Hero = () => {
                 />
               </div>
               
-              <div className="p-6">
+              <div className="p-6 text-left">
                 <div className="flex items-center text-bengali-dark/70 mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
                   <span className="text-sm">January 24, 2026</span>
@@ -71,7 +71,7 @@ const Hero = () => {
                 <p className="text-bengali-dark/80 mb-3">
                   Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.
                 </p>
-                <div className="bg-bengali-light/50 rounded-lg p-3 mb-4 text-center">
+                <div className="bg-bengali-light/50 rounded-lg p-3 mb-4">
                   <p className="text-sm font-semibold text-bengali-red mb-1">FREE for Gold Sponsors & above</p>
                   <p className="text-sm text-bengali-dark/80">Regular Subscription: Family $200 | Adult $100 | Student $40</p>
                 </div>
@@ -98,7 +98,7 @@ const Hero = () => {
                 />
               </div>
               
-              <div className="p-6">
+              <div className="p-6 text-left">
                 <div className="flex items-center text-bengali-dark/70 mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
                   <span className="text-sm">May 9, 2026</span>
@@ -114,7 +114,7 @@ const Hero = () => {
                 <p className="text-bengali-dark/80 mb-3">
                   Celebrate the birth anniversary of Rabindranath Tagore with music, poetry, and cultural performances honoring the Nobel laureate.
                 </p>
-                <div className="bg-bengali-light/50 rounded-lg p-3 mb-4 text-center">
+                <div className="bg-bengali-light/50 rounded-lg p-3 mb-4">
                   <p className="text-sm font-semibold text-bengali-red mb-1">FREE for Gold Sponsors & above</p>
                   <p className="text-sm text-bengali-dark/80">Subscription: TBD</p>
                 </div>
