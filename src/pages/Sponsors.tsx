@@ -57,6 +57,7 @@ const Sponsors = () => {
       title: "Gold Sponsors",
       amount: "$1000 and above",
       sponsors: [
+        "Anindita & Raja Sarker",
         "Ashok Bhatia",
         "Susmita & Sutap Chatterjee",
         "Keya & Argha Mukherjee",
@@ -84,7 +85,7 @@ const Sponsors = () => {
         "Payel Dutta & Prabir Das",
         "Shreya & Rajarshi Nag",
         "Robi Banerjee",
-        "Saket Srivastava",
+        "Shikha & Saket Srivastava",
         "Anasua Chattapadhyay & Sandip Lahiri",
         "Swati Mazumder & Sandip Mukherjee",
         "Srestha & Sarbajit Maitra",
@@ -98,7 +99,6 @@ const Sponsors = () => {
         "Nandini & Subrata Bandyopadhyay",
         "Sonia Mukherjee Chakraborty & Suman Chakraborty",
         "Suvdip Mukherjee",
-        "Triparna Deverdee",
       ],
     },
     {
