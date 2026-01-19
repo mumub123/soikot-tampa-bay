@@ -27,7 +27,7 @@ const AllEvents = () => {
     },
     {
       name: "Rabindra Jayanti",
-      image: "/lovable-uploads/MB_Poster.jpeg",
+      image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
       date: "May 9, 2026",
       time: "4:00 PM - 9:00 PM",
       location: "Land O' Lakes Community Center",
