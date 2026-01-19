@@ -110,7 +110,52 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Rabindra Jayanti Tile */}
+            {/* Spring Picnic Tile */}
+            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
+              <div className="text-center pt-4 pb-2 px-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
+                  <span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">
+                    Spring Picnic
+                  </span>
+                </h3>
+              </div>
+
+              <div className="relative h-48">
+                <img
+                  src="/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png"
+                  alt="Rabindra Jayanti"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <div className="p-6 text-left">
+                <div className="flex items-center text-bengali-dark/70 mb-2">
+                  <Calendar className="w-4 h-4 mr-2" />
+                  <span className="text-sm">March 14, 2026</span>
+                </div>
+                <div className="flex items-center text-bengali-dark/70 mb-2">
+                  <Clock className="w-4 h-4 mr-2" />
+                  <span className="text-sm">11:00 AM - 6:00 PM</span>
+                </div>
+                <div className="flex items-center text-bengali-dark/70 mb-4">
+                  <MapPin className="w-4 h-4 mr-2" />
+                  <span className="text-sm">TBD</span>
+                </div>
+                <p className="text-bengali-dark/80 mb-3">
+                  Celebrate the birth anniversary of Rabindranath Tagore with music, poetry, and cultural performances
+                  honoring the Nobel laureate.
+                </p>
+                <div className="bg-bengali-light/50 rounded-lg p-3 mb-4">
+                  <p className="text-sm font-semibold text-bengali-red mb-1">FREE for All Sponsors</p>
+                  <p className="text-sm text-bengali-dark/80">Subscription: TBD</p>
+                </div>
+                <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>
+                  Coming Soon
+                </Button>
+              </div>
+            </div>
+          </div>
+          {/* Rabindra Jayanti Tile */}
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
@@ -155,7 +200,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-
           <div className="flex flex-wrap gap-4 justify-center">
             <Link to="/events">
               <Button className="bg-white hover:bg-bengali-red/10 text-bengali-red border border-bengali-red px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-light hover:border-bengali-red/80">
