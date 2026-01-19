@@ -1,9 +1,9 @@
-import React from 'react';
-import AllEventsNavbar from '@/components/AllEventsNavbar';
-import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import React from "react";
+import AllEventsNavbar from "@/components/AllEventsNavbar";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 
 const Sponsors = () => {
   const sponsorTiers = [
@@ -11,138 +11,120 @@ const Sponsors = () => {
       title: "Grand Sponsors",
       amount: "$3000 and above",
       sponsors: [
+        "Madhumita & Jyotirmoy Sarkar",
         "Nandini & Basudeb De",
+        "Prasad Akikatla (Ruisoft)",
+        "Rikhia & Arindam Chakraborty",
         "Sarbani & Aniruddha Guha Sarkar",
         "Saswati & Subhadip Chatterjee",
-        "Sulekha & RajKumar Natarajan",
-        "Puja Kathuria & Siddhartha Bose",
-        "Arup & Sudebi Aditya",
-        "Sudipa & Anando Som",
-        "Madhumita & Jyotirmoy Sarkar",
-        "Anindita & Raja Sarker"
-      ]
+        "Sulekha & Rajkumar Natarajan",
+      ],
     },
     {
       title: "Platinum Sponsors",
       amount: "$2000 and above",
       sponsors: [
+        "Anindita & Raja Sarker",
+        "Baishakhi & Sujit Ghosh",
         "Madhurima & Tapas Das",
+        "Puja Kathuria & Siddhartha Bose",
         "Sayantani & Anupam Bandyopadhyay",
-        "Trishna & Aninda Sarkar",
-        "Sarmishta & Sambit Banerjee",
-        "Soma & Sanjoy Moitra",
-        "Nivedita & Shivaji Sarkar",
-        "Rajkumari & Soumyajyoti Bose",
-        "Baishakhi & Sujit Ghosh"
-      ]
+        "Sudipa & Anando Som",
+      ],
     },
     {
       title: "Diamond Sponsors",
       amount: "$1500 and above",
       sponsors: [
-        "Avantika & Kaushik Sinha",
-        "Mahuya Pal & Ambar Basu",
         "Annapurna & Indranil Bagchi",
-        "Indranil Sohini Chakravarty",
-        "Bijoya & Pratim Bose",
-        "Rumela Das",
-        "Simonti & Sujoy Choudhri",
-        "Shoma & Sumit Ghosh",
-        "Kalit & Surajit Roy",
+        "Ashru & Liton Saha",
+        "Avantika & Kaushik Sinha",
+        "Nivedita & Shivaji Sarkar",
+        "Rajkumari & Soumyajyoti Bose",
+        "Soma & Sanjoy Moitra",
+        "Sudebi & Arup Aditya",
         "Susmita & Somen Adhikari",
-        "Swagata Batabyal",
-        "Taaza Mart"
-      ]
+        "Trishna & Aninda Sarkar",
+      ],
     },
     {
       title: "Gold Sponsors",
       amount: "$1000 and above",
       sponsors: [
-        "Ashok Bhatia",
-        "Susmita & Sutap Chatterjee",
-        "Keya & Argha Mukherjee",
-        "Iver Solution",
-        "Koruna Dutta Pathak & Sunit Pathak",
-        "Pallavi Choudhury & Abhijit Talukdar",
-        "Mahasweta & Indrajit Mukherjee",
-        "Shilpi & Kunal Rudra",
-        "Piyali & Tuhin Saha",
-        "Tanzeena & Adhiraj Ghoshal",
-        "Moumita Roy Adhikari & Angan Adhikari",
-        "Taniya & Anindya Bhowmick",
-        "Anurita Bhunia",
-        "Sujata Pal Chowdhury & Arijit Chakraborty",
-        "Rituparna & Avik Samanta",
-        "Dipanwita Chowdhury & Bratin Jana",
-        "Pragyamita & Debapriya Kundu",
-        "Joita Ghosh & Ramprasad Das",
+        "Anandita Karmakar & Arindam Sabui",
         "Anindita & Kaushik Dutta",
+        "Anurita Bhunia",
+        "Jhuma Nath & Anindya Datta",
+        "Kalit & Surajit Roy",
+        "Keya & Argha Mukherjee",
+        "Koruna Dutta Pathak & Sunit Pathak",
+        "Mahasweta & Indrajit Mukherjee",
+        "Mahuya Pal & Ambar Basu",
         "Moumita Bhattacharjee & Manjit Chakraborty",
-        "Sathi & Mithu Dastidar",
-        "Nisani & Nabin Das",
-        "Peu Dutta & Niraj Mishra",
-        "Susmita & Parikkhit Nandy",
-        "Payel Dutta & Prabir Das",
-        "Shreya & Rajarshi Nag",
-        "Robi Banerjee",
-        "Saket Srivastava",
-        "Anasua Chattapadhyay & Sandip Lahiri",
-        "Swati Mazumder & Sandip Mukherjee",
-        "Srestha & Sarbajit Maitra",
-        "Ruma & Saurav Hazra",
-        "Priyanka & Sauvik Chatterjee",
-        "Priyanka & Shashi Kumar",
-        "Priyadarshini & Shubhendro Chatterjee",
-        "Somtirtha Banerjee",
-        "Arpita & Subhasis Ghosh",
-        "Subhashree & Subir Mukherjee",
         "Nandini & Subrata Bandyopadhyay",
+        "Nishani & Nabin Das",
+        "Pallavi Choudhury & Abhijit Talukdar",
+        "Paromita & Avik Ganguly",
+        "Payel Dutta & Prabir Das",
+        "Peu Dutta & Niraj Mishra",
+        "Pragyamita & Debapriya Kundu",
+        "Sandhyasree & Gautam Bose",
+        "Sarmishta & Sambit Banerjee",
+        "Seema & Santosh Verma",
+        "Sharmistha & Arabinda Banerjee",
+        "Shilpi & Kunal Rudra",
+        "Shoma & Sumit Ghosh",
+        "Sohini Mukherjee & Neil Chakravarty",
         "Sonia Mukherjee Chakraborty & Suman Chakraborty",
-        "Suvdip Mukherjee"
-      ]
+        "Sujata Pal Chowdhury & Arijit Chakraborty",
+        "Susmita & Parikkhit Nandy",
+        "Susmita & Sutap Chatterjee",
+        "Taniya & Anindya Bhowmick",
+        "Lajawab - Cater4U Hospitality LLC",
+      ],
     },
     {
       title: "Silver Sponsors",
       amount: "$650 and above",
       sponsors: [
-        "Manju & Buddhadeb Basu",
-        "Anya M. Nath & Saurav Jay Chandra",
-        "Paromita & Avik Ganguly",
-        "Soma & Joydeep Mukherjee",
-        "Anirban Dawn",
-        "Mahasweta Das & Anirban Chakraborty",
-        "Rituparna & Arijit Saha",
-        "Arnab Pandey",
-        "Arnab Ray",
-        "Swagata & Avik Roy",
-        "Susmita & Biswarup Saha",
-        "Amrita & Debattam Dey",
         "Amrita & Digbijoy Das",
-        "Arundhati & Dipak Roy",
-        "Anindita & Dipanjan Ghosh",
-        "Pritha & Dwaipayan Chakraborty",
-        "Jhuma & Anindya Datta",
-        "Tamali & Maloy Roy",
+        "Anandita Ghosh & Arunava Roy",
         "Ananwita Das & Manas Subudhi",
-        "Pekham Majumder",
-        "Priyanka & Pintu Mishra",
-        "Koushika Kalyani Guha & Prabhakar Guha",
-        "Pranab Pyne",
-        "Rabi Ghoshdastidar",
-        "Ojaswita & Ritaban Sengupta",
-        "Samik Ghatak",
+        "Anya M. Nath & Saurav Jay Chandra",
+        "Arpita & Subhasis Ghosh",
+        "Arunima Ghose & Tapan Bagui",
         "Bandita De Bhar & Santanu Bhar",
-        "Sayan Dutta",
-        "Debarati & Shuvanker Ghosh",
-        "Rita & Shyamal Bar",
         "Briti Sen Chakraborty & Sinchan Chakraborty",
-        "Sonali Mukherjee & Soumya Roy",
-        "Dipanwita & Soumyadeep Chakraborty",
-        "Sujoy Chowdhury",
-        "Surojit Dutta",
-        "Jhumur & Tapan Gosh"
-      ]
-    }
+        "Debarati & Shuvanker Ghosh",
+        "Dipanwita Bhattacharya & Soumyadeep Chakraborty",
+        "Dipanwita Chowdhury & Bratin Jana",
+        "Gopa & Somtirtha Banerjee",
+        "Joita Ghosh & Ramprasad Das",
+        "Koushika Kalyani Guha & Prabhakar Guha",
+        "Mahasweta Das & Anirban Chakraborty",
+        "Manju & Buddhadeb Basu",
+        "Moumita Roy Adhikari & Angan Adhikari",
+        "Ojaswita Chatterjee Sengupta & Ritaban Sengupta",
+        "Piyali & Tuhin Saha",
+        "Poly & Ranjan Chowdhury",
+        "Pooja & Joy Upadhyay",
+        "Pritha & Dwaipayan Chakraborty",
+        "Priyanka & Pintu Mishra",
+        "Priyanka & Shashi Kumar",
+        "Priyanka Dasgupta Chatterjee & Sauvik Chatterjee",
+        "Rabi Ghoshdastidar",
+        "Rita & Shyamal Bar",
+        "Rituparna Sen & Arijit Saha",
+        "Ruma Dey Hazra & Saurav Hazra",
+        "Sathi & Mithu Dastidar",
+        "Shreya Guha Roy & Rajarshi Nag",
+        "Srestha & Sarbajit Maitra",
+        "Subhashree & Subir Mukherjee",
+        "Susmita Paul Saha & Biswarup Saha",
+        "Swati Mazumder & Sandip Mukherjee",
+        "Tanzeena Mukherjee & Adhiraj Ghoshal",
+      ],
+    },
   ];
 
   return (
@@ -151,14 +133,16 @@ const Sponsors = () => {
       <main>
         <section className="py-8 md:py-12 bg-bengali-light">
           <div className="container mx-auto px-4 md:px-6">
-            
             <div className="text-center mb-12">
               <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">
-                <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Our 2024-2025 Sponsors</span>
+                <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">
+                  Our 2025-2026 Sponsors
+                </span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
               <p className="text-bengali-dark/80 max-w-3xl mx-auto">
-                We are grateful to our sponsors for their generous support in helping us promote Bengali culture and community.
+                We are grateful to our sponsors for their generous support in helping us promote Bengali culture and
+                community.
               </p>
             </div>
 
@@ -184,9 +168,7 @@ const Sponsors = () => {
 
             <div className="mt-12 text-center">
               <Link to="/sponsorship-rates">
-                <Button className="bg-bengali-red hover:bg-bengali-red/90">
-                  Become a Sponsor
-                </Button>
+                <Button className="bg-bengali-red hover:bg-bengali-red/90">Become a Sponsor</Button>
               </Link>
             </div>
           </div>
