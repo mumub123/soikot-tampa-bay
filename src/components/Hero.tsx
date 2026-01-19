@@ -61,6 +61,7 @@ const Hero = () => {
               Upcoming Events
             </span>
           </h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
           <div className="my-6 w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Saraswati Puja Tile */}
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
