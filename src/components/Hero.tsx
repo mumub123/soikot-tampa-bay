@@ -156,7 +156,8 @@ const Hero = () => {
             </div>
           </div>
           {/* Rabindra Jayanti Tile */}
-            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
+          <div className="my-6 w-full max-w-4xl">
+            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20 max-w-md mx-auto">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">
