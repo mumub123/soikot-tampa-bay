@@ -83,7 +83,7 @@ const Sponsors = () => {
         "Susmita & Parikkhit Nandy",
         "Payel Dutta & Prabir Das",
         "Shreya & Rajarshi Nag",
-        "Robi Banerjee",
+        "Sugata & Robi Banerjee",
         "Shikha & Saket Srivastava",
         "Anasua Chattapadhyay & Sandip Lahiri",
         "Swati Mazumder & Sandip Mukherjee",
