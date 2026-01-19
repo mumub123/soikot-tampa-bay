@@ -26,12 +26,14 @@ const Sponsors = () => {
       title: "Platinum Sponsors",
       amount: "$2000 and above",
       sponsors: [
-        "Anindita & Raja Sarker",
-        "Baishakhi & Sujit Ghosh",
         "Madhurima & Tapas Das",
-        "Puja Kathuria & Siddhartha Bose",
         "Sayantani & Anupam Bandyopadhyay",
-        "Sudipa & Anando Som"
+        "Trishna & Aninda Sarkar",
+        "Sarmishta & Sambit Banerjee",
+        "Soma & Sanjoy Moitra",
+        "Nivedita & Shivaji Sarkar",
+        "Rajkumari & Soumyajyoti Bose",
+        "Baishakhi & Sujit Ghosh"
       ]
     },
     {
