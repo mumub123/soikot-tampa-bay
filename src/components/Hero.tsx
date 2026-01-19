@@ -110,9 +110,7 @@ const Hero = () => {
                 <p className="text-bengali-dark/80 mb-4">
                   Celebrate the birth anniversary of Rabindranath Tagore with music, poetry, and cultural performances honoring the Nobel laureate.
                 </p>
-                <Link to="/rabindra-jayanti">
-                  <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">View Details</Button>
-                </Link>
+                <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>Coming Soon</Button>
               </div>
             </div>
           </div>
