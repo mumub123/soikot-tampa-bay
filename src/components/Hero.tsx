@@ -75,7 +75,7 @@ const Hero = () => {
 
               <div className="relative h-48">
                 <img
-                  src="/lovable-uploads/0f0a6ef1-6161-4b80-af4d-c09d805ba737.jpeg"
+                  src="/lovable-uploads/saraswati-puja.jpeg"
                   alt="Saraswati Puja"
                   className="w-full h-full object-cover"
                 />

@@ -17,7 +17,7 @@ const AllEvents = () => {
   const allEvents = [
     {
       name: "Saraswati Puja",
-      image: "/lovable-uploads/0f0a6ef1-6161-4b80-af4d-c09d805ba737.jpeg",
+      image: "/lovable-uploads/saraswati-puja.jpeg",
       date: "January 24, 2026",
       time: "11:00 AM - 10:00 PM",
       location: "Indian Cultural Center",
