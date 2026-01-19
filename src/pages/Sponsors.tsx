@@ -11,13 +11,15 @@ const Sponsors = () => {
       title: "Grand Sponsors",
       amount: "$3000 and above",
       sponsors: [
-        "Madhumita & Jyotirmoy Sarkar",
         "Nandini & Basudeb De",
-        "Prasad Akikatla (Ruisoft)",
-        "Rikhia & Arindam Chakraborty",
         "Sarbani & Aniruddha Guha Sarkar",
         "Saswati & Subhadip Chatterjee",
-        "Sulekha & Rajkumar Natarajan"
+        "Sulekha & RajKumar Natarajan",
+        "Puja Kathuria & Siddhartha Bose",
+        "Arup & Sudebi Aditya",
+        "Sudipa & Anando Som",
+        "Madhumita & Jyotirmoy Sarkar",
+        "Anindita & Raja Sarker"
       ]
     },
     {
