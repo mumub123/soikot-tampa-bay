@@ -27,7 +27,7 @@ const AllEvents = () => {
     },
     {
       name: "Sprint Picnic",
-      image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
+      image: "/lovable-uploads/spring-picnic.png",
       date: "March 14, 2026",
       time: "11:00 AM - 6:00 PM",
       location: "TBD",
