@@ -33,7 +33,7 @@ const AllEvents = () => {
       location: "TBD",
       locationLink: "",
       description:
-        "Come celebrate the season at our Spring Picnic! We're gathering for a day of outdoor fun, sports, barbeque, great food and relaxation as we enjoy the best of Florida's springtime.",
+        "Come celebrate at our Spring Picnic! We're gathering for a day of outdoor fun, sports, great food and relaxation as we enjoy the best of Florida's springtime.",
     },
     {
       name: "Rabindra Jayanti",
