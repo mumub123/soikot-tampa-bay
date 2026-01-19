@@ -26,6 +26,16 @@ const AllEvents = () => {
         "Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.",
     },
     {
+      name: "Sprint Picnic",
+      image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
+      date: "March 14, 2026",
+      time: "11:00 AM - 6:00 PM",
+      location: "TBD",
+      locationLink: "",
+      description:
+        "Celebrate the birth anniversary of Rabindranath Tagore with music, poetry, and cultural performances honoring the Nobel laureate.",
+    },
+    {
       name: "Rabindra Jayanti",
       image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
       date: "May 9, 2026",
