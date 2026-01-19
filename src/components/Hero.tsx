@@ -66,7 +66,6 @@ const Hero = () => {
                     Saraswati Puja
                   </span>
                 </h3>
-                <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto"></div>
               </div>
 
               <div className="relative h-48">
@@ -114,7 +113,6 @@ const Hero = () => {
                     Rabindra Jayanti
                   </span>
                 </h3>
-                <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-orange-500 mx-auto"></div>
               </div>
 
               <div className="relative h-48">
