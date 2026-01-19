@@ -104,6 +104,10 @@ const SaraswatiPujaDetails = () => {
                         </div>
                         <div className="bg-bengali-light/50 rounded-lg p-3">
                           <span className="font-medium text-bengali-dark">Haate Khori</span>
+                          <span className="text-bengali-red ml-2">12:30 PM</span>
+                        </div>
+                        <div className="bg-bengali-light/50 rounded-lg p-3">
+                          <span className="font-medium text-bengali-dark">Anjali</span>
                           <span className="text-bengali-red ml-2">1:00 PM</span>
                         </div>
                         <div className="bg-bengali-light/50 rounded-lg p-3">
