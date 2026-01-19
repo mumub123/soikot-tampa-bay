@@ -142,8 +142,8 @@ const Hero = () => {
                   <span className="text-sm">TBD</span>
                 </div>
                 <p className="text-bengali-dark/80 mb-3">
-                  Celebrate the birth anniversary of Rabindranath Tagore with music, poetry, and cultural performances
-                  honoring the Nobel laureate.
+                  Come celebrate the season at our Spring Picnic! We're gathering for a day of outdoor fun, sports,
+                  barbeque, great food and relaxation as we enjoy the best of Florida's springtime.
                 </p>
                 <div className="bg-bengali-light/50 rounded-lg p-3 mb-4">
                   <p className="text-sm font-semibold text-bengali-red mb-1">FREE for All Sponsors</p>
