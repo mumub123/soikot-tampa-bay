@@ -111,9 +111,13 @@ const Hero = () => {
                   <MapPin className="w-4 h-4 mr-2" />
                   <span className="text-sm">Land O' Lakes Community Center</span>
                 </div>
-                <p className="text-bengali-dark/80 mb-4">
+                <p className="text-bengali-dark/80 mb-3">
                   Celebrate the birth anniversary of Rabindranath Tagore with music, poetry, and cultural performances honoring the Nobel laureate.
                 </p>
+                <div className="bg-bengali-light/50 rounded-lg p-3 mb-4 text-center">
+                  <p className="text-sm font-semibold text-bengali-red mb-1">FREE for Gold Sponsors & above</p>
+                  <p className="text-sm text-bengali-dark/80">Subscription: TBD</p>
+                </div>
                 <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>Coming Soon</Button>
               </div>
             </div>
