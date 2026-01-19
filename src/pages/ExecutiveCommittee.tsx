@@ -1,22 +1,22 @@
-import React from 'react';
-import AllEventsNavbar from '@/components/AllEventsNavbar';
-import { Card, CardContent } from '@/components/ui/card';
+import React from "react";
+import AllEventsNavbar from "@/components/AllEventsNavbar";
+import { Card, CardContent } from "@/components/ui/card";
 
 const ExecutiveCommittee = () => {
   const committeeMembers = [
     "Tapas K. Das",
-    "Manoj K. Lahiri",
-    "Sanjoy Moitra",
     "Raja Sarker",
-    "Jyotirmoy Sarkar",
     "Anupam Bandyopadhyay",
+    "Sanjoy Moitra",
+    "Jyotirmoy Sarkar",
     "Aniruddha Sarkar",
     "Siddhartha Bose",
     "Kunal Rudra",
     "Aninda Sarkar",
-    "Parikhit Nandy",
     "Priyanka Kumar",
-    "Pritha Chakraborty"
+    "Pritha Chakraborty",
+    "Shivaji Sarkar",
+    "Abhijit Talukdar",
   ];
 
   return (
@@ -26,7 +26,11 @@ const ExecutiveCommittee = () => {
         <section className="py-8 md:py-12 bg-bengali-light">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
-              <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark"><span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Executive Committee</span></h1>
+              <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">
+                <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">
+                  Executive Committee
+                </span>
+              </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
               <p className="text-bengali-dark/80 max-w-3xl mx-auto">
                 Meet our dedicated team of volunteers who work tirelessly to serve the Bengali community.
