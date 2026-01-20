@@ -130,7 +130,7 @@ const Sponsors = () => {
         "Roshni Roy & Pranab Pyne",
         "Rabi Ghoshdastidar",
         "Ojaswita & Ritaban Sengupta",
-        "Samik Ghatak",
+        "Pratibha & Samik Ghatak",
         "Bandita De Bhar & Santanu Bhar",
         "Ankana Biswas & Sayan Dutta",
         "Debarati & Shuvanker Ghosh",
