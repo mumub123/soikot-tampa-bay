@@ -26,7 +26,7 @@ const AllEvents = () => {
         "Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.",
     },
     {
-      name: "Sprint Picnic",
+      name: "Spring Picnic",
       image: "/lovable-uploads/spring-picnic.png",
       date: "March 14, 2026",
       time: "11:00 AM - 6:00 PM",
