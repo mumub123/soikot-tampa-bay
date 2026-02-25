@@ -63,61 +63,6 @@ const Hero = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
           <div className="my-6 w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Saraswati Puja Tile */}
-            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
-              <div className="text-center pt-4 pb-2 px-4">
-                <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
-                  <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-                    Saraswati Puja
-                  </span>
-                </h3>
-              </div>
-
-              <div className="relative h-48">
-                <img
-                  src="/lovable-uploads/saraswati-puja.jpeg"
-                  alt="Saraswati Puja"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <div className="p-6 text-left">
-                <div className="flex items-center text-bengali-dark/70 mb-2">
-                  <Calendar className="w-4 h-4 mr-2" />
-                  <span className="text-sm">January 24, 2026</span>
-                </div>
-                <div className="flex items-center text-bengali-dark/70 mb-2">
-                  <Clock className="w-4 h-4 mr-2" />
-                  <span className="text-sm">11:00 AM - 10:00 PM</span>
-                </div>
-                <div className="flex items-center text-bengali-dark/70 mb-4">
-                  <MapPin className="w-4 h-4 mr-2" />
-                  <span className="text-sm">Indian Cultural Center</span>
-                  <a
-                    href="https://maps.app.goo.gl/x6evEUHo7M4oF9A48"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
-                  >
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
-                <p className="text-bengali-dark/80 mb-3">
-                  Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional
-                  ceremonies and cultural performances.
-                </p>
-                <div className="bg-bengali-light/50 rounded-lg p-3 mb-4">
-                  <p className="text-sm font-semibold text-bengali-red mb-1">FREE for Gold Sponsors & above</p>
-                  <p className="text-sm text-bengali-dark/80">
-                    Regular Subscription: Family $200 | Adult $100 | Student $40
-                  </p>
-                </div>
-                <Link to="/saraswati-puja-details">
-                  <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">View Details</Button>
-                </Link>
-              </div>
-            </div>
-
             {/* Spring Picnic Tile */}
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
               <div className="text-center pt-4 pb-2 px-4">
