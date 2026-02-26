@@ -68,7 +68,7 @@ const AllEvents = () => {
     {
       name: "Saraswati Puja",
       image: "/lovable-uploads/saraswati-puja.jpeg",
-      date: "TBD, 2027",
+      date: "February 13, 2027",
       time: "11:00 AM - 10:00 PM",
       location: "Indian Cultural Center",
       locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
