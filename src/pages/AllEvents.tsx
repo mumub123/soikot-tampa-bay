@@ -133,6 +133,10 @@ const AllEvents = () => {
                       <Link to="/saraswati-puja-details">
                         <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">View Details</Button>
                       </Link>
+                    ) : event.name === "Spring Picnic" ? (
+                      <div className="w-full bg-gradient-to-r from-bengali-red to-bengali-orange text-white text-center py-3 rounded-xl font-semibold text-lg tracking-wide shadow-md">
+                        🎉 See you soon!
+                      </div>
                     ) : (
                       <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>
                         Coming Soon
