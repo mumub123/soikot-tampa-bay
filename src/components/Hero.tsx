@@ -110,9 +110,9 @@ const Hero = () => {
                   <p className="text-sm font-semibold text-bengali-red mb-1">FREE for All Sponsors</p>
                   <p className="text-sm text-bengali-dark/80">Regular Subscription: TBD</p>
                 </div>
-                <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>
-                  Coming Soon
-                </Button>
+                <div className="w-full bg-gradient-to-r from-bengali-red to-bengali-orange text-white text-center py-3 rounded-xl font-semibold text-lg tracking-wide shadow-md">
+                  🎉 See you soon!
+                </div>
               </div>
             </div>
             {/* Rabindra Jayanti Tile */}
