@@ -92,7 +92,7 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center text-bengali-dark/70 mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
-                  <span className="text-sm">Ridge Crest Park, Shelter 3, 12000 Ulmerton Rd, Largo, FL, 33774</span>
+                  <span className="text-sm">Ridge Crest Park, Shelter 3</span>
                   <a
                     href="https://maps.app.goo.gl/isgWkVX5jtDvQ32S6"
                     target="_blank"
