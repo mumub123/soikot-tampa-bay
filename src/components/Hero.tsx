@@ -93,6 +93,12 @@ const Hero = () => {
                 <div className="flex items-center text-bengali-dark/70 mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
                   <span className="text-sm">Ridge Crest Park, Shelter 3, 12000 Ulmerton Rd, Largo, FL, 33774</span>
+                  <a
+                    href="https://maps.app.goo.gl/isgWkVX5jtDvQ32S6"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
+                  >
                 </div>
                 <p className="text-bengali-dark/80 mb-3">
                   Come celebrate at our Spring Picnic! We're gathering for a day of outdoor fun, sports, great food and
