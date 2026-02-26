@@ -99,6 +99,8 @@ const Hero = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
                   >
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
                 </div>
                 <p className="text-bengali-dark/80 mb-3">
                   Come celebrate at our Spring Picnic! We're gathering for a day of outdoor fun, sports, great food and
