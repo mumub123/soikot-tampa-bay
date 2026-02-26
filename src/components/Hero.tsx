@@ -84,7 +84,7 @@ const Hero = () => {
               <div className="p-6 text-left">
                 <div className="flex items-center text-bengali-dark/70 mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
-                  <span className="text-sm">March 14, 2026</span>
+                  <span className="text-sm">March 28, 2026</span>
                 </div>
                 <div className="flex items-center text-bengali-dark/70 mb-2">
                   <Clock className="w-4 h-4 mr-2" />
@@ -92,7 +92,7 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center text-bengali-dark/70 mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
-                  <span className="text-sm">TBD</span>
+                  <span className="text-sm">Ridge Crest Park, Shelter 3, 12000 Ulmerton Rd, Largo, FL, 33774</span>
                 </div>
                 <p className="text-bengali-dark/80 mb-3">
                   Come celebrate at our Spring Picnic! We're gathering for a day of outdoor fun, sports, great food and
