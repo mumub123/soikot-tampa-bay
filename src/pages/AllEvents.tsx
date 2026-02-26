@@ -18,10 +18,10 @@ const AllEvents = () => {
     {
       name: "Spring Picnic",
       image: "/lovable-uploads/spring-picnic.png",
-      date: "March 14, 2026",
+      date: "March 28, 2026",
       time: "11:00 AM - 6:00 PM",
-      location: "TBD",
-      locationLink: "",
+      location: "Ridge Crest Park, Shelter 3",
+      locationLink: "https://maps.app.goo.gl/isgWkVX5jtDvQ32S6",
       description:
         "Come celebrate at our Spring Picnic! We're gathering for a day of outdoor fun, sports, great food and relaxation as we enjoy the best of Florida's springtime.",
     },
