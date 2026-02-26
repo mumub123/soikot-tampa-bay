@@ -16,16 +16,6 @@ import { Link } from "react-router-dom";
 const AllEvents = () => {
   const allEvents = [
     {
-      name: "Saraswati Puja",
-      image: "/lovable-uploads/saraswati-puja.jpeg",
-      date: "January 24, 2026",
-      time: "11:00 AM - 10:00 PM",
-      location: "Indian Cultural Center",
-      locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
-      description:
-        "Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.",
-    },
-    {
       name: "Spring Picnic",
       image: "/lovable-uploads/spring-picnic.png",
       date: "March 14, 2026",
@@ -74,6 +64,16 @@ const AllEvents = () => {
       locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
       description:
         "Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and celebrations.",
+    },
+    {
+      name: "Saraswati Puja",
+      image: "/lovable-uploads/saraswati-puja.jpeg",
+      date: "January 24, 2026",
+      time: "11:00 AM - 10:00 PM",
+      location: "Indian Cultural Center",
+      locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
+      description:
+        "Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.",
     },
   ];
 
