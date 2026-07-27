@@ -16,26 +16,6 @@ import { Link } from "react-router-dom";
 const AllEvents = () => {
   const allEvents = [
     {
-      name: "Spring Picnic",
-      image: "/lovable-uploads/spring-picnic.png",
-      date: "March 28, 2026",
-      time: "11:00 AM - 6:00 PM",
-      location: "Ridge Crest Park, Shelter 3",
-      locationLink: "https://maps.app.goo.gl/isgWkVX5jtDvQ32S6",
-      description:
-        "Come celebrate at our Spring Picnic! We're gathering for a day of outdoor fun, sports, great food and relaxation as we enjoy the best of Florida's springtime.",
-    },
-    {
-      name: "Rabindra Jayanti",
-      image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
-      date: "May 9, 2026",
-      time: "4:00 PM - 9:00 PM",
-      location: "Land O' Lakes Community Center",
-      locationLink: "https://maps.app.goo.gl/BFwzt8imK2yDNcA88",
-      description:
-        "Celebrate the birth anniversary of Rabindranath Tagore with music, poetry, and cultural performances honoring the Nobel laureate.",
-    },
-    {
       name: "Durga Puja",
       image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png",
       date: "October 16-18, 2026",
@@ -129,15 +109,9 @@ const AllEvents = () => {
                       )}
                     </div>
                     <p className="text-bengali-dark/80 mb-4">{event.description}</p>
-                    {event.name === "Spring Picnic" ? (
-                      <div className="w-full bg-gradient-to-r from-bengali-red to-bengali-orange text-white text-center py-3 rounded-xl font-semibold text-lg tracking-wide shadow-md">
-                        🎉 See you soon!
-                      </div>
-                    ) : (
-                      <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>
-                        Coming Soon
-                      </Button>
-                    )}
+                    <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>
+                      Coming Soon
+                    </Button>
                   </CardContent>
                 </Card>
               ))}
