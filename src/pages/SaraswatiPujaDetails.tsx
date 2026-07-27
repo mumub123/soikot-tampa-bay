@@ -19,6 +19,8 @@ const SaraswatiPujaDetails = () => {
           <img
             src="/lovable-uploads/saraswati-puja.jpeg"
             alt="Saraswati Puja 2026 - Goddess Saraswati"
+            width={482}
+            height={204}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
