@@ -40,7 +40,31 @@ const DurgaPujaDetails = () => {
 
   return (
     <div className="font-bengali">
-      <SEO title={"Durga Puja 2026 - Soikot"} description={"Join Soikot's Durga Puja 2026 on October 16-18 in Tampa Bay, featuring Manasi Ghosh Live on October 18 and cultural programs."} path={"/durga-puja-details"} />
+      <SEO title={"Durga Puja 2026 - Soikot"} description={"Join Soikot's Durga Puja 2026 on October 16-18 in Tampa Bay, featuring Manasi Ghosh Live on October 18 and cultural programs."} path={"/durga-puja-details"} jsonLd={{
+        "@context": "https://schema.org",
+        "@type": "Event",
+        name: "Durga Puja 2026",
+        startDate: "2026-10-16",
+        endDate: "2026-10-18",
+        eventStatus: "https://schema.org/EventScheduled",
+        eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+        location: {
+          "@type": "Place",
+          name: "Land O' Lakes Heritage Park",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "5401 Land O' Lakes Blvd",
+            addressLocality: "Land O' Lakes",
+            addressRegion: "FL",
+            addressCountry: "US"
+          }
+        },
+        description: "Soikot's three-day Durga Puja celebration in Tampa Bay featuring puja rituals, cultural programs, and a live performance by Manasi Ghosh on October 18, 2026.",
+        performer: { "@type": "Person", name: "Manasi Ghosh" },
+        organizer: { "@type": "Organization", name: "Soikot", url: "https://soikot.org" },
+        image: "https://soikot.org/lovable-uploads/74a0e9c4-2966-43b7-ac69-06aa3a563bed.png",
+        url: "https://soikot.org/durga-puja-details"
+      }} />
       <AllEventsNavbar />
       <main>
         {/* Hero Image */}
