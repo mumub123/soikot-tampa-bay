@@ -5,11 +5,13 @@ import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, ExternalLink, UtensilsCrossed, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
+import SEO from "@/components/SEO";
 const SaraswatiPujaDetails = () => {
   const [showFoodFlyer, setShowFoodFlyer] = useState(false);
 
   return (
     <div className="font-bengali">
+      <SEO title={"Saraswati Puja 2026 - Soikot"} description={"Celebrate Saraswati Puja 2026 with Soikot in Tampa Bay — puja, cultural programs, and traditional Bengali food."} path={"/saraswati-puja-details"} />
       <AllEventsNavbar />
       <main>
         {/* Hero Image */}

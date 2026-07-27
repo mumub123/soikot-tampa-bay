@@ -3,6 +3,7 @@ import AllEventsNavbar from "@/components/AllEventsNavbar";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import SEO from "@/components/SEO";
 
 const SponsorshipRates = () => {
   const sponsorshipLevels = [
@@ -38,6 +39,7 @@ const SponsorshipRates = () => {
 
   return (
     <div className="font-bengali">
+      <SEO title={"Sponsorship Rates - Soikot"} description={"Explore Soikot sponsorship tiers and benefits — Grand, Platinum, and other levels supporting Bengali cultural events in Tampa Bay."} path={"/sponsorship-rates"} />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-bengali-light">

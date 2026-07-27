@@ -1,6 +1,7 @@
 import React from "react";
 import AllEventsNavbar from "@/components/AllEventsNavbar";
 import { Card, CardContent } from "@/components/ui/card";
+import SEO from "@/components/SEO";
 
 const ExecutiveCommittee = () => {
   const committeeMembers = [
@@ -21,6 +22,7 @@ const ExecutiveCommittee = () => {
 
   return (
     <div className="font-bengali">
+      <SEO title={"Executive Committee - Soikot"} description={"Meet the Soikot Executive Committee members leading the Bengali Association of Tampa Bay's cultural and community initiatives."} path={"/exec-committee"} />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-bengali-light">

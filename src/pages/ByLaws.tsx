@@ -3,10 +3,12 @@ import AllEventsNavbar from '@/components/AllEventsNavbar';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import SEO from "@/components/SEO";
 
 const ByLaws = () => {
   return (
     <div className="font-bengali">
+      <SEO title={"By-Laws - Soikot"} description={"Read the official by-laws of Soikot, the Bengali Association of Tampa Bay, outlining our mission, membership, and governance."} path={"/by-laws"} />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-gradient-to-b from-bengali-light to-white">

@@ -4,10 +4,12 @@ import { CheckCircle2, CreditCard, QrCode } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import SEO from "@/components/SEO";
 
 const Donate = () => {
   return (
     <div className="font-bengali">
+      <SEO title={"Donate - Soikot"} description={"Support Soikot's mission to celebrate Bengali culture in Tampa Bay. Donate via Zelle or credit card to help fund our community events."} path={"/donate"} />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-gradient-to-b from-bengali-light to-white">

@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Calendar, Clock, MapPin, ExternalLink, Phone, Mail, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import manasiGhoshImg from '@/assets/manasi-ghosh.jpg.asset.json';
+import SEO from "@/components/SEO";
 
 const DurgaPujaDetails = () => {
   const [selectedFlyer, setSelectedFlyer] = useState<string | null>(null);
@@ -39,6 +40,7 @@ const DurgaPujaDetails = () => {
 
   return (
     <div className="font-bengali">
+      <SEO title={"Durga Puja 2026 - Soikot"} description={"Join Soikot's Durga Puja 2026 on October 16-18 in Tampa Bay, featuring Manasi Ghosh Live on October 18 and cultural programs."} path={"/durga-puja-details"} />
       <AllEventsNavbar />
       <main>
         {/* Hero Image */}
