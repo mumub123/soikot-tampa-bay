@@ -170,6 +170,7 @@ const AllEvents = () => {
           </div>
         </section>
       </main>
+      <script type="application/ld+json">{JSON.stringify(eventsStructuredData)}</script>
     </div>
   );
 };
