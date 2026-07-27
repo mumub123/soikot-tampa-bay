@@ -16,26 +16,6 @@ import { Link } from "react-router-dom";
 const AllEvents = () => {
   const allEvents = [
     {
-      name: "Spring Picnic",
-      image: "/lovable-uploads/spring-picnic.png",
-      date: "March 28, 2026",
-      time: "11:00 AM - 6:00 PM",
-      location: "Ridge Crest Park, Shelter 3",
-      locationLink: "https://maps.app.goo.gl/isgWkVX5jtDvQ32S6",
-      description:
-        "Come celebrate at our Spring Picnic! We're gathering for a day of outdoor fun, sports, great food and relaxation as we enjoy the best of Florida's springtime.",
-    },
-    {
-      name: "Rabindra Jayanti",
-      image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
-      date: "May 9, 2026",
-      time: "4:00 PM - 9:00 PM",
-      location: "Land O' Lakes Community Center",
-      locationLink: "https://maps.app.goo.gl/BFwzt8imK2yDNcA88",
-      description:
-        "Celebrate the birth anniversary of Rabindranath Tagore with music, poetry, and cultural performances honoring the Nobel laureate.",
-    },
-    {
       name: "Durga Puja",
       image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png",
       date: "October 16-18, 2026",
