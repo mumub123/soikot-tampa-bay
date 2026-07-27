@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://soikot-tampa-bay.lovable.app/sitemap.xml
