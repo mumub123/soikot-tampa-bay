@@ -1,6 +1,7 @@
 
 import React, { useEffect } from 'react';
 import AllEventsNavbar from '@/components/AllEventsNavbar';
+import SEO from '@/components/SEO';
 import { Calendar, Clock, MapPin, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -12,6 +13,7 @@ const RabindraJayanti = () => {
 
   return (
     <div className="font-bengali">
+      <SEO title="Rabindra Jayanti 2025 - Soikot" description="Join Soikot for Rabindra Jayanti on May 3, 2025. Celebrate Tagore's legacy with music, dance, poetry, and cultural programs at Land O' Lakes Heritage Park." path="/rabindra-jayanti" />
       <AllEventsNavbar />
       <main>
         <section className="py-16 md:py-24 bg-bengali-light">
