@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, Facebook, Instagram, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
+import manasiGhoshImg from "@/assets/manasi-ghosh.jpg.asset.json";
 
 const Hero = () => {
   return (
@@ -63,20 +64,20 @@ const Hero = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
           <div className="my-6 w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Spring Picnic Tile */}
+            {/* Durga Puja Tile */}
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-                    Spring Picnic
+                    Durga Puja
                   </span>
                 </h3>
               </div>
 
               <div className="relative h-48">
                 <img
-                  src="/lovable-uploads/spring-picnic.png"
-                  alt="Spring Picnic"
+                  src="/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png"
+                  alt="Durga Puja"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -84,17 +85,17 @@ const Hero = () => {
               <div className="p-6 text-left">
                 <div className="flex items-center text-bengali-dark/70 mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
-                  <span className="text-sm">March 28, 2026</span>
+                  <span className="text-sm">October 16-18, 2026</span>
                 </div>
                 <div className="flex items-center text-bengali-dark/70 mb-2">
                   <Clock className="w-4 h-4 mr-2" />
-                  <span className="text-sm">11:00 AM - 6:00 PM</span>
+                  <span className="text-sm">11:00 AM - 10:00 PM</span>
                 </div>
                 <div className="flex items-center text-bengali-dark/70 mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
-                  <span className="text-sm">Ridge Crest Park, Shelter 3</span>
+                  <span className="text-sm">Indian Cultural Center</span>
                   <a
-                    href="https://maps.app.goo.gl/isgWkVX5jtDvQ32S6"
+                    href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
@@ -103,50 +104,48 @@ const Hero = () => {
                   </a>
                 </div>
                 <p className="text-bengali-dark/80 mb-3">
-                  Come celebrate at our Spring Picnic! We're gathering for a day of outdoor fun, sports, great food and
-                  relaxation as we enjoy the best of Florida's springtime.
+                  Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious
+                  ceremonies, cultural programs, and community feasts.
                 </p>
-                <div className="bg-bengali-light/50 rounded-lg p-3 mb-4">
-                  <p className="text-sm font-semibold text-bengali-red mb-1">FREE for All Sponsors</p>
-                  <p className="text-sm text-bengali-dark/80">Regular Subscription: TBD</p>
-                </div>
-                <div className="w-full bg-gradient-to-r from-bengali-red to-bengali-orange text-white text-center py-3 rounded-xl font-semibold text-lg tracking-wide shadow-md">
-                  🎉 See you soon!
-                </div>
+                <Link to="/durga-puja-details">
+                  <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">
+                    View Details
+                  </Button>
+                </Link>
               </div>
             </div>
-            {/* Rabindra Jayanti Tile */}
+            {/* Manasi Ghosh Tile */}
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-                    Rabindra Jayanti
+                    Manasi Ghosh Live
                   </span>
                 </h3>
               </div>
 
               <div className="relative h-48">
                 <img
-                  src="/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png"
-                  alt="Rabindra Jayanti"
-                  className="w-full h-full object-cover"
+                  src={manasiGhoshImg.url}
+                  alt="Manasi Ghosh"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
 
               <div className="p-6 text-left">
                 <div className="flex items-center text-bengali-dark/70 mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
-                  <span className="text-sm">May 9, 2026</span>
+                  <span className="text-sm">October 18, 2026</span>
                 </div>
                 <div className="flex items-center text-bengali-dark/70 mb-2">
                   <Clock className="w-4 h-4 mr-2" />
-                  <span className="text-sm">4:00 PM - 9:00 PM</span>
+                  <span className="text-sm">5:00 PM</span>
                 </div>
                 <div className="flex items-center text-bengali-dark/70 mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
-                  <span className="text-sm">Land O' Lakes Community Center</span>
+                  <span className="text-sm">Indian Cultural Center</span>
                   <a
-                    href="https://maps.app.goo.gl/BFwzt8imK2yDNcA88"
+                    href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
@@ -155,16 +154,14 @@ const Hero = () => {
                   </a>
                 </div>
                 <p className="text-bengali-dark/80 mb-3">
-                  Celebrate the birth anniversary of Rabindranath Tagore with music, poetry, and cultural performances
-                  honoring the Nobel laureate.
+                  A special live performance by Manasi Ghosh as part of our Durga Puja 2026 celebrations. Don't miss this
+                  enchanting evening of music.
                 </p>
-                <div className="bg-bengali-light/50 rounded-lg p-3 mb-4">
-                  <p className="text-sm font-semibold text-bengali-red mb-1">FREE for Gold Sponsors & above</p>
-                  <p className="text-sm text-bengali-dark/80">Regular Subscription: TBD</p>
-                </div>
-                <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>
-                  Coming Soon
-                </Button>
+                <Link to="/durga-puja-details">
+                  <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">
+                    View Details
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
