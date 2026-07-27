@@ -4,15 +4,16 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, MapPin, ExternalLink, Phone, Mail, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import manasiGhoshImg from '@/assets/manasi-ghosh.jpg.asset.json';
 
 const DurgaPujaDetails = () => {
   const [selectedFlyer, setSelectedFlyer] = useState<string | null>(null);
 
   const flyers = [
     {
-      src: "/lovable-uploads/MB_Poster.jpeg", 
-      title: "Featuring Madhubanti Bagchi",
-      description: "Oct 5, 2025 at 5:00 pm"
+      src: manasiGhoshImg.url,
+      title: "Featuring Manasi Ghosh",
+      description: "Oct 18, 2026 at 5:00 pm"
     },
     {
       src: "/lovable-uploads/c3a41759-7497-475d-857f-d085285f7727.png",
@@ -200,7 +201,7 @@ const DurgaPujaDetails = () => {
                         </div>
                         <div className="flex justify-between">
                           <span className="text-bengali-dark/70">6:00 pm</span>
-                          <span className="text-bengali-dark">Madhubanti Bagchi Live</span>
+                          <span className="text-bengali-dark">Manasi Ghosh Live</span>
                         </div>
                       </div>
                     </div>
