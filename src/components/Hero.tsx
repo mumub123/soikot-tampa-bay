@@ -119,11 +119,11 @@ const Hero = () => {
                 </h3>
               </div>
 
-              <div className="relative h-48">
+              <div className="relative h-48 overflow-hidden">
                 <img
                   src={manasiGhoshImg.url}
                   alt="Manasi Ghosh"
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-top scale-110"
                 />
               </div>
 
