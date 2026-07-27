@@ -1,9 +1,11 @@
 import React from 'react';
+import SEO from '@/components/SEO';
 import { Button } from '@/components/ui/button';
 
 const DurgaPuja = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-bengali-blue/5 to-bengali-red/5">
+      <SEO title="Durga Puja - Soikot" description="Celebrate Durga Puja with Soikot in Tampa Bay. Join our community for traditional festivities, cultural programs, and grand celebrations." path="/durga-puja" />
       <div className="container mx-auto px-4 md:px-6 py-16 md:py-24">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-bengali-dark mb-6">
