@@ -149,7 +149,9 @@ const SaraswatiPujaDetails = () => {
                         <img
                           src="/lovable-uploads/saraswati-puja-food-menu.jpg"
                           alt="Saraswati Puja 2026 Food Menu"
-                          className="w-full max-w-md rounded-lg shadow-md cursor-pointer hover:shadow-xl transition-shadow duration-300 border border-bengali-red/20"
+                          width={1236}
+                          height={1600}
+                          className="w-full max-w-md h-auto rounded-lg shadow-md cursor-pointer hover:shadow-xl transition-shadow duration-300 border border-bengali-red/20"
                           onClick={() => setShowFoodFlyer(true)}
                         />
                       </div>
