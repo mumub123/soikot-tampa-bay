@@ -107,7 +107,7 @@ const Contact = () => {
             <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Contact Us</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-          <p className="text-bengali-dark/80 max-w-3xl mx-auto">
+          <p className="text-bengali-dark max-w-3xl mx-auto">
             We'd love to hear from you! Reach out to learn more about our organization, events, and community programs.
           </p>
         </div>
@@ -123,7 +123,7 @@ const Contact = () => {
                     <MapPin className="w-5 h-5 text-bengali-red mr-3 mt-1" />
                     <div>
                       <p className="font-medium text-bengali-dark">Address</p>
-                      <p className="text-bengali-dark/70">Soikot, <br />17310 Chenango Ln<br />Tampa, FL 33647-3503</p>
+                      <p className="text-bengali-dark">Soikot, <br />17310 Chenango Ln<br />Tampa, FL 33647-3503</p>
                     </div>
                   </div>
                   
@@ -131,7 +131,7 @@ const Contact = () => {
                     <Mail className="w-5 h-5 text-bengali-red mr-3 mt-1" />
                     <div>
                       <p className="font-medium text-bengali-dark">Email</p>
-                      <a href="mailto:soikotflorida@gmail.com" className="text-bengali-dark/70 hover:text-bengali-red">soikotflorida@gmail.com</a>
+                      <a href="mailto:soikotflorida@gmail.com" className="text-bengali-dark hover:text-bengali-red">soikotflorida@gmail.com</a>
                     </div>
                   </div>
                   
@@ -139,7 +139,7 @@ const Contact = () => {
                     <Phone className="w-5 h-5 text-bengali-red mr-3 mt-1" />
                     <div>
                       <p className="font-medium text-bengali-dark">Phone</p>
-                      <p className="text-bengali-dark/70">(727) 643-3691</p>
+                      <p className="text-bengali-dark">(727) 643-3691</p>
                     </div>
                   </div>
                 </div>

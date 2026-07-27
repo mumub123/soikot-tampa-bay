@@ -107,7 +107,7 @@ const AllEvents = () => {
                 </span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-              <p className="text-bengali-dark/80 max-w-3xl mx-auto">
+              <p className="text-bengali-dark max-w-3xl mx-auto">
                 Explore all our upcoming events and festivals celebrating Bengali culture and traditions.
               </p>
             </div>
@@ -123,15 +123,15 @@ const AllEvents = () => {
                   </div>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-bold text-bengali-dark mb-4">{event.name}</h3>
-                    <div className="flex items-center text-bengali-dark/70 mb-2">
+                    <div className="flex items-center text-bengali-dark mb-2">
                       <Calendar className="w-4 h-4 mr-2" />
                       <span className="text-sm">{event.date}</span>
                     </div>
-                    <div className="flex items-center text-bengali-dark/70 mb-2">
+                    <div className="flex items-center text-bengali-dark mb-2">
                       <Clock className="w-4 h-4 mr-2" />
                       <span className="text-sm">{event.time}</span>
                     </div>
-                    <div className="flex items-center text-bengali-dark/70 mb-4">
+                    <div className="flex items-center text-bengali-dark mb-4">
                       <MapPin className="w-4 h-4 mr-2" />
                       <span className="text-sm">{event.location}</span>
                       {event.locationLink && (
@@ -145,7 +145,7 @@ const AllEvents = () => {
                         </a>
                       )}
                     </div>
-                    <p className="text-bengali-dark/80 mb-4">{event.description}</p>
+                    <p className="text-bengali-dark mb-4">{event.description}</p>
                     <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>
                       Coming Soon
                     </Button>

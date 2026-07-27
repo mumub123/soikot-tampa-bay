@@ -12,7 +12,7 @@ const DurgaPuja = () => {
           <div className="w-24 h-1 bg-bengali-red mb-8"></div>
           
           <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 mb-8">
-            <p className="text-bengali-dark/80 mb-4">
+            <p className="text-bengali-dark mb-4">
               Details coming soon...
             </p>
           </div>

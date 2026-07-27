@@ -18,7 +18,7 @@ const Hero = () => {
 
             <span className="block text-2xl md:text-3xl text-bengali-dark mt-2">Bengali Association of Tampa Bay</span>
           </h1>
-          <p className="text-sm md:text-base text-bengali-dark/80 my-4 max-w-2xl mx-auto">
+          <p className="text-sm md:text-base text-bengali-dark my-4 max-w-2xl mx-auto">
             Celebrating and preserving Bengali culture, language, and traditions through community events, education,
             and humanitarian efforts.
           </p>
@@ -87,15 +87,15 @@ const Hero = () => {
               </div>
 
               <div className="p-6 text-left">
-                <div className="flex items-center text-bengali-dark/70 mb-2">
+                <div className="flex items-center text-bengali-dark mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
                   <span className="text-sm">October 16-18, 2026</span>
                 </div>
-                <div className="flex items-center text-bengali-dark/70 mb-2">
+                <div className="flex items-center text-bengali-dark mb-2">
                   <Clock className="w-4 h-4 mr-2" />
                   <span className="text-sm">11:00 AM - 10:00 PM</span>
                 </div>
-                <div className="flex items-center text-bengali-dark/70 mb-4">
+                <div className="flex items-center text-bengali-dark mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
                   <span className="text-sm">Indian Cultural Center</span>
                   <a
@@ -107,7 +107,7 @@ const Hero = () => {
                     <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
-                <p className="text-bengali-dark/80 mb-3">
+                <p className="text-bengali-dark mb-3">
                   Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious
                   ceremonies, cultural programs, and community feasts.
                 </p>
@@ -136,15 +136,15 @@ const Hero = () => {
               </div>
 
               <div className="p-6 text-left">
-                <div className="flex items-center text-bengali-dark/70 mb-2">
+                <div className="flex items-center text-bengali-dark mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
                   <span className="text-sm">October 18, 2026</span>
                 </div>
-                <div className="flex items-center text-bengali-dark/70 mb-2">
+                <div className="flex items-center text-bengali-dark mb-2">
                   <Clock className="w-4 h-4 mr-2" />
                   <span className="text-sm">5:00 PM</span>
                 </div>
-                <div className="flex items-center text-bengali-dark/70 mb-4">
+                <div className="flex items-center text-bengali-dark mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
                   <span className="text-sm">Indian Cultural Center</span>
                   <a
@@ -156,7 +156,7 @@ const Hero = () => {
                     <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
-                <p className="text-bengali-dark/80 mb-3">
+                <p className="text-bengali-dark mb-3">
                   A special live performance by Manasi Ghosh as part of our Durga Puja 2026 celebrations. Don't miss this
                   enchanting evening of music.
                 </p>

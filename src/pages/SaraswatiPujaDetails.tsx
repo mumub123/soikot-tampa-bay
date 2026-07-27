@@ -33,7 +33,7 @@ const SaraswatiPujaDetails = () => {
                 </span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-              <p className="text-bengali-dark/80 max-w-3xl mx-auto mb-6">
+              <p className="text-bengali-dark max-w-3xl mx-auto mb-6">
                 Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies
                 and cultural performances.
               </p>
@@ -77,7 +77,7 @@ const SaraswatiPujaDetails = () => {
             <div className="bg-bengali-light/50 rounded-lg p-6 max-w-2xl mx-auto mb-12 border border-bengali-red/20">
               <h3 className="text-xl font-bold text-bengali-dark mb-4 text-center">Subscription Rates</h3>
               <p className="text-center text-bengali-red font-semibold mb-2">FREE for Gold Sponsors & above</p>
-              <p className="text-center text-bengali-dark/80">
+              <p className="text-center text-bengali-dark">
                 Regular Subscription: Family $200 | Adult $100 | Student $40
               </p>
             </div>
@@ -88,7 +88,7 @@ const SaraswatiPujaDetails = () => {
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-bengali-dark mb-6 text-center">Event Highlights</h3>
 
-                  <div className="space-y-4 text-bengali-dark/80">
+                  <div className="space-y-4 text-bengali-dark">
                     <p>
                       Saraswati Puja is a celebration dedicated to Goddess Saraswati, the deity of knowledge, music,
                       arts, and learning. This auspicious occasion is particularly significant for students and scholars
@@ -151,7 +151,7 @@ const SaraswatiPujaDetails = () => {
                           onClick={() => setShowFoodFlyer(true)}
                         />
                       </div>
-                      <p className="text-center text-sm text-bengali-dark/60 mt-2">Click to enlarge</p>
+                      <p className="text-center text-sm text-bengali-dark mt-2">Click to enlarge</p>
                     </div>
                   </div>
                 </CardContent>

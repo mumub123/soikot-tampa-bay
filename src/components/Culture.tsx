@@ -34,7 +34,7 @@ const Culture = () => {
             <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Bengali Culture</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-          <p className="text-bengali-dark/80 max-w-3xl mx-auto">
+          <p className="text-bengali-dark max-w-3xl mx-auto">
             Rooted in community and driven by passion, we take pride in preserving and celebrating the rich heritage of Bengali culture — from its artistic expressions to its musical, literary, and culinary legacy.
           </p>
         </div>
@@ -57,7 +57,7 @@ const Culture = () => {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-bengali-dark mb-2">{element.title}</h3>
-                <p className="text-bengali-dark/80">{element.description}</p>
+                <p className="text-bengali-dark">{element.description}</p>
               </CardContent>
             </Card>
           ))}
@@ -67,10 +67,10 @@ const Culture = () => {
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 bg-bengali-pattern bg-opacity-10 p-8 md:p-12">
               <h3 className="text-2xl font-semibold text-bengali-dark mb-4">Cultural Preservation</h3>
-              <p className="text-bengali-dark/80 mb-4">
+              <p className="text-bengali-dark mb-4">
                 At Soikot, we are committed to preserving the rich cultural heritage of Bengal for future generations. Through our various programs and events, we aim to keep alive the traditions, arts, and language that define our cultural identity.
               </p>
-              <p className="text-bengali-dark/80">
+              <p className="text-bengali-dark">
                 Our efforts include language education, cultural performances, literary publications, and the celebration of traditional festivals. We believe that by maintaining these connections to our heritage, we enrich both our community and the broader cultural tapestry of America.
               </p>
             </div>

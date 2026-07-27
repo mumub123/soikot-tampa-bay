@@ -160,7 +160,7 @@ const Sponsors = () => {
                 </span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-              <p className="text-bengali-dark/80 max-w-3xl mx-auto">
+              <p className="text-bengali-dark max-w-3xl mx-auto">
                 We are grateful to our sponsors for their generous support in helping us promote Bengali culture and
                 community.
               </p>
