@@ -8,7 +8,7 @@ const Events = () => {
   const events = [
     {
       name: "Durga Puja",
-      image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png",
+      image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.webp",
       date: "October 16-18, 2026",
       time: "11:00 AM - 10:00 PM",
       location: "Indian Cultural Center",

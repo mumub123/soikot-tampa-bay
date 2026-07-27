@@ -76,7 +76,7 @@ const Hero = () => {
 
               <div className="relative h-48">
                 <img
-                  src="/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png"
+                  src="/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.webp"
                   alt="Durga Puja"
                   width={1920}
                   height={976}
