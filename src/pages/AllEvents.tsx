@@ -13,50 +13,85 @@ import {
 } from "@/components/ui/pagination";
 import { Link } from "react-router-dom";
 
-const AllEvents = () => {
-  const allEvents = [
-    {
-      name: "Durga Puja",
-      image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png",
-      date: "October 16-18, 2026",
-      time: "11:00 AM - 10:00 PM",
-      location: "Indian Cultural Center",
-      locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
-      description:
-        "Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.",
-    },
-    {
-      name: "Lakshmi Puja",
-      image: "/lovable-uploads/Lakshmi.jpeg",
-      date: "October 24, 2026",
-      time: "5:30 PM - 10:00 PM",
-      location: "Land O' Lakes Community Center",
-      locationLink: "https://maps.app.goo.gl/BFwzt8imK2yDNcA88",
-      description:
-        "Celebrate Lakshmi Puja with us as we worship the goddess of wealth and prosperity, following Bengali traditions and rituals.",
-    },
-    {
-      name: "Kali Puja",
-      image: "/lovable-uploads/Kali.jpeg",
-      date: "November 7, 2026",
-      time: "5:30 PM - 10:00 PM",
-      location: "Indian Cultural Center",
-      locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
-      description:
-        "Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and celebrations.",
-    },
-    {
-      name: "Saraswati Puja",
-      image: "/lovable-uploads/saraswati-puja.jpeg",
-      date: "February 13, 2027",
-      time: "11:00 AM - 10:00 PM",
-      location: "Indian Cultural Center",
-      locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
-      description:
-        "Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.",
-    },
-  ];
+const allEvents = [
+  {
+    name: "Durga Puja",
+    image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.png",
+    date: "October 16-18, 2026",
+    time: "11:00 AM - 10:00 PM",
+    location: "Indian Cultural Center",
+    locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
+    description:
+      "Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.",
+    startDate: "2026-10-16T11:00:00",
+    endDate: "2026-10-18T22:00:00",
+  },
+  {
+    name: "Lakshmi Puja",
+    image: "/lovable-uploads/Lakshmi.jpeg",
+    date: "October 24, 2026",
+    time: "5:30 PM - 10:00 PM",
+    location: "Land O' Lakes Community Center",
+    locationLink: "https://maps.app.goo.gl/BFwzt8imK2yDNcA88",
+    description:
+      "Celebrate Lakshmi Puja with us as we worship the goddess of wealth and prosperity, following Bengali traditions and rituals.",
+    startDate: "2026-10-24T17:30:00",
+    endDate: "2026-10-24T22:00:00",
+  },
+  {
+    name: "Kali Puja",
+    image: "/lovable-uploads/Kali.jpeg",
+    date: "November 7, 2026",
+    time: "5:30 PM - 10:00 PM",
+    location: "Indian Cultural Center",
+    locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
+    description:
+      "Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and celebrations.",
+    startDate: "2026-11-07T17:30:00",
+    endDate: "2026-11-07T22:00:00",
+  },
+  {
+    name: "Saraswati Puja",
+    image: "/lovable-uploads/saraswati-puja.jpeg",
+    date: "February 13, 2027",
+    time: "11:00 AM - 10:00 PM",
+    location: "Indian Cultural Center",
+    locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
+    description:
+      "Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.",
+    startDate: "2027-02-13T11:00:00",
+    endDate: "2027-02-13T22:00:00",
+  },
+];
 
+const eventsStructuredData = {
+  "@context": "https://schema.org",
+  "@graph": allEvents.map((event) => ({
+    "@type": "Event",
+    name: event.name,
+    description: event.description,
+    startDate: event.startDate,
+    endDate: event.endDate,
+    image: `https://soikot.org${event.image}`,
+    location: {
+      "@type": "Place",
+      name: event.location,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Tampa Bay",
+        addressRegion: "FL",
+        addressCountry: "US",
+      },
+    },
+    organizer: {
+      "@type": "Organization",
+      name: "Soikot — Bengali Association of Tampa Bay",
+      url: "https://soikot.org/",
+    },
+  })),
+};
+
+const AllEvents = () => {
   return (
     <div className="font-bengali">
       <AllEventsNavbar />
@@ -135,6 +170,7 @@ const AllEvents = () => {
           </div>
         </section>
       </main>
+      <script type="application/ld+json">{JSON.stringify(eventsStructuredData)}</script>
     </div>
   );
 };
