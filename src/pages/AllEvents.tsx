@@ -12,6 +12,7 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 import { Link } from "react-router-dom";
+import SEO from "@/components/SEO";
 
 const allEvents = [
   {
@@ -94,6 +95,7 @@ const eventsStructuredData = {
 const AllEvents = () => {
   return (
     <div className="font-bengali">
+      <SEO title={"Upcoming Events - Soikot"} description={"Explore upcoming Soikot events including Durga Puja, Lakshmi Puja, Kali Puja and Saraswati Puja in the Tampa Bay area."} path={"/events"} />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-bengali-light">

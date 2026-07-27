@@ -5,6 +5,7 @@ import About from '@/components/About';
 import Culture from '@/components/Culture';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import SEO from "@/components/SEO";
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -31,6 +32,7 @@ const structuredData = {
 const Index = () => {
   return (
     <div className="font-bengali">
+      <SEO title={"Soikot — Bengali Association of Tampa Bay"} description={"Soikot is the Bengali Association of Tampa Bay, celebrating Bengali culture, language, and traditions through festivals and community events."} path={"/"} />
       <Navbar />
       <main>
         <Hero />

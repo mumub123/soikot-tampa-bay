@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const Sponsors = () => {
   const sponsorTiers = [
@@ -147,6 +148,7 @@ const Sponsors = () => {
 
   return (
     <div className="font-bengali">
+      <SEO title={"Our Sponsors - Soikot"} description={"Meet the generous sponsors supporting Soikot's Bengali cultural events and community programs in Tampa Bay."} path={"/sponsors"} />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-bengali-light">
