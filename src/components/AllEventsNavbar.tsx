@@ -14,6 +14,8 @@ const AllEventsNavbar = () => {
               <img 
                 src="/lovable-uploads/ad2030ae-f408-4d3a-9cfe-b559d5c5daec.png" 
                 alt="Soikot Logo" 
+                width={1417}
+                height={1070}
                 className="w-full h-auto"
               />
             </div>

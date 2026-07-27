@@ -50,6 +50,8 @@ const Hero = () => {
               <img
                 src="/lovable-uploads/9f4f36a8-f7e0-48d2-8951-51cd16731586.png"
                 alt="YouTube"
+                width={1024}
+                height={1024}
                 className="w-11 h-11 rounded-full"
               />
               <div className="absolute inset-0 bg-red-600/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

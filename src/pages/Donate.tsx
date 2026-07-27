@@ -46,7 +46,9 @@ const Donate = () => {
                       <img 
                         src="/lovable-uploads/zelle-code-for-soikot-1200x998.jpeg" 
                         alt="Zelle QR Code for Soikot" 
-                        className="max-w-[200px] w-full"
+                        width={586}
+                        height={586}
+                        className="max-w-[200px] w-full h-auto"
                       />
                     </div>
                   </div>

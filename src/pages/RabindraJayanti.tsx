@@ -23,6 +23,8 @@ const RabindraJayanti = () => {
                 <img 
                   src="/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png"
                   alt="Rabindra Jayanti Celebration"
+                  width={1024}
+                  height={768}
                   className="w-full h-[300px] md:h-[400px] object-cover"
                 />
               </div>

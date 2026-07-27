@@ -19,6 +19,8 @@ const SaraswatiPujaDetails = () => {
           <img
             src="/lovable-uploads/saraswati-puja.jpeg"
             alt="Saraswati Puja 2026 - Goddess Saraswati"
+            width={482}
+            height={204}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
@@ -147,7 +149,9 @@ const SaraswatiPujaDetails = () => {
                         <img
                           src="/lovable-uploads/saraswati-puja-food-menu.jpg"
                           alt="Saraswati Puja 2026 Food Menu"
-                          className="w-full max-w-md rounded-lg shadow-md cursor-pointer hover:shadow-xl transition-shadow duration-300 border border-bengali-red/20"
+                          width={1236}
+                          height={1600}
+                          className="w-full max-w-md h-auto rounded-lg shadow-md cursor-pointer hover:shadow-xl transition-shadow duration-300 border border-bengali-red/20"
                           onClick={() => setShowFoodFlyer(true)}
                         />
                       </div>
@@ -184,6 +188,8 @@ const SaraswatiPujaDetails = () => {
             <img
               src="/lovable-uploads/saraswati-puja-food-menu.jpg"
               alt="Saraswati Puja 2026 Food Menu"
+              width={1236}
+              height={1600}
               className="w-full h-auto rounded-lg"
             />
           </DialogContent>
