@@ -99,6 +99,8 @@ const Culture = () => {
               <img 
                 src="/lovable-uploads/20354388-8850-4816-9002-5231a4e22537.png" 
                 alt="YouTube" 
+                width={1600}
+                height={1200}
                 className="w-8 h-8"
               />
               
