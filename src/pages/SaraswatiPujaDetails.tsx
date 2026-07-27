@@ -11,7 +11,30 @@ const SaraswatiPujaDetails = () => {
 
   return (
     <div className="font-bengali">
-      <SEO title={"Saraswati Puja 2026 - Soikot"} description={"Celebrate Saraswati Puja 2026 with Soikot in Tampa Bay — puja, cultural programs, and traditional Bengali food."} path={"/saraswati-puja-details"} />
+      <SEO title={"Saraswati Puja 2026 - Soikot"} description={"Celebrate Saraswati Puja 2026 with Soikot in Tampa Bay — puja, cultural programs, and traditional Bengali food."} path={"/saraswati-puja-details"} jsonLd={{
+        "@context": "https://schema.org",
+        "@type": "Event",
+        name: "Saraswati Puja 2026",
+        startDate: "2026-01-24",
+        endDate: "2026-01-24",
+        eventStatus: "https://schema.org/EventScheduled",
+        eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+        location: {
+          "@type": "Place",
+          name: "Land O' Lakes Heritage Park",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "5401 Land O' Lakes Blvd",
+            addressLocality: "Land O' Lakes",
+            addressRegion: "FL",
+            addressCountry: "US"
+          }
+        },
+        description: "Soikot's Saraswati Puja 2026 celebration in Tampa Bay featuring puja rituals, cultural programs, and traditional Bengali food.",
+        organizer: { "@type": "Organization", name: "Soikot", url: "https://soikot.org" },
+        image: "https://soikot.org/lovable-uploads/saraswati-puja.jpeg",
+        url: "https://soikot.org/saraswati-puja-details"
+      }} />
       <AllEventsNavbar />
       <main>
         {/* Hero Image */}

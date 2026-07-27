@@ -13,7 +13,29 @@ const RabindraJayanti = () => {
 
   return (
     <div className="font-bengali">
-      <SEO title="Rabindra Jayanti 2025 - Soikot" description="Join Soikot for Rabindra Jayanti on May 3, 2025. Celebrate Tagore's legacy with music, dance, poetry, and cultural programs at Land O' Lakes Heritage Park." path="/rabindra-jayanti" />
+      <SEO title="Rabindra Jayanti 2025 - Soikot" description="Join Soikot for Rabindra Jayanti on May 3, 2025. Celebrate Tagore's legacy with music, dance, poetry, and cultural programs at Land O' Lakes Heritage Park." path="/rabindra-jayanti" jsonLd={{
+        "@context": "https://schema.org",
+        "@type": "Event",
+        name: "Rabindra Jayanti 2025",
+        startDate: "2025-05-03",
+        endDate: "2025-05-03",
+        eventStatus: "https://schema.org/EventScheduled",
+        eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+        location: {
+          "@type": "Place",
+          name: "Land O' Lakes Heritage Park",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "5401 Land O' Lakes Blvd",
+            addressLocality: "Land O' Lakes",
+            addressRegion: "FL",
+            addressCountry: "US"
+          }
+        },
+        description: "Soikot's Rabindra Jayanti celebration featuring music, dance, and poetry honoring Rabindranath Tagore.",
+        organizer: { "@type": "Organization", name: "Soikot", url: "https://soikot.org" },
+        url: "https://soikot.org/rabindra-jayanti"
+      }} />
       <AllEventsNavbar />
       <main>
         <section className="py-16 md:py-24 bg-bengali-light">
