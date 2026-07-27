@@ -1,0 +1,17 @@
+# Soikot — Bengali Association of Tampa Bay
+
+> A nonprofit Bengali cultural association serving the Tampa Bay area through religious festivals, cultural programs, education, and community service.
+
+Soikot is the Bengali Association of Tampa Bay. We celebrate and preserve Bengali culture, language, music, food, and traditions by hosting religious pujas, community picnics, cultural performances, and humanitarian events throughout the year.
+
+## Pages
+
+- [Home](/): Overview of Soikot, upcoming events, and social links.
+- [All Events](/events): Calendar of upcoming and past events including Durga Puja, Lakshmi Puja, Kali Puja, and Saraswati Puja.
+- [Durga Puja Details](/durga-puja-details): Schedule, programs, and tickets for the annual Durga Puja celebration.
+- [Saraswati Puja Details](/saraswati-puja-details): Schedule, tickets, and food menu for Saraswati Puja.
+- [Sponsors](/sponsors): Information about sponsoring Soikot events and community programs.
+- [Sponsorship Rates](/sponsorship-rates): Sponsorship tiers and benefits for events and annual activities.
+- [Donate](/donate): How to donate and support Soikot's cultural and humanitarian work.
+- [By-Laws](/by-laws): Soikot's organizational by-laws and operating guidelines.
+- [Executive Committee](/exec-committee): Current Soikot executive committee members and leadership.
