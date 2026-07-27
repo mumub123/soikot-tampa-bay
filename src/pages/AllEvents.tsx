@@ -91,6 +91,7 @@ const eventsStructuredData = {
   })),
 };
 
+const AllEvents = () => {
   return (
     <div className="font-bengali">
       <AllEventsNavbar />
