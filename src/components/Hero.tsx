@@ -2,7 +2,6 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, Facebook, Instagram, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
-import manasiGhoshImg from "@/assets/manasi-ghosh.jpg.asset.json";
 
 const Hero = () => {
   return (
