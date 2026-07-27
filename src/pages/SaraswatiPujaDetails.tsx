@@ -188,6 +188,8 @@ const SaraswatiPujaDetails = () => {
             <img
               src="/lovable-uploads/saraswati-puja-food-menu.jpg"
               alt="Saraswati Puja 2026 Food Menu"
+              width={1236}
+              height={1600}
               className="w-full h-auto rounded-lg"
             />
           </DialogContent>
