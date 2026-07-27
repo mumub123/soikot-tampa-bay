@@ -201,7 +201,7 @@ const DurgaPujaDetails = () => {
                         </div>
                         <div className="flex justify-between">
                           <span className="text-bengali-dark/70">6:00 pm</span>
-                          <span className="text-bengali-dark">Madhubanti Bagchi Live</span>
+                          <span className="text-bengali-dark">Manasi Ghosh Live</span>
                         </div>
                       </div>
                     </div>
