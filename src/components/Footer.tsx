@@ -60,10 +60,10 @@ const Footer = () => {
               <p className="text-gray-200 mb-2 text-sm font-medium">
                 © {new Date().getFullYear()} Soikot
               </p>
-              <p className="text-gray-300 text-xs">
+              <p className="text-gray-200 text-xs">
                 All rights reserved
               </p>
-              <p className="text-gray-300 text-xs mt-2">
+              <p className="text-gray-200 text-xs mt-2">
                 501(c)(3) non-profit organization
               </p>
             </div>
@@ -75,7 +75,7 @@ const Footer = () => {
       <div className="border-t border-bengali-yellow/20">
         <div className="container mx-auto px-4 md:px-6 py-3">
           <div className="text-center">
-            <p className="text-xs text-gray-400">
+            <p className="text-xs text-gray-200">
               Preserving Bengali heritage for future generations
             </p>
           </div>

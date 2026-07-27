@@ -41,7 +41,7 @@ const ExecutiveCommittee = () => {
             <div className="text-center mb-12">
               <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">Executive <span className="text-bengali-red">Committee</span></h1>
               <div className="w-24 h-1 bg-bengali-red mx-auto mt-4 mb-6"></div>
-              <p className="text-bengali-dark/80 max-w-3xl mx-auto">
+              <p className="text-bengali-dark max-w-3xl mx-auto">
                 Meet our dedicated team of volunteers who work tirelessly to serve the Bengali community.
               </p>
             </div>

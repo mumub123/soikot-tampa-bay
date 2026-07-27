@@ -27,28 +27,28 @@ const RabindraJayanti = () => {
 
               <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
                 <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark mb-4">Rabindra Jayanti</h1>
-                <p className="text-lg md:text-xl text-bengali-dark/80 mb-8">
+                <p className="text-lg md:text-xl text-bengali-dark mb-8">
                   Celebrating the birth anniversary of Rabindranath Tagore
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                   <div className="flex items-center space-x-3">
                     <Calendar className="w-6 h-6 text-bengali-red" />
                     <div>
-                      <p className="text-sm text-bengali-dark/60">Date</p>
+                      <p className="text-sm text-bengali-dark">Date</p>
                       <p className="text-bengali-dark font-medium">May 3, 2025</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Clock className="w-6 h-6 text-bengali-red" />
                     <div>
-                      <p className="text-sm text-bengali-dark/60">Time</p>
+                      <p className="text-sm text-bengali-dark">Time</p>
                       <p className="text-bengali-dark font-medium">5:00 PM - 9:00 PM</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-6 h-6 text-bengali-red" />
                     <div>
-                      <p className="text-sm text-bengali-dark/60">Location</p>
+                      <p className="text-sm text-bengali-dark">Location</p>
                       <a 
                         href="https://www.google.com/maps/place/Land+O'+Lakes+Heritage+Park"
                         target="_blank"
@@ -63,14 +63,14 @@ const RabindraJayanti = () => {
 
                 <div className="prose prose-lg max-w-none">
                   <h2 className="text-2xl font-bold text-bengali-dark mb-4">About the Event</h2>
-                  <p className="text-bengali-dark/80 mb-4">
+                  <p className="text-bengali-dark mb-4">
                     Join us for a special cultural program commemorating the birth anniversary of Rabindranath Tagore, 
                     the legendary Bengali polymath who reshaped Bengali literature and music. The evening will be filled 
                     with performances celebrating his profound legacy.
                   </p>
 
                   <h3 className="text-xl font-bold text-bengali-dark mb-3">Program Highlights</h3>
-                  <ul className="list-disc pl-6 text-bengali-dark/80 mb-6">
+                  <ul className="list-disc pl-6 text-bengali-dark mb-6">
                     <li>Rabindra Sangeet performances</li>
                     <li>Dance recitals based on Tagore's works</li>
                     <li>Poetry recitations</li>
@@ -79,7 +79,7 @@ const RabindraJayanti = () => {
                   </ul>
 
                   <h3 className="text-xl font-bold text-bengali-dark mb-3">What to Expect</h3>
-                  <ul className="list-disc pl-6 text-bengali-dark/80 mb-6">
+                  <ul className="list-disc pl-6 text-bengali-dark mb-6">
                     <li>Traditional Bengali refreshments followed by dinner</li>
                     <li>Interactive cultural activities</li>
                     <li>Photo opportunities</li>
@@ -107,7 +107,7 @@ const RabindraJayanti = () => {
                     Register Now
                   </Button>
                 </Link>
-                <p className="mt-4 text-sm text-bengali-dark/60">
+                <p className="mt-4 text-sm text-bengali-dark">
                   Registration required for attendance. Limited seats available.
                 </p>
               </div>

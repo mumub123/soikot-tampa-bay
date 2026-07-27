@@ -19,7 +19,7 @@ const Donate = () => {
                 <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Support Our Community</span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-              <p className="text-bengali-dark/80 max-w-3xl mx-auto">
+              <p className="text-bengali-dark max-w-3xl mx-auto">
                 Your contribution helps us promote and preserve Bengali culture, language, and traditions.
               </p>
               <div className="mt-4 p-4 bg-green-50 rounded-lg inline-block">
@@ -38,7 +38,7 @@ const Donate = () => {
                     <h2 className="text-2xl font-bold text-bengali-dark">Pay with Zelle</h2>
                   </div>
                   <div className="space-y-4">
-                    <p className="text-bengali-dark/80">
+                    <p className="text-bengali-dark">
                       <i>Scan the QR code or send payment to:</i>
                     </p>
                     <p className="text-bengali-red font-medium text-lg">soikotflorida@gmail.com</p>
@@ -60,9 +60,9 @@ const Donate = () => {
                     <h2 className="text-2xl font-bold text-bengali-dark">Pay by Check</h2>
                   </div>
                   <div className="space-y-4">
-                    <p className="text-bengali-dark/80">Make checks payable to:</p>
+                    <p className="text-bengali-dark">Make checks payable to:</p>
                     <p className="font-medium text-bengali-dark">Soikot</p>
-                    <p className="text-bengali-dark/80">Mail to:</p>
+                    <p className="text-bengali-dark">Mail to:</p>
                     <p className="text-bengali-dark">
                       Soikot<br />
                       17310 Chenango Ln<br />
@@ -79,7 +79,7 @@ const Donate = () => {
                   View Sponsorship Tiers
                 </Button>
               </Link>
-              <div className="mt-4 flex items-center justify-center space-x-2 text-bengali-dark/60">
+              <div className="mt-4 flex items-center justify-center space-x-2 text-bengali-dark">
                 <CheckCircle2 className="w-4 h-4" />
                 <span>See all benefits and sponsorship options</span>
               </div>

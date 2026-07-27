@@ -51,7 +51,7 @@ const SponsorshipRates = () => {
                 </span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-              <p className="text-bengali-dark/80 max-w-3xl mx-auto">
+              <p className="text-bengali-dark max-w-3xl mx-auto">
                 Support our community by becoming an annual sponsor. Choose from our various sponsorship tiers below.
               </p>
             </div>
@@ -64,7 +64,7 @@ const SponsorshipRates = () => {
                       <h2 className="text-2xl font-bold text-bengali-dark mb-2 md:mb-0">{level.title}</h2>
                       <p className="text-xl font-semibold text-bengali-red">{level.amount}</p>
                     </div>
-                    <p className="text-bengali-dark/80">{level.benefits}</p>
+                    <p className="text-bengali-dark">{level.benefits}</p>
                   </CardContent>
                 </Card>
               ))}

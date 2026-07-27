@@ -37,7 +37,7 @@ const Events = () => {
             Upcoming <span className="text-bengali-red">Events</span>
           </h2>
           <div className="w-24 h-1 bg-bengali-red mx-auto mt-4 mb-6"></div>
-          <p className="text-bengali-dark/80 max-w-3xl mx-auto">
+          <p className="text-bengali-dark max-w-3xl mx-auto">
             Join us in celebrating Bengali culture and traditions through our upcoming events and festivals.
           </p>
         </div>
@@ -53,15 +53,15 @@ const Events = () => {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-bengali-dark mb-4">{event.name}</h3>
-                <div className="flex items-center text-bengali-dark/70 mb-2">
+                <div className="flex items-center text-bengali-dark mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
                   <span className="text-sm">{event.date}</span>
                 </div>
-                <div className="flex items-center text-bengali-dark/70 mb-2">
+                <div className="flex items-center text-bengali-dark mb-2">
                   <Clock className="w-4 h-4 mr-2" />
                   <span className="text-sm">{event.time}</span>
                 </div>
-                <div className="flex items-center text-bengali-dark/70 mb-4">
+                <div className="flex items-center text-bengali-dark mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
                   <span className="text-sm">{event.location}</span>
                   {event.locationLink && (
@@ -75,7 +75,7 @@ const Events = () => {
                     </a>
                   )}
                 </div>
-                <p className="text-bengali-dark/80 mb-4">{event.description}</p>
+                <p className="text-bengali-dark mb-4">{event.description}</p>
                 {event.name === "Durga Puja" ? (
                   <Link to="/durga-puja-details">
                     <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">View Details</Button>

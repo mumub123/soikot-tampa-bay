@@ -60,7 +60,7 @@ const DurgaPujaDetails = () => {
                 <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Durga Puja 2025</span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-              <p className="text-bengali-dark/80 max-w-3xl mx-auto mb-6">
+              <p className="text-bengali-dark max-w-3xl mx-auto mb-6">
                 Join us for the biggest Bengali festival of the year celebrating the divine feminine power of Ma Durga.
               </p>
               
@@ -112,27 +112,27 @@ const DurgaPujaDetails = () => {
                       <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 3</h4>
                       <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">11:00 am</span>
+                          <span className="text-bengali-dark">11:00 am</span>
                           <span className="text-bengali-dark">Pandal Setup</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">6:00 pm</span>
+                          <span className="text-bengali-dark">6:00 pm</span>
                           <span className="text-bengali-dark">Debir Bodhon</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">7:30 pm</span>
+                          <span className="text-bengali-dark">7:30 pm</span>
                           <span className="text-bengali-dark">Pushpanjali</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">8:00 pm</span>
+                          <span className="text-bengali-dark">8:00 pm</span>
                           <span className="text-bengali-dark">Fashion Show</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">9:00 pm</span>
+                          <span className="text-bengali-dark">9:00 pm</span>
                           <span className="text-bengali-dark">Dinner</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">10:00 pm</span>
+                          <span className="text-bengali-dark">10:00 pm</span>
                           <span className="text-bengali-dark">Natok</span>
                         </div>
                       </div>
@@ -143,39 +143,39 @@ const DurgaPujaDetails = () => {
                       <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 4</h4>
                       <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">10:30 am</span>
+                          <span className="text-bengali-dark">10:30 am</span>
                           <span className="text-bengali-dark">Pujo</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">1:30 pm</span>
+                          <span className="text-bengali-dark">1:30 pm</span>
                           <span className="text-bengali-dark">Pushpanjali</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">2:00 pm</span>
+                          <span className="text-bengali-dark">2:00 pm</span>
                           <span className="text-bengali-dark">Prasad</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">2:30 pm</span>
+                          <span className="text-bengali-dark">2:30 pm</span>
                           <span className="text-bengali-dark">Bhog</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">4:00 pm</span>
+                          <span className="text-bengali-dark">4:00 pm</span>
                           <span className="text-bengali-dark">Cultural Program</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">8:00 pm</span>
+                          <span className="text-bengali-dark">8:00 pm</span>
                           <span className="text-bengali-dark">Sandhya Arati</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">8:30 pm</span>
+                          <span className="text-bengali-dark">8:30 pm</span>
                           <span className="text-bengali-dark">Dhunuchi Nach</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">9:00 pm</span>
+                          <span className="text-bengali-dark">9:00 pm</span>
                           <span className="text-bengali-dark">Dinner</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">10:00 pm</span>
+                          <span className="text-bengali-dark">10:00 pm</span>
                           <span className="text-bengali-dark">Cultural Program</span>
                         </div>
                       </div>
@@ -186,23 +186,23 @@ const DurgaPujaDetails = () => {
                       <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 5</h4>
                       <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">10:30 am</span>
+                          <span className="text-bengali-dark">10:30 am</span>
                           <span className="text-bengali-dark">Pujo</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">12:30 pm</span>
+                          <span className="text-bengali-dark">12:30 pm</span>
                           <span className="text-bengali-dark">Pushpanjali</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">1:30 pm</span>
+                          <span className="text-bengali-dark">1:30 pm</span>
                           <span className="text-bengali-dark">Debi Baron & Sindur Khela</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">3:00 pm</span>
+                          <span className="text-bengali-dark">3:00 pm</span>
                           <span className="text-bengali-dark">Lunch</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark/70">6:00 pm</span>
+                          <span className="text-bengali-dark">6:00 pm</span>
                           <span className="text-bengali-dark">Manasi Ghosh Live</span>
                         </div>
                       </div>
@@ -234,7 +234,7 @@ const DurgaPujaDetails = () => {
                     {/* Annual Sponsorship Section */}
                     <div>
                       <h4 className="text-lg font-semibold text-bengali-red mb-3">Annual Sponsorship</h4>
-                      <p className="text-bengali-dark/80 mb-6 text-sm">
+                      <p className="text-bengali-dark mb-6 text-sm">
                         Join our family of sponsors — your support makes all the difference.
                       </p>
                       <div className="space-y-4">
@@ -285,7 +285,7 @@ const DurgaPujaDetails = () => {
                     {/* General Event Subscription Section */}
                     <div>
                       <h4 className="text-lg font-semibold text-bengali-red mb-3">General Event Subscription</h4>
-                      <p className="text-bengali-dark/80 mb-6 text-sm">
+                      <p className="text-bengali-dark mb-6 text-sm">
                         Subscription includes access to all three days of festivities, cultural programs, and traditional Bengali cuisine.
                       </p>
                       <div className="space-y-4">
@@ -309,7 +309,7 @@ const DurgaPujaDetails = () => {
                                 </tr>
                                 <tr>
                                   <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Student</td>
-                                  <td className="text-center py-3 px-4 text-bengali-dark/70 italic text-xs">Contact for discounted rates</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark italic text-xs">Contact for discounted rates</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -362,7 +362,7 @@ const DurgaPujaDetails = () => {
                         </div>
                         <div className="p-4 text-center">
                           <h3 className="text-lg font-semibold text-bengali-dark mb-2">{flyer.title}</h3>
-                          <p className="text-bengali-dark/70 text-sm">
+                          <p className="text-bengali-dark text-sm">
                             {flyer.description}
                           </p>
                         </div>
