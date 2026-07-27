@@ -155,7 +155,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <Button className="bg-bengali-red/60 text-white cursor-not-allowed mb-6" disabled>
+          <Button className="bg-bengali-red/60 text-white cursor-not-allowed mb-6 px-6 py-2 text-sm rounded-xl shadow-lg" disabled>
             Coming Soon
           </Button>
           <div className="flex flex-wrap gap-4 justify-center">
