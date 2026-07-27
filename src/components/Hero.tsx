@@ -127,8 +127,8 @@ const Hero = () => {
                 <img
                   src={manasiGhoshImg.url}
                   alt="Manasi Ghosh"
-                  width={800}
-                  height={384}
+                  width={1664}
+                  height={1920}
                   loading="lazy"
                   decoding="async"
                   className="w-full h-full object-cover object-top scale-110"
