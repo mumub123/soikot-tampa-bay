@@ -107,11 +107,6 @@ const Hero = () => {
                   Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious
                   ceremonies, cultural programs, and community feasts.
                 </p>
-                <Link to="/durga-puja-details">
-                  <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">
-                    View Details
-                  </Button>
-                </Link>
               </div>
             </div>
             {/* Manasi Ghosh Tile */}
@@ -157,14 +152,12 @@ const Hero = () => {
                   A special live performance by Manasi Ghosh as part of our Durga Puja 2026 celebrations. Don't miss this
                   enchanting evening of music.
                 </p>
-                <Link to="/durga-puja-details">
-                  <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">
-                    View Details
-                  </Button>
-                </Link>
               </div>
             </div>
           </div>
+          <Button className="bg-bengali-red/60 text-white cursor-not-allowed mb-6" disabled>
+            Coming Soon
+          </Button>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link to="/events">
               <Button className="bg-white hover:bg-bengali-red/10 text-bengali-red border border-bengali-red px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-light hover:border-bengali-red/80">
