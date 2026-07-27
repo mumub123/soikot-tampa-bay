@@ -48,6 +48,8 @@ const DurgaPujaDetails = () => {
           <img 
             src="/lovable-uploads/74a0e9c4-2966-43b7-ac69-06aa3a563bed.png" 
             alt="Durga Puja 2025 - Beautiful decoration with Ma Durga and other deities"
+            width={1920}
+            height={976}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
