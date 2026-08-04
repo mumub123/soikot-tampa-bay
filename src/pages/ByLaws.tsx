@@ -15,14 +15,14 @@ const Section: React.FC<{ article: string; title: string; children: React.ReactN
 const ByLaws = () => {
   return (
     <div className="font-bengali">
-      <SEO title={"By-Laws - Soikot"} description={"Read the official by-laws of Soikot, the Bengali Association of Tampa Bay, outlining our mission, membership, governance and Executive Committee structure."} path={"/by-laws"} />
+      <SEO title={"Bylaws - Soikot"} description={"Read the official Bylaws of Soikot, the Bengali Association of Tampa Bay, outlining our mission, membership, governance and Executive Committee structure."} path={"/by-laws"} />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-gradient-to-b from-bengali-light to-white">
           <div className="container mx-auto px-4 md:px-6">
             <div className="prose prose-lg max-w-4xl mx-auto">
               <div className="text-center mb-10">
-                <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark mb-2"><span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Soikot By-Laws</span></h1>
+                <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark mb-2"><span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Soikot Bylaws</span></h1>
                 <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
                 <p className="text-bengali-dark mb-6">Revision 5 &mdash; Effective August 1, 2026</p>
                 <a
@@ -32,7 +32,7 @@ const ByLaws = () => {
                   className="inline-flex items-center gap-2 px-6 py-2 text-sm rounded-xl shadow-lg bg-bengali-red text-white no-underline hover:opacity-90 transition-opacity"
                 >
                   <Download className="w-4 h-4" />
-                  Download By-Laws (PDF)
+                  Download Bylaws (PDF)
                 </a>
               </div>
 

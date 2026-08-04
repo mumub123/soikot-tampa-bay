@@ -30,7 +30,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="/by-laws" className="text-gray-200 hover:text-bengali-yellow transition-colors duration-300 text-sm flex items-center justify-center md:justify-start">
-                  By-Laws
+                  Bylaws
                 </a>
               </li>
               <li>
