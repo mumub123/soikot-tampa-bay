@@ -35,7 +35,7 @@ const About = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
           <p className="text-bengali-dark max-w-3xl mx-auto">
-            Soikot is the Bengali Association of the Tampa Bay area, proudly dedicated to preserving and promoting the rich culture, language, and traditions of Bengal. Through cultural events, and community gatherings, we strive to foster a deeper connection to our heritage and pass it on to future generations.
+            Soikot is the Bengali Association of the Tampa Bay area, a not-for-profit corporation dedicated to the preservation, promotion, and celebration of Bengali culture, language, traditions, and values through cultural events, educational activities, and community gatherings.
           </p>
         </div>
         
@@ -43,20 +43,20 @@ const About = () => {
           <div className="bg-bengali-light p-6 rounded-lg">
             <h3 className="text-xl md:text-2xl font-semibold text-bengali-dark mb-4">Our Mission</h3>
             <p className="text-bengali-dark mb-4">
-              To celebrate Bengali religious and cultural festivals, express creativity through literature, poetry, drama, and music in the Bengali language, and preserve our heritage for future generations.
+              To create opportunities for the preservation, promotion, and celebration of Bengali culture, language, traditions, and values while fostering an open, inclusive, and welcoming community.
             </p>
             <p className="text-bengali-dark">
-              We are committed to teaching written and spoken Bengali, particularly to children, along with the history, cultural values, and traditions of Bengal.
+              We are committed to engaging, supporting, and integrating Bengali families in the Tampa Bay area, providing opportunities for them to participate in cultural, educational, and community activities, and to build meaningful connections with existing members&mdash;regardless of sponsorship level, tenure, or background&mdash;while continuing to serve and value the broader Soikot family.
             </p>
           </div>
           
           <div className="bg-bengali-light p-6 rounded-lg">
             <h3 className="text-xl md:text-2xl font-semibold text-bengali-dark mb-4">Our Vision</h3>
             <p className="text-bengali-dark mb-4">
-              To create a thriving Bengali cultural hub in the Tampa Bay area that serves as a bridge between our ancestral heritage and our new home.
+              A vibrant, inclusive, and ever-growing Bengali community where new and existing families feel equally welcomed, connected, and valued.
             </p>
             <p className="text-bengali-dark">
-              We envision a community where Bengali language and culture flourish, where we can provide humanitarian assistance to those in need, and where we can contribute to the rich cultural tapestry of America.
+              We aspire to be a trusted cultural home for Bengali families relocating to the Tampa Bay area&mdash;helping them blend seamlessly into the community&mdash;while honoring our shared heritage, nurturing future generations, and strengthening bonds across all stages of membership and participation.
             </p>
           </div>
         </div>
