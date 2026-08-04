@@ -487,7 +487,7 @@ const ByLaws = () => {
                         <td className="py-3 px-4 font-semibold">Revision 5</td>
                         <td className="py-3 px-4">8/1/26</td>
                         <td className="py-3 px-4">
-                          Complete restatement of the Bylaws (see summary of changes below).
+                          Restatement of the Bylaws (see summary of changes below) — ratified by General Body Meeting.
                         </td>
                       </tr>
                     </tbody>
