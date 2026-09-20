@@ -160,7 +160,7 @@ const Hero = () => {
                   </a>
                 </div>
                 <p className="text-bengali-dark mb-3">
-                  Arnab Chakraborty takes the stage with timeless melodies celebrating the legends of music.
+                  Known for his acclaimed "K for Kishore" performances, Arnab Chakraborty takes the stage with timeless melodies celebrating the legends of music.
                 </p>
               </div>
             </div>
