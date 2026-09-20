@@ -160,7 +160,7 @@ const Hero = () => {
                   </a>
                 </div>
                 <p className="text-bengali-dark mb-3">
-                  Arnab Chakraborty will mesmerize the audience with his melodious voice celebrating the legends.
+                  Arnab Chakraborty takes the stage with timeless melodies celebrating the legends.
                 </p>
               </div>
             </div>
