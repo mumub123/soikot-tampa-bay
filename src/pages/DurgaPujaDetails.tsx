@@ -135,7 +135,7 @@ const DurgaPujaDetails = () => {
                   <div className="space-y-6 flex-grow">
                     {/* Oct 3 */}
                     <div>
-                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 3</h4>
+                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 16</h4>
                       <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
                           <span className="text-bengali-dark">11:00 am</span>
@@ -166,7 +166,7 @@ const DurgaPujaDetails = () => {
 
                     {/* Oct 4 */}
                     <div>
-                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 4</h4>
+                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 17</h4>
                       <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
                           <span className="text-bengali-dark">10:30 am</span>
@@ -209,7 +209,7 @@ const DurgaPujaDetails = () => {
 
                     {/* Oct 5 */}
                     <div>
-                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 5</h4>
+                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 18</h4>
                       <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
                           <span className="text-bengali-dark">10:30 am</span>
@@ -228,7 +228,7 @@ const DurgaPujaDetails = () => {
                           <span className="text-bengali-dark">Lunch</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark">6:00 pm</span>
+                          <span className="text-bengali-dark">5:00 pm</span>
                           <span className="text-bengali-dark">Manasi Ghosh Live</span>
                         </div>
                       </div>
