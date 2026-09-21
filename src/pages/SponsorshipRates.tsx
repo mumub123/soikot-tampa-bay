@@ -33,7 +33,7 @@ const SponsorshipRates = () => {
       title: "Silver Sponsorship",
       amount: "$650 and above",
       benefits:
-        "Silver Sponsors are eligible to attend the Durga Pujo and all event till 31st December 2025 for up to two adults and two children.",
+        "Silver Sponsors are eligible to attend the Durga Pujo and all event till 31st December 2026 for up to two adults and two children.",
     },
   ];
 
