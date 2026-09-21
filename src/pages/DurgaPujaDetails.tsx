@@ -83,11 +83,11 @@ const DurgaPujaDetails = () => {
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
               <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">
-                <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Durga Puja 2025</span>
+                <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">Durga Puja 2026</span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
               <p className="text-bengali-dark max-w-3xl mx-auto mb-6">
-                Join us for the biggest Bengali festival of the year celebrating the divine feminine power of Ma Durga.
+                Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.
               </p>
               
               {/* Basic Event Info */}
@@ -96,7 +96,7 @@ const DurgaPujaDetails = () => {
                   <div className="flex items-center justify-center text-bengali-dark">
                     <Calendar className="w-5 h-5 mr-3 text-bengali-red" />
                     <div>
-                      <strong>Date:</strong> October 3-5, 2025
+                      <strong>Date:</strong> October 16-18, 2026
                     </div>
                   </div>
                   
@@ -135,7 +135,7 @@ const DurgaPujaDetails = () => {
                   <div className="space-y-6 flex-grow">
                     {/* Oct 3 */}
                     <div>
-                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 3</h4>
+                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 16</h4>
                       <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
                           <span className="text-bengali-dark">11:00 am</span>
@@ -166,7 +166,7 @@ const DurgaPujaDetails = () => {
 
                     {/* Oct 4 */}
                     <div>
-                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 4</h4>
+                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 17</h4>
                       <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
                           <span className="text-bengali-dark">10:30 am</span>
@@ -209,7 +209,7 @@ const DurgaPujaDetails = () => {
 
                     {/* Oct 5 */}
                     <div>
-                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 5</h4>
+                      <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 18</h4>
                       <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
                           <span className="text-bengali-dark">10:30 am</span>
@@ -228,7 +228,7 @@ const DurgaPujaDetails = () => {
                           <span className="text-bengali-dark">Lunch</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark">6:00 pm</span>
+                          <span className="text-bengali-dark">5:00 pm</span>
                           <span className="text-bengali-dark">Manasi Ghosh Live</span>
                         </div>
                       </div>
