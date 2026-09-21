@@ -214,9 +214,11 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <Button className="bg-bengali-red/60 text-white cursor-not-allowed mb-6 px-6 py-2 text-sm rounded-xl shadow-lg" disabled>
-            Coming Soon
-          </Button>
+          <Link to="/durga-puja-details">
+            <Button className="bg-bengali-red hover:bg-bengali-red/90 text-white mb-6 px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+              View Details
+            </Button>
+          </Link>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link to="/events">
               <Button className="bg-white hover:bg-bengali-red/10 text-bengali-red border border-bengali-red px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-light hover:border-bengali-red/80">
