@@ -5,6 +5,11 @@ import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, ExternalLink, Phone, Mail, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import manasiGhoshImg from "@/assets/manasi-ghosh.jpg.asset.json";
+import durgaPujaFoodMenuImg from "@/assets/durga-puja-food-menu-2026.jpeg.asset.json";
+import timelessTunesImg from "@/assets/timeless-tunes-arnab-chakraborty.jpg.asset.json";
+import manasiGhoshChampionImg from "@/assets/manasi-ghosh-indian-idol-champion.jpg.asset.json";
+import durgaPujaRegistrationImg from "@/assets/durga-puja-2026-registration.jpeg.asset.json";
+import probaho2026Img from "@/assets/probaho-2026-magazine.jpeg.asset.json";
 import SEO from "@/components/SEO";
 
 const DurgaPujaDetails = () => {
@@ -12,29 +17,29 @@ const DurgaPujaDetails = () => {
 
   const flyers = [
     {
-      src: manasiGhoshImg.url,
-      title: "Featuring Manasi Ghosh",
-      description: "Oct 18, 2026 at 5:00 pm",
+      src: durgaPujaRegistrationImg.url,
+      title: "Durga Puja 2026",
+      description: "October 16-18, 2026 at ICC",
     },
     {
-      src: "/lovable-uploads/c3a41759-7497-475d-857f-d085285f7727.png",
-      title: "Cultural Programs - Request for slots",
-      description: "Oct 4, 2025 between 4:30 and 8:00 pm",
-    },
-    {
-      src: "/lovable-uploads/139c7fe4-11fb-442a-a7d8-80276722a447.png",
-      title: "Fashion Show - How to participate",
-      description: "Oct 3, 2025 at 9:00 pm",
-    },
-    {
-      src: "/lovable-uploads/3cbf2f89-c537-4a89-9d49-2cdf4f050aa5.png",
-      title: "Prabaho - Our Online Magazine",
-      description: "Article submission deadline: September 20",
-    },
-    {
-      src: "/lovable-uploads/DP_Food_Flyer_English-2.jpg",
+      src: durgaPujaFoodMenuImg.url,
       title: "Durga Puja Food Menu",
       description: "Traditional Bengali cuisine for all three days",
+    },
+    {
+      src: timelessTunesImg.url,
+      title: "Timeless Tunes",
+      description: "Arnab Chakraborty on October 16, 2026 at 9:30 pm",
+    },
+    {
+      src: manasiGhoshChampionImg.url,
+      title: "Manasi Ghosh Live",
+      description: "The Indian Idol Champion on October 18, 2026 at 5:00 pm",
+    },
+    {
+      src: probaho2026Img.url,
+      title: "Probaho 2026",
+      description: "Soikot Tampa Bay Puja Magazine",
     },
   ];
 
