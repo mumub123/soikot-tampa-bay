@@ -62,49 +62,13 @@ const Hero = () => {
           {/* Donor & Pre-Registration Splash */}
           <div className="w-full max-w-4xl mx-auto mb-10">
             <div className="bg-gradient-to-r from-bengali-red/10 to-bengali-orange/10 border-l-4 border-bengali-red rounded-2xl p-6 md:p-8 shadow-xl text-left md:text-center">
-              <h2 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
-                Become a Donor & Pre-Register for Durga Puja 2026
+              <h2 className="text-2xl md:text-3xl font-extrabold text-bengali-dark mb-3">
+                Become a Donor & Register for Durga Puja 2026
               </h2>
               <p className="text-bengali-dark mb-6">
                 Support Soikot and secure your spot at our biggest celebration of the year.
               </p>
 
-              <div className="overflow-hidden rounded-xl border border-bengali-red/20 bg-white/80 mb-4">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="bg-bengali-red/10">
-                      <th className="text-left py-3 px-4 font-semibold text-bengali-dark">Category</th>
-                      <th className="text-center py-3 px-4 font-bold text-bengali-red bg-bengali-red/20 border-l border-bengali-red/20">
-                        Pre-registration
-                      </th>
-                      <th className="text-center py-3 px-4 font-semibold text-bengali-dark border-l border-bengali-red/20">
-                        General
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="border-b border-bengali-red/10">
-                      <td className="py-3 px-4 font-medium text-bengali-dark">Family</td>
-                      <td className="text-center py-3 px-4 font-bold text-bengali-red bg-bengali-red/5 border-l border-bengali-red/20">$450</td>
-                      <td className="text-center py-3 px-4 font-medium text-bengali-dark border-l border-bengali-red/20">$550</td>
-                    </tr>
-                    <tr className="border-b border-bengali-red/10">
-                      <td className="py-3 px-4 font-medium text-bengali-dark">Individual</td>
-                      <td className="text-center py-3 px-4 font-bold text-bengali-red bg-bengali-red/5 border-l border-bengali-red/20">$225</td>
-                      <td className="text-center py-3 px-4 font-medium text-bengali-dark border-l border-bengali-red/20">$275</td>
-                    </tr>
-                    <tr>
-                      <td className="py-3 px-4 font-medium text-bengali-dark">Student (Undergrad)</td>
-                      <td className="text-center py-3 px-4 font-bold text-bengali-red bg-bengali-red/5 border-l border-bengali-red/20">$75</td>
-                      <td className="text-center py-3 px-4 font-medium text-bengali-dark border-l border-bengali-red/20">$75</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <p className="text-sm font-semibold text-bengali-red mb-6">
-                Pre-registration ends October 11, 2026.
-              </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/donate">
