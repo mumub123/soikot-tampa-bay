@@ -59,11 +59,11 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* Donor & Pre-Registration Splash */}
+          {/* Sponsor & Registration Splash */}
           <div className="w-full max-w-4xl mx-auto mb-10">
             <div className="bg-gradient-to-r from-bengali-red/10 to-bengali-orange/10 border-l-4 border-bengali-red rounded-2xl p-6 md:p-8 shadow-xl text-left md:text-center">
               <h2 className="text-2xl md:text-3xl font-extrabold text-bengali-dark mb-3">
-                Become a Donor & Register for Durga Puja 2026
+                Become a Sponsor & Register for Durga Puja 2026
               </h2>
               <p className="text-bengali-dark mb-6">
                 Support Soikot and secure your spot at our biggest celebration of the year.
