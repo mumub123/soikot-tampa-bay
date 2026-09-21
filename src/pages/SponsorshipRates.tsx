@@ -11,7 +11,7 @@ const SponsorshipRates = () => {
       title: "Grand Sponsorship",
       amount: "$3000 and above",
       benefits:
-        "Grand Sponsors are eligible to attend Durga Pujo and all events in 2025 for up to four adults and four children. Attendance for all future Society events up to September 1st, 2026 is free for them.",
+        "Grand Sponsors are eligible to attend Durga Pujo and all events in 2026 for up to four adults and four children. Attendance for all future Society events up to September 1st, 2027 is free for them.",
     },
     {
       title: "Platinum Sponsorship",
@@ -27,7 +27,7 @@ const SponsorshipRates = () => {
       title: "Gold Sponsorship",
       amount: "$1000 and above",
       benefits:
-        "Includes attendance to Durga Pujo 2025 and all Soikot events throughout the year for up to four adults and four children. You will also receive complimentary access to all Soikot events until May 31st, 2026.",
+        "Includes attendance to Durga Pujo 2026 and all Soikot events throughout the year for up to four adults and four children. You will also receive complimentary access to all Soikot events until May 31st, 2027.",
     },
     {
       title: "Silver Sponsorship",
@@ -39,7 +39,13 @@ const SponsorshipRates = () => {
 
   return (
     <div className="font-bengali">
-      <SEO title={"Sponsorship Rates - Soikot"} description={"Explore Soikot sponsorship tiers and benefits — Grand, Platinum, and other levels supporting Bengali cultural events in Tampa Bay."} path={"/sponsorship-rates"} />
+      <SEO
+        title={"Sponsorship Rates - Soikot"}
+        description={
+          "Explore Soikot sponsorship tiers and benefits — Grand, Platinum, and other levels supporting Bengali cultural events in Tampa Bay."
+        }
+        path={"/sponsorship-rates"}
+      />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-bengali-light">
