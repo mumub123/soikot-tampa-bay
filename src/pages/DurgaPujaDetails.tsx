@@ -18,6 +18,11 @@ const DurgaPujaDetails = () => {
 
   const flyers = [
     {
+      src: dpSubscriptionPosterImg.url,
+      title: "Sponsorship & Registration",
+      description: "Sponsor, pre-register, and subscribe for Durga Puja 2026",
+    },
+    {
       src: durgaPujaRegistrationImg.url,
       title: "Durga Puja 2026",
       description: "October 16-18, 2026 at ICC",
