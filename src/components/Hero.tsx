@@ -71,12 +71,13 @@ const Hero = () => {
 
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link to="/donate">
+                <Link to="/sponsorship-rates">
                   <Button className="bg-bengali-red hover:bg-bengali-red/90 text-white px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-                    Become a Donor
+                    Become a Sponsor
                   </Button>
                 </Link>
                 <Link to="/durga-puja-details">
+
                   <Button className="bg-white hover:bg-bengali-red/10 text-bengali-red border border-bengali-red px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-light hover:border-bengali-red/80">
                     View Details & Register
                   </Button>
