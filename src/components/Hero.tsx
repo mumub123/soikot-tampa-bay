@@ -69,7 +69,6 @@ const Hero = () => {
                 Support Soikot and secure your spot at our biggest celebration of the year.
               </p>
 
-
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/sponsorship-rates">
                   <Button className="bg-bengali-red hover:bg-bengali-red/90 text-white px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
@@ -77,7 +76,6 @@ const Hero = () => {
                   </Button>
                 </Link>
                 <Link to="/durga-puja-details">
-
                   <Button className="bg-white hover:bg-bengali-red/10 text-bengali-red border border-bengali-red px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-light hover:border-bengali-red/80">
                     View Details & Register
                   </Button>
@@ -86,12 +84,10 @@ const Hero = () => {
             </div>
           </div>
 
-
-
           {/* Featured Events Section */}
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">
-              Upcoming Events
+              Durga Puja 2026
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
@@ -101,7 +97,7 @@ const Hero = () => {
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-                    Durga Puja
+                    Puja Ceremony
                   </span>
                 </h3>
               </div>
@@ -189,7 +185,8 @@ const Hero = () => {
                   </a>
                 </div>
                 <p className="text-bengali-dark mb-3">
-                  Known for his acclaimed "K for Kishore" performances, Arnab Chakraborty takes the stage with timeless melodies celebrating the legends of music.
+                  Known for his acclaimed "K for Kishore" performances, Arnab Chakraborty takes the stage with timeless
+                  melodies celebrating the legends of music.
                 </p>
               </div>
             </div>
@@ -237,8 +234,8 @@ const Hero = () => {
                   </a>
                 </div>
                 <p className="text-bengali-dark mb-3">
-                  A special live performance by Manasi Ghosh as part of our Durga Puja 2026 celebrations. Don't miss this
-                  enchanting evening of music.
+                  A special live performance by Manasi Ghosh as part of our Durga Puja 2026 celebrations. Don't miss
+                  this enchanting evening of music.
                 </p>
               </div>
             </div>
