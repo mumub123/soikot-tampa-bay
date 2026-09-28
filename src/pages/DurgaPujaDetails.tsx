@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import manasiGhoshImg from "@/assets/manasi-ghosh.jpg.asset.json";
 import durgaPujaFoodMenuImg from "@/assets/durga-puja-food-menu-2026.jpeg.asset.json";
 import timelessTunesImg from "@/assets/timeless-tunes-arnab-chakraborty-2026.jpg.asset.json";
-import manasiGhoshChampionImg from "@/assets/manasi-ghosh-indian-idol-champion.jpg.asset.json";
+import manasiGhoshChampionImg from "@/assets/manasi-ghosh-indian-idol-champion-2026.jpg.asset.json";
 import durgaPujaRegistrationImg from "@/assets/durga-puja-2026-registration.jpeg.asset.json";
 import dpSubscriptionPosterImg from "@/assets/dp-subscription-poster-2026.jpg.asset.json";
 import probaho2026Img from "@/assets/probaho-2026-magazine.jpeg.asset.json";
