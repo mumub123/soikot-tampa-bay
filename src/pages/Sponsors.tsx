@@ -52,6 +52,7 @@ const Sponsors = () => {
         "Susmita & Somen Adhikari",
         "Swagata Batabyal",
         "Taaza Mart",
+        "Anandita & Arindam Sabui",
       ],
     },
     {
