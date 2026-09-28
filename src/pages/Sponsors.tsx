@@ -52,7 +52,7 @@ const Sponsors = () => {
         "Susmita & Somen Adhikari",
         "Swagata Batabyal",
         "Taaza Mart",
-        "Anandita & Arindam Sabui",
+        "Anandita Karmakar & Arindam Sabui",
       ],
     },
     {
@@ -149,7 +149,13 @@ const Sponsors = () => {
 
   return (
     <div className="font-bengali">
-      <SEO title={"Our Sponsors - Soikot"} description={"Meet the generous sponsors supporting Soikot's Bengali cultural events and community programs in Tampa Bay."} path={"/sponsors"} />
+      <SEO
+        title={"Our Sponsors - Soikot"}
+        description={
+          "Meet the generous sponsors supporting Soikot's Bengali cultural events and community programs in Tampa Bay."
+        }
+        path={"/sponsors"}
+      />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-bengali-light">
