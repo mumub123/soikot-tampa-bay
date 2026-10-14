@@ -196,7 +196,7 @@ const Hero = () => {
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-                    Golden Buzzer Magic
+                    Pranysqa Magic
                   </span>
                 </h3>
               </div>
