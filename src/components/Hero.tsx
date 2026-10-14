@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Calendar, Clock, MapPin, Facebook, Instagram, ExternalLink } from "lucide-react";
+import { Calendar, Clock, MapPin, Facebook, Instagram, ExternalLink, Flame } from "lucide-react";
 import { Link } from "react-router-dom";
 import subhadipLiveImg from "@/assets/subhadip-live-2026.jpg.asset.json";
 import timelessTunesImg from "@/assets/timeless-tunes.png.asset.json";
@@ -63,6 +63,15 @@ const Hero = () => {
           {/* Sponsor & Registration Splash */}
           <div className="w-full max-w-4xl mx-auto mb-10">
             <div className="bg-gradient-to-r from-bengali-red/10 to-bengali-orange/10 border-l-4 border-bengali-red rounded-2xl p-6 md:p-8 shadow-xl text-left md:text-center">
+              <div className="mb-4 flex justify-center">
+                <span className="animate-flash inline-flex w-full max-w-lg items-center justify-center gap-2 rounded-full bg-red-600 px-5 py-2 text-center text-sm font-extrabold uppercase tracking-[0.15em] text-white shadow-lg md:text-base">
+                  <Flame className="h-4 w-4 shrink-0" aria-hidden="true" />
+                  <span>
+                    Regular Event Subscription <span className="font-black">Sold Out</span>
+                  </span>
+                  <Flame className="h-4 w-4 shrink-0" aria-hidden="true" />
+                </span>
+              </div>
               <h2 className="text-2xl md:text-3xl font-extrabold text-bengali-dark mb-3">
                 Become a Sponsor & Register for Durga Puja 2026
               </h2>
