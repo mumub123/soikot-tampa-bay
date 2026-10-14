@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AllEventsNavbar from "@/components/AllEventsNavbar";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Calendar, Clock, MapPin, ExternalLink, Phone, Mail, X } from "lucide-react";
+import { Calendar, Clock, MapPin, ExternalLink, Phone, Mail, X, Flame } from "lucide-react";
 import { Link } from "react-router-dom";
 import SoldOutMarquee from "@/components/SoldOutMarquee";
 import durgaPujaFoodMenuImg from "@/assets/durga-puja-food-menu-2026.jpeg.asset.json";
@@ -107,6 +107,15 @@ const DurgaPujaDetails = () => {
                 </span>
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
+              <div className="mb-6 flex justify-center">
+                <span className="animate-flash inline-flex w-full max-w-lg items-center justify-center gap-2 rounded-full bg-red-600 px-5 py-2 text-center text-sm font-extrabold uppercase tracking-[0.15em] text-white shadow-lg md:text-base">
+                  <Flame className="h-4 w-4 shrink-0" aria-hidden="true" />
+                  <span>
+                    Regular Event Subscription <span className="font-black">Sold Out</span>
+                  </span>
+                  <Flame className="h-4 w-4 shrink-0" aria-hidden="true" />
+                </span>
+              </div>
               <p className="text-bengali-dark max-w-3xl mx-auto mb-6">
                 Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious
                 ceremonies, cultural programs, and community feasts.
