@@ -35,7 +35,7 @@ const TickerRow = ({ reverse = false }: { reverse?: boolean }) => (
 /** A single vertical ticker column, reading top to bottom. */
 const TickerColumn = ({ reverse = false }: { reverse?: boolean }) => (
   <div
-    className={`flex h-max w-max flex-col ${reverse ? "" : "animate-marquee-up"}`}
+    className={`flex h-max w-max flex-col ${reverse ? "animate-marquee-down" : "animate-marquee-up"}`}
     aria-hidden="true"
   >
     {[0, 1].map((copy) => (

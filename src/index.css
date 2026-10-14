@@ -141,6 +141,15 @@
     }
   }
 
+  @keyframes marquee-down {
+    from {
+      transform: translateY(-50%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
   .animate-marquee-left {
     animation: marquee-left 24s linear infinite;
   }
@@ -153,10 +162,15 @@
     animation: marquee-up 26s linear infinite;
   }
 
+  .animate-marquee-down {
+    animation: marquee-down 30s linear infinite;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .animate-marquee-left,
     .animate-marquee-right,
-    .animate-marquee-up {
+    .animate-marquee-up,
+    .animate-marquee-down {
       animation: none;
     }
   }
