@@ -6,7 +6,7 @@ import { Calendar, Clock, MapPin, ExternalLink, Phone, Mail, X } from "lucide-re
 import { Link } from "react-router-dom";
 import durgaPujaFoodMenuImg from "@/assets/durga-puja-food-menu-2026.jpeg.asset.json";
 import timelessTunesImg from "@/assets/timeless-tunes-arnab-chakraborty-2026.jpg.asset.json";
-import manasiGhoshChampionImg from "@/assets/manasi-ghosh-indian-idol-champion-2026.jpg.asset.json";
+import subhadeepLiveFlyerImg from "@/assets/subhadeep-live-flyer-2026.png.asset.json";
 import durgaPujaRegistrationImg from "@/assets/durga-puja-2026-registration.jpeg.asset.json";
 import dpSubscriptionPosterImg from "@/assets/dp-subscription-poster-2026.jpg.asset.json";
 import probaho2026Img from "@/assets/probaho-2026-magazine.jpeg.asset.json";
@@ -37,9 +37,9 @@ const DurgaPujaDetails = () => {
       description: "Arnab Chakraborty on October 16, 2026 at 9:30 pm",
     },
     {
-      src: manasiGhoshChampionImg.url,
-      title: "Manasi Ghosh Live",
-      description: "The Indian Idol Champion on October 18, 2026 at 5:00 pm",
+      src: subhadeepLiveFlyerImg.url,
+      title: "Subhadeep Live",
+      description: "Live on October 18, 2026 at 3:30 pm",
     },
     {
       src: probaho2026Img.url,
