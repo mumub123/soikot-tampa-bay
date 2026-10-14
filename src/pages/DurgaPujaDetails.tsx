@@ -4,7 +4,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, ExternalLink, Phone, Mail, X } from "lucide-react";
 import { Link } from "react-router-dom";
-import manasiGhoshImg from "@/assets/manasi-ghosh.jpg.asset.json";
 import durgaPujaFoodMenuImg from "@/assets/durga-puja-food-menu-2026.jpeg.asset.json";
 import timelessTunesImg from "@/assets/timeless-tunes-arnab-chakraborty-2026.jpg.asset.json";
 import manasiGhoshChampionImg from "@/assets/manasi-ghosh-indian-idol-champion-2026.jpg.asset.json";

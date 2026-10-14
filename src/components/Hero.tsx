@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, Facebook, Instagram, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
-import manasiGhoshImg from "@/assets/manasi-ghosh.jpg.asset.json";
+import subhadipLiveImg from "@/assets/subhadip-live-2026.jpg.asset.json";
 import timelessTunesImg from "@/assets/timeless-tunes.png.asset.json";
 
 const Hero = () => {
@@ -202,13 +202,13 @@ const Hero = () => {
 
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src={manasiGhoshImg.url}
-                  alt="Subhadip Live"
-                  width={1664}
-                  height={1920}
+                  src={subhadipLiveImg.url}
+                  alt="Subhadip performing live on stage"
+                  width={1920}
+                  height={1850}
                   loading="lazy"
                   decoding="async"
-                  className="w-full h-full object-cover object-top scale-110"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
 
