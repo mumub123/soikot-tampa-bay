@@ -373,36 +373,27 @@ const DurgaPujaDetails = () => {
                                 <th className="text-left py-3 px-4 font-medium text-bengali-dark text-sm">
                                   Category
                                 </th>
-                                <th className="text-center py-3 px-4 font-bold text-bengali-dark text-sm bg-bengali-red/20 border-l border-bengali-red/20">
-                                  Pre-registration
-                                </th>
                                 <th className="text-center py-3 px-4 font-medium text-bengali-dark text-sm border-l border-bengali-red/20">
-                                  General
+                                  Amount
                                 </th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr className="border-b border-bengali-red/10">
                                 <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Family</td>
-                                <td className="text-center py-3 px-4 text-bengali-red font-bold text-sm bg-bengali-red/5 border-l border-bengali-red/20">$450</td>
                                 <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">$550</td>
                               </tr>
                               <tr className="border-b border-bengali-red/10">
                                 <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Individual</td>
-                                <td className="text-center py-3 px-4 text-bengali-red font-bold text-sm bg-bengali-red/5 border-l border-bengali-red/20">$225</td>
                                 <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">$275</td>
                               </tr>
                               <tr>
                                 <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Student (Undergrad)</td>
-                                <td className="text-center py-3 px-4 text-bengali-red font-bold text-sm bg-bengali-red/5 border-l border-bengali-red/20">$75</td>
                                 <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">$75</td>
                               </tr>
                             </tbody>
                           </table>
                         </div>
-                        <p className="text-xs font-semibold text-bengali-red">
-                          Pre-registration ends October 11, 2026.
-                        </p>
                       </div>
                     </div>
                   </div>
