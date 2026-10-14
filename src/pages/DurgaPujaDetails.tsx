@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, ExternalLink, Phone, Mail, X } from "lucide-react";
 import { Link } from "react-router-dom";
+import SoldOutMarquee from "@/components/SoldOutMarquee";
 import durgaPujaFoodMenuImg from "@/assets/durga-puja-food-menu-2026.jpeg.asset.json";
 import timelessTunesImg from "@/assets/timeless-tunes-arnab-chakraborty-2026.jpg.asset.json";
 import subhadeepLiveFlyerImg from "@/assets/subhadeep-live-flyer-2026.png.asset.json";
@@ -364,40 +365,42 @@ const DurgaPujaDetails = () => {
                         Subscription includes access to all three days of festivities, cultural programs, and
                         traditional Bengali cuisine.
                       </p>
-                      <div className="space-y-4">
-                        <div className="overflow-hidden rounded-lg border border-bengali-red/20">
-                          <table className="w-full">
-                            <thead>
-                              <tr className="bg-bengali-red/10">
-                                <th className="text-left py-3 px-4 font-medium text-bengali-dark text-sm">Category</th>
-                                <th className="text-center py-3 px-4 font-medium text-bengali-dark text-sm border-l border-bengali-red/20">
-                                  Amount
-                                </th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr className="border-b border-bengali-red/10">
-                                <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Family</td>
-                                <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
-                                  $550
-                                </td>
-                              </tr>
-                              <tr className="border-b border-bengali-red/10">
-                                <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Individual</td>
-                                <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
-                                  $275
-                                </td>
-                              </tr>
-                              <tr>
-                                <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Student (Undergrad)</td>
-                                <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
-                                  $75
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
+                      <SoldOutMarquee className="mt-2">
+                        <div className="space-y-4">
+                          <div className="overflow-hidden rounded-lg border border-bengali-red/20">
+                            <table className="w-full">
+                              <thead>
+                                <tr className="bg-bengali-red/10">
+                                  <th className="text-left py-3 px-4 font-medium text-bengali-dark text-sm">Category</th>
+                                  <th className="text-center py-3 px-4 font-medium text-bengali-dark text-sm border-l border-bengali-red/20">
+                                    Amount
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr className="border-b border-bengali-red/10">
+                                  <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Family</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
+                                    $550
+                                  </td>
+                                </tr>
+                                <tr className="border-b border-bengali-red/10">
+                                  <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Individual</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
+                                    $275
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Student (Undergrad)</td>
+                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
+                                    $75
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
                         </div>
-                      </div>
+                      </SoldOutMarquee>
                     </div>
                   </div>
                 </CardContent>
