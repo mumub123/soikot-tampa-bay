@@ -4,6 +4,7 @@ import { Calendar, Clock, MapPin, Facebook, Instagram, ExternalLink } from "luci
 import { Link } from "react-router-dom";
 import subhadipLiveImg from "@/assets/subhadip-live-2026.jpg.asset.json";
 import timelessTunesImg from "@/assets/timeless-tunes.png.asset.json";
+import pranysqaMishraImg from "@/assets/pranysqa-mishra-2026.jpg.asset.json";
 
 const Hero = () => {
   return (
@@ -91,7 +92,7 @@ const Hero = () => {
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-          <div className="my-6 w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="my-6 w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Durga Puja Tile */}
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
               <div className="text-center pt-4 pb-2 px-4">
@@ -187,6 +188,56 @@ const Hero = () => {
                 <p className="text-bengali-dark mb-3">
                   Known for his acclaimed "K for Kishore" performances, Arnab Chakraborty takes the stage with timeless
                   melodies celebrating the legends of music.
+                </p>
+              </div>
+            </div>
+            {/* Pranysqa Mishra Tile */}
+            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
+              <div className="text-center pt-4 pb-2 px-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
+                  <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
+                    Golden Buzzer Magic
+                  </span>
+                </h3>
+              </div>
+
+              <div className="relative h-48 overflow-hidden">
+                <img
+                  src={pranysqaMishraImg.url}
+                  alt="Pranysqa Mishra"
+                  width={1052}
+                  height={602}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+
+              <div className="p-6 text-left">
+                <div className="flex items-center text-bengali-dark mb-2">
+                  <Calendar className="w-4 h-4 mr-2" />
+                  <span className="text-sm">October 17, 2026</span>
+                </div>
+                <div className="flex items-center text-bengali-dark mb-2">
+                  <Clock className="w-4 h-4 mr-2" />
+                  <span className="text-sm">5:15 PM</span>
+                </div>
+                <div className="flex items-center text-bengali-dark mb-4">
+                  <MapPin className="w-4 h-4 mr-2" />
+                  <span className="text-sm">Indian Cultural Center</span>
+                  <a
+                    href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                </div>
+                <p className="text-bengali-dark mb-3">
+                  America's Got Talent Golden Buzzer recipient and Whitney Houston Legacy Foundation Vocal Awardee
+                  Pranysqa Mishra performs live at Durga Puja 2026. Her upcoming EP, The Color of Maybe, arrives this
+                  November, with distribution through Jive Records, Sony Music.
                 </p>
               </div>
             </div>
