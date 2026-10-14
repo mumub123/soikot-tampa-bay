@@ -258,7 +258,7 @@ const DurgaPujaDetails = () => {
                           <span className="text-bengali-dark">Subhadip Live</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark">5:30 pm</span>
+                          <span className="text-bengali-dark">6:00 pm</span>
                           <span className="text-bengali-dark">Snack</span>
                         </div>
                       </div>
