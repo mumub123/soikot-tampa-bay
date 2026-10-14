@@ -240,12 +240,12 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-            {/* Subhadip Tile */}
+            {/* Subhadeep Tile */}
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-                    Subhadip Live
+                    Subhadeep Live
                   </span>
                 </h3>
               </div>
@@ -253,7 +253,7 @@ const Hero = () => {
               <div className="relative h-48 overflow-hidden">
                 <img
                   src={subhadipLiveImg.url}
-                  alt="Subhadip performing live on stage"
+                  alt="Subhadeep performing live on stage"
                   width={1920}
                   height={1850}
                   loading="lazy"
@@ -284,7 +284,7 @@ const Hero = () => {
                   </a>
                 </div>
                 <p className="text-bengali-dark mb-3">
-                  A special live performance by Subhadip as part of our Durga Puja 2026 celebrations. Don't miss this
+                  A special live performance by Subhadeep as part of our Durga Puja 2026 celebrations. Don't miss this
                   enchanting evening of music.
                 </p>
               </div>
