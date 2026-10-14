@@ -190,12 +190,12 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-            {/* Manasi Ghosh Tile */}
+            {/* Subhadip Tile */}
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-                    Manasi Ghosh Live
+                    Subhadip Live
                   </span>
                 </h3>
               </div>
@@ -203,7 +203,7 @@ const Hero = () => {
               <div className="relative h-48 overflow-hidden">
                 <img
                   src={manasiGhoshImg.url}
-                  alt="Manasi Ghosh"
+                  alt="Subhadip Live"
                   width={1664}
                   height={1920}
                   loading="lazy"
@@ -219,7 +219,7 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center text-bengali-dark mb-2">
                   <Clock className="w-4 h-4 mr-2" />
-                  <span className="text-sm">5:00 PM</span>
+                  <span className="text-sm">3:30 PM</span>
                 </div>
                 <div className="flex items-center text-bengali-dark mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
@@ -234,8 +234,8 @@ const Hero = () => {
                   </a>
                 </div>
                 <p className="text-bengali-dark mb-3">
-                  A special live performance by Manasi Ghosh as part of our Durga Puja 2026 celebrations. Don't miss
-                  this enchanting evening of music.
+                  A special live performance by Subhadip as part of our Durga Puja 2026 celebrations. Don't miss this
+                  enchanting evening of music.
                 </p>
               </div>
             </div>
