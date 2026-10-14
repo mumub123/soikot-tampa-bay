@@ -380,19 +380,19 @@ const DurgaPujaDetails = () => {
                               <tbody>
                                 <tr className="border-b border-bengali-red/10">
                                   <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Family</td>
-                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
+                                  <td className="text-center py-3 px-4 text-bengali-dark/40 font-medium text-sm line-through border-l border-bengali-red/20">
                                     $550
                                   </td>
                                 </tr>
                                 <tr className="border-b border-bengali-red/10">
                                   <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Individual</td>
-                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
+                                  <td className="text-center py-3 px-4 text-bengali-dark/40 font-medium text-sm line-through border-l border-bengali-red/20">
                                     $275
                                   </td>
                                 </tr>
                                 <tr>
                                   <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Student (Undergrad)</td>
-                                  <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
+                                  <td className="text-center py-3 px-4 text-bengali-dark/40 font-medium text-sm line-through border-l border-bengali-red/20">
                                     $75
                                   </td>
                                 </tr>
