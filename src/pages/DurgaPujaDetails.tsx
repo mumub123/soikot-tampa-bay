@@ -223,6 +223,10 @@ const DurgaPujaDetails = () => {
                         </div>
                         <div className="flex justify-between">
                           <span className="text-bengali-dark">9:00 pm</span>
+                          <span className="text-bengali-dark">Pujo</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-bengali-dark">9:30 pm</span>
                           <span className="text-bengali-dark">Dinner</span>
                         </div>
                         <div className="flex justify-between">
@@ -237,19 +241,11 @@ const DurgaPujaDetails = () => {
                       <h4 className="text-lg font-semibold text-bengali-red mb-3">Oct 18</h4>
                       <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark">10:30 am</span>
-                          <span className="text-bengali-dark">Pujo</span>
-                        </div>
-                        <div className="flex justify-between">
                           <span className="text-bengali-dark">12:00 pm</span>
-                          <span className="text-bengali-dark">Pushpanjali</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-bengali-dark">12:30 pm</span>
                           <span className="text-bengali-dark">Debi Baron & Sindur Khela</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark">2:30 pm</span>
+                          <span className="text-bengali-dark">2:00 pm</span>
                           <span className="text-bengali-dark">Lunch</span>
                         </div>
                         <div className="flex justify-between">
@@ -369,9 +365,7 @@ const DurgaPujaDetails = () => {
                           <table className="w-full">
                             <thead>
                               <tr className="bg-bengali-red/10">
-                                <th className="text-left py-3 px-4 font-medium text-bengali-dark text-sm">
-                                  Category
-                                </th>
+                                <th className="text-left py-3 px-4 font-medium text-bengali-dark text-sm">Category</th>
                                 <th className="text-center py-3 px-4 font-medium text-bengali-dark text-sm border-l border-bengali-red/20">
                                   Amount
                                 </th>
@@ -380,15 +374,21 @@ const DurgaPujaDetails = () => {
                             <tbody>
                               <tr className="border-b border-bengali-red/10">
                                 <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Family</td>
-                                <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">$550</td>
+                                <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
+                                  $550
+                                </td>
                               </tr>
                               <tr className="border-b border-bengali-red/10">
                                 <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Individual</td>
-                                <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">$275</td>
+                                <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
+                                  $275
+                                </td>
                               </tr>
                               <tr>
                                 <td className="py-3 px-4 font-medium text-bengali-dark text-sm">Student (Undergrad)</td>
-                                <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">$75</td>
+                                <td className="text-center py-3 px-4 text-bengali-dark font-medium text-sm border-l border-bengali-red/20">
+                                  $75
+                                </td>
                               </tr>
                             </tbody>
                           </table>
