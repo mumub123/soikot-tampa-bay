@@ -54,7 +54,7 @@ const DurgaPujaDetails = () => {
       <SEO
         title={"Durga Puja 2026 - Soikot"}
         description={
-          "Join Soikot's Durga Puja 2026 on October 16-18 in Tampa Bay, featuring Manasi Ghosh Live on October 18 and cultural programs."
+          "Join Soikot's Durga Puja 2026 on October 16-18 in Tampa Bay, featuring Subhadip Live on October 18 and cultural programs."
         }
         path={"/durga-puja-details"}
         jsonLd={{
@@ -77,8 +77,8 @@ const DurgaPujaDetails = () => {
             },
           },
           description:
-            "Soikot's three-day Durga Puja celebration in Tampa Bay featuring puja rituals, cultural programs, and a live performance by Manasi Ghosh on October 18, 2026.",
-          performer: { "@type": "Person", name: "Manasi Ghosh" },
+            "Soikot's three-day Durga Puja celebration in Tampa Bay featuring puja rituals, cultural programs, and a live performance by Subhadip on October 18, 2026.",
+          performer: { "@type": "Person", name: "Subhadip" },
           organizer: { "@type": "Organization", name: "Soikot", url: "https://soikot.org" },
           image: "https://soikot.org/lovable-uploads/74a0e9c4-2966-43b7-ac69-06aa3a563bed.png",
           url: "https://soikot.org/durga-puja-details",
@@ -254,12 +254,12 @@ const DurgaPujaDetails = () => {
                           <span className="text-bengali-dark">Lunch</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark">5:30 pm</span>
-                          <span className="text-bengali-dark">Snack</span>
+                          <span className="text-bengali-dark">3:30 pm</span>
+                          <span className="text-bengali-dark">Subhadip Live</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-bengali-dark">6:15 pm</span>
-                          <span className="text-bengali-dark">Manasi Ghosh Live</span>
+                          <span className="text-bengali-dark">5:30 pm</span>
+                          <span className="text-bengali-dark">Snack</span>
                         </div>
                       </div>
                     </div>
