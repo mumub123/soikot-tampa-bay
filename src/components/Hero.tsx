@@ -236,8 +236,7 @@ const Hero = () => {
                 </div>
                 <p className="text-bengali-dark mb-3">
                   America's Got Talent Golden Buzzer recipient and Whitney Houston Legacy Foundation Vocal Awardee
-                  Pranysqa Mishra performs live at Durga Puja 2026. Her upcoming EP, The Color of Maybe, arrives this
-                  November, with distribution through Jive Records, Sony Music.
+                  Pranysqa Mishra performs live at Durga Puja 2026.
                 </p>
               </div>
             </div>
