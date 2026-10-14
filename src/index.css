@@ -113,4 +113,51 @@
   .animate-fade-in {
     animation: fade-in 0.3s ease-in-out;
   }
+
+  @keyframes marquee-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee-right {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes marquee-up {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-50%);
+    }
+  }
+
+  .animate-marquee-left {
+    animation: marquee-left 24s linear infinite;
+  }
+
+  .animate-marquee-right {
+    animation: marquee-right 28s linear infinite;
+  }
+
+  .animate-marquee-up {
+    animation: marquee-up 26s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-marquee-left,
+    .animate-marquee-right,
+    .animate-marquee-up {
+      animation: none;
+    }
+  }
 }
