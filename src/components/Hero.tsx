@@ -4,6 +4,7 @@ import { Calendar, Clock, MapPin, Facebook, Instagram, ExternalLink } from "luci
 import { Link } from "react-router-dom";
 import subhadipLiveImg from "@/assets/subhadip-live-2026.jpg.asset.json";
 import timelessTunesImg from "@/assets/timeless-tunes.png.asset.json";
+import pranysqaMishraImg from "@/assets/pranysqa-mishra-2026.jpg.asset.json";
 
 const Hero = () => {
   return (
@@ -91,7 +92,7 @@ const Hero = () => {
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-          <div className="my-6 w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="my-6 w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Durga Puja Tile */}
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
               <div className="text-center pt-4 pb-2 px-4">
