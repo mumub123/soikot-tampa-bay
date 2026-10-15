@@ -95,6 +95,48 @@ const Hero = () => {
             </div>
           </div>
 
+          {/* Probaho 2026 Published Splash */}
+          <div className="w-full max-w-4xl mx-auto mb-10">
+            <a
+              href="https://anyflip.com/bookcase/qdje"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative block overflow-hidden rounded-2xl border border-bengali-red/25 bg-gradient-to-r from-bengali-red/10 via-bengali-orange/10 to-bengali-yellow/15 p-6 md:p-8 shadow-xl transition-all duration-300 hover:-translate-y-0.5 hover:shadow-2xl"
+            >
+              <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 animate-sheen bg-gradient-to-r from-transparent via-white/55 to-transparent"></div>
+              <div className="relative z-10 flex flex-col sm:flex-row items-center gap-6 md:gap-8">
+                <img
+                  src={probahoCoverImg.url}
+                  alt="Probaho 2026 magazine cover"
+                  width={583}
+                  height={754}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-36 sm:w-44 shrink-0 rounded-xl shadow-2xl ring-4 ring-white/70 -rotate-3 transition-transform duration-300 group-hover:rotate-0 group-hover:scale-105"
+                />
+                <div className="text-center sm:text-left">
+                  <span className="animate-flash inline-flex items-center gap-2 rounded-full bg-bengali-red px-4 py-1.5 text-xs font-extrabold uppercase tracking-[0.18em] text-white shadow-lg md:text-sm">
+                    <Sparkles className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+                    Just Published
+                    <Sparkles className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+                  </span>
+                  <h3 className="mt-3 text-2xl md:text-3xl font-extrabold text-bengali-dark">
+                    Probaho 2026 is here!
+                  </h3>
+                  <p className="text-sm md:text-base text-bengali-dark/90 max-w-xl mx-auto sm:mx-0 mt-2">
+                    Our annual magazine has just been published — stories, poems, art and memories from the whole
+                    Soikot family. Tap the cover to read it.
+                  </p>
+                  <span className="mt-4 inline-flex items-center gap-2 rounded-xl bg-bengali-red px-5 py-2 text-sm font-semibold text-white shadow-lg transition-all duration-300 group-hover:gap-3 group-hover:bg-bengali-red/90">
+                    <BookOpen className="h-4 w-4" aria-hidden="true" />
+                    Read the Magazine
+                    <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
           {/* Featured Events Section */}
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">
