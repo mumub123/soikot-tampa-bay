@@ -1,6 +1,17 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Calendar, Clock, MapPin, Facebook, Instagram, ExternalLink, Flame, Sparkles, BookOpen, ArrowRight } from "lucide-react";
+import {
+  Calendar,
+  Clock,
+  MapPin,
+  Facebook,
+  Instagram,
+  ExternalLink,
+  Flame,
+  Sparkles,
+  BookOpen,
+  ArrowRight,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 import subhadipLiveImg from "@/assets/subhadip-live-2026.jpg.asset.json";
 import timelessTunesImg from "@/assets/timeless-tunes.png.asset.json";
@@ -98,7 +109,7 @@ const Hero = () => {
           {/* Probaho 2026 Published Splash */}
           <div className="w-full max-w-4xl mx-auto mb-10">
             <a
-              href="https://anyflip.com/bookcase/qdje"
+              href="https://anyflip.com/srkj/qtnj"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative block overflow-hidden rounded-2xl border border-bengali-red/25 bg-gradient-to-r from-bengali-red/10 via-bengali-orange/10 to-bengali-yellow/15 p-6 md:p-8 shadow-xl transition-all duration-300 hover:-translate-y-0.5 hover:shadow-2xl"
@@ -120,12 +131,10 @@ const Hero = () => {
                     Just Published
                     <Sparkles className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
                   </span>
-                  <h3 className="mt-3 text-2xl md:text-3xl font-extrabold text-bengali-dark">
-                    Probaho 2026 is here!
-                  </h3>
+                  <h3 className="mt-3 text-2xl md:text-3xl font-extrabold text-bengali-dark">Probaho 2026 is here!</h3>
                   <p className="text-sm md:text-base text-bengali-dark/90 max-w-xl mx-auto sm:mx-0 mt-2">
-                    Our annual magazine has just been published — stories, poems, art and memories from the whole
-                    Soikot family. Tap the cover to read it.
+                    Our annual magazine has just been published — stories, poems, art and memories from the whole Soikot
+                    family. Tap the cover to read it.
                   </p>
                   <span className="mt-4 inline-flex items-center gap-2 rounded-xl bg-bengali-red px-5 py-2 text-sm font-semibold text-white shadow-lg transition-all duration-300 group-hover:gap-3 group-hover:bg-bengali-red/90">
                     <BookOpen className="h-4 w-4" aria-hidden="true" />
