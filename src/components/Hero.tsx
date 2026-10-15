@@ -115,7 +115,7 @@ const Hero = () => {
                   className="w-36 sm:w-44 shrink-0 rounded-xl shadow-2xl ring-4 ring-white/70 -rotate-3 transition-transform duration-300 group-hover:rotate-0 group-hover:scale-105"
                 />
                 <div className="text-center sm:text-left">
-                  <span className="animate-flash inline-flex items-center gap-2 rounded-full bg-bengali-red px-4 py-1.5 text-xs font-extrabold uppercase tracking-[0.18em] text-white shadow-lg md:text-sm">
+                  <span className="animate-flash inline-flex items-center gap-2 rounded-full bg-red-600 px-4 py-1.5 text-xs font-extrabold uppercase tracking-[0.18em] text-white shadow-lg md:text-sm">
                     <Sparkles className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
                     Just Published
                     <Sparkles className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
