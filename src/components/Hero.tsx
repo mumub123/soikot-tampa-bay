@@ -1,10 +1,11 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Calendar, Clock, MapPin, Facebook, Instagram, ExternalLink, Flame } from "lucide-react";
+import { Calendar, Clock, MapPin, Facebook, Instagram, ExternalLink, Flame, Sparkles, BookOpen, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import subhadipLiveImg from "@/assets/subhadip-live-2026.jpg.asset.json";
 import timelessTunesImg from "@/assets/timeless-tunes.png.asset.json";
 import pranysqaMishraImg from "@/assets/pranysqa-mishra-2026.jpg.asset.json";
+import probahoCoverImg from "@/assets/probaho-2026-cover.jpg.asset.json";
 
 const Hero = () => {
   return (
