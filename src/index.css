@@ -183,12 +183,28 @@
     animation: flash 1.4s ease-in-out infinite;
   }
 
+  @keyframes sheen {
+    0% {
+      transform: translateX(-160%) skewX(-12deg);
+    }
+
+    55%,
+    100% {
+      transform: translateX(360%) skewX(-12deg);
+    }
+  }
+
+  .animate-sheen {
+    animation: sheen 3.4s ease-in-out infinite;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .animate-marquee-left,
     .animate-marquee-right,
     .animate-marquee-up,
     .animate-marquee-down,
-    .animate-flash {
+    .animate-flash,
+    .animate-sheen {
       animation: none;
     }
   }
