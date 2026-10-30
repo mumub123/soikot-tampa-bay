@@ -200,6 +200,7 @@ const Hero = () => {
                     </Button>
                   </Link>
               </div>
+              </div>
             </div>
 
             {/* Saraswati Puja 2027 Tile */}
