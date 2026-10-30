@@ -72,39 +72,6 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* Sponsor & Registration Splash */}
-          <div className="w-full max-w-4xl mx-auto mb-10">
-            <div className="bg-gradient-to-r from-bengali-red/10 to-bengali-orange/10 border-l-4 border-bengali-red rounded-2xl p-6 md:p-8 shadow-xl text-left md:text-center">
-              <div className="mb-4 flex justify-center">
-                <span className="animate-flash inline-flex w-full max-w-lg items-center justify-center gap-2 rounded-full bg-red-600 px-5 py-2 text-center text-sm font-extrabold uppercase tracking-[0.15em] text-white shadow-lg md:text-base">
-                  <Flame className="h-4 w-4 shrink-0" aria-hidden="true" />
-                  <span>
-                    Regular Event Subscription <span className="font-black">Sold Out</span>
-                  </span>
-                  <Flame className="h-4 w-4 shrink-0" aria-hidden="true" />
-                </span>
-              </div>
-              <h2 className="text-2xl md:text-3xl font-extrabold text-bengali-dark mb-3">
-                Become a Sponsor & Register for Durga Puja 2026
-              </h2>
-              <p className="text-bengali-dark mb-6">
-                Support Soikot and secure your spot at our biggest celebration of the year.
-              </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link to="/sponsorship-rates">
-                  <Button className="bg-bengali-red hover:bg-bengali-red/90 text-white px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-                    Become a Sponsor
-                  </Button>
-                </Link>
-                <Link to="/durga-puja-details">
-                  <Button className="bg-white hover:bg-bengali-red/10 text-bengali-red border border-bengali-red px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-light hover:border-bengali-red/80">
-                    View Details & Register
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
 
           {/* Probaho 2026 Published Splash */}
           <div className="w-full max-w-4xl mx-auto mb-10">
@@ -126,12 +93,7 @@ const Hero = () => {
                   className="w-36 sm:w-44 shrink-0 rounded-xl shadow-2xl ring-4 ring-white/70 -rotate-3 transition-transform duration-300 group-hover:rotate-0 group-hover:scale-105"
                 />
                 <div className="text-center sm:text-left">
-                  <span className="animate-flash inline-flex items-center gap-2 rounded-full bg-red-600 px-4 py-1.5 text-xs font-extrabold uppercase tracking-[0.18em] text-white shadow-lg md:text-sm">
-                    <Sparkles className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-                    Just Published
-                    <Sparkles className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-                  </span>
-                  <h3 className="mt-3 text-2xl md:text-3xl font-extrabold text-bengali-dark">Probaho 2026 is here!</h3>
+                  <h3 className="text-2xl md:text-3xl font-extrabold text-bengali-dark">Probaho 2026 is here!</h3>
                   <p className="text-sm md:text-base text-bengali-dark/90 max-w-xl mx-auto sm:mx-0 mt-2">
                     Our annual magazine has just been published — stories, poems, art and memories from the whole Soikot
                     family. Tap the cover to read it.
