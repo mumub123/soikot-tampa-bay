@@ -16,30 +16,6 @@ import SEO from "@/components/SEO";
 
 const allEvents = [
   {
-    name: "Durga Puja",
-    image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.webp",
-    date: "October 16-18, 2026",
-    time: "11:00 AM - 10:00 PM",
-    location: "Indian Cultural Center",
-    locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
-    description:
-      "Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious ceremonies, cultural programs, and community feasts.",
-    startDate: "2026-10-16T11:00:00",
-    endDate: "2026-10-18T22:00:00",
-  },
-  {
-    name: "Lakshmi Puja",
-    image: "/lovable-uploads/Lakshmi.jpeg",
-    date: "October 24, 2026",
-    time: "5:30 PM - 10:00 PM",
-    location: "Land O' Lakes Community Center",
-    locationLink: "https://maps.app.goo.gl/BFwzt8imK2yDNcA88",
-    description:
-      "Celebrate Lakshmi Puja with us as we worship the goddess of wealth and prosperity, following Bengali traditions and rituals.",
-    startDate: "2026-10-24T17:30:00",
-    endDate: "2026-10-24T22:00:00",
-  },
-  {
     name: "Kali Puja",
     image: "/lovable-uploads/Kali.jpeg",
     date: "November 7, 2026",
@@ -62,6 +38,30 @@ const allEvents = [
       "Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.",
     startDate: "2027-02-13T11:00:00",
     endDate: "2027-02-13T22:00:00",
+  },
+  {
+    name: "Durga Puja 2027",
+    image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.webp",
+    date: "October 7-10, 2027",
+    time: "11:00 AM - 10:00 PM",
+    location: "Indian Cultural Center",
+    locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
+    description:
+      "Celebrate Soikot's 25th year Silver Jubilee Durga Puja — four grand days of religious ceremonies, cultural programs, and community feasts.",
+    startDate: "2027-10-07T11:00:00",
+    endDate: "2027-10-10T22:00:00",
+  },
+  {
+    name: "Lakshmi Puja 2027",
+    image: "/lovable-uploads/Lakshmi.jpeg",
+    date: "October 14, 2027",
+    time: "5:30 PM - 10:00 PM",
+    location: "Land O' Lakes Community Center",
+    locationLink: "https://maps.app.goo.gl/BFwzt8imK2yDNcA88",
+    description:
+      "Celebrate Lakshmi Puja with us as we worship the goddess of wealth and prosperity, following Bengali traditions and rituals.",
+    startDate: "2027-10-14T17:30:00",
+    endDate: "2027-10-14T22:00:00",
   },
 ];
 
@@ -95,7 +95,7 @@ const eventsStructuredData = {
 const AllEvents = () => {
   return (
     <div className="font-bengali">
-      <SEO title={"Upcoming Events - Soikot"} description={"Explore upcoming Soikot events including Durga Puja, Lakshmi Puja, Kali Puja and Saraswati Puja in the Tampa Bay area."} path={"/events"} />
+      <SEO title={"Upcoming Events - Soikot"} description={"Explore upcoming Soikot events including Kali Puja, Saraswati Puja, Durga Puja 2027 and Lakshmi Puja 2027 in the Tampa Bay area."} path={"/events"} />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-bengali-light">
