@@ -23,7 +23,7 @@ const allEvents = [
     location: "Indian Cultural Center",
     locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
     description:
-      "Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and celebrations.",
+      "Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and vibrant celebrations — and be part of the fun experience of fireworks lighting up the night.",
     startDate: "2026-11-07T17:30:00",
     endDate: "2026-11-07T22:00:00",
   },
