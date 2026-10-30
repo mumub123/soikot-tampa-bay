@@ -92,14 +92,14 @@ const allEvents: EventItem[] = [
   {
     name: "Lakshmi Puja 2027",
     image: "/lovable-uploads/Lakshmi.jpeg",
-    date: "October 14, 2027",
+    date: "October 17, 2027",
     time: "5:30 PM - 10:00 PM",
     location: "Land O' Lakes Community Center",
     locationLink: "https://maps.app.goo.gl/BFwzt8imK2yDNcA88",
     description:
       "Celebrate Lakshmi Puja with us as we worship the goddess of wealth and prosperity, following Bengali traditions and rituals.",
-    startDate: "2027-10-14T17:30:00",
-    endDate: "2027-10-14T22:00:00",
+    startDate: "2027-10-17T17:30:00",
+    endDate: "2027-10-17T22:00:00",
   },
 ];
 
