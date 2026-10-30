@@ -222,16 +222,12 @@ const AllEvents = () => {
                           })()
                         : event.description}
                     </p>
-                    {event.name === "Kali Puja" ? (
+                    {event.name === "Kali Puja" && (
                       <Link to="/donate" className="block">
                         <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">
                           Register and Donate
                         </Button>
                       </Link>
-                    ) : (
-                      <Button className="w-full bg-bengali-red hover:bg-bengali-red/90" disabled>
-                        Coming Soon
-                      </Button>
                     )}
                   </CardContent>
                 </Card>
