@@ -51,6 +51,8 @@ const allEvents = [
     startDate: undefined,
     endDate: undefined,
   },
+  {
+    name: "Rabindra Jayanti 2027",
     image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
     date: "May 8, 2027",
     time: "5:00 PM - 9:00 PM",
