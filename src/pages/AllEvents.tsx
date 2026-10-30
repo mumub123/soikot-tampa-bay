@@ -40,7 +40,17 @@ const allEvents = [
     endDate: "2027-02-13T22:00:00",
   },
   {
-    name: "Rabindra Jayanti 2027",
+    name: "Summer Picnic 2027",
+    image: "/lovable-uploads/spring-picnic.png",
+    date: "TBD",
+    time: "11:00 AM - 6:00 PM",
+    location: "TBD",
+    locationLink: "",
+    description:
+      "Come celebrate at our Summer Picnic! We're gathering for a day of outdoor fun, sports, great food and relaxation as we enjoy the best of Florida's summer.",
+    startDate: undefined,
+    endDate: undefined,
+  },
     image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
     date: "May 8, 2027",
     time: "5:00 PM - 9:00 PM",
