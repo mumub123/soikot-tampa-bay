@@ -90,8 +90,8 @@ const Hero = () => {
                 <div className="text-center sm:text-left">
                   <h3 className="text-2xl md:text-3xl font-extrabold text-bengali-dark">Probaho 2026 is here!</h3>
                   <p className="text-sm md:text-base text-bengali-dark/90 max-w-xl mx-auto sm:mx-0 mt-2">
-                    Our annual magazine has just been published — stories, poems, art and memories from the whole Soikot
-                    family. Tap the cover to read it.
+                    Probaho, our annual magazine, brings together stories, poems, art, and memories contributed by
+                    the whole Soikot family — a celebration of our community's creativity. Tap here to read it.
                   </p>
                   <span className="mt-4 inline-flex items-center gap-2 rounded-xl bg-bengali-red px-5 py-2 text-sm font-semibold text-white shadow-lg transition-all duration-300 group-hover:gap-3 group-hover:bg-bengali-red/90">
                     <BookOpen className="h-4 w-4" aria-hidden="true" />
