@@ -9,6 +9,7 @@ import {
   ExternalLink,
   BookOpen,
   ArrowRight,
+  Sparkles,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import probahoCoverImg from "@/assets/probaho-2026-cover.jpg.asset.json";
@@ -101,6 +102,37 @@ const Hero = () => {
                 </div>
               </div>
             </a>
+          </div>
+
+          {/* Silver Jubilee Durga Puja 2027 Banner */}
+          <div className="w-full max-w-4xl mx-auto mb-10">
+            <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-bengali-red via-bengali-orange to-bengali-yellow p-1 shadow-2xl">
+              <div className="relative rounded-[14px] bg-white/95 px-6 py-8 md:px-10 text-center">
+                <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 animate-sheen bg-gradient-to-r from-transparent via-bengali-orange/25 to-transparent"></div>
+                <div className="relative z-10">
+                  <span className="inline-flex items-center gap-2 rounded-full bg-bengali-red px-5 py-2 text-xs md:text-sm font-extrabold uppercase tracking-[0.15em] text-white shadow-lg">
+                    <Sparkles className="h-4 w-4 shrink-0" aria-hidden="true" />
+                    25 Years of Soikot Durga Puja
+                    <Sparkles className="h-4 w-4 shrink-0" aria-hidden="true" />
+                  </span>
+                  <h3 className="mt-4 text-2xl md:text-4xl font-extrabold text-bengali-dark">
+                    <span className="bg-gradient-to-r from-bengali-red to-bengali-orange bg-clip-text text-transparent">
+                      Silver Jubilee Durga Puja 2027
+                    </span>
+                  </h3>
+                  <p className="mt-3 text-sm md:text-base text-bengali-dark/90 max-w-2xl mx-auto">
+                    Soikot will host its 25th year Silver Jubilee Durga Puja celebration for four grand days —
+                    October 7–10, 2027 — at the Indian Cultural Center. Bigger festivities, bigger blessings, and
+                    we want you to be part of it from the very start.
+                  </p>
+                  <Link to="/sponsorship-rates" className="mt-6 inline-block">
+                    <Button className="bg-bengali-red hover:bg-bengali-red/90 px-8 py-3 text-sm md:text-base font-bold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                      Become a Sponsor Now
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Featured Event Section */}
