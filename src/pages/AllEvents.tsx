@@ -28,7 +28,7 @@ const allEvents = [
     endDate: "2026-11-07T22:00:00",
   },
   {
-    name: "Saraswati Puja",
+    name: "Saraswati Puja 2027",
     image: "/lovable-uploads/saraswati-puja.jpeg",
     date: "February 13, 2027",
     time: "11:00 AM - 10:00 PM",
@@ -95,7 +95,7 @@ const eventsStructuredData = {
 const AllEvents = () => {
   return (
     <div className="font-bengali">
-      <SEO title={"Upcoming Events - Soikot"} description={"Explore upcoming Soikot events including Kali Puja, Saraswati Puja, Durga Puja 2027 and Lakshmi Puja 2027 in the Tampa Bay area."} path={"/events"} />
+      <SEO title={"Upcoming Events - Soikot"} description={"Explore upcoming Soikot events including Kali Puja, Saraswati Puja 2027, Durga Puja 2027 and Lakshmi Puja 2027 in the Tampa Bay area."} path={"/events"} />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-bengali-light">
