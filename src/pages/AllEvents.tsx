@@ -40,6 +40,18 @@ const allEvents = [
     endDate: "2027-02-13T22:00:00",
   },
   {
+    name: "Rabindra Jayanti 2027",
+    image: "/lovable-uploads/90e6dd90-3eb8-4808-9487-bb0c41f7b977.png",
+    date: "May 8, 2027",
+    time: "5:00 PM - 9:00 PM",
+    location: "Land O' Lakes Heritage Park",
+    locationLink: "https://www.google.com/maps/place/Land+O'+Lakes+Heritage+Park",
+    description:
+      "Celebrate the birth anniversary of Rabindranath Tagore with music, dance, poetry, and cultural performances by the Soikot family.",
+    startDate: "2027-05-08T17:00:00",
+    endDate: "2027-05-08T21:00:00",
+  },
+  {
     name: "Durga Puja 2027",
     image: "/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.webp",
     date: "October 7-10, 2027",
