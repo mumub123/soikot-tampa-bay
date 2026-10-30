@@ -127,11 +127,6 @@ const Hero = () => {
                     — October 7–10, 2027 — at the Indian Cultural Center. Save the dates now — bigger festivities,
                     bigger blessings, and we want you to be part of it from the very start.
                   </p>
-                  <Link to="/sponsorship-rates" className="mt-6 inline-block">
-                    <Button className="bg-bengali-red hover:bg-bengali-red/90 px-8 py-3 text-sm md:text-base font-bold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-                      Become a Sponsor Now
-                    </Button>
-                  </Link>
                 </div>
               </div>
             </div>
