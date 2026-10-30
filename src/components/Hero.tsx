@@ -199,6 +199,55 @@ const Hero = () => {
                       Register and Donate
                     </Button>
                   </Link>
+              </div>
+            </div>
+
+            {/* Saraswati Puja 2027 Tile */}
+            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20 w-full">
+              <div className="text-center pt-4 pb-2 px-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
+                  <span className="bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent">
+                    Saraswati Puja 2027
+                  </span>
+                </h3>
+              </div>
+
+              <div className="relative h-48">
+                <img
+                  src="/lovable-uploads/saraswati-puja.jpeg"
+                  alt="Saraswati Puja"
+                  width={640}
+                  height={275}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <div className="p-6 text-left">
+                <div className="flex items-center text-bengali-dark mb-2">
+                  <Calendar className="w-4 h-4 mr-2" />
+                  <span className="text-sm">February 13, 2027</span>
+                </div>
+                <div className="flex items-center text-bengali-dark mb-2">
+                  <Clock className="w-4 h-4 mr-2" />
+                  <span className="text-sm">11:00 AM - 10:00 PM</span>
+                </div>
+                <div className="flex items-center text-bengali-dark mb-4">
+                  <MapPin className="w-4 h-4 mr-2" />
+                  <span className="text-sm">Indian Cultural Center</span>
+                </div>
+                <p className="text-bengali-dark mb-3">
+                  Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional
+                  ceremonies and cultural performances.
+                </p>
+                <div className="flex justify-center">
+                  <Button
+                    className="w-48 bg-bengali-red hover:bg-bengali-red/90 text-white px-4 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-semibold"
+                    disabled
+                  >
+                    Coming Soon
+                  </Button>
                 </div>
               </div>
             </div>
