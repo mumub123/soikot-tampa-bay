@@ -68,7 +68,6 @@ const Hero = () => {
             </a>
           </div>
 
-
           {/* Probaho 2026 Published Splash */}
           <div className="w-full max-w-4xl mx-auto mb-10">
             <a
@@ -141,7 +140,7 @@ const Hero = () => {
           {/* Featured Event Section */}
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">
-              Kali Puja 2026
+              Upcoming Evants
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
@@ -199,7 +198,7 @@ const Hero = () => {
                       Register and Donate
                     </Button>
                   </Link>
-              </div>
+                </div>
               </div>
             </div>
 
@@ -208,7 +207,7 @@ const Hero = () => {
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent">
-                    Saraswati Puja 2027
+                    Saraswati Puja
                   </span>
                 </h3>
               </div>
