@@ -121,9 +121,12 @@ const Hero = () => {
                     </span>
                   </h3>
                   <p className="mt-3 text-sm md:text-base text-bengali-dark/90 max-w-2xl mx-auto">
-                    Soikot will host its 25th year Silver Jubilee Durga Puja celebration for four grand days —
-                    October 7–10, 2027 — at the Indian Cultural Center. Bigger festivities, bigger blessings, and
-                    we want you to be part of it from the very start.
+                    Soikot will host its{" "}
+                    <span className="font-bold text-bengali-red">
+                      25th year Silver Jubilee Durga Puja celebration for four grand days
+                    </span>{" "}
+                    — October 7–10, 2027 — at the Indian Cultural Center. Save the dates now — bigger festivities,
+                    bigger blessings, and we want you to be part of it from the very start.
                   </p>
                   <Link to="/sponsorship-rates" className="mt-6 inline-block">
                     <Button className="bg-bengali-red hover:bg-bengali-red/90 px-8 py-3 text-sm md:text-base font-bold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
