@@ -7,8 +7,6 @@ import {
   Facebook,
   Instagram,
   ExternalLink,
-  Flame,
-  Sparkles,
   BookOpen,
   ArrowRight,
 } from "lucide-react";
