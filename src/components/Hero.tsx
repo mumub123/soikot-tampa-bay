@@ -140,7 +140,7 @@ const Hero = () => {
           {/* Featured Event Section */}
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">
-              Upcoming Evants
+              Upcoming Events
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
