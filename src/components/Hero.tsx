@@ -187,8 +187,8 @@ const Hero = () => {
                   </a>
                 </div>
                 <p className="text-bengali-dark mb-3">
-                  Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and
-                  celebrations.
+                  Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and vibrant
+                  celebrations — and be part of the fun experience of fireworks lighting up the night.
                 </p>
                 <div className="flex justify-center">
                   <Link to="/donate" className="w-48">
