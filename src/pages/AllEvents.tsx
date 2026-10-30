@@ -14,7 +14,20 @@ import {
 import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
 
-const allEvents = [
+interface EventItem {
+  name: string;
+  image: string;
+  date: string;
+  time: string;
+  location: string;
+  locationLink?: string;
+  description: string;
+  startDate?: string;
+  endDate?: string;
+  emph?: string;
+}
+
+const allEvents: EventItem[] = [
   {
     name: "Kali Puja",
     image: "/lovable-uploads/Kali.jpeg",
@@ -72,6 +85,7 @@ const allEvents = [
     locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
     description:
       "Celebrate Soikot's 25th year Silver Jubilee Durga Puja — four grand days of religious ceremonies, cultural programs, and community feasts.",
+    emph: "Soikot's 25th year Silver Jubilee Durga Puja — four grand days",
     startDate: "2027-10-07T11:00:00",
     endDate: "2027-10-10T22:00:00",
   },
@@ -169,7 +183,21 @@ const AllEvents = () => {
                         </a>
                       )}
                     </div>
-                    <p className="text-bengali-dark mb-4">{event.description}</p>
+                    <p className="text-bengali-dark mb-4">
+                      {event.emph
+                        ? (() => {
+                            const i = event.description.indexOf(event.emph);
+                            if (i === -1) return event.description;
+                            return (
+                              <>
+                                {event.description.slice(0, i)}
+                                <span className="font-bold text-bengali-red">{event.emph}</span>
+                                {event.description.slice(i + event.emph.length)}
+                              </>
+                            );
+                          })()
+                        : event.description}
+                    </p>
                     {event.name === "Kali Puja" ? (
                       <Link to="/donate" className="block">
                         <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">
