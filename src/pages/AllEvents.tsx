@@ -146,10 +146,10 @@ const AllEvents = () => {
                       )}
                     </div>
                     <p className="text-bengali-dark mb-4">{event.description}</p>
-                    {event.name === "Durga Puja" ? (
-                      <Link to="/durga-puja-details" className="block">
+                    {event.name === "Kali Puja" ? (
+                      <Link to="/donate" className="block">
                         <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">
-                          View Details
+                          Register and Donate
                         </Button>
                       </Link>
                     ) : (
