@@ -101,6 +101,30 @@ const allEvents: EventItem[] = [
     startDate: "2027-10-17T17:30:00",
     endDate: "2027-10-17T22:00:00",
   },
+  {
+    name: "Kali Puja 2027",
+    image: "/lovable-uploads/Kali.jpeg",
+    date: "October 30, 2027",
+    time: "5:30 PM - 10:00 PM",
+    location: "Indian Cultural Center",
+    locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
+    description:
+      "Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and vibrant celebrations — and be part of the fun experience of fireworks lighting up the night.",
+    startDate: "2027-10-30T17:30:00",
+    endDate: "2027-10-30T22:00:00",
+  },
+  {
+    name: "Saraswati Puja 2028",
+    image: "/lovable-uploads/saraswati-puja.jpeg",
+    date: "February 5, 2028",
+    time: "11:00 AM - 10:00 PM",
+    location: "Indian Cultural Center",
+    locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
+    description:
+      "Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional ceremonies and cultural performances.",
+    startDate: "2028-02-05T11:00:00",
+    endDate: "2028-02-05T22:00:00",
+  },
 ];
 
 const eventsStructuredData = {
