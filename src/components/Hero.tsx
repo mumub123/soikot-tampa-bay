@@ -190,15 +190,10 @@ const Hero = () => {
                   Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and
                   celebrations.
                 </p>
-                <div className="flex justify-center gap-3">
-                  <Link to="/donate" className="w-40">
+                <div className="flex justify-center">
+                  <Link to="/donate" className="w-48">
                     <Button className="w-full bg-bengali-red hover:bg-bengali-red/90 text-white px-4 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-semibold">
-                      Donate
-                    </Button>
-                  </Link>
-                  <Link to="/events" className="w-40">
-                    <Button className="w-full bg-white hover:bg-bengali-red/10 text-bengali-red border border-bengali-red px-4 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-semibold hover:border-bengali-red/80">
-                      View Details
+                      Register and Donate
                     </Button>
                   </Link>
                 </div>
