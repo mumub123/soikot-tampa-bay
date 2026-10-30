@@ -145,9 +145,9 @@ const Hero = () => {
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-          <div className="my-6 w-full max-w-6xl flex justify-center">
+          <div className="my-6 w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Kali Puja Tile */}
-            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20 w-full max-w-sm">
+            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20 w-full">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
