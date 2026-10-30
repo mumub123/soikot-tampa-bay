@@ -11,9 +11,6 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import subhadipLiveImg from "@/assets/subhadip-live-2026.jpg.asset.json";
-import timelessTunesImg from "@/assets/timeless-tunes.png.asset.json";
-import pranysqaMishraImg from "@/assets/pranysqa-mishra-2026.jpg.asset.json";
 import probahoCoverImg from "@/assets/probaho-2026-cover.jpg.asset.json";
 
 const Hero = () => {
@@ -106,30 +103,30 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* Featured Events Section */}
+          {/* Featured Event Section */}
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">
-              Durga Puja 2026
+              Kali Puja 2026
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-          <div className="my-6 w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Durga Puja Tile */}
-            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
+          <div className="my-6 w-full max-w-6xl flex justify-center">
+            {/* Kali Puja Tile */}
+            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20 w-full max-w-sm">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-                    Puja Ceremony
+                    Kali Puja
                   </span>
                 </h3>
               </div>
 
               <div className="relative h-48">
                 <img
-                  src="/lovable-uploads/9b884d7c-7056-4c0d-893a-ad5ceaa5f434.webp"
-                  alt="Durga Puja"
-                  width={1920}
-                  height={976}
+                  src="/lovable-uploads/Kali.jpeg"
+                  alt="Kali Puja"
+                  width={640}
+                  height={275}
                   fetchPriority="high"
                   decoding="async"
                   className="w-full h-full object-cover"
@@ -139,11 +136,11 @@ const Hero = () => {
               <div className="p-6 text-left">
                 <div className="flex items-center text-bengali-dark mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
-                  <span className="text-sm">October 16-18, 2026</span>
+                  <span className="text-sm">November 7, 2026</span>
                 </div>
                 <div className="flex items-center text-bengali-dark mb-2">
                   <Clock className="w-4 h-4 mr-2" />
-                  <span className="text-sm">11:00 AM - 10:00 PM</span>
+                  <span className="text-sm">6:00 PM - 10:30 PM</span>
                 </div>
                 <div className="flex items-center text-bengali-dark mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
@@ -158,164 +155,12 @@ const Hero = () => {
                   </a>
                 </div>
                 <p className="text-bengali-dark mb-3">
-                  Join us for the biggest Bengali festival of the year as we celebrate Durga Puja with religious
-                  ceremonies, cultural programs, and community feasts.
-                </p>
-              </div>
-            </div>
-            {/* Timeless Tunes Tile */}
-            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
-              <div className="text-center pt-4 pb-2 px-4">
-                <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
-                  <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-                    Timeless Tunes
-                  </span>
-                </h3>
-              </div>
-
-              <div className="relative h-48 overflow-hidden">
-                <img
-                  src={timelessTunesImg.url}
-                  alt="Timeless Tunes"
-                  width={803}
-                  height={807}
-                  loading="lazy"
-                  decoding="async"
-                  className="w-full h-full object-cover object-top"
-                />
-              </div>
-
-              <div className="p-6 text-left">
-                <div className="flex items-center text-bengali-dark mb-2">
-                  <Calendar className="w-4 h-4 mr-2" />
-                  <span className="text-sm">October 16, 2026</span>
-                </div>
-                <div className="flex items-center text-bengali-dark mb-2">
-                  <Clock className="w-4 h-4 mr-2" />
-                  <span className="text-sm">9:30 PM</span>
-                </div>
-                <div className="flex items-center text-bengali-dark mb-4">
-                  <MapPin className="w-4 h-4 mr-2" />
-                  <span className="text-sm">Indian Cultural Center</span>
-                  <a
-                    href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
-                  >
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
-                <p className="text-bengali-dark mb-3">
-                  Known for his acclaimed "K for Kishore" performances, Arnab Chakraborty takes the stage with timeless
-                  melodies celebrating the legends of music.
-                </p>
-              </div>
-            </div>
-            {/* Pranysqa Mishra Tile */}
-            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
-              <div className="text-center pt-4 pb-2 px-4">
-                <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
-                  <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-                    Pranysqa Magic
-                  </span>
-                </h3>
-              </div>
-
-              <div className="relative h-48 overflow-hidden">
-                <img
-                  src={pranysqaMishraImg.url}
-                  alt="Pranysqa Mishra"
-                  width={1052}
-                  height={602}
-                  loading="lazy"
-                  decoding="async"
-                  className="w-full h-full object-cover object-top"
-                />
-              </div>
-
-              <div className="p-6 text-left">
-                <div className="flex items-center text-bengali-dark mb-2">
-                  <Calendar className="w-4 h-4 mr-2" />
-                  <span className="text-sm">October 17, 2026</span>
-                </div>
-                <div className="flex items-center text-bengali-dark mb-2">
-                  <Clock className="w-4 h-4 mr-2" />
-                  <span className="text-sm">5:15 PM</span>
-                </div>
-                <div className="flex items-center text-bengali-dark mb-4">
-                  <MapPin className="w-4 h-4 mr-2" />
-                  <span className="text-sm">Indian Cultural Center</span>
-                  <a
-                    href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
-                  >
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
-                <p className="text-bengali-dark mb-3">
-                  America's Got Talent Golden Buzzer recipient and Whitney Houston Legacy Foundation Vocal Awardee
-                  Pranysqa Mishra performs live at Durga Puja 2026.
-                </p>
-              </div>
-            </div>
-            {/* Subhadeep Tile */}
-            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20">
-              <div className="text-center pt-4 pb-2 px-4">
-                <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
-                  <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-                    Subhadeep Live
-                  </span>
-                </h3>
-              </div>
-
-              <div className="relative h-48 overflow-hidden">
-                <img
-                  src={subhadipLiveImg.url}
-                  alt="Subhadeep performing live on stage"
-                  width={1920}
-                  height={1850}
-                  loading="lazy"
-                  decoding="async"
-                  className="w-full h-full object-cover object-top"
-                />
-              </div>
-
-              <div className="p-6 text-left">
-                <div className="flex items-center text-bengali-dark mb-2">
-                  <Calendar className="w-4 h-4 mr-2" />
-                  <span className="text-sm">October 18, 2026</span>
-                </div>
-                <div className="flex items-center text-bengali-dark mb-2">
-                  <Clock className="w-4 h-4 mr-2" />
-                  <span className="text-sm">3:30 PM</span>
-                </div>
-                <div className="flex items-center text-bengali-dark mb-4">
-                  <MapPin className="w-4 h-4 mr-2" />
-                  <span className="text-sm">Indian Cultural Center</span>
-                  <a
-                    href="https://www.google.com/maps/place/Indian+Cultural+Center/@28.0453,-82.5385749,16z"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
-                  >
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
-                <p className="text-bengali-dark mb-3">
-                  A special live performance by Subhadeep as part of our Durga Puja 2026 celebrations. Don't miss this
-                  enchanting evening of music.
+                  Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and
+                  celebrations.
                 </p>
               </div>
             </div>
           </div>
-          <Link to="/durga-puja-details">
-            <Button className="bg-bengali-red hover:bg-bengali-red/90 text-white mb-6 px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-              View Details
-            </Button>
-          </Link>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link to="/events">
               <Button className="bg-white hover:bg-bengali-red/10 text-bengali-red border border-bengali-red px-6 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-light hover:border-bengali-red/80">
