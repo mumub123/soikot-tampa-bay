@@ -28,7 +28,7 @@ const allEvents = [
     endDate: "2026-11-07T22:00:00",
   },
   {
-    name: "Saraswati Puja",
+    name: "Saraswati Puja 2027",
     image: "/lovable-uploads/saraswati-puja.jpeg",
     date: "February 13, 2027",
     time: "11:00 AM - 10:00 PM",
