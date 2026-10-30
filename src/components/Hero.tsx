@@ -145,9 +145,9 @@ const Hero = () => {
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-4 mb-6"></div>
-          <div className="my-6 w-full max-w-6xl flex justify-center">
+          <div className="my-6 w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Kali Puja Tile */}
-            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20 w-full max-w-sm">
+            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20 w-full">
               <div className="text-center pt-4 pb-2 px-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
                   <span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
@@ -199,6 +199,56 @@ const Hero = () => {
                       Register and Donate
                     </Button>
                   </Link>
+              </div>
+              </div>
+            </div>
+
+            {/* Saraswati Puja 2027 Tile */}
+            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/20 w-full">
+              <div className="text-center pt-4 pb-2 px-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-bengali-dark mb-2">
+                  <span className="bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent">
+                    Saraswati Puja 2027
+                  </span>
+                </h3>
+              </div>
+
+              <div className="relative h-48">
+                <img
+                  src="/lovable-uploads/saraswati-puja.jpeg"
+                  alt="Saraswati Puja"
+                  width={640}
+                  height={275}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <div className="p-6 text-left">
+                <div className="flex items-center text-bengali-dark mb-2">
+                  <Calendar className="w-4 h-4 mr-2" />
+                  <span className="text-sm">February 13, 2027</span>
+                </div>
+                <div className="flex items-center text-bengali-dark mb-2">
+                  <Clock className="w-4 h-4 mr-2" />
+                  <span className="text-sm">11:00 AM - 10:00 PM</span>
+                </div>
+                <div className="flex items-center text-bengali-dark mb-4">
+                  <MapPin className="w-4 h-4 mr-2" />
+                  <span className="text-sm">Indian Cultural Center</span>
+                </div>
+                <p className="text-bengali-dark mb-3">
+                  Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional
+                  ceremonies and cultural performances.
+                </p>
+                <div className="flex justify-center">
+                  <Button
+                    className="w-48 bg-bengali-red hover:bg-bengali-red/90 text-white px-4 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-semibold"
+                    disabled
+                  >
+                    Coming Soon
+                  </Button>
                 </div>
               </div>
             </div>
