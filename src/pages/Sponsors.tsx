@@ -112,7 +112,6 @@ const Sponsors = () => {
         "Amrita & Debattam Dey",
         "Amrita & Digbijoy Das",
         "Ananwita Das & Manas Subudhi",
-        "Anindita & Raja Sarker",
         "Bandita De & Santanu Bhar",
         "Bhootnath Singh",
         "Debasmita Banerjee & Anirban Dawn",
