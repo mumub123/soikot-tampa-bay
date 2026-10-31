@@ -12,7 +12,6 @@ const Sponsors = () => {
       title: "Grand Sponsors",
       amount: "$3000 and above",
       sponsors: [
-        "Anindita & Raja Sarker",
         "Madhumita & Jyotirmoy Sarkar **",
         "Sudipa & Anando Som",
       ],
@@ -113,6 +112,7 @@ const Sponsors = () => {
         "Amrita & Debattam Dey",
         "Amrita & Digbijoy Das",
         "Ananwita Das & Manas Subudhi",
+        "Anindita & Raja Sarker",
         "Bandita De & Santanu Bhar",
         "Bhootnath Singh",
         "Debasmita Banerjee & Anirban Dawn",
