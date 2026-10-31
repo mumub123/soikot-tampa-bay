@@ -196,7 +196,8 @@ const Sponsors = () => {
 
             <p className="mt-8 text-center text-sm text-bengali-dark/80">
               <span className="font-bold">**</span> indicates sponsors whose gifts were matched by their employer's
-              company matching program.
+              company matching program. A sponsor's tier is determined by their combined contribution — personal
+              donation plus company matching.
             </p>
           </div>
         </section>
