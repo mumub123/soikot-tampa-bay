@@ -3,7 +3,7 @@ import AllEventsNavbar from "@/components/AllEventsNavbar";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Sparkles } from "lucide-react";
 import SEO from "@/components/SEO";
 
 const Sponsors = () => {
@@ -155,7 +155,7 @@ const Sponsors = () => {
       <main>
         <section className="py-8 md:py-12 bg-bengali-light">
           <div className="container mx-auto px-4 md:px-6">
-            <div className="text-center mb-12">
+            <div className="text-center mb-8">
               <h1 className="text-3xl md:text-5xl font-bold text-bengali-dark">
                 <span className="bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">
                   Our 2026-2027 Sponsors
@@ -166,6 +166,17 @@ const Sponsors = () => {
                 We are grateful to our sponsors for their generous support in helping us promote Bengali culture and
                 community.
               </p>
+            </div>
+
+            <div className="max-w-3xl mx-auto mb-10">
+              <div className="bg-white border-l-4 border-bengali-red shadow-sm rounded-lg p-4 md:p-5 flex items-start gap-3">
+                <Sparkles className="h-5 w-5 text-bengali-red mt-0.5 shrink-0" />
+                <p className="text-sm md:text-base text-bengali-dark text-left">
+                  <span className="font-bold">**</span> indicates sponsors whose gifts were matched by their employer's
+                  company matching program. A sponsor's tier is determined by their combined contribution — personal
+                  donation plus company matching.
+                </p>
+              </div>
             </div>
 
             <div className="space-y-12">
@@ -194,11 +205,6 @@ const Sponsors = () => {
               </Link>
             </div>
 
-            <p className="mt-8 text-center text-sm text-bengali-dark/80">
-              <span className="font-bold">**</span> indicates sponsors whose gifts were matched by their employer's
-              company matching program. A sponsor's tier is determined by their combined contribution — personal
-              donation plus company matching.
-            </p>
           </div>
         </section>
       </main>
