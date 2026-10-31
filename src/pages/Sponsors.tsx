@@ -80,6 +80,7 @@ const Sponsors = () => {
         "Manishi & Dipak K Mukherjee",
         "Manju & Buddhadeb Basu",
         "Megha & Ashok Bhatia **",
+        "Monalisa & Tapas Roy **",
         "Moumita & Angan Adhikari",
         "Moumita Bhattacharjee & Manjit Chakraborty",
         "Nandini & Subrata Bandyopadhyay",
@@ -103,7 +104,6 @@ const Sponsors = () => {
         "Susmita & Parikkhit Nandy",
         "Swati Mazumder & Sandip Mukherjee",
         "Taniya & Anindya Bhowmick",
-        "Tapas Roy **",
       ],
     },
     {
