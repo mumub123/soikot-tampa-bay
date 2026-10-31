@@ -188,16 +188,16 @@ const Sponsors = () => {
               ))}
             </div>
 
-            <p className="mt-12 text-center text-sm text-bengali-dark/80">
-              <span className="font-bold">**</span> indicates sponsors whose gifts were matched by their employer's
-              company matching program.
-            </p>
-
-            <div className="mt-8 text-center">
+            <div className="mt-12 text-center">
               <Link to="/sponsorship-rates">
                 <Button className="bg-bengali-red hover:bg-bengali-red/90">Become a Sponsor</Button>
               </Link>
             </div>
+
+            <p className="mt-8 text-center text-sm text-bengali-dark/80">
+              <span className="font-bold">**</span> indicates sponsors whose gifts were matched by their employer's
+              company matching program.
+            </p>
           </div>
         </section>
       </main>
