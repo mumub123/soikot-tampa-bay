@@ -3,7 +3,7 @@ import AllEventsNavbar from "@/components/AllEventsNavbar";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Sparkles } from "lucide-react";
 import SEO from "@/components/SEO";
 
 const Sponsors = () => {
@@ -205,11 +205,6 @@ const Sponsors = () => {
               </Link>
             </div>
 
-            <p className="mt-8 text-center text-sm text-bengali-dark/80">
-              <span className="font-bold">**</span> indicates sponsors whose gifts were matched by their employer's
-              company matching program. A sponsor's tier is determined by their combined contribution — personal
-              donation plus company matching.
-            </p>
           </div>
         </section>
       </main>
