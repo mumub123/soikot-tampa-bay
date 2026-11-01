@@ -183,14 +183,14 @@ const AllEvents = () => {
                   key={index}
                   className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-shadow duration-300"
                 >
-                  {event.image === kaliImg.url ? (
-                    <AdjustableEventPhoto src={event.image} alt={event.name} tileId={`events-${event.name}`} />
+                  {event.image === lakshmiImg.url ? (
+                    <AdjustableEventPhoto src={event.image} alt={event.name} tileId={`events-${event.name}`} initialZoom={115} />
                   ) : (
                   <div className="relative h-48">
                     <img
                       src={event.image}
                       alt={event.name}
-                      className={`w-full h-full object-cover transition-transform duration-300 ${event.image === lakshmiImg.url ? "scale-[1.15]" : ""}`}
+                      className="w-full h-full object-cover"
                     />
                   </div>
                   )}

@@ -8,12 +8,13 @@ interface AdjustableEventPhotoProps {
   alt: string;
   tileId: string;
   priority?: boolean;
+  initialZoom?: number;
 }
 
 /** Each mounted tile owns its crop; adjustments are preview-only, not shared saves. */
-export default function AdjustableEventPhoto({ src, alt, tileId, priority = false }: AdjustableEventPhotoProps) {
+export default function AdjustableEventPhoto({ src, alt, tileId, priority = false, initialZoom = 100 }: AdjustableEventPhotoProps) {
   const id = useId();
-  const [zoom, setZoom] = useState(100);
+  const [zoom, setZoom] = useState(initialZoom);
   const [horizontal, setHorizontal] = useState(50);
   const [vertical, setVertical] = useState(50);
   const position = `${horizontal}% ${vertical}%`;
