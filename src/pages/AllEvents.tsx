@@ -32,7 +32,7 @@ interface EventItem {
 const allEvents: EventItem[] = [
   {
     name: "Kali Puja",
-    image: "/lovable-uploads/Kali.jpeg",
+    image: kaliImg.url,
     date: "November 7, 2026",
     time: "5:30 PM - 10:00 PM",
     location: "Indian Cultural Center",
@@ -105,7 +105,7 @@ const allEvents: EventItem[] = [
   },
   {
     name: "Kali Puja 2027",
-    image: "/lovable-uploads/Kali.jpeg",
+    image: kaliImg.url,
     date: "October 30, 2027",
     time: "5:30 PM - 10:00 PM",
     location: "Indian Cultural Center",

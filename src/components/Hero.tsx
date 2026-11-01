@@ -153,7 +153,7 @@ const Hero = () => {
 
               <div className="relative h-48">
                 <img
-                  src="/lovable-uploads/Kali.jpeg"
+                  src={kaliIdolImg.url}
                   alt="Kali Puja"
                   width={640}
                   height={275}
