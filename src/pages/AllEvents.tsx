@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/pagination";
 import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
+import lakshmiImg from "@/assets/lakshmi-puja-2027.jpeg.asset.json";
 
 interface EventItem {
   name: string;
