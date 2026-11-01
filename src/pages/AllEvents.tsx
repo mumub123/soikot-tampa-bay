@@ -185,7 +185,7 @@ const AllEvents = () => {
                     <img
                       src={event.image}
                       alt={event.name}
-                      className={`w-full h-full object-cover transition-transform duration-300 ${event.image === lakshmiImg.url ? "scale-120 translate-y-[10%]" : ""}`}
+                      className="w-full h-full object-cover transition-transform duration-300"
                     />
                   </div>
                   <CardContent className="p-6">
