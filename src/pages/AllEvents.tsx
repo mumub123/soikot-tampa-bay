@@ -14,6 +14,7 @@ import {
 import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
 import lakshmiImg from "@/assets/lakshmi-puja-2027.jpeg.asset.json";
+import kaliImg from "@/assets/kali-puja-2026-idol.jpeg.asset.json";
 
 interface EventItem {
   name: string;
@@ -31,7 +32,7 @@ interface EventItem {
 const allEvents: EventItem[] = [
   {
     name: "Kali Puja",
-    image: "/lovable-uploads/Kali.jpeg",
+    image: kaliImg.url,
     date: "November 7, 2026",
     time: "5:30 PM - 10:00 PM",
     location: "Indian Cultural Center",
@@ -104,7 +105,7 @@ const allEvents: EventItem[] = [
   },
   {
     name: "Kali Puja 2027",
-    image: "/lovable-uploads/Kali.jpeg",
+    image: kaliImg.url,
     date: "October 30, 2027",
     time: "5:30 PM - 10:00 PM",
     location: "Indian Cultural Center",

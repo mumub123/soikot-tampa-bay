@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import probahoCoverImg from "@/assets/probaho-2026-cover.jpg.asset.json";
+import kaliIdolImg from "@/assets/kali-puja-2026-idol.jpeg.asset.json";
 
 const Hero = () => {
   return (
@@ -152,7 +153,7 @@ const Hero = () => {
 
               <div className="relative h-48">
                 <img
-                  src="/lovable-uploads/Kali.jpeg"
+                  src={kaliIdolImg.url}
                   alt="Kali Puja"
                   width={640}
                   height={275}
