@@ -185,6 +185,11 @@ const AllEvents = () => {
                     <img
                       src={event.image}
                       alt={event.name}
+                      style={
+                        event.image === lakshmiImg.url
+                          ? { objectPosition: "50% 30%" }
+                          : undefined
+                      }
                       className={`w-full h-full object-cover transition-transform duration-300 ${event.image === lakshmiImg.url ? "scale-110" : ""}`}
                     />
                   </div>
