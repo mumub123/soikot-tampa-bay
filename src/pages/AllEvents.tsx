@@ -15,7 +15,6 @@ import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
 import lakshmiImg from "@/assets/lakshmi-puja-2027.jpeg.asset.json";
 import kaliImg from "@/assets/kali-puja-2026-idol.jpeg.asset.json";
-import AdjustableEventPhoto from "@/components/AdjustableEventPhoto";
 
 interface EventItem {
   name: string;
