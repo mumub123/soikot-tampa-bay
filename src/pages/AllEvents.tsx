@@ -92,7 +92,7 @@ const allEvents: EventItem[] = [
   },
   {
     name: "Lakshmi Puja 2027",
-    image: "/lovable-uploads/Lakshmi.jpeg",
+    image: lakshmiImg.url,
     date: "October 17, 2027",
     time: "5:30 PM - 10:00 PM",
     location: "Land O' Lakes Community Center",
