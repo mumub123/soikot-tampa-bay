@@ -15,6 +15,7 @@ import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
 import lakshmiImg from "@/assets/lakshmi-puja-2027.jpeg.asset.json";
 import kaliImg from "@/assets/kali-puja-2026-idol.jpeg.asset.json";
+import AdjustableEventPhoto from "@/components/AdjustableEventPhoto";
 
 interface EventItem {
   name: string;
@@ -182,6 +183,9 @@ const AllEvents = () => {
                   key={index}
                   className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-shadow duration-300"
                 >
+                  {event.image === kaliImg.url ? (
+                    <AdjustableEventPhoto src={event.image} alt={event.name} tileId={`events-${event.name}`} />
+                  ) : (
                   <div className="relative h-48">
                     <img
                       src={event.image}
@@ -189,6 +193,7 @@ const AllEvents = () => {
                       className={`w-full h-full object-cover transition-transform duration-300 ${event.image === lakshmiImg.url ? "scale-[1.15]" : ""}`}
                     />
                   </div>
+                  )}
                   <CardContent className="p-6">
                     <h3 className="text-xl font-bold text-bengali-dark mb-4">{event.name}</h3>
                     <div className="flex items-center text-bengali-dark mb-2">
