@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/pagination";
 import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
+import lakshmiImg from "@/assets/lakshmi-puja-2027.jpeg.asset.json";
 
 interface EventItem {
   name: string;
@@ -91,7 +92,7 @@ const allEvents: EventItem[] = [
   },
   {
     name: "Lakshmi Puja 2027",
-    image: "/lovable-uploads/Lakshmi.jpeg",
+    image: lakshmiImg.url,
     date: "October 17, 2027",
     time: "5:30 PM - 10:00 PM",
     location: "Land O' Lakes Community Center",
