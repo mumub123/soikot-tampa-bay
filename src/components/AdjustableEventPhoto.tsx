@@ -11,18 +11,64 @@ interface AdjustableEventPhotoProps {
   initialZoom?: number;
 }
 
-/** Each mounted tile owns its crop; adjustments are preview-only, not shared saves. */
+interface Framing {
+  zoom: number;
+  horizontal: number;
+  vertical: number;
+}
+
+const storageKey = (tileId: string) => `event-photo-framing:${tileId}`;
+
+const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value));
+
+const loadFraming = (tileId: string, fallback: Framing): Framing => {
+  try {
+    const raw = window.localStorage.getItem(storageKey(tileId));
+    if (!raw) return fallback;
+    const parsed = JSON.parse(raw) as Partial<Framing>;
+    if (typeof parsed.zoom !== "number" || typeof parsed.horizontal !== "number" || typeof parsed.vertical !== "number") return fallback;
+    return {
+      zoom: clamp(parsed.zoom, 100, 200),
+      horizontal: clamp(parsed.horizontal, 0, 100),
+      vertical: clamp(parsed.vertical, 0, 100),
+    };
+  } catch {
+    return fallback;
+  }
+};
+
+const saveFraming = (tileId: string, framing: Framing) => {
+  try {
+    window.localStorage.setItem(storageKey(tileId), JSON.stringify(framing));
+  } catch {
+    // storage unavailable (private mode, quota) — framing stays session-only
+  }
+};
+
+/** Each mounted tile owns its crop; adjustments persist in this browser only, not shared saves. */
 export default function AdjustableEventPhoto({ src, alt, tileId, priority = false, initialZoom = 100 }: AdjustableEventPhotoProps) {
   const id = useId();
-  const [zoom, setZoom] = useState(initialZoom);
-  const [horizontal, setHorizontal] = useState(50);
-  const [vertical, setVertical] = useState(50);
+  const [framing, setFraming] = useState<Framing>(() =>
+    loadFraming(tileId, { zoom: initialZoom, horizontal: 50, vertical: 50 })
+  );
+  const { zoom, horizontal, vertical } = framing;
   const position = `${horizontal}% ${vertical}%`;
 
+  const update = (patch: Partial<Framing>) => {
+    setFraming((current) => {
+      const next = { ...current, ...patch };
+      saveFraming(tileId, next);
+      return next;
+    });
+  };
+
   const reset = () => {
-    setZoom(100);
-    setHorizontal(50);
-    setVertical(50);
+    try {
+      window.localStorage.removeItem(storageKey(tileId));
+    } catch {
+      // ignore — clearing state below still resets the view
+    }
+    setFraming({ zoom: 100, horizontal: 50, vertical: 50 });
   };
 
   return (
@@ -47,13 +93,13 @@ export default function AdjustableEventPhoto({ src, alt, tileId, priority = fals
         </div>
         <div className="space-y-4">
           {[
-            { label: "Zoom", value: zoom, min: 100, max: 200, update: setZoom },
-            { label: "Horizontal position", value: horizontal, min: 0, max: 100, update: setHorizontal },
-            { label: "Vertical position", value: vertical, min: 0, max: 100, update: setVertical },
-          ].map(({ label, value, min, max, update }) => (
+            { label: "Zoom", value: zoom, min: 100, max: 200, update: (next: number) => update({ zoom: next }) },
+            { label: "Horizontal position", value: horizontal, min: 0, max: 100, update: (next: number) => update({ horizontal: next }) },
+            { label: "Vertical position", value: vertical, min: 0, max: 100, update: (next: number) => update({ vertical: next }) },
+          ].map(({ label, value, min, max, update: apply }) => (
             <div key={label} className="grid grid-cols-[8rem_minmax(0,1fr)_3rem] items-center gap-2">
               <span id={`${id}-${label}`} className="text-xs text-muted-foreground">{label}</span>
-              <Slider aria-labelledby={`${id}-${label}`} min={min} max={max} step={1} value={[value]} onValueChange={([next]) => { if (next !== undefined) update(next); }} />
+              <Slider aria-labelledby={`${id}-${label}`} min={min} max={max} step={1} value={[value]} onValueChange={([next]) => { if (next !== undefined) apply(next); }} />
               <output className="text-right text-xs tabular-nums">{value}%</output>
             </div>
           ))}
