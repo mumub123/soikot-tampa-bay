@@ -14,7 +14,6 @@ import {
 import { Link } from "react-router-dom";
 import probahoCoverImg from "@/assets/probaho-2026-cover.jpg.asset.json";
 import kaliIdolImg from "@/assets/kali-puja-2026-idol.jpeg.asset.json";
-import AdjustableEventPhoto from "@/components/AdjustableEventPhoto";
 
 const Hero = () => {
   return (
