@@ -152,7 +152,13 @@ const Hero = () => {
                 </h3>
               </div>
 
-              <AdjustableEventPhoto src={kaliIdolImg.url} alt="Kali Puja" tileId="home-kali-2026" priority />
+              <div className="relative h-48">
+                <img
+                  src={kaliIdolImg.url}
+                  alt="Kali Puja"
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
               <div className="p-6 text-left">
                 <div className="flex items-center text-bengali-dark mb-2">
