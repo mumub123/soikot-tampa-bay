@@ -15,6 +15,7 @@ import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
 import lakshmiImg from "@/assets/lakshmi-puja-2027.jpeg.asset.json";
 import kaliImg from "@/assets/kali-puja-2026-idol.jpeg.asset.json";
+import summerPicnicImg from "@/assets/summer-picnic-2027.jpg";
 
 interface EventItem {
   name: string;
@@ -56,7 +57,7 @@ const allEvents: EventItem[] = [
   },
   {
     name: "Summer Picnic 2027",
-    image: "/lovable-uploads/spring-picnic.png",
+    image: summerPicnicImg,
     date: "TBD",
     time: "11:00 AM - 6:00 PM",
     location: "TBD",
