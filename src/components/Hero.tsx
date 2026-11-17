@@ -231,6 +231,14 @@ const Hero = () => {
                 <div className="flex items-center text-bengali-dark mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
                   <span className="text-sm">Indian Cultural Center</span>
+                  <a
+                    href="https://maps.app.goo.gl/x6evEUHo7M4oF9A48"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center ml-2 text-bengali-red hover:text-bengali-red/80"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
                 </div>
                 <p className="text-bengali-dark mb-3">
                   Join us for Saraswati Puja as we honor the goddess of knowledge and learning with traditional
