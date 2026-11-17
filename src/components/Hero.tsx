@@ -174,7 +174,7 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center text-bengali-dark mb-4">
                   <MapPin className="w-4 h-4 mr-2" />
-                  <span className="text-sm">Fred Howard Park</span>
+                  <span className="text-sm">Fred Howard Park, Shelter 9</span>
                   <a
                     href="https://maps.app.goo.gl/jHUFZr5UHeLaSBnz7"
                     target="_blank"
