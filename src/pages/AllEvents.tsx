@@ -16,6 +16,7 @@ import SEO from "@/components/SEO";
 import lakshmiImg from "@/assets/lakshmi-puja-2027.jpeg.asset.json";
 import kaliImg from "@/assets/kali-puja-2026-idol.jpeg.asset.json";
 import summerPicnicImg from "@/assets/summer-picnic-2027.jpg";
+import winterPicnicImg from "@/assets/winter-picnic-light-layers.jpg";
 
 interface EventItem {
   name: string;
@@ -33,7 +34,7 @@ interface EventItem {
 const allEvents: EventItem[] = [
   {
     name: "Winter Picnic",
-    image: "/lovable-uploads/spring-picnic.png",
+    image: winterPicnicImg,
     date: "December 12, 2026",
     time: "11:00 AM - 5:00 PM",
     location: "Fred Howard Park",
@@ -118,7 +119,7 @@ const allEvents: EventItem[] = [
   },
   {
     name: "Winter Picnic 2027-2028",
-    image: "/lovable-uploads/spring-picnic.png",
+    image: winterPicnicImg,
     date: "TBD",
     time: "TBD",
     location: "TBD",

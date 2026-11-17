@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import probahoCoverImg from "@/assets/probaho-2026-cover.jpg.asset.json";
+import winterPicnicImg from "@/assets/winter-picnic-light-layers.jpg";
 
 const Hero = () => {
   return (
@@ -152,7 +153,7 @@ const Hero = () => {
 
               <div className="relative h-48">
                 <img
-                  src="/lovable-uploads/spring-picnic.png"
+                  src={winterPicnicImg}
                   alt="Winter Picnic"
                   width={640}
                   height={275}
