@@ -112,7 +112,7 @@ const Sponsors = () => {
         "Amrita & Debattam Dey",
         "Amrita & Digbijoy Das",
         "Ananwita Das & Manas Subudhi",
-        "Arunima & Tapan Bagui",
+        "Arunima Ghosh & Tapan Bagui",
         "Bandita De & Santanu Bhar",
         "Bhootnath Singh",
         "Debasmita Banerjee & Anirban Dawn",
