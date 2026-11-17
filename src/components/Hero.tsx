@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import probahoCoverImg from "@/assets/probaho-2026-cover.jpg.asset.json";
-import winterPicnicImg from "@/assets/winter-picnic-light-layers.jpg";
+import winterPicnicImg from "@/assets/winter-picnic-boys-layers.jpg";
 
 const Hero = () => {
   return (
