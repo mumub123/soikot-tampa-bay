@@ -37,7 +37,7 @@ const allEvents: EventItem[] = [
     image: winterPicnicImg,
     date: "December 12, 2026",
     time: "11:00 AM - 5:00 PM",
-    location: "Fred Howard Park",
+    location: "Fred Howard Park, Shelter 9",
     locationLink: "https://maps.app.goo.gl/jHUFZr5UHeLaSBnz7",
     description:
       "Join us for a Winter Picnic at Fred Howard Park — a day of outdoor fun, games, and great food with the whole Soikot family, enjoying Florida's winter sunshine together.",
