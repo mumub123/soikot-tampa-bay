@@ -116,6 +116,18 @@ const allEvents: EventItem[] = [
     endDate: "2027-10-30T22:00:00",
   },
   {
+    name: "Winter Picnic 2027-2028",
+    image: "/lovable-uploads/spring-picnic.png",
+    date: "TBD",
+    time: "TBD",
+    location: "TBD",
+    locationLink: "",
+    description:
+      "Our Winter Picnic returns for the 2027–2028 season — a day of outdoor fun, games, and great food with the whole Soikot family. Date, time, and venue to be announced.",
+    startDate: undefined,
+    endDate: undefined,
+  },
+  {
     name: "Saraswati Puja 2028",
     image: "/lovable-uploads/saraswati-puja.jpeg",
     date: "February 5, 2028",
