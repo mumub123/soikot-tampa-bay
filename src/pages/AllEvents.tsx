@@ -33,7 +33,7 @@ interface EventItem {
 
 const allEvents: EventItem[] = [
   {
-    name: "Winter Picnic",
+    name: "Winter Picnic 2026-2027",
     image: winterPicnicImg,
     date: "December 12, 2026",
     time: "11:00 AM - 5:00 PM",
@@ -243,7 +243,7 @@ const AllEvents = () => {
                           })()
                         : event.description}
                     </p>
-                    {event.name === "Winter Picnic" && (
+                    {event.name === "Winter Picnic 2026-2027" && (
                       <Link to="/donate" className="block">
                         <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">
                           Register
