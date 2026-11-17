@@ -16,7 +16,7 @@ import SEO from "@/components/SEO";
 import lakshmiImg from "@/assets/lakshmi-puja-2027.jpeg.asset.json";
 import kaliImg from "@/assets/kali-puja-2026-idol.jpeg.asset.json";
 import summerPicnicImg from "@/assets/summer-picnic-2027.jpg";
-import winterPicnicImg from "@/assets/winter-picnic-boys-layers.jpg";
+import winterPicnicImg from "@/assets/winter-picnic-full-sleeves.jpg";
 
 interface EventItem {
   name: string;
