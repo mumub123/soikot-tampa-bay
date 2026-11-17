@@ -190,7 +190,7 @@ const Hero = () => {
                 <div className="flex justify-center">
                   <Link to="/donate" className="w-48">
                     <Button className="w-full bg-bengali-red hover:bg-bengali-red/90 text-white px-4 py-2 text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-semibold">
-                      Register and Donate
+                      Register
                     </Button>
                   </Link>
                 </div>
