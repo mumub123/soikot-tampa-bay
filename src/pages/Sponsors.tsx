@@ -117,7 +117,7 @@ const Sponsors = () => {
         "Bhootnath Singh",
         "Debasmita Banerjee & Anirban Dawn",
         "Dipanwita & Soumyadeep Chakraborty",
-        "Jhumur & Tapan Gosh Apu",
+        "Jhumur & Tapan Gosh",
         "Joita Ghosh & Ramprasad Das",
         "Koushika Kalyani Guha & Prabhakar Guha",
         "Mahasweta Das & Anirban Chakraborty",
