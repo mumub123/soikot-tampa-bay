@@ -31,16 +31,16 @@ interface EventItem {
 
 const allEvents: EventItem[] = [
   {
-    name: "Kali Puja",
-    image: kaliImg.url,
-    date: "November 7, 2026",
-    time: "5:30 PM - 10:00 PM",
-    location: "Indian Cultural Center",
-    locationLink: "https://maps.app.goo.gl/x6evEUHo7M4oF9A48",
+    name: "Winter Picnic",
+    image: "/lovable-uploads/spring-picnic.png",
+    date: "December 12, 2026",
+    time: "11:00 AM - 5:00 PM",
+    location: "Fred Howard Park",
+    locationLink: "https://maps.app.goo.gl/jHUFZr5UHeLaSBnz7",
     description:
-      "Join us for Kali Puja as we honor the goddess Kali with traditional practices, prayers, and vibrant celebrations — and be part of the fun experience of fireworks lighting up the night.",
-    startDate: "2026-11-07T17:30:00",
-    endDate: "2026-11-07T22:00:00",
+      "Join us for a Winter Picnic at Fred Howard Park — a day of outdoor fun, games, and great food with the whole Soikot family, enjoying Florida's winter sunshine together.",
+    startDate: "2026-12-12T11:00:00",
+    endDate: "2026-12-12T17:00:00",
   },
   {
     name: "Saraswati Puja 2027",
@@ -159,7 +159,7 @@ const eventsStructuredData = {
 const AllEvents = () => {
   return (
     <div className="font-bengali">
-      <SEO title={"Upcoming Events - Soikot"} description={"Explore upcoming Soikot events including Kali Puja, Saraswati Puja 2027, Durga Puja 2027 and Lakshmi Puja 2027 in the Tampa Bay area."} path={"/events"} />
+      <SEO title={"Upcoming Events - Soikot"} description={"Explore upcoming Soikot events including Winter Picnic, Saraswati Puja 2027, Durga Puja 2027 and Lakshmi Puja 2027 in the Tampa Bay area."} path={"/events"} />
       <AllEventsNavbar />
       <main>
         <section className="py-8 md:py-12 bg-bengali-light">
@@ -229,7 +229,7 @@ const AllEvents = () => {
                           })()
                         : event.description}
                     </p>
-                    {event.name === "Kali Puja" && (
+                    {event.name === "Winter Picnic" && (
                       <Link to="/donate" className="block">
                         <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">
                           Register and Donate
