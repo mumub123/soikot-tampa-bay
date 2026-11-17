@@ -232,7 +232,7 @@ const AllEvents = () => {
                     {event.name === "Winter Picnic" && (
                       <Link to="/donate" className="block">
                         <Button className="w-full bg-bengali-red hover:bg-bengali-red/90">
-                          Register and Donate
+                          Register
                         </Button>
                       </Link>
                     )}
