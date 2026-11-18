@@ -11,10 +11,7 @@ const Sponsors = () => {
     {
       title: "Grand Sponsors",
       amount: "$3000 and above",
-      sponsors: [
-        "Madhumita & Jyotirmoy Sarkar **",
-        "Sudipa & Anando Som",
-      ],
+      sponsors: ["Madhumita & Jyotirmoy Sarkar **", "Sudipa & Anando Som"],
     },
     {
       title: "Platinum Sponsors",
@@ -58,7 +55,7 @@ const Sponsors = () => {
       title: "Gold Sponsors",
       amount: "$1000 and above",
       sponsors: [
-        "Amrita Homchoudhury & Suvdip Mukherjee",
+        "Amrita Homchoudhury & Suvadip Mukherjee",
         "Anindita & Kaushik Dutta",
         "Annapurna & Indranil Bagchi",
         "Anurita Bhunia",
@@ -211,7 +208,6 @@ const Sponsors = () => {
                 <Button className="bg-bengali-red hover:bg-bengali-red/90">Become a Sponsor</Button>
               </Link>
             </div>
-
           </div>
         </section>
       </main>
